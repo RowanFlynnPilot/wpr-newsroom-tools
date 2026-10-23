@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>WPR Newsroom Tools</title>
+<meta name="description" content="Tools Wausau Pilot &amp; Review built to run a small newsroom, now set up for other local newsrooms: Gavel, Revenue Desk, Election Live and custom data tools.">
+<meta property="og:title" content="Tools we built to run a small newsroom">
+<meta property="og:description" content="From Wausau Pilot &amp; Review: Gavel, Revenue Desk, Election Live and custom data tools for local newsrooms.">
+<!-- Shared by link from our emails; kept out of search results, since for.json lists the newsrooms we may contact. -->
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Public+Sans:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: a masthead with the pitch on the left and a newspaper-style rate card on the right (the summary),
+   a sticky tool bar, then one section per tool: the copy and price beside a labeled sample of what the tool
+   produces. A paused tool gets a short note, and the page closes on how to reply. */
+:root {
+  --paper: #EEF1EE; --surface: #FFFFFF; --sunk: #F4F6F4; --ink: #18252C; --muted: #5A686E; --line: #D3DBD6;
+  --permit: #F2B51C; --permit-ink: #2E2200; --permit-soft: #FCF1D2;
+  --survey: #24617F; --survey-soft: #E1EDF3; --rival: #9AA9B0; --live: #C2410C;
+  --display: "Big Shoulders Display", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #10171B; --surface: #172127; --sunk: #1C2930; --ink: #E3EAE7; --muted: #9BA9AE; --line: #2A3840;
+  --permit-soft: #3A2F12; --survey: #7FB5D2; --survey-soft: #1C3341; --rival: #4E5F67; --live: #FB923C; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #10171B; --surface: #172127; --sunk: #1C2930; --ink: #E3EAE7; --muted: #9BA9AE; --line: #2A3840;
+  --permit-soft: #3A2F12; --survey: #7FB5D2; --survey-soft: #1C3341; --rival: #4E5F67; --live: #FB923C; color-scheme: dark }
+
+* { box-sizing: border-box }
+html { scroll-behavior: smooth }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.55 var(--body) }
+a { color: var(--survey); text-underline-offset: 2px }
+:focus-visible { outline: 2px solid var(--survey); outline-offset: 2px; border-radius: 3px }
+h1, h2, h3, p { margin: 0 }
+h1, h2 { text-wrap: balance }
+.wrap { max-width: 1080px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)) }
+
+/* Masthead */
+.mast { padding-block: 36px 32px; display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 40px; align-items: start }
+.pitch { display: grid; gap: 16px; align-content: start }
+.from { font-weight: 600; font-size: 14px; color: var(--muted); display: flex; align-items: center; gap: 8px }
+.from::before { content: ""; width: 22px; height: 3px; background: var(--permit) }
+h1 { font-family: var(--display); font-weight: 900; font-size: clamp(44px, 7.4vw, 84px); line-height: 0.9; text-transform: uppercase; letter-spacing: 0.005em }
+.lede { font-size: 18px; max-width: 46ch; color: var(--muted) }
+.lede b { color: var(--ink); font-weight: 600 }
+
+/* Rate card: the summary of every tool and price */
+.rates { background: var(--surface); border: 1px solid var(--line); border-top: 6px solid var(--ink); border-radius: 4px; padding: 18px 20px 14px; display: grid; gap: 4px; box-shadow: 0 1px 0 var(--line), 0 12px 30px -18px rgb(24 37 44 / 0.35) }
+.rates-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--ink) }
+.rates-head h2 { font-family: var(--display); font-weight: 800; font-size: 28px; text-transform: uppercase; line-height: 1 }
+.rates-head span { font-size: 12px; font-weight: 600; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase }
+.rate { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 16px; padding: 10px 0; border-bottom: 1px dotted var(--line); text-decoration: none; color: inherit }
+.rate:last-child { border-bottom: 0 }
+.rate b { font-weight: 700 }
+.rate small { grid-column: 1; font-size: 13.5px; color: var(--muted) }
+.rate .amt { grid-row: 1 / span 2; grid-column: 2; align-self: center; text-align: right; font-family: var(--display); font-weight: 800; font-size: 26px; line-height: 1; font-variant-numeric: tabular-nums }
+.rate .amt small { display: block; font-family: var(--body); font-weight: 500; font-size: 12px; color: var(--muted) }
+.rate .amt.soft { font-family: var(--body); font-size: 14px; font-weight: 600; color: var(--muted) }
+.rate:hover b { color: var(--survey); text-decoration: underline; text-underline-offset: 2px }
+
+/* The section a pitch link opens for one newsroom (#<tool>.<newsroom id>), filled from for.json */
+.foryou { margin-block: 24px 0; background: var(--surface); border: 1px solid var(--line); border-left: 6px solid var(--permit); border-radius: 6px; padding: 22px 26px; display: grid; gap: 14px; box-shadow: 0 12px 30px -20px rgb(24 37 44 / 0.35) }
+.foryou .eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted) }
+.foryou h2 { font-family: var(--display); font-weight: 800; font-size: clamp(30px, 4.4vw, 44px); line-height: 0.95; text-transform: uppercase }
+.foryou dl { margin: 0; display: grid; grid-template-columns: minmax(0, 13em) minmax(0, 1fr); border-top: 1px solid var(--line) }
+.foryou dt, .foryou dd { margin: 0; padding: 10px 0; border-bottom: 1px solid var(--line) }
+.foryou dt { font-size: 13px; font-weight: 600; color: var(--muted); padding-right: 16px }
+.foryou dd { min-width: 0; overflow-wrap: anywhere }
+.foryou .end { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center }
+.foryou .end p { color: var(--muted); font-size: 15px; max-width: 60ch }
+
+/* Tool bar */
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: color-mix(in srgb, var(--paper) 88%, transparent); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-block: 1px solid var(--line) }
+.bar nav { display: flex; gap: 6px; overflow-x: auto; padding-block: 10px; scrollbar-width: none }
+.bar a { flex: none; text-decoration: none; color: var(--ink); border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 5px 14px; font-weight: 600; font-size: 14px }
+.bar a:hover { border-color: var(--ink) }
+.bar a.soon { color: var(--muted); background: transparent }
+
+/* Tools */
+.tools { display: grid; gap: 22px; padding-block: 28px 20px }
+.tool { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); scroll-margin-top: 72px; overflow: hidden }
+.copy { padding: 26px 28px; display: grid; gap: 14px; align-content: start }
+.status { display: flex; align-items: flex-start; gap: 8px; font-size: 13px; font-weight: 600; color: var(--survey) }
+.status .dot { flex: none; width: 8px; height: 8px; margin-top: 5px; border-radius: 50%; background: currentColor; box-shadow: 0 0 0 3px var(--survey-soft) }
+.sent { display: none; flex: none; font-size: 12px; font-weight: 700; background: var(--permit); color: var(--permit-ink); padding: 2px 9px; border-radius: 3px; letter-spacing: 0.02em }
+.tool.arrived { box-shadow: 0 0 0 3px var(--permit) }
+.tool.arrived .sent { display: inline-block }
+.tool h2 { font-family: var(--display); font-weight: 800; font-size: clamp(34px, 4.6vw, 44px); line-height: 0.95; text-transform: uppercase }
+.what { font-size: 18px; font-weight: 600; line-height: 1.4; max-width: 34ch }
+.copy ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; max-width: 60ch }
+.copy li { position: relative; padding-left: 22px }
+.copy li::before { content: ""; position: absolute; left: 2px; top: 8px; width: 8px; height: 8px; background: var(--permit); border-radius: 1px }
+.how { color: var(--muted); max-width: 60ch }
+.price { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; padding-top: 14px; border-top: 1px solid var(--line); margin-top: 4px }
+.tag { position: relative; background: var(--permit); color: var(--permit-ink); font-family: var(--display); font-weight: 800; font-size: 26px; padding: 4px 12px 4px 24px; border-radius: 3px; line-height: 1.1; font-variant-numeric: tabular-nums }
+.tag::before { content: ""; position: absolute; left: 9px; top: 50%; width: 6px; height: 6px; margin-top: -3px; border-radius: 50%; background: var(--surface) }
+.tag small { font-family: var(--body); font-weight: 600; font-size: 13px }
+.price p { font-size: 14px; color: var(--muted) }
+
+/* Samples of what each tool produces */
+.sample { margin: 0; background: var(--sunk); border-left: 1px solid var(--line); padding: 26px 28px; display: grid; gap: 10px; align-content: center }
+.sample figcaption { font-size: 12px; font-weight: 600; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; font-size: 14px; overflow: hidden; box-shadow: 0 10px 24px -20px rgb(24 37 44 / 0.5) }
+.panel-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding: 11px 14px; border-bottom: 1px solid var(--line) }
+.panel-head b { font-size: 14.5px }
+.panel-head span { font-size: 12.5px; color: var(--muted); text-align: right }
+.panel-foot { padding: 9px 14px; font-size: 12.5px; color: var(--muted); background: var(--sunk); border-top: 1px solid var(--line) }
+.rows { list-style: none; margin: 0; padding: 0 }
+.rows li { display: grid; grid-template-columns: 2.2em minmax(0, 1fr) auto; gap: 10px; align-items: baseline; padding: 9px 14px; border-bottom: 1px solid var(--line) }
+.rows li:last-child { border-bottom: 0 }
+.rows .n { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 13px }
+.rows .dim { color: var(--muted) }
+.flag { font-size: 11.5px; font-weight: 700; padding: 1px 8px; border-radius: 3px; white-space: nowrap }
+.flag.story { background: var(--permit); color: var(--permit-ink) }
+.flag.new { background: var(--survey-soft); color: var(--survey) }
+.rows .spots { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 13px; white-space: nowrap }
+
+/* Election Live sample */
+.race { padding: 12px 14px; display: grid; gap: 8px; border-bottom: 1px solid var(--line) }
+.race:last-of-type { border-bottom: 0 }
+.race-top { display: flex; justify-content: space-between; gap: 10px; font-size: 13px }
+.race-top b { font-size: 14px }
+.race-top span { color: var(--muted); white-space: nowrap }
+.meter { height: 4px; background: var(--line); border-radius: 2px; overflow: hidden }
+.meter i { display: block; height: 100%; background: var(--muted); width: 75% }
+.cand { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 4px 12px; align-items: baseline; font-size: 13.5px; font-variant-numeric: tabular-nums }
+.cand .pct { font-weight: 700; min-width: 3.4em; text-align: right }
+.cand .votes { color: var(--muted); font-size: 12.5px }
+.cand .track { grid-column: 1 / -1; height: 10px; background: var(--sunk); border-radius: 2px; overflow: hidden }
+.cand .track i { display: block; height: 100%; background: var(--rival); transform-origin: left; animation: grow 1.1s cubic-bezier(.2,.7,.2,1) both }
+.cand.lead .track i { background: var(--survey) }
+.cand.lead .name { font-weight: 600 }
+.unofficial { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--live); display: inline-flex; align-items: center; gap: 6px }
+.unofficial::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; animation: pulse 1.8s ease-in-out infinite }
+@keyframes grow { from { transform: scaleX(0) } }
+@keyframes pulse { 50% { opacity: 0.25 } }
+
+/* Data tools: the ledgers we run */
+.ledgers { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px }
+.ledger { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px 12px 16px; display: grid; gap: 4px; position: relative; overflow: hidden }
+.ledger::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 5px; background: var(--survey) }
+.ledger b { font-family: var(--display); font-weight: 800; font-size: 21px; line-height: 1.05; text-transform: uppercase }
+.ledger span { font-size: 13px; color: var(--muted); line-height: 1.4 }
+
+/* Coming soon */
+.soon-note { border: 1px dashed var(--line); border-radius: 8px; padding: 18px 22px; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 6px 20px; align-items: center; scroll-margin-top: 72px }
+.soon-note h2 { font-family: var(--display); font-weight: 800; font-size: 26px; text-transform: uppercase; line-height: 1 }
+.soon-note p { color: var(--muted); font-size: 15px; max-width: 70ch }
+.soon-note .pill { font-size: 12.5px; font-weight: 600; padding: 3px 10px; border-radius: 999px; background: var(--survey-soft); color: var(--survey); white-space: nowrap }
+.soon-note.arrived { border-color: var(--permit); border-style: solid }
+
+/* Close */
+.close { margin-block: 18px 40px; background: var(--ink); color: var(--paper); border-radius: 8px; padding: 30px 32px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 18px 32px; align-items: end }
+.close h2 { font-family: var(--display); font-weight: 900; font-size: clamp(32px, 4.6vw, 48px); line-height: 0.95; text-transform: uppercase }
+.close p { max-width: 52ch; opacity: 0.85 }
+.close .who { font-size: 14px; opacity: 0.75; text-align: right }
+.close a { color: var(--permit) }
+
+@media (max-width: 860px) {
+  .mast { grid-template-columns: 1fr; gap: 28px; padding-block: 24px 26px }
+  .tool { grid-template-columns: 1fr }
+  .sample { border-left: 0; border-top: 1px solid var(--line) }
+  .close { grid-template-columns: 1fr } .close .who { text-align: left }
+}
+@media (max-width: 520px) {
+  .foryou { padding: 18px }
+  .foryou dl { grid-template-columns: 1fr }
+  .foryou dt { border-bottom: 0; padding-bottom: 0 }
+  .copy, .sample { padding: 20px 18px }
+  .ledgers { grid-template-columns: 1fr }
+  .soon-note { grid-template-columns: 1fr }
+  .soon-note .pill { justify-self: start }
+  .close { padding: 24px 20px }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto }
+  .cand .track i, .unofficial::before { animation: none }
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <section class="foryou" id="foryou" hidden aria-labelledby="foryou-h"></section>
+  <header class="mast">
+    <div class="pitch">
+      <span class="from">From Wausau Pilot &amp; Review, a nonprofit newsroom in Wausau, Wisconsin</span>
+      <h1>Tools we built to run a small newsroom</h1>
+      <p class="lede">We cover Marathon County with a small staff, so we build software to do the watching, the lead-finding and the busywork. <b>Each one runs at WPR first</b>, and now we set them up for other local newsrooms.</p>
+    </div>
+    <aside class="rates" aria-labelledby="rates-h">
+      <div class="rates-head"><h2 id="rates-h">Rate card</h2><span>For local newsrooms</span></div>
+      <a class="rate" href="#gavel"><b>Gavel</b><small>Meeting watch for the boards you cover</small><span class="amt">$50&ndash;150<small>a month per municipality</small></span></a>
+      <a class="rate" href="#revenue"><b>Revenue Desk</b><small>Ad leads and a sales system</small><span class="amt">$100&ndash;150<small>a month</small></span></a>
+      <a class="rate" href="#election"><b>Election Live</b><small>Live results on election night</small><span class="amt">$250<small>per night, per county</small></span></a>
+      <a class="rate" href="#data"><b>Data tools</b><small>Trackers built on public records</small><span class="amt soft">Quoted per project</span></a>
+      <a class="rate" href="#contest"><b>Contest engine</b><small>Reader contests with sponsors</small><span class="amt soft">Coming soon</span></a>
+    </aside>
+  </header>
+</div>
+
+<div class="bar">
+  <div class="wrap">
+    <nav aria-label="Tools"><a href="#gavel">Gavel</a><a href="#revenue">Revenue Desk</a><a href="#election">Election Live</a><a href="#data">Data tools</a><a class="soon" href="#contest">Contest engine</a></nav>
+  </div>
+</div>
+
+<main class="wrap tools">
+  <article class="tool" id="gavel">
+    <div class="copy">
+      <div class="status"><span class="dot"></span><span>Grew out of the meeting tracker WPR uses to cover Marathon County government</span><span class="sent">From our email</span></div>
+      <h2>Gavel</h2>
+      <p class="what">Keeps watch on local government meetings so your reporters don't have to sit through all of them.</p>
+      <ul>
+        <li>Pulls agendas, minutes and packets from the meeting portals cities and counties already use, such as CivicClerk and BoardBook.</li>
+        <li>Transcribes meeting video posted to YouTube.</li>
+        <li>Surfaces the items worth a story, so you can decide what to cover and what to skip.</li>
+      </ul>
+      <p class="how">We set it up for the boards you cover and run it for you. There's nothing to install.</p>
+      <div class="price"><span class="tag">$50&ndash;150 <small>a month per municipality</small></span></div>
+    </div>
+    <figure class="sample">
+      <figcaption>Sample agenda, for illustration</figcaption>
+      <div class="panel">
+        <div class="panel-head"><b>City Council, regular meeting</b><span>14 items &middot; 212-page packet</span></div>
+        <ol class="rows">
+          <li><span class="n">1</span><span class="dim">Approve minutes of the last meeting</span><span></span></li>
+          <li><span class="n">4</span><span>Bid award: street resurfacing, $1.2 million</span><span class="flag story">Worth a story</span></li>
+          <li><span class="n">7</span><span>Rezoning request: 40 acres on the east side, from farmland to residential</span><span class="flag story">Worth a story</span></li>
+          <li><span class="n">9</span><span class="dim">Liquor license renewals (6)</span><span></span></li>
+          <li><span class="n">12</span><span class="dim">Closed session: pending litigation</span><span></span></li>
+        </ol>
+        <div class="panel-foot">Meeting video transcribed: 2 hr 14 min</div>
+      </div>
+    </figure>
+  </article>
+
+  <article class="tool" id="revenue">
+    <div class="copy">
+      <div class="status"><span class="dot"></span><span>Ad Watch has run on Wausau stations since late August, every week</span><span class="sent">From our email</span></div>
+      <h2>Revenue Desk</h2>
+      <p class="what">A whole ad-sales system for a newsroom with one salesperson, or none.</p>
+      <ul>
+        <li><b>Ad Watch</b> records local radio during drive time, transcribes the ads and sends a weekly list of businesses already paying to advertise: warm leads.</li>
+        <li><b>Sales Desk</b> keeps every contact, follow-up and package in one place.</li>
+        <li>Selling guides by category (banks, law firms, auto dealers, home services) with pitch mock-ups of real ads on your pages.</li>
+        <li>A results report for each sponsor after a run, for renewals.</li>
+      </ul>
+      <div class="price"><span class="tag">$100&ndash;150 <small>a month</small></span></div>
+    </div>
+    <figure class="sample">
+      <figcaption>Sample Ad Watch list, for illustration</figcaption>
+      <div class="panel">
+        <div class="panel-head"><b>Heard on local radio this week</b><span>Morning and evening drive</span></div>
+        <ul class="rows">
+          <li><span class="n">1</span><span>A roofing contractor</span><span class="spots"><span class="flag new">New</span> 9 spots</span></li>
+          <li><span class="n">2</span><span>A credit union</span><span class="spots">7 spots</span></li>
+          <li><span class="n">3</span><span>A furniture store</span><span class="spots"><span class="flag new">New</span> 6 spots</span></li>
+          <li><span class="n">4</span><span>A personal-injury law firm</span><span class="spots">5 spots</span></li>
+          <li><span class="n">5</span><span>An auto dealer</span><span class="spots">4 spots</span></li>
+        </ul>
+        <div class="panel-foot">Each one goes into Sales Desk as a lead, with the ad's transcript</div>
+      </div>
+    </figure>
+  </article>
+
+  <article class="tool" id="election">
+    <div class="copy">
+      <div class="status"><span class="dot"></span><span>Ran live for WPR's <a href="https://wausaupilotandreview.com/2026/04/07/wausau-marathon-county-election-results/" target="_blank" rel="noopener">April 2026</a> and August 2026 elections</span><span class="sent">From our email</span></div>
+      <h2>Election Live</h2>
+      <p class="what">A live results page for election night, built from your county clerk's own reports.</p>
+      <ul>
+        <li>Pulls the county's results reports as they're posted and updates through the night.</li>
+        <li>Checks that every race's totals add up before anything publishes.</li>
+        <li>Race-by-race results with precincts reporting, ward detail and a map of who's leading by municipality, all labeled unofficial.</li>
+        <li>Embeds on your site with one block and resizes itself as results come in.</li>
+      </ul>
+      <p class="how">We set it up for your county and run it on election night. <a href="https://rowanflynnpilot.github.io/wpr-election-results/demo.html" target="_blank" rel="noopener">Try the demo with sample results</a>.</p>
+      <div class="price"><span class="tag">$250 <small>per election night, per county</small></span><p>Setup included. We're taking a few newsrooms for spring 2027.</p></div>
+    </div>
+    <figure class="sample">
+      <figcaption>Sample results, for illustration</figcaption>
+      <div class="panel">
+        <div class="panel-head"><span class="unofficial">Unofficial results</span><span>Updated 9:42 p.m.</span></div>
+        <div class="race">
+          <div class="race-top"><b>County Board, District 4</b><span>18 of 24 wards reporting</span></div>
+          <div class="meter" aria-hidden="true"><i></i></div>
+          <div class="cand lead"><span class="name">Candidate A</span><span class="votes">1,482</span><span class="pct">52.3%</span><span class="track"><i style="width: 52.3%"></i></span></div>
+          <div class="cand"><span class="name">Candidate B</span><span class="votes">1,351</span><span class="pct">47.7%</span><span class="track"><i style="width: 47.7%"></i></span></div>
+        </div>
+        <div class="race">
+          <div class="race-top"><b>School facilities referendum</b><span>24 of 31 wards reporting</span></div>
+          <div class="meter" aria-hidden="true"><i style="width: 77.4%"></i></div>
+          <div class="cand lead"><span class="name">Yes</span><span class="votes">3,104</span><span class="pct">55.1%</span><span class="track"><i style="width: 55.1%"></i></span></div>
+          <div class="cand"><span class="name">No</span><span class="votes">2,531</span><span class="pct">44.9%</span><span class="track"><i style="width: 44.9%"></i></span></div>
+        </div>
+        <div class="panel-foot">Totals checked against the clerk's report before each update</div>
+      </div>
+    </figure>
+  </article>
+
+  <article class="tool" id="data">
+    <div class="copy">
+      <div class="status"><span class="dot"></span><span>Built for WPR's coverage of Wisconsin and Marathon County</span><span class="sent">From our email</span></div>
+      <h2>Data tools</h2>
+      <p class="what">Trackers and archives built on public records, for the beats you want to own.</p>
+      <p class="how">If you have a record set you've wanted to turn into a tracker, we can build it for your coverage area.</p>
+      <div class="price"><span class="tag">Quoted <small>per project</small></span></div>
+    </div>
+    <figure class="sample">
+      <figcaption>The ledgers we've built</figcaption>
+      <div class="ledgers">
+        <div class="ledger"><b>Force Ledger</b><span>Wisconsin police use-of-force data from the state Justice Department</span></div>
+        <div class="ledger"><b>Watch Ledger</b><span>A map of license-plate reader cameras and the agencies using them</span></div>
+        <div class="ledger"><b>Care Ledger</b><span>A county archive of assisted-living inspections</span></div>
+        <div class="ledger"><b>Cleanup Ledger</b><span>A county archive of contaminated sites</span></div>
+      </div>
+    </figure>
+  </article>
+
+  <section class="soon-note" id="contest" aria-labelledby="contest-h">
+    <h2 id="contest-h">Contest engine</h2>
+    <p>Readers' choice ballots and reader photo contests that sponsors pay for, built for WPR's own reader contests. We're opening it to a handful of newsrooms for their 2027 contest seasons, priced per contest.</p>
+    <span class="pill">Coming soon</span>
+  </section>
+</main>
+
+<div class="wrap">
+  <footer class="close">
+    <div style="display: grid; gap: 10px">
+      <h2>Want one running at your newsroom?</h2>
+      <p>Reply to the email this link came in, and tell us which tool you'd like to see. We'll walk you through it on your own boards, market or county.</p>
+    </div>
+    <p class="who">Built by Rowan Flynn, Head of Analytics at<br><a href="https://wausaupilotandreview.com/" target="_blank" rel="noopener">Wausau Pilot &amp; Review</a></p>
+  </footer>
+</div>
+
+<script>
+// A pitch links here as #<tool> or #<tool>.<newsroom id>. The tool's section is flagged "From our email"; with an id,
+// a short section written for that newsroom opens at the top, from public facts about it in for.json.
+const [tool, id] = location.hash.slice(1).split(".");
+const arrived = tool && document.getElementById(tool);
+if (arrived && arrived.matches(".tool, .soon-note")) arrived.classList.add("arrived");
+const esc = (t) => String(t ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const list = (a) => a.length < 2 ? a.join("") : a.slice(0, -1).join(", ") + " and " + a[a.length - 1];
+const link = (url, text) => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>`;
+const DEMO = "https://rowanflynnpilot.github.io/wpr-election-results/demo.html";
+const TOOLS = {
+  gavel: { name: "Gavel", price: "$50&ndash;150 <small>a month per municipality</small>" },
+  revenue: { name: "Revenue Desk", price: "$100&ndash;150 <small>a month</small>" },
+  election: { name: "Election Live", price: "$250 <small>per election night, per county</small>" },
+  data: { name: "Data tools", price: "Quoted <small>per project</small>" },
+};
+// The directory's revenue labels, said the way a publisher would.
+const SELLS = { "Local advertising sold by own team": "local ads your own team sells", "Advertising": "advertising",
+  "Newsletter advertising or sponsorship": "newsletter sponsorships", "Branded content or native advertising": "branded content",
+  "Sponsorships on social media": "social media sponsorships", "Event sponsorships": "event sponsorships",
+  "Event ticket sales": "event tickets", "Programmatic ad networks": "programmatic ads" };
+function rowsFor(t, n) {
+  if (t === "gavel") {
+    const portals = [n.civicclerk.length && ["Near you on CivicClerk", esc(list(n.civicclerk))], n.boardbook.length && ["Near you on BoardBook", esc(list(n.boardbook))]].filter(Boolean);
+    return [...portals, n.towns && ["Local governments in reach", `About ${n.towns} cities, villages and townships`],
+      ["How it would start", portals.length ? "Gavel reads those portals today, so we'd start with the boards you cover there, then add the rest."
+        : "You tell us which boards you cover, and we connect Gavel to where they post agendas, packets and meeting video."]];
+  }
+  if (t === "revenue") {
+    let sells = [...new Set(n.sells.map((r) => SELLS[r] || r.toLowerCase()))];
+    if (sells.includes("local ads your own team sells")) sells = sells.filter((x) => x !== "advertising");
+    return [sells.length && ["You already sell", esc(list(sells))], n.advertise && ["Your advertise page", link(n.advertise, n.advertise.replace(/^https?:\/\/(www\.)?/, ""))],
+      ["How it would start", "We set up Ad Watch on the radio stations in your market, so each week you get a list of local businesses already paying to advertise, ready to work in Sales Desk."]];
+  }
+  if (t === "election") return [["Your coverage area", esc(n.area || n.where)],
+    ["How it would start", "We look at how your county posts its results on election night, then set up the page for your races and run it that night."],
+    ["See it work", link(DEMO, "The demo, with sample results")], ["When", "We're taking a few newsrooms for spring 2027."]];
+  if (t === "data") return [n.data.length && ["Your recent data reporting", n.data.map(([title, url]) => link(url, title)).join("<br>")],
+    ["What we've built", "Trackers of police use of force and license-plate reader cameras, and county archives of assisted-living inspections and contaminated sites."],
+    ["How it would start", "Tell us the records your reporters keep coming back to, and we'll scope a tracker for your coverage area."]];
+  return [];
+}
+if (id && TOOLS[tool]) fetch("for.json").then((r) => r.ok ? r.json() : {}).then((all) => {
+  const n = all[id]; if (!n) return;
+  const box = document.getElementById("foryou");
+  box.innerHTML = `<span class="eyebrow">Prepared for ${esc(n.name)} in ${esc(n.where)} by Wausau Pilot &amp; Review</span>
+    <h2 id="foryou-h">What ${TOOLS[tool].name} would look like for you</h2>
+    <dl>${rowsFor(tool, n).filter(Boolean).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>
+    <div class="end"><span class="tag">${TOOLS[tool].price}</span><p>Reply to the email this link came in, and we'll set it up for you. <a href="#${tool}">More about ${TOOLS[tool].name}</a></p></div>`;
+  box.hidden = false;
+}).catch(() => {});
+</script>
+</body>
+</html>
