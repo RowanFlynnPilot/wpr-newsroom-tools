@@ -455,7 +455,7 @@ const SELLS = { "Local advertising sold by own team": "local ads your own team s
 function rowsFor(t, n) {
   if (t === "gavel") {
     const portals = [n.civicclerk.length && ["Near you on CivicClerk", esc(list(n.civicclerk))], n.boardbook.length && ["Near you on BoardBook", esc(list(n.boardbook))]].filter(Boolean);
-    return [...portals, n.towns && ["Local governments in reach", `About ${n.towns} cities, villages and townships`],
+    return [...portals, n.towns && ["Local governments in reach", n.towns === 1 ? "One city, village or township" : `About ${n.towns} cities, villages and townships`],
       ["How it would start", portals.length ? "Gavel reads those portals today, so we'd start with the boards you cover there, then add the rest."
         : "You tell us which boards you cover, and we connect Gavel to where they post agendas, packets and meeting video."]];
   }
