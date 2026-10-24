@@ -438,6 +438,12 @@ const [tool, id] = location.hash.slice(1).split(".");
 const arrived = tool && document.getElementById(tool);
 if (arrived && arrived.matches(".tool, .soon-note")) arrived.classList.add("arrived");
 const esc = (t) => String(t ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+// Dates as a newsroom writes them (AP style): "Oct. 20".
+const apDate = (s) => { const d = new Date(s.slice(0, 10) + "T12:00:00");
+  return `${["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."][d.getMonth()]} ${d.getDate()}`; };
+// AP style for a place's possessive ("Los Altos Hills'") and for a count under 10 ("eight meetings").
+const poss = (t) => /s$/.test(t) ? `${t}'` : `${t}'s`;
+const apNum = (k) => ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"][k] || String(k);
 const list = (a) => a.length < 2 ? a.join("") : a.slice(0, -1).join(", ") + " and " + a[a.length - 1];
 const link = (url, text) => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>`;
 const DEMO = "https://rowanflynnpilot.github.io/wpr-election-results/demo.html";
@@ -455,8 +461,11 @@ const SELLS = { "Local advertising sold by own team": "local ads your own team s
 function rowsFor(t, n) {
   if (t === "gavel") {
     const portals = [n.civicclerk.length && ["Near you on CivicClerk", esc(list(n.civicclerk))], n.boardbook.length && ["Near you on BoardBook", esc(list(n.boardbook))]].filter(Boolean);
-    return [...portals, n.towns && ["Local governments in reach", n.towns === 1 ? "One city, village or township" : `About ${n.towns} cities, villages and townships`],
-      ["How it would start", portals.length ? "Gavel reads those portals today, so we'd start with the boards you cover there, then add the rest."
+    // The past month on the portal Gavel would watch first, from the weekly count (its own town, else its busiest neighbor).
+    const b = n.busy, busy = b && ["The past month nearby", `${esc(poss(b.town))} boards posted agendas${b.packets * 2 >= b.meetings ? " and packets" : ""} for ${apNum(b.meetings)} ${b.meetings === 1 ? "meeting" : "meetings"}${b.latest ? `, including the ${esc(b.latest.name)} on ${apDate(b.latest.date)}` : ""}.`];
+    return [busy, ...portals, n.towns && ["Local governments in reach", n.towns === 1 ? "One city, village or township" : `About ${n.towns} cities, villages and townships`],
+      ["How it would start", b ? `Gavel reads ${esc(poss(b.town))} portal today, so we'd start there and with the boards you cover, then add the rest.`
+        : portals.length ? "Gavel reads those portals today, so we'd start with the boards you cover there, then add the rest."
         : "You tell us which boards you cover, and we connect Gavel to where they post agendas, packets and meeting video."]];
   }
   if (t === "revenue") {
