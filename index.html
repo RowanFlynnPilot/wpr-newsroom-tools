@@ -50,6 +50,8 @@ h1, h2 { text-wrap: balance }
 .band .kicker { font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--teal-bright) }
 .band h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(38px, 6.4vw, 68px); line-height: 1.02; letter-spacing: -0.01em; margin-top: 8px; max-width: 16ch; font-variation-settings: "opsz" 144 }
 .band .dek { font-family: var(--serif); font-style: italic; font-size: clamp(17px, 2vw, 20px); line-height: 1.5; margin-top: 14px; max-width: 58ch; color: #e6f1ee }
+.band .proof { margin-top: 18px; font-size: 15px; color: #d4e9e4 }
+.band .proof a { color: #fff; font-weight: 700 }
 
 /* The memo a pitch link opens for one newsroom (#<tool>.<newsroom id>, filled from for.json) */
 .memo { margin-top: -22px; position: relative; background: var(--paper); border: 1px solid var(--rule); box-shadow: 0 1px 0 var(--rule), 0 18px 40px -28px rgb(26 26 26 / 0.45); padding: 26px 30px 24px 34px; display: grid; gap: 16px }
@@ -145,11 +147,39 @@ h1, h2 { text-wrap: balance }
 @keyframes grow { from { transform: scaleX(0) } }
 @keyframes pulse { 50% { opacity: 0.25 } }
 
+/* A live tool's first screen, framed like a browser window and linked to the real page */
+.shot { display: block; background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; text-decoration: none; color: inherit;
+  box-shadow: 0 1px 2px rgb(26 26 26 / 0.05), 0 14px 30px -20px rgb(26 26 26 / 0.4);
+  transition: transform 150ms ease-out, box-shadow 150ms ease-out, border-color 150ms ease-out }
+.shot .chrome { display: flex; align-items: center; gap: 7px; padding: 6px 10px; border-bottom: 1px solid var(--rule); background: var(--wash); font-size: 11.5px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.shot .chrome::before { content: ""; flex: none; width: 7px; height: 7px; border-radius: 50%; background: var(--teal) }
+.shot img { display: block; width: 100%; height: auto; aspect-ratio: 8 / 5; background: var(--wash) }
+.shot:hover { transform: translateY(-2px); border-color: var(--teal); box-shadow: 0 1px 2px rgb(26 26 26 / 0.05), 0 20px 36px -20px rgb(26 26 26 / 0.45) }
+.live { font-size: 14px; color: var(--muted); font-family: var(--serif); font-style: italic }
+.live a { font-family: var(--sans); font-style: normal; font-weight: 600 }
+
 /* Data tools: the ledgers we've built */
-.ledgers { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px }
+.ledgers { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 12px }
+.ledgers figure { margin: 0; display: grid; gap: 6px; min-width: 0 }
+.ledgers figcaption { font-size: 13px; color: var(--muted); line-height: 1.4 }
+.ledgers figcaption b { display: block; font-family: var(--serif); font-weight: 600; font-size: 16px; color: var(--ink) }
 .ledger { background: var(--paper); border: 1px solid var(--rule); border-top: 3px solid var(--teal); padding: 12px 14px; display: grid; gap: 4px }
 .ledger b { font-family: var(--serif); font-weight: 600; font-size: 19px; line-height: 1.1 }
 .ledger span { font-size: 13px; color: var(--muted); line-height: 1.45 }
+
+/* Built and running at WPR: the portfolio, grouped by what each group shows a newsroom */
+.built { padding-block: 44px 10px; display: grid; gap: 34px; scroll-margin-top: 72px }
+.built-head { display: grid; gap: 10px; max-width: 70ch }
+.built-head h2 { font-family: var(--serif); font-weight: 600; font-size: clamp(32px, 4.6vw, 48px); line-height: 1.05; font-variation-settings: "opsz" 120 }
+.built-head p { color: var(--muted); font-size: 17px }
+.group { display: grid; gap: 14px }
+.group-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; border-top: 1px solid var(--slate); padding-top: 12px }
+.group-head h3 { font-family: var(--serif); font-weight: 600; font-size: 24px; line-height: 1.15 }
+.group-head p { color: var(--muted); font-size: 15px }
+.cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px 18px }
+.card { display: grid; gap: 8px; align-content: start; min-width: 0 }
+.card b { font-family: var(--serif); font-weight: 600; font-size: 18px; line-height: 1.2 }
+.card p { font-size: 14px; color: var(--muted); line-height: 1.45 }
 
 /* Coming soon */
 .soon-note { border: 1px dashed var(--rule); background: var(--paper); padding: 18px 22px; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 6px 20px; align-items: center; scroll-margin-top: 72px }
@@ -168,6 +198,7 @@ h1, h2 { text-wrap: balance }
 .foot { padding-block: 22px 40px; display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 14px; align-items: start; font-size: 11.5px; line-height: 1.6; color: var(--muted) }
 .foot p + p { margin-top: 2px }
 
+@media (max-width: 1000px) { .cards { grid-template-columns: repeat(2, minmax(0, 1fr)) } }
 @media (max-width: 860px) {
   .tool { grid-template-columns: 1fr }
   .sample { border-left: 0; border-top: 1px solid var(--rule) }
@@ -188,6 +219,7 @@ h1, h2 { text-wrap: balance }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto }
+  .shot { transition: none } .shot:hover { transform: none }
   .cand .track i, .unofficial::before { animation: none }
 }
 </style>
@@ -208,6 +240,7 @@ h1, h2 { text-wrap: balance }
     <div class="kicker">For local newsrooms</div>
     <h1 id="title">Tools we built to run a small newsroom</h1>
     <p class="dek">We cover Marathon County with a small staff, so we build software to do the watching, the lead-finding and the busywork. Each one runs at WPR first, and now we set them up for other local newsrooms.</p>
+    <p class="proof"><a href="#built">More than 40 tools</a> are running at WPR today, from meeting tracking to election night to Friday-night scores.</p>
   </div>
 </section>
 
@@ -226,7 +259,7 @@ h1, h2 { text-wrap: balance }
 
 <div class="bar">
   <div class="wrap">
-    <nav aria-label="Tools"><a href="#gavel">Gavel</a><a href="#revenue">Revenue Desk</a><a href="#election">Election Live</a><a href="#data">Data tools</a><a class="soon" href="#contest">Contest engine</a></nav>
+    <nav aria-label="Tools"><a href="#gavel">Gavel</a><a href="#revenue">Revenue Desk</a><a href="#election">Election Live</a><a href="#data">Data tools</a><a href="#built">Built at WPR</a><a class="soon" href="#contest">Contest engine</a></nav>
   </div>
 </div>
 
@@ -245,18 +278,8 @@ h1, h2 { text-wrap: balance }
       <div class="price"><b>$50&ndash;150</b><span>a month per municipality</span></div>
     </div>
     <figure class="sample">
-      <figcaption>A sample agenda, for illustration</figcaption>
-      <div class="panel">
-        <div class="panel-head"><b>City Council, regular meeting</b><span>14 items, 212-page packet</span></div>
-        <ol class="rows">
-          <li><span class="n">1</span><span class="dim">Approve minutes of the last meeting</span><span></span></li>
-          <li><span class="n">4</span><span>Bid award: street resurfacing, $1.2 million</span><span class="flag-tag story">Worth a story</span></li>
-          <li><span class="n">7</span><span>Rezoning request: 40 acres on the east side, from farmland to residential</span><span class="flag-tag story">Worth a story</span></li>
-          <li><span class="n">9</span><span class="dim">Liquor license renewals (6)</span><span></span></li>
-          <li><span class="n">12</span><span class="dim">Closed session: pending litigation</span><span></span></li>
-        </ol>
-        <div class="panel-foot">Meeting video transcribed: 2 hr 14 min</div>
-      </div>
+      <a class="shot" href="https://rowanflynnpilot.github.io/marathon-meetings/" target="_blank" rel="noopener" aria-label="WPR&#x27;s Central Wisconsin Meeting Tracker: recent meetings by board, with a summary of each agenda, open the live page"><span class="chrome">rowanflynnpilot.github.io/marathon-meetings</span><img src="shots/meetings.webp" width="960" height="600" alt="WPR&#x27;s Central Wisconsin Meeting Tracker: recent meetings by board, with a summary of each agenda" loading="lazy" decoding="async"></a>
+      <figcaption class="live">WPR's meeting tracker for central Wisconsin, live. <a href="https://rowanflynnpilot.github.io/marathon-meetings/" target="_blank" rel="noopener">Open it</a></figcaption>
     </figure>
   </article>
 
@@ -304,23 +327,8 @@ h1, h2 { text-wrap: balance }
       <div class="price"><b>$250</b><span>per election night, per county. Setup included. We're taking a few newsrooms for spring 2027.</span></div>
     </div>
     <figure class="sample">
-      <figcaption>Sample results, for illustration</figcaption>
-      <div class="panel">
-        <div class="panel-head"><span class="unofficial">Unofficial results</span><span>Updated 9:42 p.m.</span></div>
-        <div class="race">
-          <div class="race-top"><b>County Board, District 4</b><span>18 of 24 wards reporting</span></div>
-          <div class="meter" aria-hidden="true"><i></i></div>
-          <div class="cand lead"><span class="name">Candidate A</span><span class="votes">1,482</span><span class="pct">52.3%</span><span class="track"><i style="width: 52.3%"></i></span></div>
-          <div class="cand"><span class="name">Candidate B</span><span class="votes">1,351</span><span class="pct">47.7%</span><span class="track"><i style="width: 47.7%"></i></span></div>
-        </div>
-        <div class="race">
-          <div class="race-top"><b>School facilities referendum</b><span>24 of 31 wards reporting</span></div>
-          <div class="meter" aria-hidden="true"><i style="width: 77.4%"></i></div>
-          <div class="cand lead"><span class="name">Yes</span><span class="votes">3,104</span><span class="pct">55.1%</span><span class="track"><i style="width: 55.1%"></i></span></div>
-          <div class="cand"><span class="name">No</span><span class="votes">2,531</span><span class="pct">44.9%</span><span class="track"><i style="width: 44.9%"></i></span></div>
-        </div>
-        <div class="panel-foot">Totals checked against the clerk's report before each update</div>
-      </div>
+      <a class="shot" href="https://rowanflynnpilot.github.io/wpr-election-results/demo.html" target="_blank" rel="noopener" aria-label="Election Live&#x27;s results page, replaying WPR&#x27;s August 2024 primary results as a demo, open the live page"><span class="chrome">rowanflynnpilot.github.io/wpr-election-results/demo.html</span><img src="shots/election.webp" width="960" height="600" alt="Election Live&#x27;s results page, replaying WPR&#x27;s August 2024 primary results as a demo" loading="lazy" decoding="async"></a>
+      <figcaption class="live">The live results page, replaying a past Marathon County primary. <a href="https://rowanflynnpilot.github.io/wpr-election-results/demo.html" target="_blank" rel="noopener">Try the demo</a></figcaption>
     </figure>
   </article>
 
@@ -329,19 +337,52 @@ h1, h2 { text-wrap: balance }
       <div class="runs"><span>Built for WPR's coverage of Wisconsin and Marathon County</span><span class="sent">From our email</span></div>
       <h2>Data tools</h2>
       <p class="what">Trackers and archives built on public records, for the beats you want to own.</p>
-      <p class="how">If you have a record set you've wanted to turn into a tracker, we can build it for your coverage area.</p>
+      <p class="how">Four of WPR's ledgers are shown here, each live and updated from public records; WPR also built the Force Ledger, on Wisconsin police use of force. If you have a record set you've wanted to turn into a tracker, we can build it for your coverage area.</p>
       <div class="price"><b>Quoted</b><span>per project</span></div>
     </div>
     <figure class="sample">
-      <figcaption>The ledgers we've built</figcaption>
       <div class="ledgers">
-        <div class="ledger"><b>Force Ledger</b><span>Wisconsin police use-of-force data from the state Justice Department</span></div>
-        <div class="ledger"><b>Watch Ledger</b><span>A map of license-plate reader cameras and the agencies using them</span></div>
-        <div class="ledger"><b>Care Ledger</b><span>A county archive of assisted-living inspections</span></div>
-        <div class="ledger"><b>Cleanup Ledger</b><span>A county archive of contaminated sites</span></div>
+        <figure><a class="shot" href="https://rowanflynnpilot.github.io/wpr-watch-ledger/" target="_blank" rel="noopener" aria-label="The Watch Ledger: License-plate reader cameras and the agencies using them, open the live page"><span class="chrome">rowanflynnpilot.github.io/wpr-watch-ledger</span><img src="shots/watch-ledger.webp" width="960" height="600" alt="The Watch Ledger: License-plate reader cameras and the agencies using them" loading="lazy" decoding="async"></a><figcaption><b>The Watch Ledger</b>License-plate reader cameras and the agencies using them</figcaption></figure>
+        <figure><a class="shot" href="https://rowanflynnpilot.github.io/wpr-care-ledger/" target="_blank" rel="noopener" aria-label="The Care Ledger: Assisted-living inspections and enforcement, by county, open the live page"><span class="chrome">rowanflynnpilot.github.io/wpr-care-ledger</span><img src="shots/care-ledger.webp" width="960" height="600" alt="The Care Ledger: Assisted-living inspections and enforcement, by county" loading="lazy" decoding="async"></a><figcaption><b>The Care Ledger</b>Assisted-living inspections and enforcement, by county</figcaption></figure>
+        <figure><a class="shot" href="https://rowanflynnpilot.github.io/wpr-cleanup-ledger/" target="_blank" rel="noopener" aria-label="The Cleanup Ledger: Every contaminated site in Marathon County, open the live page"><span class="chrome">rowanflynnpilot.github.io/wpr-cleanup-ledger</span><img src="shots/cleanup-ledger.webp" width="960" height="600" alt="The Cleanup Ledger: Every contaminated site in Marathon County" loading="lazy" decoding="async"></a><figcaption><b>The Cleanup Ledger</b>Every contaminated site in Marathon County</figcaption></figure>
+        <figure><a class="shot" href="https://rowanflynnpilot.github.io/wpr-custody-ledger/" target="_blank" rel="noopener" aria-label="The Custody Ledger: Wisconsin&#x27;s prison population against its capacity, weekly, open the live page"><span class="chrome">rowanflynnpilot.github.io/wpr-custody-ledger</span><img src="shots/custody-ledger.webp" width="960" height="600" alt="The Custody Ledger: Wisconsin&#x27;s prison population against its capacity, weekly" loading="lazy" decoding="async"></a><figcaption><b>The Custody Ledger</b>Wisconsin's prison population against its capacity, weekly</figcaption></figure>
       </div>
     </figure>
   </article>
+
+  <section class="built" id="built" aria-labelledby="built-h">
+    <div class="built-head">
+      <h2 id="built-h">Built and running at WPR</h2>
+      <p>More than 40 tools are live at Wausau Pilot &amp; Review. These are twelve of them, each a screenshot of the real page. Click one to open it.</p>
+    </div>
+  <section class="group" aria-labelledby="g0">
+    <div class="group-head"><h3 id="g0">Accountability and civic data</h3><p>Public records turned into pages readers can search and come back to.</p></div>
+    <div class="cards">
+      <div class="card"><a class="shot" href="https://rowanflynnpilot.github.io/wpr-water/" target="_blank" rel="noopener" aria-label="What&#x27;s in the Water?: PFAS results and drinking-water compliance for every public system in eight counties, open the live page"><span class="chrome">rowanflynnpilot.github.io/wpr-water</span><img src="shots/water.webp" width="960" height="600" alt="What&#x27;s in the Water?: PFAS results and drinking-water compliance for every public system in eight counties" loading="lazy" decoding="async"></a><b>What&#x27;s in the Water?</b><p>PFAS results and drinking-water compliance for every public system in eight counties</p></div>
+      <div class="card"><a class="shot" href="https://rowanflynnpilot.github.io/wpr-assessment-equity/" target="_blank" rel="noopener" aria-label="Assessment Equity: Whether homes are assessed at what they actually sell for, community by community, open the live page"><span class="chrome">rowanflynnpilot.github.io/wpr-assessment-equity</span><img src="shots/assessment-equity.webp" width="960" height="600" alt="Assessment Equity: Whether homes are assessed at what they actually sell for, community by community" loading="lazy" decoding="async"></a><b>Assessment Equity</b><p>Whether homes are assessed at what they actually sell for, community by community</p></div>
+      <div class="card"><a class="shot" href="https://rowanflynnpilot.github.io/wpr-city-budget/" target="_blank" rel="noopener" aria-label="Follow the Money: Wausau&#x27;s 2027 budget, and what it means for your own tax bill, open the live page"><span class="chrome">rowanflynnpilot.github.io/wpr-city-budget</span><img src="shots/city-budget.webp" width="960" height="600" alt="Follow the Money: Wausau&#x27;s 2027 budget, and what it means for your own tax bill" loading="lazy" decoding="async"></a><b>Follow the Money</b><p>Wausau&#x27;s 2027 budget, and what it means for your own tax bill</p></div>
+      <div class="card"><a class="shot" href="https://rowanflynnpilot.github.io/marathon-tif/" target="_blank" rel="noopener" aria-label="The TIF Scorecard: Whether each tax increment district in Marathon County is paying off, open the live page"><span class="chrome">rowanflynnpilot.github.io/marathon-tif</span><img src="shots/tif-scorecard.webp" width="960" height="600" alt="The TIF Scorecard: Whether each tax increment district in Marathon County is paying off" loading="lazy" decoding="async"></a><b>The TIF Scorecard</b><p>Whether each tax increment district in Marathon County is paying off</p></div>
+    </div>
+  </section>
+  <section class="group" aria-labelledby="g1">
+    <div class="group-head"><h3 id="g1">Built to carry sponsors</h3><p>Tools readers return to, with a place for a local business to present them.</p></div>
+    <div class="cards">
+      <div class="card"><a class="shot" href="https://rowanflynnpilot.github.io/wpr-packers-tracker/" target="_blank" rel="noopener" aria-label="The Packers, by the numbers: A season tracker presented by a local sponsor, with game-day specials from a local partner, open the live page"><span class="chrome">rowanflynnpilot.github.io/wpr-packers-tracker</span><img src="shots/packers.webp" width="960" height="600" alt="The Packers, by the numbers: A season tracker presented by a local sponsor, with game-day specials from a local partner" loading="lazy" decoding="async"></a><b>The Packers, by the numbers</b><p>A season tracker presented by a local sponsor, with game-day specials from a local partner</p></div>
+      <div class="card"><a class="shot" href="https://rowanflynnpilot.github.io/wpr-property-transactions/" target="_blank" rel="noopener" aria-label="Property Transactions: Real estate sales across six counties, presented by a local real estate firm, open the live page"><span class="chrome">rowanflynnpilot.github.io/wpr-property-transactions</span><img src="shots/property.webp" width="960" height="600" alt="Property Transactions: Real estate sales across six counties, presented by a local real estate firm" loading="lazy" decoding="async"></a><b>Property Transactions</b><p>Real estate sales across six counties, presented by a local real estate firm</p></div>
+      <div class="card"><a class="shot" href="https://obituaries.wausaupilotandreview.com/" target="_blank" rel="noopener" aria-label="Obituaries: Free obituaries for Wausau and Marathon County, made possible by local sponsors, open the live page"><span class="chrome">obituaries.wausaupilotandreview.com</span><img src="shots/obituaries.webp" width="960" height="600" alt="Obituaries: Free obituaries for Wausau and Marathon County, made possible by local sponsors" loading="lazy" decoding="async"></a><b>Obituaries</b><p>Free obituaries for Wausau and Marathon County, made possible by local sponsors</p></div>
+      <div class="card"><a class="shot" href="https://rowanflynnpilot.github.io/wpr-river-conditions/" target="_blank" rel="noopener" aria-label="River &amp; Lake Conditions: River levels across central Wisconsin, with an open sponsorship slot, open the live page"><span class="chrome">rowanflynnpilot.github.io/wpr-river-conditions</span><img src="shots/river.webp" width="960" height="600" alt="River &amp; Lake Conditions: River levels across central Wisconsin, with an open sponsorship slot" loading="lazy" decoding="async"></a><b>River &amp; Lake Conditions</b><p>River levels across central Wisconsin, with an open sponsorship slot</p></div>
+    </div>
+  </section>
+  <section class="group" aria-labelledby="g2">
+    <div class="group-head"><h3 id="g2">Everyday reader tools</h3><p>The pages people check before the game, the drive or the trail.</p></div>
+    <div class="cards">
+      <div class="card"><a class="shot" href="https://sports.wausaupilotandreview.com/" target="_blank" rel="noopener" aria-label="Central Wisconsin Prep Sports: Scores and schedules for area high school sports, on WPR&#x27;s own subdomain, open the live page"><span class="chrome">sports.wausaupilotandreview.com</span><img src="shots/prep-sports.webp" width="960" height="600" alt="Central Wisconsin Prep Sports: Scores and schedules for area high school sports, on WPR&#x27;s own subdomain" loading="lazy" decoding="async"></a><b>Central Wisconsin Prep Sports</b><p>Scores and schedules for area high school sports, on WPR&#x27;s own subdomain</p></div>
+      <div class="card"><a class="shot" href="https://rowanflynnpilot.github.io/wpr-gas-prices/" target="_blank" rel="noopener" aria-label="Wisconsin Gas Prices: Prices from AAA twice a day, statewide and by metro, open the live page"><span class="chrome">rowanflynnpilot.github.io/wpr-gas-prices</span><img src="shots/gas-prices.webp" width="960" height="600" alt="Wisconsin Gas Prices: Prices from AAA twice a day, statewide and by metro" loading="lazy" decoding="async"></a><b>Wisconsin Gas Prices</b><p>Prices from AAA twice a day, statewide and by metro</p></div>
+      <div class="card"><a class="shot" href="https://rowanflynnpilot.github.io/wpr-trails/" target="_blank" rel="noopener" aria-label="Trail Conditions: A map of central Wisconsin trails, filtered by activity, county and difficulty, open the live page"><span class="chrome">rowanflynnpilot.github.io/wpr-trails</span><img src="shots/trails.webp" width="960" height="600" alt="Trail Conditions: A map of central Wisconsin trails, filtered by activity, county and difficulty" loading="lazy" decoding="async"></a><b>Trail Conditions</b><p>A map of central Wisconsin trails, filtered by activity, county and difficulty</p></div>
+      <div class="card"><a class="shot" href="https://rowanflynnpilot.github.io/wpr-voter-guide/" target="_blank" rel="noopener" aria-label="Voter Guide: Every race on the ballot, how to vote and a ballot you can build, open the live page"><span class="chrome">rowanflynnpilot.github.io/wpr-voter-guide</span><img src="shots/voter-guide.webp" width="960" height="600" alt="Voter Guide: Every race on the ballot, how to vote and a ballot you can build" loading="lazy" decoding="async"></a><b>Voter Guide</b><p>Every race on the ballot, how to vote and a ballot you can build</p></div>
+    </div>
+  </section>
+  </section>
 
   <section class="soon-note" id="contest" aria-labelledby="contest-h">
     <h2 id="contest-h">Contest engine</h2>
@@ -363,7 +404,7 @@ h1, h2 { text-wrap: balance }
 <footer class="wrap foot">
   <img src="wpr-typewriter-badge.png" alt="" width="44" height="44">
   <div>
-    <p>Prices are for local newsrooms. Samples on this page use made-up examples, for illustration.</p>
+    <p>Prices are for local newsrooms. Screenshots are of WPR's live tools; the Ad Watch list is an illustration with made-up examples.</p>
     <p>Gavel, Revenue Desk and Election Live are owned jointly by Rowan Flynn and Wausau Pilot &amp; Review.</p>
     <p>Wausau Pilot &amp; Review &middot; 715-301-5539</p>
   </div>
