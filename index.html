@@ -72,6 +72,7 @@ p, li, figcaption { text-wrap: pretty }
 .memo .facts dt, .memo .facts dd { margin: 0; padding: 10px 0; border-bottom: 1px solid var(--rule) }
 .memo .facts dt { font-size: 13px; color: var(--muted); padding-right: 16px }
 .memo .facts dd { min-width: 0; overflow-wrap: anywhere }
+.memo .facts cite { display: block; font-style: normal; font-size: 14px; color: var(--muted) }
 .memo .end { display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: baseline }
 .memo .end .price { border: 0; padding: 0; margin: 0 }
 .memo .end p { color: var(--muted); max-width: 60ch }
@@ -89,6 +90,7 @@ p, li, figcaption { text-wrap: pretty }
 .rate .amt small { display: block; font-family: var(--sans); font-weight: 500; font-size: 13px; color: var(--muted) }
 .rate .amt.soft { font-family: var(--sans); font-size: 14px; font-weight: 600; color: var(--muted) }
 .rate:hover b { color: var(--teal-deep); text-decoration: underline; text-underline-offset: 3px }
+.rates-note { margin: 0; padding: 12px 22px; font-size: 14px; color: var(--muted); background: var(--wash) }
 
 /* Tool bar */
 .bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--wash); border-block: 1px solid var(--rule); margin-top: 26px }
@@ -182,6 +184,12 @@ p, li, figcaption { text-wrap: pretty }
 .soon-note h2 { font-family: var(--serif); font-weight: 600; font-size: 24px; line-height: 1 }
 .soon-note p { color: var(--muted); font-size: 16px; max-width: 70ch }
 .soon-note.arrived { border-color: var(--teal) }
+/* Editors' own words, each quoted with their OK (tools/quotes.json); hidden until there is one. */
+.said { display: grid; gap: 14px }
+.said h2 { font-family: var(--serif); font-weight: 600; font-size: 24px; line-height: 1 }
+.said .quotes { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 14px }
+.said blockquote { margin: 0; background: var(--paper); border: 1px solid var(--rule); border-left: 4px solid var(--teal); padding: 16px 20px; font-family: var(--serif); font-size: 19px; line-height: 1.45 }
+.said cite { display: block; margin-top: 8px; font-family: var(--sans); font-style: normal; font-size: 14px; color: var(--muted) }
 
 /* Close and WPR's footer */
 .close { background: var(--slate); color: #fff; margin-top: 18px }
@@ -237,7 +245,7 @@ p, li, figcaption { text-wrap: pretty }
   <div class="wrap">
     <h1 id="title">Tools we built to run a small newsroom</h1>
     <p class="dek">We cover Marathon County with a small staff, so we build software to do the watching, the lead-finding and the busywork. Each one runs at WPR first, and now we set them up for other local newsrooms.</p>
-    <p class="proof"><a href="#built">See 12 of them running at WPR</a>, from meeting tracking to election night to Friday-night scores.</p>
+    <p class="proof"><a href="#built">See 12 of them running at WPR</a>, including the meeting tracker and Friday-night scores.</p>
   </div>
 </section>
 
@@ -251,6 +259,7 @@ p, li, figcaption { text-wrap: pretty }
     <a class="rate" href="#election"><b>Election Live</b><span>Live results on election night</span><span class="amt">$250<small>per night per county</small></span></a>
     <a class="rate" href="#data"><b>Data tools</b><span>Trackers built on public records</span><span class="amt soft">Quoted per project</span></a>
     <a class="rate" href="#contest"><b>Contest engine</b><span>Reader contests with sponsors</span><span class="amt soft">Coming soon</span></a>
+    <p class="rates-note">Supporting several newsrooms? <a href="#coalition">One agreement can cover a group of them.</a></p>
   </section>
 </div>
 
@@ -354,6 +363,16 @@ p, li, figcaption { text-wrap: pretty }
   <section class="soon-note" id="contest" aria-labelledby="contest-h">
     <h2 id="contest-h">Contest engine</h2>
     <p>Readers' choice ballots and reader photo contests that sponsors pay for, built for WPR's own reader contests. WPR's first contest on it, a pet contest, is planned for November, and we're opening it to a handful of newsrooms for their 2027 seasons, priced per contest.</p>
+  </section>
+
+  <section class="soon-note" id="coalition" aria-labelledby="coalition-h">
+    <h2 id="coalition-h">For networks and funders</h2>
+    <p>If you fund or support several local newsrooms, one agreement can cover a group of them. We set up Gavel on the boards each newsroom covers and Election Live for its county, and we run both. Each newsroom's price is the one on the rate card.</p>
+  </section>
+
+  <section class="said" id="said" hidden aria-labelledby="said-h">
+    <h2 id="said-h">What editors said</h2>
+    <div class="quotes"></div>
   </section>
 </main>
 
@@ -482,13 +501,40 @@ function rowsFor(t, n) {
     ["How it would start", "Tell us the records your reporters keep coming back to, and we'll scope a tracker for your coverage area."]];
   return [];
 }
-if (id && TOOLS[tool]) fetch("for.json").then((r) => r.ok ? r.json() : {}).then((all) => {
+// A network or funder's one-pager (#coalition.<id>): counts about the newsrooms in its area, never their names.
+function coalitionRows(g) {
+  const busy = g.busy_towns.map((b, i) => `${apNum(b.meetings)}${i ? "" : " meetings"} in ${esc(b.town)}`);
+  return [g.studied && ["Newsrooms we've studied", `We've studied ${apNum(g.studied)} independent local ${g.studied === 1 ? "newsroom" : "newsrooms"} ${/^within/.test(g.area) ? esc(g.area) : "in " + esc(g.area)}.`],
+    g.funded && (g.kind === "collaborative" ? ["Your members", `Among them ${g.funded === 1 ? "is one" : "are " + apNum(g.funded)} of your members.`]
+      : ["Ones you've funded", `Among them ${g.funded === 1 ? "is one" : "are " + apNum(g.funded)} of your grantees.`]),
+    g.portals && ["Meeting portals", `Of those, ${apNum(g.portals)} cover towns whose boards post agendas on CivicClerk or BoardBook, which Gavel reads today.`],
+    busy.length && ["The past month", `Boards posted agendas for ${list(busy)}.`],
+    g.election && ["Next election", `${esc(poss(g.election.state))} ${apDate(g.election.date)} ${esc(g.election.name)}.`],
+    ["How it would start", "You pick two or three newsrooms. We set up Gavel on the boards each one covers and Election Live for its county, and run both. More can join under the same agreement."],
+    ["Who we are", "A nonprofit newsroom in Wausau, Wisconsin, and a Press Forward grantee. We run Gavel and Election Live for our own coverage of Marathon County."]];
+}
+const cap = (t) => t[0].toUpperCase() + t.slice(1);
+// Editors' own words, each quoted with their OK (quotes.json: text, name, title, newsroom, product). The page shows
+// them all under the tools; a newsroom's memo shows the newest one about its product.
+const quoteHtml = (q) => `“${esc(q.text)}”<cite>${esc(q.name)}, ${esc(q.title)}, ${esc(q.newsroom)}</cite>`;
+const said = fetch("quotes.json").then((r) => r.ok ? r.json() : []).catch(() => []);
+said.then((qs) => { if (!qs.length) return; const el = document.getElementById("said");
+  el.querySelector(".quotes").innerHTML = qs.map((q) => `<blockquote>${quoteHtml(q)}</blockquote>`).join(""); el.hidden = false; });
+if (id && (TOOLS[tool] || tool === "coalition")) Promise.all([fetch("for.json").then((r) => r.ok ? r.json() : {}), said]).then(([all, qs]) => {
   const n = all[id]; if (!n) return;
-  const T = TOOLS[tool], memo = document.getElementById("memo");
-  memo.innerHTML = `<dl class="memo-head"><dt>To</dt><dd><b>${esc(n.name)}</b>, ${esc(n.where)}</dd><dt>From</dt><dd>Wausau Pilot &amp; Review, Wausau, Wisconsin</dd><dt>Re</dt><dd>${T.re}</dd></dl>
-    <h2 id="memo-h">What ${T.name} would look like for you</h2>
-    <dl class="facts">${rowsFor(tool, n).filter(Boolean).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>
-    <div class="end"><div class="price"><b>${T.price}</b><span>${T.per}</span></div><p>Reply to the email this link came in, and we'll set it up for you. <a href="#${tool}">More about ${T.name}</a></p></div>`;
+  const memo = document.getElementById("memo");
+  if (tool === "coalition") {
+    memo.innerHTML = `<dl class="memo-head"><dt>To</dt><dd><b>${esc(n.name)}</b></dd><dt>From</dt><dd>Wausau Pilot &amp; Review, Wausau, Wisconsin</dd><dt>Re</dt><dd>Gavel and Election Live for the newsrooms you support</dd></dl>
+      <h2 id="memo-h">What it would look like for your newsrooms</h2>
+      <dl class="facts">${coalitionRows(n).filter(Boolean).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>
+      <div class="end"><div class="price"><b>Per newsroom</b><span>Gavel $50-$150 a month per municipality. Election Live $250 per election night per county.</span></div><p>Reply to the email this link came in, and we'll set up a call. <a href="#gavel">More about Gavel</a> · <a href="#election">Election Live</a></p></div>`;
+  } else {
+    const T = TOOLS[tool], q = qs.filter((x) => x.product === tool).slice(-1)[0];
+    memo.innerHTML = `<dl class="memo-head"><dt>To</dt><dd><b>${esc(n.name)}</b>, ${esc(n.where)}</dd><dt>From</dt><dd>Wausau Pilot &amp; Review, Wausau, Wisconsin</dd><dt>Re</dt><dd>${T.re}</dd></dl>
+      <h2 id="memo-h">What ${T.name} would look like for you</h2>
+      <dl class="facts">${[...rowsFor(tool, n), q && ["What an editor said", quoteHtml(q)]].filter(Boolean).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>
+      <div class="end"><div class="price"><b>${T.price}</b><span>${T.per}</span></div><p>Reply to the email this link came in, and we'll set it up for you. <a href="#${tool}">More about ${T.name}</a></p></div>`;
+  }
   memo.hidden = false;
 }).catch(() => {});
 </script>
