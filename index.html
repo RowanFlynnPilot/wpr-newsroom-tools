@@ -476,7 +476,7 @@ function rowsFor(t, n) {
   }
   if (t === "election") return [["Your coverage area", esc(n.area || n.where)],
     ["How it would start", "We look at how your county posts its results on election night, then set up the page for your races and run it that night."],
-    ["See it work", link(DEMO, "The demo, with sample results")], ["When", "We're taking a few newsrooms for spring 2027."]];
+    ["See it work", link(DEMO, "The demo, with sample results")], ["When", n.election_next ? `We're taking a few newsrooms for spring 2027, in time for the ${apDate(n.election_next.date)} ${esc(n.election_next.name)}.` : "We're taking a few newsrooms for spring 2027."]];
   if (t === "data") return [n.data.length && ["Your recent data reporting", n.data.map(([title, url]) => link(url, title)).join("<br>")],
     ["What we've built", "Trackers of police use of force and license-plate reader cameras, and county archives of assisted-living inspections and contaminated sites."],
     ["How it would start", "Tell us the records your reporters keep coming back to, and we'll scope a tracker for your coverage area."]];
