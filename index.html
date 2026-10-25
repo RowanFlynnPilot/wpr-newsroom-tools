@@ -347,7 +347,7 @@ p, li, figcaption { text-wrap: pretty }
       <h2>Data tools</h2>
       <p class="what">Trackers and archives built on public records, for the beats you want to own.</p>
       <p class="runs">Built for WPR's coverage of Wisconsin and Marathon County</p>
-      <p class="how">Four of WPR's ledgers are shown here, each live and updated from public records; WPR also built the Force Ledger, on Wisconsin police use of force. If you have a record set you've wanted to turn into a tracker, we can build it for your coverage area.</p>
+      <p class="how">Four of WPR's ledgers are shown here, each live and updated from public records. If you have a record set you've wanted to turn into a tracker, we can build it for your coverage area.</p>
       <div class="price"><b>Quoted</b><span>per project</span></div>
     </div>
     <figure class="sample">
@@ -483,8 +483,8 @@ function rowsFor(t, n) {
     // The past month on the portal Gavel would watch first, from the weekly count (its own town, else its busiest neighbor).
     const b = n.busy, busy = b && ["The past month nearby", `${esc(poss(b.town))} boards posted agendas${b.packets * 2 >= b.meetings ? " and packets" : ""} for ${apNum(b.meetings)} ${b.meetings === 1 ? "meeting" : "meetings"}${b.latest ? `, including the ${esc(b.latest.name)} on ${apDate(b.latest.date)}` : ""}.`];
     return [busy, ...portals, n.towns && ["Local governments in reach", n.towns === 1 ? "One city, village or township" : `About ${n.towns} cities, villages and townships`],
-      ["How it would start", b ? `Gavel reads ${esc(poss(b.town))} portal today, so we'd start there and with the boards you cover, then add the rest.`
-        : portals.length ? "Gavel reads those portals today, so we'd start with the boards you cover there, then add the rest."
+      ["How it would start", b ? `${esc(b.town)} posts its meetings on CivicClerk, which Gavel already reads, so we'd start there and with the boards you cover, then add the rest.`
+        : portals.length ? `Gavel already reads ${list([n.civicclerk.length && "CivicClerk", n.boardbook.length && "BoardBook"].filter(Boolean))}, so we'd start with the boards you cover there, then add the rest.`
         : "You tell us which boards you cover, and we connect Gavel to where they post agendas, packets and meeting video."]];
   }
   if (t === "revenue") {
@@ -497,7 +497,7 @@ function rowsFor(t, n) {
     ["How it would start", "We look at how your county posts its results on election night, then set up the page for your races and run it that night."],
     ["See it work", link(DEMO, "The demo, with sample results")], ["When", n.election_next ? `We're taking a few newsrooms for spring 2027, in time for the ${apDate(n.election_next.date)} ${esc(n.election_next.name)}.` : "We're taking a few newsrooms for spring 2027."]];
   if (t === "data") return [n.data.length && ["Your recent data reporting", n.data.map(([title, url]) => link(url, title)).join("<br>")],
-    ["What we've built", "Trackers of police use of force and license-plate reader cameras, and county archives of assisted-living inspections and contaminated sites."],
+    ["What we've built", "Trackers of license-plate reader cameras and Wisconsin's prison population, and county archives of assisted-living inspections and contaminated sites."],
     ["How it would start", "Tell us the records your reporters keep coming back to, and we'll scope a tracker for your coverage area."]];
   return [];
 }
