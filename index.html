@@ -76,6 +76,21 @@ p, li, figcaption { text-wrap: pretty }
 .band-shot .cap { margin-bottom: 8px; font-family: var(--serif); font-style: italic; font-size: 14px; color: #d4e9e4 }
 @keyframes shot-in { from { opacity: 0; transform: translateX(28px) } }
 @keyframes drift { to { transform: translateY(-140px) } }
+/* A Gavel pitch opens on Gavel's own brief of the meeting its email names (tools/briefs/<id>.json, from
+   pipeline/samples.py --publish); an Election Live pitch counts the days to that newsroom's election, on the results page. */
+.band-shot.is-brief { max-width: 480px }
+.brief-card .ov { padding: 12px 14px 2px; font-size: 15px; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden }
+.brief-card .k { padding: 8px 14px 0; font-size: 13px; font-weight: 700; color: var(--teal-deep) }
+.brief-card ul, .brief-full ul { list-style: none; margin: 0; padding: 0 }
+.brief-card ul { padding: 2px 14px 8px }
+.brief-card li, .brief-full li { position: relative; padding: 6px 0 6px 18px; line-height: 1.45; border-bottom: 1px solid var(--rule) }
+.brief-card li:last-child { border-bottom: 0 }
+.brief-card li::before, .brief-full li::before { content: ""; position: absolute; left: 1px; top: 15px; width: 8px; height: 2px; background: var(--teal) }
+.band-shot .brief-card .panel-foot a { display: inline; color: var(--teal-deep); text-decoration: underline; font-weight: 600 }
+.band-shot .count { position: absolute; z-index: 2; left: 20px; bottom: 46px; max-width: min(360px, calc(100% - 40px)); display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 14px; background: var(--paper); border-left: 5px solid var(--teal); padding: 12px 18px 12px 14px; box-shadow: 0 16px 32px -18px rgb(26 26 26 / 0.6); animation: count-in 600ms cubic-bezier(0.2, 0.7, 0.2, 1) 900ms both }
+.count b { font-family: var(--serif); font-weight: 600; font-size: 48px; line-height: 1; color: var(--teal-deep); font-variant-numeric: lining-nums tabular-nums; font-variation-settings: "opsz" 144 }
+.count span { font-size: 15px; line-height: 1.35; font-weight: 600 }
+@keyframes count-in { from { opacity: 0; transform: translateY(12px) } }
 
 /* The memo a pitch link opens for one newsroom (#<tool>.<newsroom id>, filled from for.json) */
 .memo { margin-top: -22px; position: relative; z-index: 2; background: var(--paper); box-shadow: 0 1px 0 var(--rule), 0 18px 40px -28px rgb(26 26 26 / 0.45); padding: 26px 30px 24px 34px; display: grid; gap: 16px }
@@ -93,6 +108,22 @@ p, li, figcaption { text-wrap: pretty }
 .memo .end { display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: baseline }
 .memo .end .price { border: 0; padding: 0; margin: 0 }
 .memo .end p { color: var(--muted); max-width: 60ch }
+/* A Gavel memo maps the newsroom's reach beside the facts (tools/maps/<id>.svg, from pipeline/maps.py), the towns on a
+   meeting portal filling in one by one, and gives Gavel's whole brief under them. */
+.memo-body { display: grid; gap: 18px 34px; grid-template-columns: minmax(0, 1fr); align-items: start }
+.memo-body.has-map { grid-template-columns: minmax(0, 1fr) minmax(0, 400px) }
+.area { margin: 0; display: grid; gap: 8px }
+.area svg { display: block; width: 100%; height: auto }
+.area figcaption { display: flex; flex-wrap: wrap; gap: 2px 16px; font-size: 13px; color: var(--muted) }
+.area .key::before { content: ""; display: inline-block; width: 11px; height: 11px; margin-right: 6px; vertical-align: -1px; background: var(--c) }
+.area .key.reach::before { width: 16px; height: 0; border-top: 2px dashed var(--slate); vertical-align: 3px; background: none }
+.memo.opened .m-cc, .memo.opened .m-bb { animation: m-on 600ms ease-out both; animation-delay: calc(700ms + var(--i, 0) * 150ms) }
+@keyframes m-on { from { fill: #e8e2d4 } }
+.brief-full { border-top: 3px double var(--rule); padding-top: 16px; display: grid; gap: 10px; scroll-margin-top: 72px }
+.brief-full h3 { font-family: var(--serif); font-weight: 600; font-size: 22px; line-height: 1.2 }
+.brief-full h4 { margin: 4px 0 0; font-size: 14px; color: var(--teal-deep) }
+.brief-full p { max-width: 70ch }
+.brief-full .src { font-size: 14px; color: var(--muted) }
 
 /* Rate card: every tool and its price, the way a paper prints its ad rates */
 .rates { margin-block: 34px 8px; background: var(--paper); border: 1px solid var(--rule); border-top: 4px solid var(--slate) }
@@ -233,12 +264,13 @@ p, li, figcaption { text-wrap: pretty }
   .band { padding-bottom: 0 }
   .band-shot { position: relative; top: auto; bottom: auto; left: auto; right: auto; height: 300px; margin: 36px 0 0 max(16px, env(safe-area-inset-left, 0px)) }
   .band-shot img { width: max(100%, 640px) }
-  .band-shot.is-panel { height: auto; margin-right: max(16px, env(safe-area-inset-right, 0px)); padding-bottom: 40px }
+  .band-shot.is-panel { right: auto; height: auto; margin-right: max(16px, env(safe-area-inset-right, 0px)); padding-bottom: 40px }
+  .band-shot .count { bottom: 20px }
   .memo { margin-top: 26px }
 }
 @media (max-width: 1000px) { .spread, .spread.flip { grid-template-columns: 1fr } .spread.flip .lead { order: 0 } }
 @media (max-width: 860px) {
-  .tool, .tool.feature { grid-template-columns: 1fr }
+  .tool, .tool.feature, .memo-body.has-map { grid-template-columns: 1fr }
   .sample { border-left: 0; border-top: 1px solid var(--rule) }
   .close .wrap { grid-template-columns: 1fr } .close .who { text-align: left }
   .rate { grid-template-columns: minmax(0, 1fr) auto } .rate span { grid-column: 1; grid-row: 2 } .rate .amt { grid-row: 1 / span 2; grid-column: 2 }
@@ -264,7 +296,7 @@ p, li, figcaption { text-wrap: pretty }
   .shot, .shot img, .shot video, .bar a, .btn { transition: none }
   .shot:hover img, .shot:hover video { transform: none }
   .rise { opacity: 1; transform: none }
-  .band-shot, .band-shot img, .memo.opened { animation: none }
+  .band-shot, .band-shot img, .band-shot .count, .memo.opened, .memo.opened .m-cc, .memo.opened .m-bb { animation: none }
 }
 </style>
 </head>
@@ -519,6 +551,32 @@ if (SCREENS[tool]) { const [url, shown, src, alt] = SCREENS[tool];
   hero.innerHTML = `<a href="${esc(url)}" target="_blank" rel="noopener" aria-label="${esc(alt)}, open the live page"><span class="chrome">${esc(shown)}</span><img src="${esc(src)}" width="1600" height="1000" alt="${esc(alt)}" fetchpriority="high" decoding="async"></a>`; }
 if (tool === "revenue") { hero.classList.add("is-panel");
   hero.innerHTML = `<p class="cap">A sample Ad Watch list, for illustration</p>${document.querySelector("#revenue .panel").outerHTML}`; }
+// A Gavel pitch opens on Gavel's brief of the meeting near the newsroom, once one has been read and published; until it
+// loads, the meeting tracker waits unseen, so the screen doesn't swap in front of the reader.
+const brief = tool === "gavel" && id ? fetch(`briefs/${encodeURIComponent(id)}.json`).then((r) => r.ok ? r.json() : null).catch(() => null) : Promise.resolve(null);
+const whatHappened = (b) => b.voted ? "What happened" : "On the agenda";
+if (tool === "gavel" && id) { hero.style.visibility = "hidden";
+  brief.then((b) => {
+    if (b) { hero.classList.add("is-panel", "is-brief");
+      hero.innerHTML = `<p class="cap">Gavel's brief of a meeting near you, from ${b.voted ? "the posted agenda and vote records" : "the posted agenda, before the votes were posted"}</p>
+        <article class="panel brief-card"><div class="panel-head"><b>${esc(b.town)} ${esc(b.board)}</b><span>${apDate(b.date)}</span></div>
+        <p class="ov">${esc(b.overview)}</p><p class="k">${whatHappened(b)}</p><ul>${b.actions.slice(0, 2).map((a) => `<li>${esc(a)}</li>`).join("")}</ul>
+        <div class="panel-foot"><a href="#brief">The whole brief</a> · ${link(b.url, "Agenda and packet")}</div></article>`; }
+    hero.style.animation = "none"; void hero.offsetWidth; hero.style.animation = ""; hero.style.visibility = "";
+    // Beside the title on a wide screen, the brief is taller than the band; the band grows to hold all of it above the memo.
+    const fit = () => { const band = hero.closest(".band"); band.style.minHeight = "";
+      if (b && innerWidth >= 1080) band.style.minHeight = `${hero.offsetTop + hero.offsetHeight + 66}px`; };
+    fit(); document.fonts.ready.then(fit); addEventListener("resize", fit); }); }
+// The days from today (the reader's) to an election, counted noon to noon so a clock change can't shift it.
+const daysTo = (iso) => { const now = new Date(); now.setHours(12, 0, 0, 0); return Math.round((new Date(iso + "T12:00:00") - now) / 864e5); };
+// A Gavel memo's map, with a legend from the counts the map carries (pipeline/maps.py).
+function area(svg) {
+  const t = document.createElement("template"); t.innerHTML = svg.trim();
+  const s = t.content.firstElementChild; if (!s || s.localName !== "svg") return "";
+  const d = s.dataset, other = d.towns - d.cc - d.bb, key = (c, text) => `<span class="key" style="--c:${c}">${text}</span>`;
+  return `<figure class="area">${s.outerHTML}<figcaption>${[+d.cc && key("var(--teal)", `Posts agendas on CivicClerk (${d.cc})`), +d.bb && key("#8dbdb5", `On BoardBook (${d.bb})`),
+    other > 0 && key("#e8e2d4", `Other local governments (${other})`), `<span class="key reach">${esc(d.miles)} miles from ${esc(d.center)}</span>`].filter(Boolean).join("")}</figcaption></figure>`;
+}
 // "Email Rowan" opens a message about the tool and newsroom the pitch named.
 const mailTo = (subject) => document.querySelectorAll("a.mail").forEach((a) => { a.href = `mailto:rowan.flynn@wausaupilotandreview.com?subject=${encodeURIComponent(subject)}`; });
 // Each section's parts rise in once as they come into view, a beat apart.
@@ -585,7 +643,8 @@ const quoteHtml = (q) => `“${esc(q.text)}”<cite>${esc(q.name)}, ${esc(q.titl
 const said = fetch("quotes.json").then((r) => r.ok ? r.json() : []).catch(() => []);
 said.then((qs) => { if (!qs.length) return; const el = document.getElementById("said");
   el.querySelector(".quotes").innerHTML = qs.map((q) => `<blockquote>${quoteHtml(q)}</blockquote>`).join(""); el.hidden = false; });
-if (id && (TOOLS[tool] || tool === "coalition")) Promise.all([fetch("for.json").then((r) => r.ok ? r.json() : {}), said]).then(([all, qs]) => {
+const map = tool === "gavel" && id ? fetch(`maps/${encodeURIComponent(id)}.svg`).then((r) => r.ok ? r.text() : "").catch(() => "") : "";
+if (id && (TOOLS[tool] || tool === "coalition")) Promise.all([fetch("for.json").then((r) => r.ok ? r.json() : {}), said, map, brief]).then(([all, qs, svg, b]) => {
   const n = all[id]; if (!n) return;
   const memo = document.getElementById("memo"), forLine = document.getElementById("for");
   forLine.innerHTML = `Prepared for <b>${esc(n.name)}</b>${tool !== "coalition" && n.where ? `, ${esc(n.where)}` : ""}`;
@@ -597,11 +656,17 @@ if (id && (TOOLS[tool] || tool === "coalition")) Promise.all([fetch("for.json").
       <dl class="facts">${coalitionRows(n).filter(Boolean).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>
       <div class="end"><div class="price"><b>Per newsroom</b><span>Gavel $50-$150 a month per municipality. Election Live $250 per election night per county.</span></div><p>Reply to the email this link came in, and we'll set up a call. <a href="#gavel">More about Gavel</a> · <a href="#election">Election Live</a></p></div>`;
   } else {
-    const T = TOOLS[tool], q = qs.filter((x) => x.product === tool).slice(-1)[0];
+    const T = TOOLS[tool], q = qs.filter((x) => x.product === tool).slice(-1)[0], fig = svg ? area(svg) : "";
     memo.innerHTML = `<dl class="memo-head"><dt>To</dt><dd><b>${esc(n.name)}</b>, ${esc(n.where)}</dd><dt>From</dt><dd>Wausau Pilot &amp; Review, Wausau, Wisconsin</dd><dt>Re</dt><dd>${T.re}</dd></dl>
       <h2 id="memo-h">What ${T.name} would look like for you</h2>
-      <dl class="facts">${[...rowsFor(tool, n), q && ["What an editor said", quoteHtml(q)]].filter(Boolean).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>
+      <div class="memo-body${fig ? " has-map" : ""}"><dl class="facts">${[...rowsFor(tool, n), q && ["What an editor said", quoteHtml(q)]].filter(Boolean).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>${fig}</div>
+      ${b ? `<section class="brief-full" id="brief" aria-labelledby="brief-h"><h3 id="brief-h">Gavel's brief: ${esc(b.town)} ${esc(b.board)}, ${apDate(b.date)}</h3>
+        <p>${esc(b.overview)}</p><h4>${whatHappened(b)}</h4><ul>${b.actions.map((a) => `<li>${esc(a)}</li>`).join("")}</ul>
+        <p class="src">Gavel wrote this from ${link(b.url, "the agenda and packet")}${b.voted ? " and CivicClerk's vote records" : ", before the votes were posted"}. Set up for the boards you cover, it does the same for each of their meetings.</p></section>` : ""}
       <div class="end"><div class="price"><b>${T.price}</b><span>${T.per}</span></div><p>Reply to the email this link came in, and we'll set it up for you. <a href="#${tool}">More about ${T.name}</a></p></div>`;
+    // Election Live counts the days to this newsroom's election, on the results page in the first screen.
+    const e = tool === "election" && n.election_next, d = e && daysTo(e.date);
+    if (e && d >= 0) hero.insertAdjacentHTML("beforeend", `<p class="count"><b>${d ? d : "Tonight"}</b><span>${d ? `${d === 1 ? "day" : "days"} until ` : ""}${e.state ? esc(poss(e.state)) : "the"} ${apDate(e.date)} ${esc(e.name)}</span></p>`);
   }
   memo.hidden = false;
   memo.classList.add("opened");
