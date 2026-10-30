@@ -351,7 +351,7 @@ p, li, figcaption { text-wrap: pretty }
       <p class="what">Keeps watch on local government meetings so your reporters don't have to sit through all of them.</p>
       <p class="runs">Grew out of the meeting tracker WP&amp;R uses to cover Marathon County government</p>
       <ul>
-        <li>Pulls agendas, minutes and packets from the meeting portals cities and counties already use, such as CivicClerk and BoardBook.</li>
+        <li>Pulls agendas, minutes and packets from the meeting portals cities and counties already use, such as CivicClerk, Legistar, PrimeGov and BoardBook.</li>
         <li>Transcribes meeting video posted to YouTube.</li>
         <li>Summarizes each meeting item by item, with the votes where the portal records them, so you can decide what to cover and what to skip.</li>
       </ul>
@@ -558,7 +558,7 @@ const whatHappened = (b) => b.voted ? "What happened" : "On the agenda";
 if (tool === "gavel" && id) { hero.style.visibility = "hidden";
   brief.then((b) => {
     if (b) { hero.classList.add("is-panel", "is-brief");
-      hero.innerHTML = `<p class="cap">Gavel's brief of a meeting near you, from ${b.voted ? "the posted agenda and vote records" : "the posted agenda, before the votes were posted"}</p>
+      hero.innerHTML = `<p class="cap">Gavel's brief of a meeting near you, from ${b.voted ? "the posted agenda and vote records" : b.vendor === "PrimeGov" ? "the posted agenda" : "the posted agenda, before the votes were posted"}</p>
         <article class="panel brief-card"><div class="panel-head"><b>${esc(b.town)} ${esc(b.board)}</b><span>${apDate(b.date)}</span></div>
         <p class="ov">${esc(b.overview)}</p><p class="k">${whatHappened(b)}</p><ul>${b.actions.slice(0, 2).map((a) => `<li>${esc(a)}</li>`).join("")}</ul>
         <div class="panel-foot"><a href="#brief">The whole brief</a> · ${link(b.url, "Agenda and packet")}</div></article>`; }
@@ -573,8 +573,9 @@ const daysTo = (iso) => { const now = new Date(); now.setHours(12, 0, 0, 0); ret
 function area(svg) {
   const t = document.createElement("template"); t.innerHTML = svg.trim();
   const s = t.content.firstElementChild; if (!s || s.localName !== "svg") return "";
-  const d = s.dataset, other = d.towns - d.cc - d.bb, key = (c, text) => `<span class="key" style="--c:${c}">${text}</span>`;
-  return `<figure class="area">${s.outerHTML}<figcaption>${[+d.cc && key("var(--teal)", `Posts agendas on CivicClerk (${d.cc})`), +d.bb && key("#8dbdb5", `On BoardBook (${d.bb})`),
+  const d = s.dataset, lg = +d.lg || 0, pg = +d.pg || 0, other = d.towns - d.cc - lg - pg - d.bb, key = (c, text) => `<span class="key" style="--c:${c}">${text}</span>`;
+  return `<figure class="area">${s.outerHTML}<figcaption>${[+d.cc && key("var(--teal)", `Posts agendas on CivicClerk (${d.cc})`),
+    lg && key("var(--teal)", `On Legistar (${lg})`), pg && key("var(--teal)", `On PrimeGov (${pg})`), +d.bb && key("#8dbdb5", `On BoardBook (${d.bb})`),
     other > 0 && key("#e8e2d4", `Other local governments (${other})`), `<span class="key reach">${esc(d.miles)} miles from ${esc(d.center)}</span>`].filter(Boolean).join("")}</figcaption></figure>`;
 }
 // "Email Rowan" opens a message about the tool and newsroom the pitch named.
@@ -593,7 +594,7 @@ const TOOLS = {
   gavel: { name: "Gavel", re: "Gavel for the boards you cover", price: "$50-$150", per: "a month per municipality" },
   revenue: { name: "Revenue Desk", re: "Revenue Desk for your ad sales", price: "$100-$150", per: "a month" },
   election: { name: "Election Live", re: "Election Live for your county", price: "$250", per: "per election night per county, setup included" },
-  data: { name: "Data tools", re: "A tracker built on the records you cover", price: "Quoted", per: "per project" },
+  data: { name: "Data tools", what: "a tracker", re: "A tracker built on the records you cover", price: "Quoted", per: "per project" },
 };
 // The directory's revenue labels, said the way a publisher would.
 const SELLS = { "Local advertising sold by own team": "local ads your own team sells", "Advertising": "advertising",
@@ -602,12 +603,16 @@ const SELLS = { "Local advertising sold by own team": "local ads your own team s
   "Event ticket sales": "event tickets", "Programmatic ad networks": "programmatic ads" };
 function rowsFor(t, n) {
   if (t === "gavel") {
-    const portals = [n.civicclerk.length && ["Near you on CivicClerk", esc(list(n.civicclerk))], n.boardbook.length && ["Near you on BoardBook", esc(list(n.boardbook))]].filter(Boolean);
+    const lg = n.legistar || [], pg = n.primegov || [];
+    const portals = [n.civicclerk.length && ["Near you on CivicClerk", esc(list(n.civicclerk))], lg.length && ["Near you on Legistar", esc(list(lg))],
+      pg.length && ["Near you on PrimeGov", esc(list(pg))],
+      n.boardbook.length && ["Near you on BoardBook", esc(list(n.boardbook))]].filter(Boolean);
     // The past month on the portal Gavel would watch first, from the weekly count (its own town, else its busiest neighbor).
-    const b = n.busy, busy = b && ["The past month nearby", `${esc(poss(b.town))} boards posted agendas${b.packets * 2 >= b.meetings ? " and packets" : ""} for ${apNum(b.meetings)} ${b.meetings === 1 ? "meeting" : "meetings"}${b.latest ? `, including the ${esc(b.latest.name)} on ${apDate(b.latest.date)}` : ""}.`];
+    const home = (t) => (t || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/\bsaint\b/g, "st").replace(/[^a-z0-9]/g, "");
+    const b = n.busy, busy = b && [home(b.town) === home((n.where || "").split(",")[0]) ? "The past month" : "The past month nearby", `${esc(poss(b.town))} boards posted agendas${b.packets * 2 >= b.meetings ? " and packets" : ""} for ${apNum(b.meetings)} ${b.meetings === 1 ? "meeting" : "meetings"}${b.latest ? `, including the ${esc(b.latest.name)} on ${apDate(b.latest.date)}` : ""}.`];
     return [busy, ...portals, n.towns && ["Local governments in reach", n.towns === 1 ? "One city, village or township" : `About ${n.towns} cities, villages and townships`],
-      ["How it would start", b ? `${esc(b.town)} posts its meetings on CivicClerk, which Gavel already reads, so we'd start there and with the boards you cover, then add the rest.`
-        : portals.length ? `Gavel already reads ${list([n.civicclerk.length && "CivicClerk", n.boardbook.length && "BoardBook"].filter(Boolean))}, so we'd start with the boards you cover there, then add the rest.`
+      ["How it would start", b ? `${esc(b.town)} posts its meetings on ${esc(b.vendor || "CivicClerk")}, which Gavel already reads, so we'd start there and with the boards you cover, then add the rest.`
+        : portals.length ? `Gavel already reads ${list([n.civicclerk.length && "CivicClerk", lg.length && "Legistar", pg.length && "PrimeGov", n.boardbook.length && "BoardBook"].filter(Boolean))}, so we'd start with the boards you cover there, then add the rest.`
         : "You tell us which boards you cover, and we connect Gavel to where they post agendas and meeting video."]];
   }
   if (t === "revenue") {
@@ -630,7 +635,7 @@ function coalitionRows(g) {
   return [g.studied && ["Newsrooms we've studied", `We've studied ${apNum(g.studied)} independent local ${g.studied === 1 ? "newsroom" : "newsrooms"} ${/^within/.test(g.area) ? esc(g.area) : "in " + esc(g.area)}.`],
     g.funded && (g.kind === "collaborative" ? ["Your members", `Among them ${g.funded === 1 ? "is one" : "are " + apNum(g.funded)} of your members.`]
       : ["Ones you've funded", `Among them ${g.funded === 1 ? "is one" : "are " + apNum(g.funded)} of your grantees.`]),
-    g.portals && ["Meeting portals", `Of those, ${apNum(g.portals)} cover towns whose boards post agendas on CivicClerk or BoardBook, which Gavel reads today.`],
+    g.portals && ["Meeting portals", `Of those, ${apNum(g.portals)} cover towns whose boards post agendas on CivicClerk, Legistar, PrimeGov or BoardBook, which Gavel reads today.`],
     busy.length && ["The past month", `Boards posted agendas for ${list(busy)}.`],
     g.election && ["Next election", `${esc(poss(g.election.state))} ${apDate(g.election.date)} ${esc(g.election.name)}.`],
     ["How it would start", "You pick two or three newsrooms. We set up Gavel on the boards each one covers and Election Live for its county, and run both. More can join under the same agreement."],
@@ -658,11 +663,11 @@ if (id && (TOOLS[tool] || tool === "coalition")) Promise.all([fetch("for.json").
   } else {
     const T = TOOLS[tool], q = qs.filter((x) => x.product === tool).slice(-1)[0], fig = svg ? area(svg) : "";
     memo.innerHTML = `<dl class="memo-head"><dt>To</dt><dd><b>${esc(n.name)}</b>, ${esc(n.where)}</dd><dt>From</dt><dd>Wausau Pilot &amp; Review, Wausau, Wisconsin</dd><dt>Re</dt><dd>${T.re}</dd></dl>
-      <h2 id="memo-h">What ${T.name} would look like for you</h2>
+      <h2 id="memo-h">What ${T.what || T.name} would look like for you</h2>
       <div class="memo-body${fig ? " has-map" : ""}"><dl class="facts">${[...rowsFor(tool, n), q && ["What an editor said", quoteHtml(q)]].filter(Boolean).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>${fig}</div>
       ${b ? `<section class="brief-full" id="brief" aria-labelledby="brief-h"><h3 id="brief-h">Gavel's brief: ${esc(b.town)} ${esc(b.board)}, ${apDate(b.date)}</h3>
         <p>${esc(b.overview)}</p><h4>${whatHappened(b)}</h4><ul>${b.actions.map((a) => `<li>${esc(a)}</li>`).join("")}</ul>
-        <p class="src">Gavel wrote this from ${link(b.url, "the agenda and packet")}${b.voted ? " and CivicClerk's vote records" : ", before the votes were posted"}. Set up for the boards you cover, it does the same for each of their meetings.</p></section>` : ""}
+        <p class="src">Gavel wrote this from ${link(b.url, "the agenda and packet")}${b.voted ? ` and ${esc(b.vendor || "CivicClerk")}'s vote records` : b.vendor === "PrimeGov" ? "" : ", before the votes were posted"}. Set up for the boards you cover, it does the same for each of their meetings.</p></section>` : ""}
       <div class="end"><div class="price"><b>${T.price}</b><span>${T.per}</span></div><p>Reply to the email this link came in, and we'll set it up for you. <a href="#${tool}">More about ${T.name}</a></p></div>`;
     // Election Live counts the days to this newsroom's election, on the results page in the first screen.
     const e = tool === "election" && n.election_next, d = e && daysTo(e.date);
