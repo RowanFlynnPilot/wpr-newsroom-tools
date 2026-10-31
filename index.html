@@ -165,6 +165,14 @@ p, li, figcaption { text-wrap: pretty }
 .price { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin-top: 10px }
 .price b { font-family: var(--serif); font-weight: 600; font-size: 30px; line-height: 1; font-variant-numeric: lining-nums }
 .price span { font-size: 14px; color: var(--muted) }
+/* A tool's named packages, one per row: the price, its name, what it covers */
+.plans { margin: 12px 0 0; padding: 0; list-style: none; display: grid; max-width: 60ch }
+.plans li { display: grid; grid-template-columns: 5.2em minmax(0, 1fr); gap: 2px 14px; align-items: baseline; padding: 8px 0; border-top: 1px solid var(--rule) }
+.plans li:last-child { border-bottom: 1px solid var(--rule) }
+.plans b { font-family: var(--serif); font-weight: 600; font-size: 24px; line-height: 1; font-variant-numeric: lining-nums tabular-nums }
+.plans b small { display: block; margin-top: 4px; font-family: var(--sans); font-weight: 500; font-size: 12px; color: var(--muted) }
+.plans span { font-size: 14px; color: var(--muted) }
+.plans span b { font-family: var(--sans); font-size: 14px; color: var(--ink); font-weight: 600 }
 
 /* Samples of what each tool produces */
 .sample { margin: 0; background: var(--wash-deep); padding: 28px 30px; display: grid; gap: 10px; align-content: center }
@@ -328,10 +336,14 @@ p, li, figcaption { text-wrap: pretty }
 
   <section class="rates" aria-labelledby="rates-h">
     <div class="rates-head"><h2 id="rates-h">Rate card</h2><p>What each tool costs a local newsroom</p></div>
-    <a class="rate" href="#gavel"><b>Gavel</b><span>Meeting watch for the boards you cover</span><span class="amt">$50-$150<small>a month per municipality</small></span></a>
-    <a class="rate" href="#revenue"><b>Revenue Desk</b><span>Ad leads and a sales system</span><span class="amt">$100-$150<small>a month</small></span></a>
-    <a class="rate" href="#election"><b>Election Live</b><span>Live results on election night</span><span class="amt">$250<small>per night per county</small></span></a>
-    <a class="rate" href="#data"><b>Data tools</b><span>Trackers built on public records</span><span class="amt soft">Quoted per project</span></a>
+    <a class="rate" href="#gavel"><b>Gavel: one board</b><span>The council or the school board, item by item, with the votes where the portal posts them</span><span class="amt">$75<small>a month</small></span></a>
+    <a class="rate" href="#gavel"><b>Gavel: the beat</b><span>Every board in one city: council, plan commission, schools, utilities</span><span class="amt">$150<small>a month</small></span></a>
+    <a class="rate" href="#gavel"><b>Gavel: the county</b><span>Every municipality and district in your area that Gavel can read, up to eight</span><span class="amt">$350<small>a month</small></span></a>
+    <a class="rate" href="#revenue"><b>Revenue Desk</b><span>Ad leads and a sales system. One new advertiser in 90 days, or the next 90 are free</span><span class="amt">$125<small>a month</small></span></a>
+    <a class="rate" href="#election"><b>Election Live</b><span>Set up for your county, first election night included, then each night after</span><span class="amt">$400<small>then $250 a night</small></span></a>
+    <a class="rate" href="#election"><b>Election Live, all 2027</b><span>Every 2027 election night in your county, setup included</span><span class="amt">$750<small>per county</small></span></a>
+    <a class="rate" href="#data"><b>Data tools</b><span>A state edition of one of our ledgers, or a tracker built on your records</span><span class="amt">From $2,000<small>plus $50 a month to keep it current</small></span></a>
+    <a class="rate" href="#jobs"><b>Jobs board</b><span>Paid job postings on your site, each one reviewed by you</span><span class="amt soft">Coming soon</span></a>
     <a class="rate" href="#contest"><b>Contest engine</b><span>Reader contests with sponsors</span><span class="amt soft">Coming soon</span></a>
     <p class="rates-note">Supporting several newsrooms? <a href="#coalition">One agreement can cover a group of them.</a></p>
   </section>
@@ -339,7 +351,7 @@ p, li, figcaption { text-wrap: pretty }
 
 <div class="bar">
   <div class="wrap">
-    <nav aria-label="Tools"><a href="#gavel">Gavel</a><a href="#revenue">Revenue Desk</a><a href="#election">Election Live</a><a href="#data">Data tools</a><a class="soon" href="#contest">Contest engine</a><a href="#built">Built at WP&amp;R</a></nav>
+    <nav aria-label="Tools"><a href="#gavel">Gavel</a><a href="#revenue">Revenue Desk</a><a href="#election">Election Live</a><a href="#data">Data tools</a><a class="soon" href="#jobs">Jobs board</a><a class="soon" href="#contest">Contest engine</a><a href="#built">Built at WP&amp;R</a></nav>
   </div>
 </div>
 
@@ -351,12 +363,16 @@ p, li, figcaption { text-wrap: pretty }
       <p class="what">Keeps watch on local government meetings so your reporters don't have to sit through all of them.</p>
       <p class="runs">Grew out of the meeting tracker WP&amp;R uses to cover Marathon County government</p>
       <ul>
-        <li>Pulls agendas, minutes and packets from the meeting portals cities and counties already use, such as CivicClerk, Legistar, PrimeGov and BoardBook.</li>
+        <li>Pulls agendas, minutes and packets from the meeting portals cities and counties already use, such as CivicClerk, Legistar, PrimeGov, CivicPlus AgendaCenter and BoardBook.</li>
         <li>Transcribes meeting video posted to YouTube.</li>
         <li>Summarizes each meeting item by item, with the votes where the portal records them, so you can decide what to cover and what to skip.</li>
       </ul>
       <p class="how">We set it up for the boards you cover and run it for you. There's nothing to install.</p>
-      <div class="price"><b>$50-$150</b><span>a month per municipality</span></div>
+      <ul class="plans">
+        <li><b>$75<small>a month</small></b><span><b>One board.</b> The council or the school board, item by item, with the votes where the portal posts them.</span></li>
+        <li><b>$150<small>a month</small></b><span><b>The beat.</b> Every board in one city, from the council to the plan commission, schools and utilities.</span></li>
+        <li><b>$350<small>a month</small></b><span><b>The county.</b> Every municipality and district in your area that Gavel can read, up to eight.</span></li>
+      </ul>
     </div>
     <figure class="sample">
       <a class="shot" href="https://rowanflynnpilot.github.io/marathon-meetings/" target="_blank" rel="noopener" aria-label="WP&amp;R&#x27;s Central Wisconsin Meeting Tracker: recent meetings by board, with a summary of each agenda, open the live page"><span class="chrome">rowanflynnpilot.github.io/marathon-meetings</span><img src="shots/meetings.webp" width="960" height="600" srcset="shots/meetings.webp 960w, shots/meetings-1600.webp 1600w" sizes="(max-width: 860px) calc(100vw - 94px), 534px" alt="WP&amp;R&#x27;s Central Wisconsin Meeting Tracker: recent meetings by board, with a summary of each agenda" loading="lazy" decoding="async"></a>
@@ -376,7 +392,7 @@ p, li, figcaption { text-wrap: pretty }
         <li>Selling guides by category (banks, law firms, auto dealers, home services) with pitch mock-ups of real ads on your pages.</li>
         <li>A results report for each sponsor after a run, for renewals.</li>
       </ul>
-      <div class="price"><b>$100-$150</b><span>a month</span></div>
+      <div class="price"><b>$125</b><span>a month. If your first 90 days don't bring at least one new advertiser, a business that hasn't bought from you in the past year, the next 90 are free.</span></div>
     </div>
     <figure class="sample">
       <figcaption>A sample Ad Watch list, for illustration</figcaption>
@@ -407,7 +423,7 @@ p, li, figcaption { text-wrap: pretty }
         <li>Embeds on your site with one block and resizes itself as results come in.</li>
       </ul>
       <p class="how">We set it up for your county and run it on election night. <a href="https://rowanflynnpilot.github.io/wpr-election-results/demo.html" target="_blank" rel="noopener">Try the demo with sample results</a>.</p>
-      <div class="price"><b>$250</b><span>per election night per county. Setup included. We're taking a few newsrooms for spring 2027.</span></div>
+      <div class="price"><b>$400</b><span>to set up your county, first election night included, then $250 a night. Or $750 for every 2027 election night. We're taking a few newsrooms for spring 2027.</span></div>
     </div>
     <figure class="sample">
       <a class="shot" href="https://rowanflynnpilot.github.io/wpr-election-results/demo.html" target="_blank" rel="noopener" aria-label="Election Live&#x27;s results page, replaying WP&amp;R&#x27;s August 2024 primary results as a demo, open the live page"><span class="chrome">rowanflynnpilot.github.io/wpr-election-results/demo.html</span><video class="tour" src="shots/election-tour.mp4" poster="shots/election-tour.webp" width="960" height="600" muted loop playsinline preload="none" aria-hidden="true"></video></a>
@@ -422,7 +438,7 @@ p, li, figcaption { text-wrap: pretty }
       <p class="what">Trackers and archives built on public records, for the beats you want to own.</p>
       <p class="runs">Built for WP&amp;R's coverage of Wisconsin and Marathon County</p>
       <p class="how">Four of WP&amp;R's ledgers are shown here, each live and updated from public records. If you have a record set you've wanted to turn into a tracker, we can build it for your coverage area.</p>
-      <div class="price"><b>Quoted</b><span>per project</span></div>
+      <div class="price"><b>From $2,000</b><span>for a state edition of one of our ledgers, plus $50 a month to keep it current. Other trackers quoted per project.</span></div>
     </div>
     <figure class="sample">
       <div class="ledgers">
@@ -437,6 +453,11 @@ p, li, figcaption { text-wrap: pretty }
   <section class="soon-note" id="contest" aria-labelledby="contest-h">
     <h2 id="contest-h">Contest engine</h2>
     <p>Readers' choice ballots and reader photo contests that sponsors pay for, built for WP&amp;R's own reader contests. WP&amp;R's first contest on it, a pet contest, is planned for November, and we're opening it to a handful of newsrooms for their 2027 seasons, priced per contest.</p>
+  </section>
+
+  <section class="soon-note" id="jobs" aria-labelledby="jobs-h">
+    <h2 id="jobs-h">Jobs board</h2>
+    <p>A paid local job board, built for WP&amp;R's own site as Now Hiring in Marathon County. An employer posts a job for 30 days through a checkout page (WP&amp;R charges $75, or $150 to be featured at the top), the newsroom reviews each posting before it goes live, and the board embeds on your site with one block. WP&amp;R's board isn't open to employers yet. Once it is, we'll set it up for other newsrooms at $75 a month, with the posting revenue staying with you.</p>
   </section>
 
   <section class="soon-note" id="coalition" aria-labelledby="coalition-h">
@@ -558,7 +579,7 @@ const whatHappened = (b) => b.voted ? "What happened" : "On the agenda";
 if (tool === "gavel" && id) { hero.style.visibility = "hidden";
   brief.then((b) => {
     if (b) { hero.classList.add("is-panel", "is-brief");
-      hero.innerHTML = `<p class="cap">Gavel's brief of a meeting near you, from ${b.voted ? "the posted agenda and vote records" : b.vendor === "PrimeGov" ? "the posted agenda" : "the posted agenda, before the votes were posted"}</p>
+      hero.innerHTML = `<p class="cap">Gavel's brief of a meeting near you, from ${b.voted ? "the posted agenda and vote records" : ["PrimeGov", "AgendaCenter"].includes(b.vendor) ? "the posted agenda" : "the posted agenda, before the votes were posted"}</p>
         <article class="panel brief-card"><div class="panel-head"><b>${esc(b.town)} ${esc(b.board)}</b><span>${apDate(b.date)}</span></div>
         <p class="ov">${esc(b.overview)}</p><p class="k">${whatHappened(b)}</p><ul>${b.actions.slice(0, 2).map((a) => `<li>${esc(a)}</li>`).join("")}</ul>
         <div class="panel-foot"><a href="#brief">The whole brief</a> · ${link(b.url, "Agenda and packet")}</div></article>`; }
@@ -591,10 +612,11 @@ const tour = document.querySelector("video.tour");
 if (tour && "IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches)
   new IntersectionObserver(([e]) => { if (e.isIntersecting) tour.play().catch(() => {}); else tour.pause(); }, { threshold: 0.4 }).observe(tour);
 const TOOLS = {
-  gavel: { name: "Gavel", re: "Gavel for the boards you cover", price: "$50-$150", per: "a month per municipality" },
-  revenue: { name: "Revenue Desk", re: "Revenue Desk for your ad sales", price: "$100-$150", per: "a month" },
-  election: { name: "Election Live", re: "Election Live for your county", price: "$250", per: "per election night per county, setup included" },
-  data: { name: "Data tools", what: "a tracker", re: "A tracker built on the records you cover", price: "Quoted", per: "per project" },
+  gavel: { name: "Gavel", re: "Gavel for the boards you cover", price: "$75", per: "a month for one board; $150 for every board in one city, $350 for the county" },
+  revenue: { name: "Revenue Desk", re: "Revenue Desk for your ad sales", price: "$125", per: "a month. One new advertiser in your first 90 days (a business that hasn't bought from you in the past year), or the next 90 are free" },
+  election: { name: "Election Live", re: "Election Live for your county", price: "$400", per: "to set up your county, first election night included, then $250 a night; or $750 for every 2027 election night" },
+  data: { name: "Data tools", what: "a tracker", re: "A tracker built on the records you cover", price: "From $2,000", per: "for a state edition of one of our ledgers, plus $50 a month to keep it current; other trackers quoted" },
+  jobs: { name: "Jobs board", re: "A paid job board for your site", price: "$75", per: "a month, once WP&R's own board is open to employers; what employers pay for postings is yours" },
 };
 // The directory's revenue labels, said the way a publisher would.
 const SELLS = { "Local advertising sold by own team": "local ads your own team sells", "Advertising": "advertising",
@@ -603,16 +625,16 @@ const SELLS = { "Local advertising sold by own team": "local ads your own team s
   "Event ticket sales": "event tickets", "Programmatic ad networks": "programmatic ads" };
 function rowsFor(t, n) {
   if (t === "gavel") {
-    const lg = n.legistar || [], pg = n.primegov || [];
+    const lg = n.legistar || [], pg = n.primegov || [], ac = n.agendacenter || [];
     const portals = [n.civicclerk.length && ["Near you on CivicClerk", esc(list(n.civicclerk))], lg.length && ["Near you on Legistar", esc(list(lg))],
-      pg.length && ["Near you on PrimeGov", esc(list(pg))],
+      pg.length && ["Near you on PrimeGov", esc(list(pg))], ac.length && ["On CivicPlus AgendaCenter", esc(list(ac))],
       n.boardbook.length && ["Near you on BoardBook", esc(list(n.boardbook))]].filter(Boolean);
     // The past month on the portal Gavel would watch first, from the weekly count (its own town, else its busiest neighbor).
     const home = (t) => (t || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/\bsaint\b/g, "st").replace(/[^a-z0-9]/g, "");
     const b = n.busy, busy = b && [home(b.town) === home((n.where || "").split(",")[0]) ? "The past month" : "The past month nearby", `${esc(poss(b.town))} boards posted agendas${b.packets * 2 >= b.meetings ? " and packets" : ""} for ${apNum(b.meetings)} ${b.meetings === 1 ? "meeting" : "meetings"}${b.latest ? `, including the ${esc(b.latest.name)} on ${apDate(b.latest.date)}` : ""}.`];
     return [busy, ...portals, n.towns && ["Local governments in reach", n.towns === 1 ? "One city, village or township" : `About ${n.towns} cities, villages and townships`],
       ["How it would start", b ? `${esc(b.town)} posts its meetings on ${esc(b.vendor || "CivicClerk")}, which Gavel already reads, so we'd start there and with the boards you cover, then add the rest.`
-        : portals.length ? `Gavel already reads ${list([n.civicclerk.length && "CivicClerk", lg.length && "Legistar", pg.length && "PrimeGov", n.boardbook.length && "BoardBook"].filter(Boolean))}, so we'd start with the boards you cover there, then add the rest.`
+        : portals.length ? `Gavel already reads ${list([n.civicclerk.length && "CivicClerk", lg.length && "Legistar", pg.length && "PrimeGov", ac.length && "AgendaCenter", n.boardbook.length && "BoardBook"].filter(Boolean))}, so we'd start with the boards you cover there, then add the rest.`
         : "You tell us which boards you cover, and we connect Gavel to where they post agendas and meeting video."]];
   }
   if (t === "revenue") {
@@ -620,6 +642,12 @@ function rowsFor(t, n) {
     if (sells.includes("local ads your own team sells")) sells = sells.filter((x) => x !== "advertising");
     return [sells.length && ["You already sell", esc(list(sells))], n.advertise && ["Your advertise page", link(n.advertise, n.advertise.replace(/^https?:\/\/(www\.)?/, ""))],
       ["How it would start", "We set up Ad Watch on the radio stations in your market, so each week you get a list of local businesses already paying to advertise, ready to work in Sales Desk."]];
+  }
+  if (t === "jobs") {
+    let sells = [...new Set(n.sells.map((r) => SELLS[r] || r.toLowerCase()))];
+    if (sells.includes("local ads your own team sells")) sells = sells.filter((x) => x !== "advertising");
+    return [sells.length && ["You already sell", esc(list(sells))], n.jobs && ["Your jobs page", link(n.jobs, n.jobs.replace(/^https?:\/\/(www\.)?/, ""))],
+      ["How it would start", "We set the board up under your name, with its posting form and checkout paying into your own account, and each posting waits for your OK before it's published."]];
   }
   if (t === "election") return [["Your coverage area", esc(n.area || n.where)],
     ["How it would start", "We look at how your county posts its results on election night, then set up the page for your races and run it that night."],
@@ -635,7 +663,7 @@ function coalitionRows(g) {
   return [g.studied && ["Newsrooms we've studied", `We've studied ${apNum(g.studied)} independent local ${g.studied === 1 ? "newsroom" : "newsrooms"} ${/^within/.test(g.area) ? esc(g.area) : "in " + esc(g.area)}.`],
     g.funded && (g.kind === "collaborative" ? ["Your members", `Among them ${g.funded === 1 ? "is one" : "are " + apNum(g.funded)} of your members.`]
       : ["Ones you've funded", `Among them ${g.funded === 1 ? "is one" : "are " + apNum(g.funded)} of your grantees.`]),
-    g.portals && ["Meeting portals", `Of those, ${apNum(g.portals)} cover towns whose boards post agendas on CivicClerk, Legistar, PrimeGov or BoardBook, which Gavel reads today.`],
+    g.portals && ["Meeting portals", `Of those, ${apNum(g.portals)} cover towns whose boards post agendas on CivicClerk, Legistar, PrimeGov, AgendaCenter or BoardBook, which Gavel reads today.`],
     busy.length && ["The past month", `Boards posted agendas for ${list(busy)}.`],
     g.election && ["Next election", `${esc(poss(g.election.state))} ${apDate(g.election.date)} ${esc(g.election.name)}.`],
     ["How it would start", "You pick two or three newsrooms. We set up Gavel on the boards each one covers and Election Live for its county, and run both. More can join under the same agreement."],
@@ -659,7 +687,7 @@ if (id && (TOOLS[tool] || tool === "coalition")) Promise.all([fetch("for.json").
     memo.innerHTML = `<dl class="memo-head"><dt>To</dt><dd><b>${esc(n.name)}</b></dd><dt>From</dt><dd>Wausau Pilot &amp; Review, Wausau, Wisconsin</dd><dt>Re</dt><dd>Gavel and Election Live for the newsrooms you support</dd></dl>
       <h2 id="memo-h">What it would look like for your newsrooms</h2>
       <dl class="facts">${coalitionRows(n).filter(Boolean).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>
-      <div class="end"><div class="price"><b>Per newsroom</b><span>Gavel $50-$150 a month per municipality. Election Live $250 per election night per county.</span></div><p>Reply to the email this link came in, and we'll set up a call. <a href="#gavel">More about Gavel</a> · <a href="#election">Election Live</a></p></div>`;
+      <div class="end"><div class="price"><b>Per newsroom</b><span>Gavel $75 a month for one board, $150 for every board in a city, $350 for a county. Election Live $400 to set up a county with the first election night included, then $250 a night, or $750 for all of 2027.</span></div><p>Reply to the email this link came in, and we'll set up a call. <a href="#gavel">More about Gavel</a> · <a href="#election">Election Live</a></p></div>`;
   } else {
     const T = TOOLS[tool], q = qs.filter((x) => x.product === tool).slice(-1)[0], fig = svg ? area(svg) : "";
     memo.innerHTML = `<dl class="memo-head"><dt>To</dt><dd><b>${esc(n.name)}</b>, ${esc(n.where)}</dd><dt>From</dt><dd>Wausau Pilot &amp; Review, Wausau, Wisconsin</dd><dt>Re</dt><dd>${T.re}</dd></dl>
@@ -667,7 +695,7 @@ if (id && (TOOLS[tool] || tool === "coalition")) Promise.all([fetch("for.json").
       <div class="memo-body${fig ? " has-map" : ""}"><dl class="facts">${[...rowsFor(tool, n), q && ["What an editor said", quoteHtml(q)]].filter(Boolean).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>${fig}</div>
       ${b ? `<section class="brief-full" id="brief" aria-labelledby="brief-h"><h3 id="brief-h">Gavel's brief: ${esc(b.town)} ${esc(b.board)}, ${apDate(b.date)}</h3>
         <p>${esc(b.overview)}</p><h4>${whatHappened(b)}</h4><ul>${b.actions.map((a) => `<li>${esc(a)}</li>`).join("")}</ul>
-        <p class="src">Gavel wrote this from ${link(b.url, "the agenda and packet")}${b.voted ? ` and ${esc(b.vendor || "CivicClerk")}'s vote records` : b.vendor === "PrimeGov" ? "" : ", before the votes were posted"}. Set up for the boards you cover, it does the same for each of their meetings.</p></section>` : ""}
+        <p class="src">Gavel wrote this from ${link(b.url, "the agenda and packet")}${b.voted ? ` and ${esc(b.vendor || "CivicClerk")}'s vote records` : ["PrimeGov", "AgendaCenter"].includes(b.vendor) ? "" : ", before the votes were posted"}. Set up for the boards you cover, it does the same for each of their meetings.</p></section>` : ""}
       <div class="end"><div class="price"><b>${T.price}</b><span>${T.per}</span></div><p>Reply to the email this link came in, and we'll set it up for you. <a href="#${tool}">More about ${T.name}</a></p></div>`;
     // Election Live counts the days to this newsroom's election, on the results page in the first screen.
     const e = tool === "election" && n.election_next, d = e && daysTo(e.date);
