@@ -336,9 +336,9 @@ p, li, figcaption { text-wrap: pretty }
 
   <section class="rates" aria-labelledby="rates-h">
     <div class="rates-head"><h2 id="rates-h">Rate card</h2><p>What each tool costs a local newsroom</p></div>
-    <a class="rate" href="#gavel"><b>Gavel: one board</b><span>The council or the school board, item by item, with the votes where the portal posts them</span><span class="amt">$75<small>a month</small></span></a>
-    <a class="rate" href="#gavel"><b>Gavel: the beat</b><span>Every board in one city: council, plan commission, schools, utilities</span><span class="amt">$150<small>a month</small></span></a>
-    <a class="rate" href="#gavel"><b>Gavel: the county</b><span>Every municipality and district in your area that Gavel can read, up to eight</span><span class="amt">$350<small>a month</small></span></a>
+    <a class="rate" href="#gavel"><b>Gavel: three boards</b><span>Any three you cover, such as the council, school board and plan commission, item by item</span><span class="amt">$59<small>a month</small></span></a>
+    <a class="rate" href="#gavel"><b>Gavel: eight boards</b><span>Up to eight boards across your coverage area, in one city or several</span><span class="amt">$129<small>a month</small></span></a>
+    <a class="rate" href="#gavel"><b>Gavel: the county</b><span>Every municipality and district in your area that Gavel can read, up to 20 boards</span><span class="amt">$249<small>a month</small></span></a>
     <a class="rate" href="#revenue"><b>Revenue Desk</b><span>Ad leads and a sales system. One new advertiser in 90 days, or the next 90 are free</span><span class="amt">$125<small>a month</small></span></a>
     <a class="rate" href="#election"><b>Election Live</b><span>Set up for your county, first election night included, then each night after</span><span class="amt">$400<small>then $250 a night</small></span></a>
     <a class="rate" href="#election"><b>Election Live, all 2027</b><span>Every 2027 election night in your county, setup included</span><span class="amt">$750<small>per county</small></span></a>
@@ -369,9 +369,9 @@ p, li, figcaption { text-wrap: pretty }
       </ul>
       <p class="how">We set it up for the boards you cover and run it for you. There's nothing to install.</p>
       <ul class="plans">
-        <li><b>$75<small>a month</small></b><span><b>One board.</b> The council or the school board, item by item, with the votes where the portal posts them.</span></li>
-        <li><b>$150<small>a month</small></b><span><b>The beat.</b> Every board in one city, from the council to the plan commission, schools and utilities.</span></li>
-        <li><b>$350<small>a month</small></b><span><b>The county.</b> Every municipality and district in your area that Gavel can read, up to eight.</span></li>
+        <li><b>$59<small>a month</small></b><span><b>Three boards.</b> Any three you cover, such as the council, the school board and the plan commission, item by item, with the votes where the portal posts them.</span></li>
+        <li><b>$129<small>a month</small></b><span><b>Eight boards.</b> Up to eight across your coverage area, in one city or several.</span></li>
+        <li><b>$249<small>a month</small></b><span><b>The county.</b> Every municipality and district in your area that Gavel can read, up to 20 boards.</span></li>
       </ul>
     </div>
     <figure class="sample">
@@ -612,7 +612,7 @@ const tour = document.querySelector("video.tour");
 if (tour && "IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches)
   new IntersectionObserver(([e]) => { if (e.isIntersecting) tour.play().catch(() => {}); else tour.pause(); }, { threshold: 0.4 }).observe(tour);
 const TOOLS = {
-  gavel: { name: "Gavel", re: "Gavel for the boards you cover", price: "$75", per: "a month for one board; $150 for every board in one city, $350 for the county" },
+  gavel: { name: "Gavel", re: "Gavel for the boards you cover", price: "$59", per: "a month for three boards; $129 for eight, $249 for the county" },
   revenue: { name: "Revenue Desk", re: "Revenue Desk for your ad sales", price: "$125", per: "a month. One new advertiser in your first 90 days (a business that hasn't bought from you in the past year), or the next 90 are free" },
   election: { name: "Election Live", re: "Election Live for your county", price: "$400", per: "to set up your county, first election night included, then $250 a night; or $750 for every 2027 election night" },
   data: { name: "Data tools", what: "a tracker", re: "A tracker built on the records you cover", price: "From $2,000", per: "for a state edition of one of our ledgers, plus $50 a month to keep it current; other trackers quoted" },
@@ -687,7 +687,7 @@ if (id && (TOOLS[tool] || tool === "coalition")) Promise.all([fetch("for.json").
     memo.innerHTML = `<dl class="memo-head"><dt>To</dt><dd><b>${esc(n.name)}</b></dd><dt>From</dt><dd>Wausau Pilot &amp; Review, Wausau, Wisconsin</dd><dt>Re</dt><dd>Gavel and Election Live for the newsrooms you support</dd></dl>
       <h2 id="memo-h">What it would look like for your newsrooms</h2>
       <dl class="facts">${coalitionRows(n).filter(Boolean).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>
-      <div class="end"><div class="price"><b>Per newsroom</b><span>Gavel $75 a month for one board, $150 for every board in a city, $350 for a county. Election Live $400 to set up a county with the first election night included, then $250 a night, or $750 for all of 2027.</span></div><p>Reply to the email this link came in, and we'll set up a call. <a href="#gavel">More about Gavel</a> · <a href="#election">Election Live</a></p></div>`;
+      <div class="end"><div class="price"><b>Per newsroom</b><span>Gavel $59 a month for three boards, $129 for eight, $249 for a county. Election Live $400 to set up a county with the first election night included, then $250 a night, or $750 for all of 2027.</span></div><p>Reply to the email this link came in, and we'll set up a call. <a href="#gavel">More about Gavel</a> · <a href="#election">Election Live</a></p></div>`;
   } else {
     const T = TOOLS[tool], q = qs.filter((x) => x.product === tool).slice(-1)[0], fig = svg ? area(svg) : "";
     memo.innerHTML = `<dl class="memo-head"><dt>To</dt><dd><b>${esc(n.name)}</b>, ${esc(n.where)}</dd><dt>From</dt><dd>Wausau Pilot &amp; Review, Wausau, Wisconsin</dd><dt>Re</dt><dd>${T.re}</dd></dl>
