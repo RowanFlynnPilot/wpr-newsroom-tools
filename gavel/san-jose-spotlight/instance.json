@@ -1,0 +1,65 @@
+{
+  "instance": {
+    "name": "San Jose Meetings",
+    "newsroom": "San Jose Spotlight",
+    "newsroom_url": "https://sanjosespotlight.com/",
+    "region": "San Jose, California",
+    "timezone": "America/Los_Angeles",
+    "max_meetings": 50,
+    "date_cutoff": "",
+    "skip_ids": [],
+    "tracker_page_url": "https://rowanflynnpilot.github.io/wpr-newsroom-tools/gavel/san-jose-spotlight/",
+    "tagline": "A SAMPLE PAGE SET UP BY WAUSAU PILOT & REVIEW"
+  },
+  "seo": {
+    "pages_base_url": "https://rowanflynnpilot.github.io/wpr-newsroom-tools/gavel/san-jose-spotlight/",
+    "noindex": true
+  },
+  "theme": {
+    "primary": "#b98a10",
+    "primary_dark": "#906b0d",
+    "background": "#FAF8F3",
+    "ink": "#1A1209",
+    "divider": "#E3DED3",
+    "font_display": "Bebas Neue",
+    "font_headline": "Playfair Display",
+    "font_body": "Lora",
+    "font_data": "monospace",
+    "logo": "assets/logo.webp"
+  },
+  "jurisdictions": [
+    {
+      "key": "sanjose",
+      "name": "San Jose",
+      "short": "SAN JOSE",
+      "accent": "#b98a10",
+      "doc_host": "sanjose.legistar.com",
+      "avatar": "assets/avatar.png",
+      "calendar_url": "https://sanjose.legistar.com/Calendar.aspx",
+      "video": null,
+      "agendas": {
+        "adapter": "legistar",
+        "client": "sanjose",
+        "days_ahead": 45
+      },
+      "title_strip_patterns": [
+        "^((City|Town|Village) of\\s+)?San\\ Jose\\s+"
+      ],
+      "committee_map": {
+        "san jose city council": "City Council",
+        "san jose town council": "Town Council",
+        "san jose village board": "Village Board",
+        "san jose board of trustees": "Board of Trustees",
+        "san jose city commission": "City Commission",
+        "san jose board of aldermen": "Board of Aldermen",
+        "san jose common council": "Common Council",
+        "san jose board of selectmen": "Board of Selectmen",
+        "san jose select board": "Select Board",
+        "san jose borough council": "Borough Council",
+        "san jose township committee": "Township Committee",
+        "san jose board of supervisors": "Board of Supervisors"
+      }
+    }
+  ],
+  "committee_styles": {}
+}
