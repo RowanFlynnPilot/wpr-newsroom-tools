@@ -105,6 +105,7 @@ p, li, figcaption { text-wrap: pretty }
 .memo .facts dt { font-size: 14px; color: var(--muted); padding-right: 16px }
 .memo .facts dd { min-width: 0; overflow-wrap: anywhere }
 .memo .facts cite { display: block; font-style: normal; font-size: 14px; color: var(--muted) }
+.memo .live { max-width: 70ch; padding: 12px 16px; border-left: 4px solid var(--teal); background: var(--wash); font-style: normal }
 .memo .end { display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: baseline }
 .memo .end .price { border: 0; padding: 0; margin: 0 }
 .memo .end p { color: var(--muted); max-width: 60ch }
@@ -578,6 +579,8 @@ if (tool === "revenue") { hero.classList.add("is-panel");
 // loads, the meeting tracker waits unseen, so the screen doesn't swap in front of the reader.
 const brief = tool === "gavel" && id ? fetch(`briefs/${encodeURIComponent(id)}.json`).then((r) => r.ok ? r.json() : null).catch(() => null) : Promise.resolve(null);
 const whatHappened = (b) => b.voted ? "What happened" : "On the agenda";
+// Where Gavel is already running for the pitch's own town (pipeline/live.py -> gavel/<id>/), the memo links to that page.
+const live = tool === "gavel" && id ? fetch(`gavel/${encodeURIComponent(id)}/instance.json`).then((r) => r.ok ? r.json() : null).catch(() => null) : Promise.resolve(null);
 if (tool === "gavel" && id) { hero.style.visibility = "hidden";
   brief.then((b) => {
     if (b) { hero.classList.add("is-panel", "is-brief");
@@ -679,7 +682,7 @@ const said = fetch("quotes.json").then((r) => r.ok ? r.json() : []).catch(() => 
 said.then((qs) => { if (!qs.length) return; const el = document.getElementById("said");
   el.querySelector(".quotes").innerHTML = qs.map((q) => `<blockquote>${quoteHtml(q)}</blockquote>`).join(""); el.hidden = false; });
 const map = tool === "gavel" && id ? fetch(`maps/${encodeURIComponent(id)}.svg`).then((r) => r.ok ? r.text() : "").catch(() => "") : "";
-if (id && (TOOLS[tool] || tool === "coalition")) Promise.all([fetch("for.json").then((r) => r.ok ? r.json() : {}), said, map, brief]).then(([all, qs, svg, b]) => {
+if (id && (TOOLS[tool] || tool === "coalition")) Promise.all([fetch("for.json").then((r) => r.ok ? r.json() : {}), said, map, brief, live]).then(([all, qs, svg, b, lv]) => {
   const n = all[id]; if (!n) return;
   const memo = document.getElementById("memo"), forLine = document.getElementById("for");
   forLine.innerHTML = `Prepared for <b>${esc(n.name)}</b>${tool !== "coalition" && n.where ? `, ${esc(n.where)}` : ""}`;
@@ -698,6 +701,7 @@ if (id && (TOOLS[tool] || tool === "coalition")) Promise.all([fetch("for.json").
       ${b ? `<section class="brief-full" id="brief" aria-labelledby="brief-h"><h3 id="brief-h">Gavel's brief: ${esc(b.town)} ${esc(b.board)}, ${apDate(b.date)}</h3>
         <p>${esc(b.overview)}</p><h4>${whatHappened(b)}</h4><ul>${b.actions.map((a) => `<li>${esc(a)}</li>`).join("")}</ul>
         <p class="src">Gavel wrote this from ${link(b.url, "the agenda and packet")}${b.voted ? ` and ${esc(b.vendor || "CivicClerk")}'s vote records` : ["PrimeGov", "AgendaCenter"].includes(b.vendor) ? "" : ", before the votes were posted"}. Set up for the boards you cover, it does the same for each of their meetings.</p></section>` : ""}
+      ${lv ? `<p class="live"><b>Gavel is already running for ${esc(lv.jurisdictions[0].name)}.</b> <a href="gavel/${encodeURIComponent(id)}/" target="_blank" rel="noopener">See the ${esc(lv.jurisdictions[0].name)} meetings page</a>, in your colors: each agenda as it's posted, a summary of every meeting and a page for each one. It's a sample on our site; nothing goes on yours until you say so.</p>` : ""}
       <div class="end"><div class="price"><b>${T.price}</b><span>${T.per}</span></div><p>Reply to the email this link came in, and we'll set it up for you. <a href="#${tool}">More about ${T.name}</a></p></div>`;
     // Election Live counts the days to this newsroom's election, on the results page in the first screen.
     const e = tool === "election" && n.election_next, d = e && daysTo(e.date);
