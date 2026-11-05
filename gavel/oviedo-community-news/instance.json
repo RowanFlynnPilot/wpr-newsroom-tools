@@ -1,0 +1,65 @@
+{
+  "instance": {
+    "name": "Oviedo Meetings",
+    "newsroom": "Oviedo Community News",
+    "newsroom_url": "https://oviedocommunitynews.org/",
+    "region": "Oviedo, Florida",
+    "timezone": "America/New_York",
+    "max_meetings": 50,
+    "date_cutoff": "",
+    "skip_ids": [],
+    "tracker_page_url": "https://rowanflynnpilot.github.io/wpr-newsroom-tools/gavel/oviedo-community-news/",
+    "tagline": "A SAMPLE PAGE SET UP BY WAUSAU PILOT & REVIEW"
+  },
+  "seo": {
+    "pages_base_url": "https://rowanflynnpilot.github.io/wpr-newsroom-tools/gavel/oviedo-community-news/",
+    "noindex": true
+  },
+  "theme": {
+    "primary": "#c37f29",
+    "primary_dark": "#986320",
+    "background": "#FAF8F3",
+    "ink": "#1A1209",
+    "divider": "#E3DED3",
+    "font_display": "Bebas Neue",
+    "font_headline": "Playfair Display",
+    "font_body": "Lora",
+    "font_data": "monospace",
+    "logo": "assets/logo.webp"
+  },
+  "jurisdictions": [
+    {
+      "key": "oviedo",
+      "name": "Oviedo",
+      "short": "OVIEDO",
+      "accent": "#c37f29",
+      "doc_host": "cityofoviedo.primegov.com",
+      "avatar": "assets/avatar.png",
+      "calendar_url": "https://cityofoviedo.primegov.com/public/portal",
+      "video": null,
+      "agendas": {
+        "adapter": "primegov",
+        "client": "cityofoviedo",
+        "days_ahead": 45
+      },
+      "title_strip_patterns": [
+        "^((City|Town|Village) of\\s+)?Oviedo\\s+"
+      ],
+      "committee_map": {
+        "oviedo city council": "City Council",
+        "oviedo town council": "Town Council",
+        "oviedo village board": "Village Board",
+        "oviedo board of trustees": "Board of Trustees",
+        "oviedo city commission": "City Commission",
+        "oviedo board of aldermen": "Board of Aldermen",
+        "oviedo common council": "Common Council",
+        "oviedo board of selectmen": "Board of Selectmen",
+        "oviedo select board": "Select Board",
+        "oviedo borough council": "Borough Council",
+        "oviedo township committee": "Township Committee",
+        "oviedo board of supervisors": "Board of Supervisors"
+      }
+    }
+  ],
+  "committee_styles": {}
+}

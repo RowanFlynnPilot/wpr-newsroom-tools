@@ -1,0 +1,309 @@
+[
+  {
+    "id": "pg_2728",
+    "source": "oviedo",
+    "title": "City Council Regular Meeting",
+    "date": "November 2, 2026",
+    "shortDate": "NOV 2",
+    "committee": "City Council",
+    "duration": null,
+    "url": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8884",
+    "docUrl": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8884",
+    "isAgendaOnly": true,
+    "badge": null,
+    "overview": "Based on the published agenda, the Oviedo City Council was scheduled to hold a regular meeting on November 2, 2026, to address consent agenda items including infrastructure projects and consultant services agreements, along with public comment and routine council reports.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of Minutes for the October 5, 2026, Regular Session"
+      },
+      {
+        "time": "N/A",
+        "item": "Citizen Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 4764-26, Seminole County redundant fiber installation"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 4773-26, Piggyback Agreement with Raftelis Financial Consultants, Inc. for Continuing Consultant Services"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 4775-26, Award of Bid 26-41 Windy Pine Drainage"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 4757-26, Award of Invitation to Bid (ITB) No. 26-28 - Live Oak Reserve Force Main Replacement"
+      },
+      {
+        "time": "N/A",
+        "item": "City Manager's Report"
+      },
+      {
+        "time": "N/A",
+        "item": "City Attorney's Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Communications and Reports from Council Members"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Resolution No. 4764-26, Seminole County redundant fiber installation",
+        "body": "The council was scheduled to consider a resolution related to redundant fiber installation in coordination with Seminole County. The resolution was set for action on the consent agenda."
+      },
+      {
+        "item": "Resolution No. 4773-26, Piggyback Agreement with Raftelis Financial Consultants, Inc.",
+        "body": "The council was scheduled to approve a piggyback agreement for continuing consultant services with Raftelis Financial Consultants, Inc. This item was set for consideration on the consent agenda."
+      },
+      {
+        "item": "Resolution No. 4775-26, Award of Bid 26-41 Windy Pine Drainage",
+        "body": "The council was expected to consider awarding a bid for the Windy Pine Drainage project. This infrastructure initiative was scheduled for action through the consent agenda."
+      },
+      {
+        "item": "Resolution No. 4757-26, Award of Invitation to Bid (ITB) No. 26-28 - Live Oak Reserve Force Main Replacement",
+        "body": "The council was scheduled to award a bid for the Live Oak Reserve Force Main Replacement project. This utility infrastructure project was set for consideration on the consent agenda."
+      }
+    ],
+    "publicComment": "Public comment was indicated on the agenda as 'Citizen Comment' with instructions for residents to complete a request to speak form and limit comments to 3 minutes or less.",
+    "actionItems": [
+      "Scheduled to approve minutes from October 5, 2026, Regular Session",
+      "Expected to vote on Resolution No. 4764-26 regarding Seminole County redundant fiber installation",
+      "Scheduled to approve Resolution No. 4773-26 for Piggyback Agreement with Raftelis Financial Consultants, Inc.",
+      "Expected to award Bid 26-41 for Windy Pine Drainage via Resolution No. 4775-26",
+      "Scheduled to award Invitation to Bid No. 26-28 for Live Oak Reserve Force Main Replacement via Resolution No. 4757-26"
+    ],
+    "topics": [
+      "Utilities",
+      "Infrastructure",
+      "Drainage",
+      "Consultant Services",
+      "Bidding Process"
+    ],
+    "votes": []
+  },
+  {
+    "id": "pg_2737",
+    "source": "oviedo",
+    "title": "City Council Work Session",
+    "date": "October 26, 2026",
+    "shortDate": "OCT 26",
+    "committee": "City Council",
+    "duration": null,
+    "url": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8870",
+    "docUrl": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8870",
+    "isAgendaOnly": true,
+    "badge": null,
+    "overview": "Based on the published agenda, this City Council Work Session was scheduled to receive a public comment period and discuss an update on the Doctors Court Extension project. Work sessions typically allow the city council to review and discuss matters prior to formal action at regular meetings.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Public Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Doctors Court Extension Update"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Doctors Court Extension Update",
+        "body": "The council was scheduled to receive an update on the Doctors Court Extension project. This item was set for discussion during the order of business portion of the work session to inform council members of project progress and status."
+      }
+    ],
+    "publicComment": "Public comment was on the agenda during the designated public comment period for matters related to City business not listed under Public Hearings.",
+    "actionItems": [
+      "Expected to receive update on Doctors Court Extension project"
+    ],
+    "topics": [
+      "Development",
+      "Doctors Court Extension",
+      "Infrastructure"
+    ],
+    "votes": []
+  },
+  {
+    "id": "pg_2736",
+    "source": "oviedo",
+    "title": "Community Redevelopment Agency",
+    "date": "October 19, 2026",
+    "shortDate": "OCT 19",
+    "committee": "Community Redevelopment Agency Governing Board",
+    "duration": null,
+    "url": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8858",
+    "docUrl": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8858",
+    "isAgendaOnly": true,
+    "badge": null,
+    "overview": "Based on the published agenda, the Oviedo Community Redevelopment Agency Governing Board was scheduled to hold a regular session on October 19, 2026. The meeting was set to address routine administrative matters including approval of prior minutes and consideration of a resolution regarding carryforward of unencumbered fund balances from the previous fiscal year.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of Minutes for the August 17, 2026, Regular Session"
+      },
+      {
+        "time": "N/A",
+        "item": "Citizen Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 180-26, Carryforward FY 2025-26 Unencumbered Balances to FY 2026-27"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of Minutes for the August 17, 2026, Regular Session",
+        "body": "The board was scheduled to approve the minutes from the previous regular session held on August 17, 2026. This was set as a routine procedural item to establish an official record of that prior meeting."
+      },
+      {
+        "item": "Resolution No. 180-26, Carryforward FY 2025-26 Unencumbered Balances to FY 2026-27",
+        "body": "The board was scheduled to consider a resolution to carry forward unencumbered fund balances from fiscal year 2025-26 into the fiscal year 2026-27 budget. This action was expected to address the allocation of any remaining unspent funds from the previous fiscal period."
+      }
+    ],
+    "publicComment": "Public comment was on the agenda. Citizens were invited to complete a request to speak form and provide it to the City Clerk prior to the meeting, with comments limited to 3 minutes or less.",
+    "actionItems": [
+      "Scheduled to vote on approval of minutes from August 17, 2026 regular session",
+      "Scheduled to consider Resolution No. 180-26 regarding carryforward of FY 2025-26 unencumbered balances to FY 2026-27"
+    ],
+    "topics": [
+      "Budget",
+      "Fiscal Management",
+      "CRA Operations"
+    ],
+    "votes": []
+  },
+  {
+    "id": "pg_2726",
+    "source": "oviedo",
+    "title": "City Council Regular Meeting",
+    "date": "October 19, 2026",
+    "shortDate": "OCT 19",
+    "committee": "City Council",
+    "duration": null,
+    "url": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8847",
+    "docUrl": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8847",
+    "isAgendaOnly": true,
+    "badge": null,
+    "overview": "Based on the published agenda, the Oviedo City Council was scheduled to hold a regular session on October 19, 2026, to address stormwater improvements, a bicycle and micromobility device operation ordinance, lobbying services contracts, and procedural updates for public meetings. The meeting was set to consider resolutions and ordinances impacting city infrastructure, regulations, and operations.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of Minutes for September 14, 2026 Work Session and September 21, 2026 Regular Session"
+      },
+      {
+        "time": "N/A",
+        "item": "Citizen Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 4769-26, Award of Invitation to Bid, No. 26-40 for Stormwater Improvements at Center Lake Park"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 4772-26, Dedicated Improvements for Broad Oak Apartments"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 4776-26, Revisions to Order of Business and Procedures for Public Meetings Standard Operating Procedure"
+      },
+      {
+        "time": "N/A",
+        "item": "Ordinance No. 1776, Bicycle and Micromobility Device Operation"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 4770-26, Work Order for State Lobbying Services"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 4771-26, Piggyback Agreement and Work Order for Federal Lobbying Services"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Resolution No. 4769-26, Award of Invitation to Bid, No. 26-40 for Stormwater Improvements at Center Lake Park",
+        "body": "The city was scheduled to consider awarding a bid for stormwater improvements at Center Lake Park. This resolution was set for action on the consent agenda as part of the council's regular business."
+      },
+      {
+        "item": "Resolution No. 4772-26, Dedicated Improvements for Broad Oak Apartments",
+        "body": "The council was scheduled to review a resolution regarding dedicated improvements for Broad Oak Apartments. This item was set for consideration on the consent agenda."
+      },
+      {
+        "item": "Resolution No. 4776-26, Revisions to Order of Business and Procedures for Public Meetings Standard Operating Procedure",
+        "body": "The city was scheduled to consider revisions to its standard operating procedures governing the order of business and conduct of public meetings. This procedural update was set for action on the consent agenda."
+      },
+      {
+        "item": "Ordinance No. 1776, Bicycle and Micromobility Device Operation",
+        "body": "The city was scheduled to hold a public hearing on an ordinance regulating the operation of bicycles and micromobility devices. This ordinance was set for public comment and council consideration during the public hearings portion of the meeting."
+      },
+      {
+        "item": "Resolution No. 4770-26, Work Order for State Lobbying Services",
+        "body": "The council was scheduled to consider a resolution authorizing a work order for state lobbying services. This item was set for action as part of the regular resolutions section of the agenda."
+      },
+      {
+        "item": "Resolution No. 4771-26, Piggyback Agreement and Work Order for Federal Lobbying Services",
+        "body": "The city was scheduled to consider a resolution establishing a piggyback agreement and work order for federal lobbying services. This item was set for council action during the regular resolutions portion of the meeting."
+      }
+    ],
+    "publicComment": "Public comment was indicated on the agenda, with citizens invited to complete a speaker request form and address council on subjects related to City business not listed under Public Hearings, limited to 3 minutes or less per speaker.",
+    "actionItems": [
+      "Scheduled to approve minutes from September 14, 2026 Work Session and September 21, 2026 Regular Session",
+      "Expected to award bid for stormwater improvements at Center Lake Park under Resolution No. 4769-26",
+      "Scheduled to consider dedicated improvements for Broad Oak Apartments under Resolution No. 4772-26",
+      "Expected to adopt revisions to public meetings procedures under Resolution No. 4776-26",
+      "Scheduled to hold public hearing on Ordinance No. 1776 regarding bicycle and micromobility device operation",
+      "Expected to approve work order for state lobbying services under Resolution No. 4770-26",
+      "Scheduled to approve piggyback agreement and work order for federal lobbying services under Resolution No. 4771-26"
+    ],
+    "topics": [
+      "Stormwater Infrastructure",
+      "Parks and Recreation",
+      "Development",
+      "Zoning and Regulations",
+      "Municipal Procedures"
+    ],
+    "votes": []
+  },
+  {
+    "id": "pg_2735",
+    "source": "oviedo",
+    "title": "City Council Special Meeting",
+    "date": "October 12, 2026",
+    "shortDate": "OCT 12",
+    "committee": "City Council",
+    "duration": null,
+    "url": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8838",
+    "docUrl": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8838",
+    "isAgendaOnly": true,
+    "badge": null,
+    "overview": "Based on the published agenda, this City Council special meeting was scheduled to address a city-sponsored event partnership agreement with Viva Oviedo Festival, Inc. The meeting represented a focused session to consider this partnership resolution.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Public Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 4774-26, City-Sponsored Event Partnership Agreement with Viva Oviedo Festival, Inc."
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Resolution No. 4774-26, City-Sponsored Event Partnership Agreement with Viva Oviedo Festival, Inc.",
+        "body": "The City Council was scheduled to consider a resolution establishing a city-sponsored event partnership agreement with Viva Oviedo Festival, Inc. This item was set for action during the special meeting session."
+      }
+    ],
+    "publicComment": "Public comment was included on the agenda, with a three-minute per speaker limit.",
+    "actionItems": [
+      "Scheduled to vote on Resolution No. 4774-26 regarding the city-sponsored event partnership agreement with Viva Oviedo Festival, Inc."
+    ],
+    "topics": [
+      "Events and Partnerships",
+      "Viva Oviedo Festival",
+      "Community Engagement"
+    ],
+    "votes": []
+  }
+]
