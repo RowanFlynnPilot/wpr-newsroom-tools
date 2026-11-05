@@ -1,0 +1,66 @@
+{
+  "instance": {
+    "name": "Louisville Meetings",
+    "newsroom": "Boulder Reporting Lab",
+    "newsroom_url": "https://boulderreportinglab.org/",
+    "region": "Louisville, Colorado",
+    "timezone": "America/Denver",
+    "max_meetings": 50,
+    "date_cutoff": "",
+    "skip_ids": [],
+    "tracker_page_url": "https://rowanflynnpilot.github.io/wpr-newsroom-tools/gavel/boulder-reporting-lab/",
+    "tagline": "A SAMPLE PAGE SET UP BY WAUSAU PILOT & REVIEW"
+  },
+  "seo": {
+    "pages_base_url": "https://rowanflynnpilot.github.io/wpr-newsroom-tools/gavel/boulder-reporting-lab/",
+    "noindex": true
+  },
+  "theme": {
+    "primary": "#8fa113",
+    "primary_dark": "#707d0f",
+    "background": "#FAF8F3",
+    "ink": "#1A1209",
+    "divider": "#E3DED3",
+    "font_display": "Bebas Neue",
+    "font_headline": "Playfair Display",
+    "font_body": "Lora",
+    "font_data": "monospace",
+    "logo": "assets/logo.webp"
+  },
+  "jurisdictions": [
+    {
+      "key": "louisville",
+      "name": "Louisville",
+      "short": "LOUISVILLE",
+      "accent": "#8fa113",
+      "doc_host": "louisvilleco.portal.civicclerk.com",
+      "avatar": "assets/avatar.png",
+      "calendar_url": "https://louisvilleco.portal.civicclerk.com",
+      "video": null,
+      "agendas": {
+        "adapter": "civicclerk",
+        "api_base": "https://louisvilleco.api.civicclerk.com/v1",
+        "portal": "https://louisvilleco.portal.civicclerk.com",
+        "days_ahead": 45
+      },
+      "title_strip_patterns": [
+        "^((City|Town|Village) of\\s+)?Louisville\\s+"
+      ],
+      "committee_map": {
+        "louisville city council": "City Council",
+        "louisville town council": "Town Council",
+        "louisville village board": "Village Board",
+        "louisville board of trustees": "Board of Trustees",
+        "louisville city commission": "City Commission",
+        "louisville board of aldermen": "Board of Aldermen",
+        "louisville common council": "Common Council",
+        "louisville board of selectmen": "Board of Selectmen",
+        "louisville select board": "Select Board",
+        "louisville borough council": "Borough Council",
+        "louisville township committee": "Township Committee",
+        "louisville board of supervisors": "Board of Supervisors"
+      }
+    }
+  ],
+  "committee_styles": {}
+}
