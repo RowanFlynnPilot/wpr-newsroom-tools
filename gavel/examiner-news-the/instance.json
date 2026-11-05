@@ -1,0 +1,66 @@
+{
+  "instance": {
+    "name": "Port Chester Meetings",
+    "newsroom": "The Examiner News",
+    "newsroom_url": "https://www.theexaminernews.com/",
+    "region": "Port Chester, New York",
+    "timezone": "America/New_York",
+    "max_meetings": 50,
+    "date_cutoff": "",
+    "skip_ids": [],
+    "tracker_page_url": "https://rowanflynnpilot.github.io/wpr-newsroom-tools/gavel/examiner-news-the/",
+    "tagline": "A SAMPLE PAGE SET UP BY WAUSAU PILOT & REVIEW"
+  },
+  "seo": {
+    "pages_base_url": "https://rowanflynnpilot.github.io/wpr-newsroom-tools/gavel/examiner-news-the/",
+    "noindex": true
+  },
+  "theme": {
+    "primary": "#24a13a",
+    "primary_dark": "#1c7e2d",
+    "background": "#FAF8F3",
+    "ink": "#1A1209",
+    "divider": "#E3DED3",
+    "font_display": "Bebas Neue",
+    "font_headline": "Playfair Display",
+    "font_body": "Lora",
+    "font_data": "monospace",
+    "logo": "assets/logo.webp"
+  },
+  "jurisdictions": [
+    {
+      "key": "portchester",
+      "name": "Port Chester",
+      "short": "PORT CHEST",
+      "accent": "#24a13a",
+      "doc_host": "portchesterny.portal.civicclerk.com",
+      "avatar": "assets/avatar.png",
+      "calendar_url": "https://portchesterny.portal.civicclerk.com",
+      "video": null,
+      "agendas": {
+        "adapter": "civicclerk",
+        "api_base": "https://portchesterny.api.civicclerk.com/v1",
+        "portal": "https://portchesterny.portal.civicclerk.com",
+        "days_ahead": 45
+      },
+      "title_strip_patterns": [
+        "^((City|Town|Village) of\\s+)?Port\\ Chester\\s+"
+      ],
+      "committee_map": {
+        "port chester city council": "City Council",
+        "port chester town council": "Town Council",
+        "port chester village board": "Village Board",
+        "port chester board of trustees": "Board of Trustees",
+        "port chester city commission": "City Commission",
+        "port chester board of aldermen": "Board of Aldermen",
+        "port chester common council": "Common Council",
+        "port chester board of selectmen": "Board of Selectmen",
+        "port chester select board": "Select Board",
+        "port chester borough council": "Borough Council",
+        "port chester township committee": "Township Committee",
+        "port chester board of supervisors": "Board of Supervisors"
+      }
+    }
+  ],
+  "committee_styles": {}
+}
