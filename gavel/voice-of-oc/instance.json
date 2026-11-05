@@ -1,0 +1,65 @@
+{
+  "instance": {
+    "name": "Santa Ana Meetings",
+    "newsroom": "Voice of OC",
+    "newsroom_url": "https://voiceofoc.org/",
+    "region": "Santa Ana, California",
+    "timezone": "America/Los_Angeles",
+    "max_meetings": 50,
+    "date_cutoff": "",
+    "skip_ids": [],
+    "tracker_page_url": "https://rowanflynnpilot.github.io/wpr-newsroom-tools/gavel/voice-of-oc/",
+    "tagline": "A SAMPLE PAGE SET UP BY WAUSAU PILOT & REVIEW"
+  },
+  "seo": {
+    "pages_base_url": "https://rowanflynnpilot.github.io/wpr-newsroom-tools/gavel/voice-of-oc/",
+    "noindex": true
+  },
+  "theme": {
+    "primary": "#885227",
+    "primary_dark": "#6a401e",
+    "background": "#FAF8F3",
+    "ink": "#1A1209",
+    "divider": "#E3DED3",
+    "font_display": "Bebas Neue",
+    "font_headline": "Playfair Display",
+    "font_body": "Lora",
+    "font_data": "monospace",
+    "logo": "assets/logo.webp"
+  },
+  "jurisdictions": [
+    {
+      "key": "santaana",
+      "name": "Santa Ana",
+      "short": "SANTA ANA",
+      "accent": "#885227",
+      "doc_host": "santa-ana.primegov.com",
+      "avatar": "assets/avatar.png",
+      "calendar_url": "https://santa-ana.primegov.com/public/portal",
+      "video": null,
+      "agendas": {
+        "adapter": "primegov",
+        "client": "santa-ana",
+        "days_ahead": 45
+      },
+      "title_strip_patterns": [
+        "^((City|Town|Village) of\\s+)?Santa\\ Ana\\s+"
+      ],
+      "committee_map": {
+        "santa ana city council": "City Council",
+        "santa ana town council": "Town Council",
+        "santa ana village board": "Village Board",
+        "santa ana board of trustees": "Board of Trustees",
+        "santa ana city commission": "City Commission",
+        "santa ana board of aldermen": "Board of Aldermen",
+        "santa ana common council": "Common Council",
+        "santa ana board of selectmen": "Board of Selectmen",
+        "santa ana select board": "Select Board",
+        "santa ana borough council": "Borough Council",
+        "santa ana township committee": "Township Committee",
+        "santa ana board of supervisors": "Board of Supervisors"
+      }
+    }
+  ],
+  "committee_styles": {}
+}
