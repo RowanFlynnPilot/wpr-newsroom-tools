@@ -1,13 +1,6 @@
 {
   "louisville": [
     {
-      "date": "2026-11-05",
-      "time": "6:00 PM",
-      "name": "Youth Advisory Board",
-      "url": "https://louisvilleco.portal.civicclerk.com/event/1431/overview",
-      "source": "louisville"
-    },
-    {
       "date": "2026-11-10",
       "time": "6:00 PM",
       "name": "City Council Meeting",
@@ -96,6 +89,13 @@
       "time": "4:00 PM",
       "name": "City Council Finance Committee",
       "url": "https://louisvilleco.portal.civicclerk.com/event/138/overview",
+      "source": "louisville"
+    },
+    {
+      "date": "2026-11-26",
+      "time": "6:00 PM",
+      "name": "TEST",
+      "url": "https://louisvilleco.portal.civicclerk.com/event/1437/overview",
       "source": "louisville"
     }
   ]
