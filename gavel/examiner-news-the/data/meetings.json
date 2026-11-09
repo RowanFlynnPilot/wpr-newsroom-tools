@@ -1,5 +1,99 @@
 [
   {
+    "id": "cc_457",
+    "source": "portchester",
+    "title": "2026-11-09 - BOT Special Meeting",
+    "date": "November 9, 2026",
+    "shortDate": "NOV 9",
+    "committee": "Board of Trustees",
+    "duration": null,
+    "url": "https://portchesterny.portal.civicclerk.com/event/457/files",
+    "docUrl": "https://portchesterny.portal.civicclerk.com/event/457/files",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, this special meeting of the Port Chester Board of Trustees was scheduled to convene in executive and closed sessions to address personnel matters related to the Beautification Commission and legal consultation regarding proposed amendments to the village's Form-Based Code districts.",
+    "agenda": [
+      {
+        "time": "5:00 PM",
+        "item": "Call to Order / Pledge of Allegiance"
+      },
+      {
+        "time": "5:00 PM",
+        "item": "Proposed Executive Session - Interview candidate for Beautification Commission"
+      },
+      {
+        "time": "5:15 PM",
+        "item": "Proposed Closed Session - Consultation with Special Counsel regarding potential changes to Form-Based Code (CD-5, CD-5T, CD-6 & CD-6T Districts)"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Interview candidate for Beautification Commission",
+        "body": "The board was scheduled to conduct an executive session to interview a candidate for the Beautification Commission. This personnel matter was set to be considered in closed session."
+      },
+      {
+        "item": "Consultation with Special Counsel regarding potential changes to Form-Based Code",
+        "body": "The board was expected to consult with special counsel during a closed session regarding potential amendments to the village's Form-Based Code districts, specifically CD-5, CD-5T, CD-6, and CD-6T zoning designations. This legal consultation was scheduled to inform potential future code modifications."
+      }
+    ],
+    "publicComment": "Not indicated on agenda.",
+    "actionItems": [
+      "Scheduled to interview candidate for Beautification Commission during executive session",
+      "Expected to receive legal consultation on potential Form-Based Code amendments from special counsel"
+    ],
+    "topics": [
+      "Beautification Commission",
+      "Form-Based Code",
+      "Zoning",
+      "Personnel"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "I.",
+        "name": "CALL TO ORDER / PLEDGE OF ALLEGIANCE",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "II.",
+        "name": "PROPOSED EXECUTIVE SESSION",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "1.",
+            "name": "Interview candidate for Beautification Commission",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "III.",
+        "name": "PROPOSED CLOSED SESSION",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "1.",
+            "name": "Consultation with Special Counsel regarding potential changes to Form-Based Code (CD-5, CD-5T, CD-6 & CD-6T Districts)",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "cc_388",
     "source": "portchester",
     "title": "Board of Trustees Regular Meeting-1st",
@@ -2208,6 +2302,372 @@
     ]
   },
   {
+    "id": "cc_456",
+    "source": "portchester",
+    "title": "Local Development Corporation (LDC) Regular Meeting",
+    "date": "October 14, 2026",
+    "shortDate": "OCT 14",
+    "committee": "Local Development Corporation (LDC)",
+    "duration": null,
+    "url": "https://portchesterny.portal.civicclerk.com/event/456/files",
+    "docUrl": "https://portchesterny.portal.civicclerk.com/event/456/files",
+    "isAgendaOnly": false,
+    "badge": "new",
+    "overview": "The Port Chester Local Development Corporation approved a non-profit grant program and awarded grants to eligible organizations on October 14, 2026. The board also approved a final RFP for consulting services to develop commercial displacement mitigation strategies and authorized monthly invoices and budget amendments.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of Minutes of August 19, 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution Establishing a Non-Profit Grant Program and Form a Grant Agreement"
+      },
+      {
+        "time": "N/A",
+        "item": "Staff Recommendation for Non-Profit Grant Award"
+      },
+      {
+        "time": "N/A",
+        "item": "Final Draft of RFP for Consulting Services to Develop Commercial Displacement Mitigation Strategies"
+      },
+      {
+        "time": "N/A",
+        "item": "Update on LDC Website"
+      },
+      {
+        "time": "N/A",
+        "item": "Treasurer's Report and Approval of Invoices and Budget Amendment for Auditor expense"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of Minutes of August 19, 2026",
+        "body": "The board approved the August 19, 2026 minutes. The motion passed with no vote count recorded."
+      },
+      {
+        "item": "Resolution Establishing a Non-Profit Grant Program and Form a Grant Agreement",
+        "body": "The board approved a resolution establishing a non-profit grant program and authorizing a grant agreement. The motion passed with no vote count recorded."
+      },
+      {
+        "item": "Staff Recommendation for Non-Profit Grant Award",
+        "body": "The board approved staff recommendations for non-profit grant awards, passing 6-0. All six board members—Sylvia Dundon, John Hiensch, Richard O'Connell, James Taylor, Francis Ferrara, and Daniel Brakewood—voted in favor."
+      },
+      {
+        "item": "Final Draft of RFP for Consulting Services to Develop Commercial Displacement Mitigation Strategies",
+        "body": "The board approved the final draft RFP for consulting services to develop commercial displacement mitigation strategies. The motion passed with no vote count recorded."
+      },
+      {
+        "item": "Update on LDC Website",
+        "body": "Rosalind Cimino provided an update on the LDC website. No vote was recorded for this informational item."
+      },
+      {
+        "item": "Treasurer's Report and Approval of Invoices and Budget Amendment for Auditor expense",
+        "body": "Tony Siligato presented the treasurer's report. The board approved monthly invoices and passed a resolution to approve budget amendments for auditor expenses, both motions passing with no vote counts recorded."
+      }
+    ],
+    "publicComment": "Not indicated on agenda.",
+    "actionItems": [
+      "Non-profit grant program established and grants awarded to eligible organizations",
+      "RFP for consulting services to develop commercial displacement mitigation strategies approved for release",
+      "Monthly invoices approved and budget amendments authorized for auditor expenses",
+      "Next regularly scheduled LDC meeting set for November 2026"
+    ],
+    "topics": [
+      "Non-Profit Grants",
+      "Commercial Displacement Mitigation",
+      "Budget",
+      "Economic Development"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "1.",
+        "name": "LDC Roll Call",
+        "desc": "LDC Roll Call",
+        "votes": [
+          {
+            "motion": "Motion to Open Meeting",
+            "passed": true,
+            "initiator": " ",
+            "seconder": " ",
+            "yes": [
+              "Sylvia Dundon",
+              "John Hiensch",
+              "Richard OConnell",
+              "James Taylor",
+              "Francis (Frank) Ferrara",
+              "Daniel Brakewood"
+            ],
+            "no": [],
+            "abstain": []
+          }
+        ],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.",
+        "name": "Approval of Minutes",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "a.",
+            "name": "Minutes of August 19, 2026",
+            "desc": "",
+            "votes": [
+              {
+                "motion": "Motion to Approve Minutes",
+                "passed": true,
+                "initiator": "Francis (Frank) Ferrara",
+                "seconder": "Sylvia Dundon",
+                "yes": [
+                  "Sylvia Dundon",
+                  "John Hiensch",
+                  "Richard OConnell",
+                  "James Taylor",
+                  "Francis (Frank) Ferrara",
+                  "Daniel Brakewood"
+                ],
+                "no": [],
+                "abstain": []
+              }
+            ],
+            "docs": [
+              {
+                "name": "PCLDC Minutes - August 19 2026",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7406)",
+                "type": "application/pdf",
+                "size": 133668
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "3.",
+        "name": "Resolution Establishing a Non-Profit Grant Program and Form a Grant Agreement",
+        "desc": "Resolution Establishing a Non-Profit Grant Program and Form a Grant Agreement",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "a.",
+            "name": "Resolution",
+            "desc": "",
+            "votes": [
+              {
+                "motion": "Resolution to Approve Grant Program",
+                "passed": true,
+                "initiator": "Francis (Frank) Ferrara",
+                "seconder": "Sylvia Dundon",
+                "yes": [
+                  "Sylvia Dundon",
+                  "John Hiensch",
+                  "Richard OConnell",
+                  "James Taylor",
+                  "Francis (Frank) Ferrara",
+                  "Daniel Brakewood"
+                ],
+                "no": [],
+                "abstain": []
+              }
+            ],
+            "docs": [
+              {
+                "name": "PCLDC Non-Profit Grant Program - Initial Authorizing Resolution and Exhibits",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7402)",
+                "type": "application/pdf",
+                "size": 199013
+              },
+              {
+                "name": "PCLDC Summary CEO Report_ August-September_2026",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7411)",
+                "type": "application/pdf",
+                "size": 15503007
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "4.",
+        "name": "Staff Recommendation for Non-Profit Grant Award (Chris Steers)",
+        "desc": "Staff Recommendation for Non-Profit Grant Award (Chris Steers)",
+        "votes": [
+          {
+            "motion": "Staff Grant Recommendation",
+            "passed": true,
+            "initiator": " ",
+            "seconder": " ",
+            "yes": [
+              "Sylvia Dundon",
+              "John Hiensch",
+              "Richard OConnell",
+              "James Taylor",
+              "Francis (Frank) Ferrara",
+              "Daniel Brakewood"
+            ],
+            "no": [],
+            "abstain": []
+          }
+        ],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "5.",
+        "name": "Final Draft of RFP for Consulting Services to Develop Commercial Displacement Mitigation Strategies",
+        "desc": "Final Draft of RFP for Consulting Services to Develop Commercial Displacement Mitigation Strategies",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "a.",
+            "name": "RFP for Consulting Services",
+            "desc": "",
+            "votes": [
+              {
+                "motion": "Motion to Approve RFP for Consulting Services ",
+                "passed": true,
+                "initiator": "Sylvia Dundon",
+                "seconder": "Francis (Frank) Ferrara",
+                "yes": [
+                  "Sylvia Dundon",
+                  "John Hiensch",
+                  "Richard OConnell",
+                  "James Taylor",
+                  "Francis (Frank) Ferrara",
+                  "Daniel Brakewood"
+                ],
+                "no": [],
+                "abstain": []
+              }
+            ],
+            "docs": [
+              {
+                "name": "PCLDC Commercial Displacement Study RFP FINAL 20261014",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7405)",
+                "type": "application/pdf",
+                "size": 210845
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "6.",
+        "name": "Update on LDC Website (Rosalind Cimino)",
+        "desc": "Update on LDC Website (Rosalind Cimino)",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "7.",
+        "name": "Treasurer's Report (Tony Siligato)",
+        "desc": "Treasurer's Report (Tony Siligato)",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "a.",
+            "name": "Approval of Invoices and Budget Amendment for Auditor expense",
+            "desc": "",
+            "votes": [
+              {
+                "motion": "Motion to Approve Monthly Invoices",
+                "passed": true,
+                "initiator": "Daniel Brakewood",
+                "seconder": "Francis (Frank) Ferrara",
+                "yes": [
+                  "Sylvia Dundon",
+                  "John Hiensch",
+                  "Richard OConnell",
+                  "James Taylor",
+                  "Francis (Frank) Ferrara",
+                  "Daniel Brakewood"
+                ],
+                "no": [],
+                "abstain": []
+              },
+              {
+                "motion": "Resolution to Approve Budget Amendments",
+                "passed": true,
+                "initiator": "Daniel Brakewood",
+                "seconder": "Richard OConnell",
+                "yes": [
+                  "Sylvia Dundon",
+                  "John Hiensch",
+                  "Richard OConnell",
+                  "James Taylor",
+                  "Francis (Frank) Ferrara",
+                  "Daniel Brakewood"
+                ],
+                "no": [],
+                "abstain": []
+              }
+            ],
+            "docs": [
+              {
+                "name": "TREASURER'S REPORT - APPROVAL OF INVOICES 10-14-2026 LDC MTG",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7403)",
+                "type": "application/pdf",
+                "size": 13927005
+              },
+              {
+                "name": "PCLDC - Resolution - FY2026-27 Budget Amendment Oct 2026 Meeting",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7404)",
+                "type": "application/pdf",
+                "size": 217752
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "8.",
+        "name": "Adjournment",
+        "desc": "",
+        "votes": [
+          {
+            "motion": "Motion to Adjourn",
+            "passed": true,
+            "initiator": " ",
+            "seconder": " ",
+            "yes": [
+              "Sylvia Dundon",
+              "John Hiensch",
+              "Richard OConnell",
+              "James Taylor",
+              "Francis (Frank) Ferrara",
+              "Daniel Brakewood"
+            ],
+            "no": [],
+            "abstain": []
+          }
+        ],
+        "docs": [],
+        "children": [
+          {
+            "number": "a.",
+            "name": "Next regularly scheduled LDC meeting will be November, 2026",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "cc_414",
     "source": "portchester",
     "title": "Industrial Development Agency (IDA) Regular Meeting",
@@ -2841,235 +3301,6 @@
                 "abstain": []
               }
             ],
-            "docs": [],
-            "children": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "cc_456",
-    "source": "portchester",
-    "title": "Local Development Corporation (LDC) Regular Meeting",
-    "date": "October 14, 2026",
-    "shortDate": "OCT 14",
-    "committee": "Local Development Corporation (LDC)",
-    "duration": null,
-    "url": "https://portchesterny.portal.civicclerk.com/event/456/files",
-    "docUrl": "https://portchesterny.portal.civicclerk.com/event/456/files",
-    "isAgendaOnly": true,
-    "badge": null,
-    "overview": "Based on the published agenda, the Port Chester Local Development Corporation was scheduled to consider establishment of a non-profit grant program, review staff recommendations for grant awards, and deliberate on a request for proposals for consulting services focused on commercial displacement mitigation strategies. The meeting was also set to address routine financial and administrative matters including treasurer reports and website updates.",
-    "agenda": [
-      {
-        "time": "N/A",
-        "item": "Approval of Minutes from August 19, 2026"
-      },
-      {
-        "time": "N/A",
-        "item": "Resolution Establishing a Non-Profit Grant Program and Form a Grant Agreement"
-      },
-      {
-        "time": "N/A",
-        "item": "Staff Recommendation for Non-Profit Grant Award (Chris Steers)"
-      },
-      {
-        "time": "N/A",
-        "item": "Final Draft of RFP for Consulting Services to Develop Commercial Displacement Mitigation Strategies"
-      },
-      {
-        "time": "N/A",
-        "item": "Update on LDC Website (Rosalind Cimino)"
-      },
-      {
-        "time": "N/A",
-        "item": "Treasurer's Report (Tony Siligato)"
-      }
-    ],
-    "discussions": [
-      {
-        "item": "Resolution Establishing a Non-Profit Grant Program and Form a Grant Agreement",
-        "body": "The LDC was scheduled to consider a resolution to establish a non-profit grant program and form associated grant agreements. This item was set to outline the framework and procedures for distributing grants to eligible non-profit organizations in the Port Chester area."
-      },
-      {
-        "item": "Staff Recommendation for Non-Profit Grant Award",
-        "body": "Staff member Chris Steers was scheduled to present recommendations for non-profit grant awards to the board. The presentation was expected to provide details on recommended recipients and rationale for the proposed awards."
-      },
-      {
-        "item": "Final Draft of RFP for Consulting Services to Develop Commercial Displacement Mitigation Strategies",
-        "body": "The LDC was set to review the final draft of a request for proposals for consulting services aimed at developing strategies to mitigate commercial displacement. This item was scheduled to address how the corporation plans to support local businesses and communities facing potential displacement pressures."
-      },
-      {
-        "item": "Update on LDC Website",
-        "body": "Rosalind Cimino was scheduled to provide an update on the development and status of the LDC website. The update was expected to inform the board on progress related to the organization's online presence and information accessibility."
-      },
-      {
-        "item": "Treasurer's Report",
-        "body": "Tony Siligato was scheduled to present the treasurer's report, which was set to include approval of invoices and a budget amendment for auditor expenses. The report was expected to provide financial updates and require board action on expenditure matters."
-      }
-    ],
-    "publicComment": "Not indicated on agenda.",
-    "actionItems": [
-      "Scheduled to approve minutes from August 19, 2026",
-      "Expected to vote on resolution establishing a non-profit grant program and grant agreement form",
-      "Scheduled to consider staff recommendations for non-profit grant awards",
-      "Set to finalize and potentially approve RFP for consulting services on commercial displacement mitigation strategies",
-      "Expected to approve invoices and budget amendment for auditor expense"
-    ],
-    "topics": [
-      "Development",
-      "Non-Profit Grants",
-      "Commercial Displacement",
-      "Budget",
-      "Consulting Services"
-    ],
-    "votes": [],
-    "civicItems": [
-      {
-        "number": "1.",
-        "name": "LDC Roll Call",
-        "desc": "LDC Roll Call",
-        "votes": [],
-        "docs": [],
-        "children": []
-      },
-      {
-        "number": "2.",
-        "name": "Approval of Minutes",
-        "desc": "",
-        "votes": [],
-        "docs": [],
-        "children": [
-          {
-            "number": "a.",
-            "name": "Minutes of August 19, 2026",
-            "desc": "",
-            "votes": [],
-            "docs": [
-              {
-                "name": "PCLDC Minutes - August 19 2026",
-                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7406)",
-                "type": "application/pdf",
-                "size": 133668
-              }
-            ],
-            "children": []
-          }
-        ]
-      },
-      {
-        "number": "3.",
-        "name": "Resolution Establishing a Non-Profit Grant Program and Form a Grant Agreement",
-        "desc": "Resolution Establishing a Non-Profit Grant Program and Form a Grant Agreement",
-        "votes": [],
-        "docs": [],
-        "children": [
-          {
-            "number": "a.",
-            "name": "Resolution",
-            "desc": "",
-            "votes": [],
-            "docs": [
-              {
-                "name": "PCLDC Non-Profit Grant Program - Initial Authorizing Resolution and Exhibits",
-                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7402)",
-                "type": "application/pdf",
-                "size": 199013
-              },
-              {
-                "name": "PCLDC Summary CEO Report_ August-September_2026",
-                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7411)",
-                "type": "application/pdf",
-                "size": 15503007
-              }
-            ],
-            "children": []
-          }
-        ]
-      },
-      {
-        "number": "4.",
-        "name": "Staff Recommendation for Non-Profit Grant Award (Chris Steers)",
-        "desc": "Staff Recommendation for Non-Profit Grant Award (Chris Steers)",
-        "votes": [],
-        "docs": [],
-        "children": []
-      },
-      {
-        "number": "5.",
-        "name": "Final Draft of RFP for Consulting Services to Develop Commercial Displacement Mitigation Strategies",
-        "desc": "Final Draft of RFP for Consulting Services to Develop Commercial Displacement Mitigation Strategies",
-        "votes": [],
-        "docs": [],
-        "children": [
-          {
-            "number": "a.",
-            "name": "RFP for Consulting Services",
-            "desc": "",
-            "votes": [],
-            "docs": [
-              {
-                "name": "PCLDC Commercial Displacement Study RFP FINAL 20261014",
-                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7405)",
-                "type": "application/pdf",
-                "size": 210845
-              }
-            ],
-            "children": []
-          }
-        ]
-      },
-      {
-        "number": "6.",
-        "name": "Update on LDC Website (Rosalind Cimino)",
-        "desc": "Update on LDC Website (Rosalind Cimino)",
-        "votes": [],
-        "docs": [],
-        "children": []
-      },
-      {
-        "number": "7.",
-        "name": "Treasurer's Report (Tony Siligato)",
-        "desc": "Treasurer's Report (Tony Siligato)",
-        "votes": [],
-        "docs": [],
-        "children": [
-          {
-            "number": "a.",
-            "name": "Approval of Invoices and Budget Amendment for Auditor expense",
-            "desc": "",
-            "votes": [],
-            "docs": [
-              {
-                "name": "TREASURER'S REPORT - APPROVAL OF INVOICES 10-14-2026 LDC MTG",
-                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7403)",
-                "type": "application/pdf",
-                "size": 13927005
-              },
-              {
-                "name": "PCLDC - Resolution - FY2026-27 Budget Amendment Oct 2026 Meeting",
-                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7404)",
-                "type": "application/pdf",
-                "size": 217752
-              }
-            ],
-            "children": []
-          }
-        ]
-      },
-      {
-        "number": "8.",
-        "name": "Adjournment",
-        "desc": "",
-        "votes": [],
-        "docs": [],
-        "children": [
-          {
-            "number": "a.",
-            "name": "Next regularly scheduled LDC meeting will be November, 2026",
-            "desc": "",
-            "votes": [],
             "docs": [],
             "children": []
           }
