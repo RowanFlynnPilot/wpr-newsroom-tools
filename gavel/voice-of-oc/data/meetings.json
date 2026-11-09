@@ -1,5 +1,108 @@
 [
   {
+    "id": "pg_5148",
+    "source": "santaana",
+    "title": "Planning Commission - Regular Meeting",
+    "date": "November 9, 2026",
+    "shortDate": "NOV 9",
+    "committee": "Planning Commission",
+    "duration": null,
+    "url": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56253",
+    "docUrl": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56253",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Planning Commission held a regular meeting scheduled to consider four substantive items including historic property preservation, a laundromat conditional use permit, and two wireless communications facility renewals. The meeting was set to address land use decisions that would be final unless appealed within ten days.",
+    "agenda": [
+      {
+        "time": "5:30 PM",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Pledge of Allegiance"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Calendar - Minutes from October 26, 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Calendar - Excused Absences"
+      },
+      {
+        "time": "N/A",
+        "item": "Historic Resources Commission Application No. 2026-11 and Historic Register Categorization No. 2026-6 for 1101 West Riviera Drive"
+      },
+      {
+        "time": "N/A",
+        "item": "Conditional Use Permit No. 2026-0017 for Laundromat at 413 West Seventeenth Street, Unit 102"
+      },
+      {
+        "time": "N/A",
+        "item": "Conditional Use Permit No. 2026-0014 for Wireless Communications Facility at 2624 South Hickory Street"
+      },
+      {
+        "time": "N/A",
+        "item": "Conditional Use Permit No. 2026-0016 for Wireless Communications Facility at 1200 East Glenwood Place"
+      },
+      {
+        "time": "N/A",
+        "item": "Staff Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Commissioner Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Historic Resources Commission Application No. 2026-11 and Historic Register Categorization No. 2026-6 for 1101 West Riviera Drive",
+        "body": "The Commission was scheduled to consider approval of a Historic Resources Commission Application and Historic Register Categorization to place the single-family residence property at 1101 West Riviera Drive on the Santa Ana Register of Historical Properties as a 'Contributive' property. The applicants, Esmeralda and Anthony Henry Terusa, were also seeking approval of a Historic Property Preservation Agreement with the City, with recommended action to adopt a resolution and recommend City Council authorization of a Mills Act agreement."
+      },
+      {
+        "item": "Conditional Use Permit No. 2026-0017 for Laundromat at 413 West Seventeenth Street, Unit 102",
+        "body": "The Commission was set to consider a conditional use permit request to reestablish a laundromat within an existing 2,051-square-foot commercial tenant space in a multi-tenant commercial building located in the Community Commercial zoning district. The project was expected to be reviewed for compliance with municipal code requirements, with recommended action to adopt a resolution approving the permit as conditioned."
+      },
+      {
+        "item": "Conditional Use Permit No. 2026-0014 for Wireless Communications Facility at 2624 South Hickory Street",
+        "body": "The Commission was scheduled to consider approval of a conditional use permit to renew entitlements for an existing 57-foot tall major wireless communications facility designed as a 'mono-pine' located in the Light Industrial zoning district. The renewal application was expected to be evaluated under CEQA exemption guidelines with recommended action to adopt a resolution approving the permit as conditioned."
+      },
+      {
+        "item": "Conditional Use Permit No. 2026-0016 for Wireless Communications Facility at 1200 East Glenwood Place",
+        "body": "The Commission was set to consider a conditional use permit to renew entitlements for an existing 60-foot tall major wireless communications facility designed as a mono-eucalyptus in the Light Industrial zoning district. The renewal was expected to be reviewed with recommended action to adopt a resolution approving the permit as conditioned under CEQA exemption provisions."
+      }
+    ],
+    "publicComment": "Public comment was scheduled on the agenda; participants joining via Zoom were permitted to raise their hand to speak with a 3-minute allocation per speaker.",
+    "actionItems": [
+      "Scheduled to adopt resolution approving Historic Resources Commission Application No. 2026-11 and Historic Register Categorization No. 2026-6",
+      "Expected to recommend City Council authorization of Mills Act agreement for 1101 West Riviera Drive",
+      "Scheduled to adopt resolution approving Conditional Use Permit No. 2026-0017 for laundromat facility as conditioned",
+      "Scheduled to adopt resolution approving Conditional Use Permit No. 2026-0014 for wireless communications facility renewal as conditioned",
+      "Scheduled to adopt resolution approving Conditional Use Permit No. 2026-0016 for wireless communications facility renewal as conditioned",
+      "Expected to approve minutes from October 26, 2026 meeting"
+    ],
+    "topics": [
+      "Historic Preservation",
+      "Zoning",
+      "Commercial Development",
+      "Wireless Infrastructure",
+      "Land Use"
+    ],
+    "votes": []
+  },
+  {
     "id": "pg_5157",
     "source": "santaana",
     "title": "Personnel Board - Special Meeting",
