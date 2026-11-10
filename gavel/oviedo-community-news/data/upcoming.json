@@ -1,3 +1,11 @@
 {
-  "oviedo": []
+  "oviedo": [
+    {
+      "date": "2026-11-17",
+      "time": "6:30 PM",
+      "name": "LPA Regular Meeting",
+      "url": "https://cityofoviedo.primegov.com/public/portal",
+      "source": "oviedo"
+    }
+  ]
 }
