@@ -1,20 +1,6 @@
 {
   "sanjose": [
     {
-      "date": "2026-11-09",
-      "time": "6:00 PM",
-      "name": "Airport Commission",
-      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8296&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
-      "source": "sanjose"
-    },
-    {
-      "date": "2026-11-09",
-      "time": "10:00 AM",
-      "name": "Miscellaneous Agendas",
-      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8298&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
-      "source": "sanjose"
-    },
-    {
       "date": "2026-11-10",
       "time": "1:30 PM",
       "name": "City Council",
@@ -64,6 +50,13 @@
       "source": "sanjose"
     },
     {
+      "date": "2026-11-16",
+      "time": "5:30 PM",
+      "name": "Arts Commission",
+      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8304&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
+      "source": "sanjose"
+    },
+    {
       "date": "2026-11-17",
       "time": "1:30 PM",
       "name": "City Council",
@@ -75,6 +68,13 @@
       "time": "9:30 AM",
       "name": "City Council Closed Session",
       "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8143&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
+      "source": "sanjose"
+    },
+    {
+      "date": "2026-11-18",
+      "time": "6:30 PM",
+      "name": "Historic Landmarks Commission",
+      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8307&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
       "source": "sanjose"
     },
     {

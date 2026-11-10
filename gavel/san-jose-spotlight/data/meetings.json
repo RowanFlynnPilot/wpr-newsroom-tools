@@ -1,5 +1,1197 @@
 [
   {
+    "id": "lg_8123",
+    "source": "sanjose",
+    "title": "City Council",
+    "date": "November 10, 2026",
+    "shortDate": "NOV 10",
+    "committee": "City Council",
+    "duration": null,
+    "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8123&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
+    "docUrl": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8123&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the San Jose City Council was scheduled to convene for a regular session on November 10, 2026, to address routine consent calendar items, strategic initiatives including labor negotiations and flood preparedness, and substantive land use matters involving development agreements and historical property designations.",
+    "agenda": [
+      {
+        "time": "9:30 a.m.",
+        "item": "Closed Session - Call to Order and Labor Negotiations Update"
+      },
+      {
+        "time": "1:30 p.m.",
+        "item": "Regular Session - Pledge of Allegiance and Invocation"
+      },
+      {
+        "time": "N/A",
+        "item": "Ceremonial Items - Commendation to La Raza Roundtable"
+      },
+      {
+        "time": "N/A",
+        "item": "Ceremonial Items - Proclamation for World Day of Remembrance for Traffic Violence Victims"
+      },
+      {
+        "time": "N/A",
+        "item": "Ceremonial Items - Proclamation for Sikh American Awareness and Appreciation Month"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of City Council Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Final Adoption of Ordinances"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of Council Committee Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Mayor and Council Excused Absence Requests"
+      },
+      {
+        "time": "N/A",
+        "item": "City Council Travel Reports"
+      },
+      {
+        "time": "N/A",
+        "item": "Report from the Council Liaison to the Retirement Boards"
+      },
+      {
+        "time": "N/A",
+        "item": "Agreements with Catholic Charities of Santa Clara County and U.S. Department of Housing and Urban Development for the Development of the Blossom Valley Family Center"
+      },
+      {
+        "time": "N/A",
+        "item": "Funding Agreement with the Santa Clara Valley Transportation Authority for the San José Arterial Management - Adaptive Traffic Control System Deployment Project"
+      },
+      {
+        "time": "N/A",
+        "item": "El Niño Update, Flood Preparedness, and Proclamation of a Local Emergency"
+      },
+      {
+        "time": "N/A",
+        "item": "Actions Related to the Conditional Vacation of a Portion of Orchard Parkway"
+      },
+      {
+        "time": "N/A",
+        "item": "Actions Related to First Community Housing Stabilization"
+      },
+      {
+        "time": "N/A",
+        "item": "City Landmark and Historical Property (Mills Act) for Certain Real Property Located at 231 Jackson Street (Kogura Company Building)"
+      },
+      {
+        "time": "N/A",
+        "item": "City Landmark and Historical Property (Mills Act) for Certain Real Property Located at 605 North 6th Street (Kow Kee Sixplex)"
+      },
+      {
+        "time": "N/A",
+        "item": "City Landmark and Historical Property (Mills Act) for Certain Real Property Located at 495-497 North 13th Street and 580-584 East Empire Street"
+      },
+      {
+        "time": "N/A",
+        "item": "Historical Property (Mills Act) Contract for Certain Real Property Located at 233 West Santa Clara St (Hotel De Anza)"
+      },
+      {
+        "time": "N/A",
+        "item": "First Amendment to the Amended and Restated Development Agreement with Apple Inc."
+      },
+      {
+        "time": "N/A",
+        "item": "Report of the City Manager, Jennifer Maguire"
+      },
+      {
+        "time": "N/A",
+        "item": "Labor Negotiations Update"
+      },
+      {
+        "time": "N/A",
+        "item": "Actions Related to the Community Facilities District No. 8 (Communications Hill) Annexation Area No. 4"
+      },
+      {
+        "time": "N/A",
+        "item": "Land Use on Consent Calendar"
+      },
+      {
+        "time": "N/A",
+        "item": "Land Use - Regular Agenda Items"
+      },
+      {
+        "time": "N/A",
+        "item": "Annual City Council Referral Status Report for Fiscal Year 2025-2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Annual Merit Increases and Additional Executive Leave for Council Appointees"
+      },
+      {
+        "time": "N/A",
+        "item": "Open Forum"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "El Niño Update, Flood Preparedness, and Proclamation of a Local Emergency",
+        "body": "The City Council was scheduled to receive an update on El Niño conditions and flood preparedness measures. The Council was set to consider a proclamation declaring a local emergency in response to anticipated weather conditions and related preparedness needs."
+      },
+      {
+        "item": "Actions Related to the Conditional Vacation of a Portion of Orchard Parkway",
+        "body": "The Council was expected to consider actions related to the conditional vacation of a portion of Orchard Parkway. This item was scheduled to be heard after Item 10.2 on the agenda."
+      },
+      {
+        "item": "Actions Related to First Community Housing Stabilization",
+        "body": "The Council was set to consider actions related to First Community Housing Stabilization initiatives. This comprehensive item was expected to include multiple related matters under the community and economic development category."
+      },
+      {
+        "item": "City Landmark and Historical Property (Mills Act) for Certain Real Property Located at 231 Jackson Street (Kogura Company Building)",
+        "body": "The Council was scheduled to consider designating the Kogura Company Building at 231 Jackson Street as a City Landmark and Historical Property under the Mills Act. This designation was expected to include tax incentive provisions for property owners."
+      },
+      {
+        "item": "City Landmark and Historical Property (Mills Act) for Certain Real Property Located at 605 North 6th Street (Kow Kee Sixplex)",
+        "body": "The Council was scheduled to consider designating the Kow Kee Sixplex at 605 North 6th Street as a City Landmark and Historical Property under the Mills Act. This designation was expected to include tax incentive provisions for property owners."
+      },
+      {
+        "item": "City Landmark and Historical Property (Mills Act) for Certain Real Property Located at 495-497 North 13th Street and 580-584 East Empire Street",
+        "body": "The Council was scheduled to consider designating properties at 495-497 North 13th Street and 580-584 East Empire Street as City Landmarks and Historical Properties under the Mills Act. This dual designation was expected to include tax incentive provisions for property owners."
+      },
+      {
+        "item": "Historical Property (Mills Act) Contract for Certain Real Property Located at 233 West Santa Clara St (Hotel De Anza)",
+        "body": "The Council was scheduled to consider a Historical Property Mills Act contract for the Hotel De Anza at 233 West Santa Clara Street. This action was expected to establish tax benefits and preservation obligations for the historic property."
+      },
+      {
+        "item": "First Amendment to the Amended and Restated Development Agreement with Apple Inc.",
+        "body": "The Council was set to consider a first amendment to the development agreement with Apple Inc. for property located west and east of Orchard Parkway on both sides of Atmel Way and Component Drive. This action was expected to modify terms of the existing development agreement involving multiple parcels."
+      },
+      {
+        "item": "Agreements with Catholic Charities of Santa Clara County and U.S. Department of Housing and Urban Development for the Development of the Blossom Valley Family Center",
+        "body": "The Council was scheduled to approve agreements with Catholic Charities of Santa Clara County and the U.S. Department of Housing and Urban Development for developing the Blossom Valley Family Center. This action was expected to facilitate housing and family services development."
+      },
+      {
+        "item": "Funding Agreement with the Santa Clara Valley Transportation Authority for the San José Arterial Management - Adaptive Traffic Control System Deployment Project",
+        "body": "The Council was set to approve a funding agreement with the Santa Clara Valley Transportation Authority for the San José Arterial Management Adaptive Traffic Control System Deployment Project. This action was expected to advance traffic management infrastructure in the city."
+      },
+      {
+        "item": "Actions Related to the Community Facilities District No. 8 (Communications Hill) Annexation Area No. 4",
+        "body": "The Council was scheduled to consider actions related to Community Facilities District No. 8 in the Communications Hill area, specifically regarding Annexation Area No. 4. This action was expected to address infrastructure financing and development in the designated area."
+      },
+      {
+        "item": "Annual City Council Referral Status Report for Fiscal Year 2025-2026",
+        "body": "The Council was set to review the Annual City Council Referral Status Report for Fiscal Year 2025-2026. This report was expected to provide an overview of council referrals and their completion status during the fiscal year."
+      },
+      {
+        "item": "Annual Merit Increases and Additional Executive Leave for Council Appointees",
+        "body": "The Council was scheduled to consider annual merit increases and additional executive leave provisions for Council appointees. This action was expected to address compensation and benefits for council-appointed officials."
+      }
+    ],
+    "publicComment": "Public comment was indicated on the agenda through multiple methods: spoken comments by phone or online via Zoom, written comments via eComment or email, and in-person comments with Speaker's Cards. An Open Forum was also scheduled to allow members of the public to speak on items not appearing on the agenda.",
+    "actionItems": [
+      "Scheduled to approve City Council Minutes",
+      "Scheduled to adopt ordinances on final reading",
+      "Scheduled to approve Council Committee Minutes",
+      "Scheduled to consider and potentially approve agreements with Catholic Charities of Santa Clara County and U.S. Department of Housing and Urban Development for the Blossom Valley Family Center",
+      "Scheduled to consider and potentially approve funding agreement with Santa Clara Valley Transportation Authority for Adaptive Traffic Control System",
+      "Scheduled to consider El Niño update and flood preparedness proclamation",
+      "Scheduled to consider conditional vacation of portion of Orchard Parkway",
+      "Scheduled to consider designation of Kogura Company Building as City Landmark",
+      "Scheduled to consider designation of Kow Kee Sixplex as City Landmark",
+      "Scheduled to consider designation of North 13th and East Empire Street properties as City Landmarks",
+      "Scheduled to consider Mills Act contract for Hotel De Anza",
+      "Scheduled to consider first amendment to development agreement with Apple Inc.",
+      "Scheduled to consider actions related to Community Facilities District No. 8 annexation",
+      "Scheduled to review Annual City Council Referral Status Report",
+      "Scheduled to consider annual merit increases and executive leave for Council appointees"
+    ],
+    "topics": [
+      "Housing And Community Development",
+      "Transportation And Traffic",
+      "Historical Preservation",
+      "Emergency Preparedness",
+      "Development Agreements"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "",
+        "name": "Please scroll to the end for information about the City Council Agenda and for the Rules of Conduct of the meeting.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "For live translations in over 50 languages, please go to https://attend.wordly.ai/join/FAYU-7105 Also visit our language access page at: https://www.sanjoseca.gov/your-government/appointees/city-clerk/language-access-for-city-council-and-council-committee-meetings",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Language Access Instructions / Instrucciones de interpretación / Hướng dẫn diễn giải",
+        "desc": "26-602 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Language Access Page",
+            "url": "https://www.sanjoseca.gov/your-government/appointees/city-clerk/language-access-for-city-council-and-council-committee-meetings",
+            "type": "",
+            "size": 0
+          },
+          {
+            "name": "How to Use Wordly illustration",
+            "url": "https://www.sanjoseca.gov/your-government/appointees/city-clerk/your-city-your-voice/language-access-wordly-instructions",
+            "type": "",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Closed Session Agenda",
+        "desc": "26-1160 (Closed Session Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Closed Session Agenda",
+            "url": "https://legistar.granicus.com/sanjose/attachments/308412a0-9a67-4e0e-bd55-7743b028d710.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "American Disability Act",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "To request an alternative format agenda under the Americans with Disabilities Act for City-sponsored meetings, events or printer materials, please call (408) 535-1260 as soon as possible, but at least three business days before the meeting.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Accommodations",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Any member of the public who needs accommodations should email the ADA Coordinator at ADA@sanjoseca.gov or by calling (408) 535-8430. The ADA Coordinator will use their best efforts to provide reasonable accommodations to provide as much accessibility as possible while also maintaining public safety in accordance with the City procedure for resolving reasonable accommodation requests. • Adaptaciones para discapacitados serán proporcionadas a pedido. Mande correo electrónico ADA@sanjoseca.gov; Llame (408) 535-8430. • Bất kỳ ai trong công-đồng cần sự hỗ-trợ xin gửi điện-thư cho Điều-phối-viên ADA theo địa-chỉ ADA@sanjoseca.gov hoặc gọi đến số (408) 535-8430.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "THE LEVINE ACT",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "The Levine Act requires a Party in a Proceeding before the City of San José that involves any action related to their contract, license, permit, or use entitlement to disclose any campaign contributions to City elected or appointed officials totaling more than $500 within the 12 months prior to the City decision. A Participant to a Proceeding may voluntarily report a campaign contribution. For more information: https://www.sanjoseca.gov/your-government/appointees/city-clerk/levine-act",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "How to observe the Meeting",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "1) Cable Channel 24 2) https://sanjoseca.gov/news-stories/watch-a-meeting 3) https://youtube.com/CityofSanJoseCalifornia",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "How to provide spoken Public Comment:",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "1) By Phone: (888) 475 4499. Webinar ID is 982 2147 4336. Alternative phone numbers are: US: +1 (213) 338 8477 or +1 (408) 638 0968 or (877) 853 5257 (Toll Free) a. When prompted to enter your Participant ID, please dial the pound symbol (#); If you would like to raise or lower your hand at any time, please dial * 9. You may dial * 6 to mute/unmute. 2) Online at: https://sanjoseca.zoom.us/j/98221474336 a. Use a current, up to date browser: Chrome 30+, Firefox 27+, Microsoft Edge 12+, Safari 7+. Certain functionality may be disabled in older browsers including Internet Explorer. Mute all other audio before speaking. Using multiple devices can cause audio feedback. b. Enter an email address and name. The name will be visible online and will be used to notify you that it is your turn to speak. c. When the Mayor calls for the item on which you wish to speak, click on “raise hand.” When we reach your name, the City Clerk will give you permission to speak and a pop up will appear on your screen letting you know it is your turn. d. When called, please limit your remarks to the time limit allotted. 3) In Person:",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Fill out a Speaker’s Card and submit it to boxes at the bottom of the Chambers. Do this before the meeting or before the item is heard. This will ensure that the name on the card is called for the item(s) that you wish to address, and it will help ensure the meeting runs smoothly for all participants by calling speakers in an orderly manner. You may remain anonymous, but please fill out a card so we may call you. You can put “anonymous speaker” or “no name” on the card. When the Council reaches your item on the agenda, the Mayor will open the public hearing and call your name. Please address the Council from the podium, which is located to the left of the City Clerk’s table. To assist you in tracking your speaking time, there is a display on the podium and on the screen above you. On the podium, the green light turns on when you begin speaking; the yellow light turns on when you have 30 seconds left; and the red light turns on when your speaking time is up.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "How to submit written Public Comment before the City Council Meeting",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Members of the public are encouraged to submit written comments to the City Council via eComment on the legistar calendar page (the eComment is the column on the far right). Click \"eComment,\" and it will take you to the eComment page to leave comments via an easy webform. Alternatively, you may still email at city.clerk@sanjoseca.gov. Those emails will be attached to the Council Item under “Letters from the Public.” Please identify the Agenda Item Number in the subject line of your email. eComments post immediately to the website. For emailed comments, submit them no earlier than 10 days before the meeting and no later than 5:00 p.m. on the day before the meeting. Comments received after 5:00 p.m. on the day before the meeting may still be posted before the meeting, depending on the volume of submissions received. You may speak to the City Council about any discussion item that is on the agenda and under Open Forum for City Business that is not on the agenda.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "•",
+        "name": "Call to Order and Roll Call",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "9:30 a.m. -",
+        "name": "Closed Session, Call to Order in Council Chambers Open Session, Labor Negotiations Update (See Item 3.2) Adjourn to Closed Session in Council Chambers Conference Room, W133 See Separate Agenda",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "1:30 p.m. -",
+        "name": "Regular Session, Council Chambers, City Hall",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "•",
+        "name": "Pledge of Allegiance",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "•",
+        "name": "Invocation (District 10)",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Reverend Mariellen Yoshino, Pastor, Growing Hope United Methodist Church",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "•",
+        "name": "Orders of the Day",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Items recommended to be added, dropped, or deferred are usually approved under Orders of the Day unless the Council directs otherwise.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "•",
+        "name": "Adjournment Recognition",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "•",
+        "name": "Closed Session Report",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "1",
+        "name": "CEREMONIAL ITEMS",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2",
+        "name": "CONSENT CALENDAR",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Notice to the public: There will be no separate discussion of Consent Calendar items as they are considered to be routine by the City Council and will be adopted by one motion. If a member of the City Council requests discussion on a particular item, that item may be removed from the Consent Calendar and considered separately.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.1",
+        "name": "Approval of City Council Minutes.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.2",
+        "name": "Final Adoption of Ordinances.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.3",
+        "name": "Approval of Council Committee Minutes.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.4",
+        "name": "Mayor and Council Excused Absence Requests.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.5",
+        "name": "City Council Travel Reports.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.6",
+        "name": "Report from the Council Liaison to the Retirement Boards.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.7",
+        "name": "Agreements with Catholic Charities of Santa Clara County and U.S. Department of Housing and Urban Development for the Development of the Blossom Valley Family Center.",
+        "desc": "26-1149 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Resolution",
+            "url": "https://legistar.granicus.com/sanjose/attachments/7162a3f1-2c2a-49a2-b122-88c4bf567324.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/781d7cbc-239e-42bf-b21f-139225798300.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letter from the Public",
+            "url": "https://legistar.granicus.com/sanjose/attachments/62e8d807-1ac9-4927-a275-abf92d9fe86a.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "2.8",
+        "name": "Funding Agreement with the Santa Clara Valley Transportation Authority for the San José Arterial Management - Adaptive Traffic Control System Deployment Project.",
+        "desc": "26-1150 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/be79d058-0cb3-40b5-9e5e-9b46d97ef667.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letter from the Public",
+            "url": "https://legistar.granicus.com/sanjose/attachments/1380fc90-b2b5-47e3-afb5-abd70500d8f1.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "3.3",
+        "name": "El Niño Update, Flood Preparedness, and Proclamation of a Local Emergency.",
+        "desc": "26-1151 (Strategic Support)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Resolution",
+            "url": "https://legistar.granicus.com/sanjose/attachments/68c93e68-c222-4ddf-a3b3-6db1025a8701.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/4cd3d4a2-263e-4046-ad05-b253b142e7bd.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Attachments",
+            "url": "https://legistar.granicus.com/sanjose/attachments/cb6d77e5-9224-4523-aa30-639f21b07fcf.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Presentation - est. 15 minutes",
+            "url": "https://legistar.granicus.com/sanjose/attachments/ba834089-2ed5-4504-bd28-e784a0943b1c.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letter from the Public",
+            "url": "https://legistar.granicus.com/sanjose/attachments/4ec1b08e-8616-4aec-aba7-31cdbf5c1901.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "3.4",
+        "name": "Actions Related to the Conditional Vacation of a Portion of Orchard Parkway. - TO BE HEARD AFTER ITEM 10.2",
+        "desc": "26-1152 (Strategic Support)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/78cea547-78a6-4e87-8a21-8ea600d15fda.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letters from the Public",
+            "url": "https://legistar.granicus.com/sanjose/attachments/c3dee98e-770f-412e-917a-348c62876bf8.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Resolution, rev. 11/9/26",
+            "url": "https://legistar.granicus.com/sanjose/attachments/37e851cb-b4db-4699-9663-555a2a5b7a81.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "8.1",
+        "name": "Actions Related to First Community Housing Stabilization.",
+        "desc": "26-1154 (Community & Economic Development)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "(a) Resolution",
+            "url": "https://legistar.granicus.com/sanjose/attachments/7c2d07e9-00c2-4103-a6b7-a6ce8cf0a4f4.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/a4cc11ff-dd34-430b-b8c7-fbced918b2b0.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "(b) Resolution",
+            "url": "https://legistar.granicus.com/sanjose/attachments/c39e1c82-24eb-4c58-9012-25af8069aa0b.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Presentation - est. 10 minutes",
+            "url": "https://legistar.granicus.com/sanjose/attachments/c2d1e7a1-3baf-4456-8904-47f06432e132.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum from Mayor, Foley, Tordillos & Mulcahy, 11/5/26",
+            "url": "https://legistar.granicus.com/sanjose/attachments/fa76f826-c7f4-4f86-bba2-4f6d388b3405.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum from Casey, Kamei, Campos, Cohen & Candelas, 11/6/26",
+            "url": "https://legistar.granicus.com/sanjose/attachments/6ceb3436-d8ed-4e9c-a434-40114a556ace.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letters from the Public",
+            "url": "https://legistar.granicus.com/sanjose/attachments/31fd2dcc-6345-447f-9fdf-bd1923812deb.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "(a)",
+        "name": "HL26-002 & MA26-001 - City Landmark and Historical Property (Mills Act) for Certain Real Property Located at 231 Jackson Street (Kogura Company Building).",
+        "desc": "26-1155 (Land Use Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "(1) Resolution",
+            "url": "https://legistar.granicus.com/sanjose/attachments/0c629a16-6e4c-4bee-8609-7885587512ba.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "(2) Resolution",
+            "url": "https://legistar.granicus.com/sanjose/attachments/d3aba126-948f-48bd-b173-3d67d81e680f.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/384a2aac-63ff-4416-8c7f-a4a327aa8344.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letter from the Public",
+            "url": "https://legistar.granicus.com/sanjose/attachments/bb9c9273-7777-4f86-81e4-be07c7424066.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "(b)",
+        "name": "HL26-004 & MA26-003 - City Landmark and Historical Property (Mills Act) for Certain Real Property Located at 605 North 6th Street (Kow Kee Sixplex).",
+        "desc": "26-1156 (Land Use Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "(1) Resolution",
+            "url": "https://legistar.granicus.com/sanjose/attachments/b44e4850-8262-4892-94a6-ef8978a915e5.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "(2) Resolution",
+            "url": "https://legistar.granicus.com/sanjose/attachments/18b17f28-f63d-479e-a115-ff8c6fde26a6.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/6023300e-ad34-4f51-833d-db26bf05fb7e.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letter from the Public",
+            "url": "https://legistar.granicus.com/sanjose/attachments/8f93d2a7-af82-46e4-ac25-47270914e515.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "(c)",
+        "name": "HL26-005 & MA26-005 - City Landmark and Historical Property (Mills Act) for Certain Real Property Located at 495-497 North 13th Street and 580-584 East Empire Street.",
+        "desc": "26-1157 (Land Use Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "(1) Resolution",
+            "url": "https://legistar.granicus.com/sanjose/attachments/0a6c240d-8569-47e4-9f69-6ec45a6efd46.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "(2) Resolution",
+            "url": "https://legistar.granicus.com/sanjose/attachments/05368007-c793-4a4f-a403-b2cdbe7418e7.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/15ae2aab-d616-4411-a001-664c93279646.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letter from the Public",
+            "url": "https://legistar.granicus.com/sanjose/attachments/0296a722-25a5-430c-bc93-c0083c0adf4b.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "(d)",
+        "name": "MA26-004 - Historical Property (Mills Act) Contract for Certain Real Property Located at 233 West Santa Clara St (Hotel De Anza).",
+        "desc": "26-1158 (Land Use Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Resolution",
+            "url": "https://legistar.granicus.com/sanjose/attachments/f982ef3a-bb88-46f7-a02b-cffedfd1c88b.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/4af86344-74cc-4d10-8491-8376f93c1734.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letter from the Public",
+            "url": "https://legistar.granicus.com/sanjose/attachments/5ab96c56-e2ca-4d6c-af44-91d796e2b322.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "10.2",
+        "name": "DA26-001 & ER26-132 - First Amendment to the Amended and Restated Development Agreement with Apple Inc. (West of Orchard Parkway on Both Sides of Atmel Way and East of Orchard Parkway on Both Sides of Component Drive) APNs 101-03-004, 007 & 008, APNs 101-02-011, 016 & 017.",
+        "desc": "26-1159 (Land Use Regular Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "(a) Resolution",
+            "url": "https://legistar.granicus.com/sanjose/attachments/ed225f83-37b3-442e-ac49-d6cb34fb6150.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "(b) Ordinance",
+            "url": "https://legistar.granicus.com/sanjose/attachments/6152432a-f33a-49bf-bf97-f98fc306b390.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letters from the Public",
+            "url": "https://legistar.granicus.com/sanjose/attachments/b1db5393-833e-4600-b28a-fae2467ce1df.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/33a546b0-cfda-4031-8f27-5211a4e444f3.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum from Mayor, Cohen & Mulcahy, 11/6/2026",
+            "url": "https://legistar.granicus.com/sanjose/attachments/31bc55b8-bb1c-4ec9-bc73-56ff960d9190.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Presentation - est. 5 minutes",
+            "url": "https://legistar.granicus.com/sanjose/attachments/85c601b7-e2c8-4561-9e6e-eaf92d27ea09.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "3",
+        "name": "STRATEGIC SUPPORT",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.1",
+        "name": "Report of the City Manager, Jennifer Maguire (Verbal Report).",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.2",
+        "name": "Labor Negotiations Update.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.5",
+        "name": "Actions Related to the Community Facilities District No. 8 (Communications Hill) Annexation Area No. 4.",
+        "desc": "26-1153 (Strategic Support)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Resolution",
+            "url": "https://legistar.granicus.com/sanjose/attachments/b4e5be2c-9d12-44dd-8628-8143a199f5b1.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance",
+            "url": "https://legistar.granicus.com/sanjose/attachments/064d6ca6-d088-4e2b-b404-6bf8d82566ad.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/3c8e5eac-2995-4b66-8269-802410eb47d6.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letter from the Public",
+            "url": "https://legistar.granicus.com/sanjose/attachments/039466cf-b9dc-4341-b403-e89dfac3903f.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "4",
+        "name": "PUBLIC SAFETY SERVICES",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "5",
+        "name": "TRANSPORTATION & AVIATION SERVICES",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "6",
+        "name": "ENVIRONMENTAL & UTILITY SERVICES",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "7",
+        "name": "NEIGHBORHOOD SERVICES",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "8",
+        "name": "COMMUNITY & ECONOMIC DEVELOPMENT",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "9",
+        "name": "REDEVELOPMENT – SUCCESSOR AGENCY",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "10",
+        "name": "LAND USE",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Notice to the public: There will be no separate discussion of Land Use Consent Calendar (Item 10.1) as they are considered to be routine by the City Council and will be adopted by one motion. If a member of the City Council requests discussion on a particular item, that item will be removed from the Land Use Consent Calendar (Item 10.1) and considered separately.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "10.1",
+        "name": "Land Use on Consent Calendar - TO BE HEARD IMMEDIATELY AFTER CONSENT",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "END OF CONSENT CALENDAR",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "10",
+        "name": "Land Use - Regular Agenda",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "•",
+        "name": "Open Forum",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Members of the Public are invited to speak on any item that does not appear on today’s Agenda and that is within the subject matter jurisdiction of the City Council. Members of the public may only speak at Open Forum once.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "•",
+        "name": "Adjournment",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "All public records relating to an open session item on this agenda, which are not exempt from disclosure pursuant to the California Public Records Act, that are distributed to a majority of the legislative body will be available for public inspection online at https://sanjose.legistar.com/Calendar.aspx or at the Office of the City Clerk at San José City Hall, 200 E. Santa Clara Street, Tower 14th Floor, San José, CA 95113 at the same time that the public records are distributed or made available to the legislative body. Any draft contracts, ordinances and resolutions posted on the Internet site or distributed in advance of the Council meeting may not be the final documents approved by the City Council. Please go to the Clerk’s Records Database https://records.sanjoseca.gov/Pages/Search.aspx for the final document, or you many also contact the Office of the City Clerk at (408) 535-1260 or city.clerk@sanjoseca.gov.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "PAGE BREAK",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "1.1",
+        "name": "Presentation of a commendation to La Raza Roundtable in recognition of its longstanding commitment to community advocacy, advancing social and economic justice, and empowering Latino and underserved communities throughout San José. (Ortiz)",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "1.2",
+        "name": "Presentation of a proclamation declaring November 15, 2026, as World Day of Remembrance in the City of San José to commemorate the victims of traffic violence and their families. (Foley)",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "1.3",
+        "name": "Presentation of a proclamation declaring November 2026 as Sikh American Awareness and Appreciation Month in San José. (Candelas)",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.9",
+        "name": "Annual City Council Referral Status Report for Fiscal Year 2025-2026.",
+        "desc": "26-1176 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Letters from the Public - 2 of 3",
+            "url": "https://legistar.granicus.com/sanjose/attachments/278ae882-68dd-4cda-afd3-1b9c6be71853.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letters from the Public - 1 of 3",
+            "url": "https://legistar.granicus.com/sanjose/attachments/e6f35833-a905-4dfc-808c-cf03af66a1f1.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/763da0f2-5ac8-4d04-9aaa-078749ed0ef1.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letters from the Public - 3 of 3",
+            "url": "https://legistar.granicus.com/sanjose/attachments/61e58c0d-ec46-4f8b-8fe7-bedf1e13447d.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Final Adoption of Ordinances.",
+        "desc": "26-1177 (Final Adoption of Ordinance)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Letter from the Public",
+            "url": "https://legistar.granicus.com/sanjose/attachments/fee8030f-c8c0-4972-9313-f331eb1b17ba.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "This meeting will be adjourned in memory of Renee Lo, a dedicated education advocate and community leader who passed away on September 12, 2026. Elected to the Orchard School District Board in 2022, Renee served as Board President, Vice President, and Clerk, advocating tirelessly for foster children, students with special needs, and disadvantaged youth. She fought to protect funding for arts and special education, improve school facilities, and strengthen partnerships between school districts. Beyond education, Renee was an active leader in Scouting America and supported numerous charities. Above all, she was a devoted daughter, beloved sister, loving wife, and caring mother who generously gave her time, energy, and heart to others. Renee leaves a lasting legacy of compassion, love, and service throughout Santa Clara County.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Approval of City Council Minutes.",
+        "desc": "26-1206 (Approval of Council Minutes)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "(a) 10/27/2026 CC Minutes",
+            "url": "https://legistar.granicus.com/sanjose/attachments/6986d045-5319-462b-b63a-48526b3f7b86.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letter from the Public",
+            "url": "https://legistar.granicus.com/sanjose/attachments/9fa20f06-54ad-4a6e-badb-efce6cc96210.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Approval of Council Committee Minutes.",
+        "desc": "26-1207 (Approval of Council Committee Minutes)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "(a) 10/28/2026 ROGC Minutes",
+            "url": "https://legistar.granicus.com/sanjose/attachments/7ec9213d-6b33-4351-8678-a9a5724da030.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letter from the Public",
+            "url": "https://legistar.granicus.com/sanjose/attachments/96b596b9-13cd-426e-b949-2310c779c529.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "3.6",
+        "name": "Annual Merit Increases and Additional Executive Leave for Council Appointees.",
+        "desc": "26-1204 (Strategic Support)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/13c02358-d575-4a2e-9785-3b8abe8beab9.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Resolution",
+            "url": "https://legistar.granicus.com/sanjose/attachments/867245cf-d8f2-4ce3-b802-c548be1dd1cd.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letter from the Public",
+            "url": "https://legistar.granicus.com/sanjose/attachments/6ad9c6a0-1296-477d-9137-b751c4bc2975.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
     "id": "lg_8210",
     "source": "sanjose",
     "title": "City Council",
