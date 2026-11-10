@@ -1,5 +1,169 @@
 [
   {
+    "id": "cc_47",
+    "source": "louisville",
+    "title": "City Council Meeting",
+    "date": "November 10, 2026",
+    "shortDate": "NOV 10",
+    "committee": "City Council",
+    "duration": null,
+    "url": "https://louisvilleco.portal.civicclerk.com/event/47/files",
+    "docUrl": "https://louisvilleco.portal.civicclerk.com/event/47/files",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, this special City Council meeting was scheduled to address an update from the Municipal Judge and Prosecuting Attorney, discuss community engagement strategy, and identify upcoming agenda items through February 2027. The meeting was set to include public comment opportunities on multiple discussion items.",
+    "agenda": [
+      {
+        "time": "6:00 PM",
+        "item": "Call to Order & Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Pledge of Allegiance"
+      },
+      {
+        "time": "N/A",
+        "item": "Update with Municipal Judge and Prosecuting Attorney"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion / Direction: Community Engagement"
+      },
+      {
+        "time": "N/A",
+        "item": "Upcoming Agenda Items & Identification of New Ones — November 11, 2026 through February 28, 2027"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Update with Municipal Judge and Prosecuting Attorney",
+        "body": "The Council was scheduled to receive an informational update from the Municipal Judge and Prosecuting Attorney. While Council members were expected to ask questions and engage in discussion, no formal action was set to be taken on this item. One round of public comment was scheduled."
+      },
+      {
+        "item": "Discussion / Direction: Community Engagement",
+        "body": "Council was set to discuss and provide direction on community engagement strategy. This discussion was expected to allow Council members to learn about the item, ask questions, and provide feedback to staff, with no final decisions scheduled to be made at this meeting. One round of public comment was included on the agenda."
+      },
+      {
+        "item": "Upcoming Agenda Items & Identification of New Ones — November 11, 2026 through February 28, 2027",
+        "body": "Council was scheduled to review and identify upcoming agenda items for the period through February 28, 2027. The session was set to provide an opportunity for Council members to learn about planned items, ask questions, and provide feedback, with the possibility of items returning for future action. One round of public comment was included."
+      }
+    ],
+    "publicComment": "Public comment was indicated on the agenda for three items: the Municipal Judge and Prosecuting Attorney update, the Community Engagement discussion, and the Upcoming Agenda Items discussion.",
+    "actionItems": [
+      "Scheduled to receive informational update from Municipal Judge and Prosecuting Attorney with public comment",
+      "Expected to discuss and provide direction on Community Engagement strategy with public comment",
+      "Set to identify and discuss upcoming agenda items through February 28, 2027 with public comment"
+    ],
+    "topics": [
+      "Public Safety",
+      "Community Engagement",
+      "Municipal Government"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "1.",
+        "name": "Call to Order & Roll Call",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.",
+        "name": "Pledge of Allegiance",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.",
+        "name": "Regular Business",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "​Update with Municipal Judge and Prosecuting Attorney<div style=\"margin-left: 20px;\"><span style=\"font-size: 12px;\">This item informational only. While Council may ask questions and have discussion, no action will be taken. There will be one round of public comment.</span></div>",
+            "desc": "Annual update regarding the Louisville Municipal Court with Judge David Thrower and Prosecuting Attorney Tricia McCarthy.",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2026 11 10 Court Presentation",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5843)",
+                "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "size": 3935430
+              },
+              {
+                "name": "2026 YTD Tickets (as of 11/4/26)",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5848)",
+                "type": "application/pdf",
+                "size": 3479360
+              },
+              {
+                "name": "2025 Court Cases",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5851)",
+                "type": "application/pdf",
+                "size": 3460342
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "B.",
+            "name": "Discussion / Direction: Community Engagement<br><div style=\"margin-left: 20px;\" id=\"isPasted\"><span style=\"font-size: 12px;\">Discussion / Direction provides Council with the opportunity to learn about an item, ask questions, and provide feedback to staff. There will be one round of public comment. There will be no final decisions made on this item, and it may return at a later date for action by Council.</span></div>",
+            "desc": "The City's Communications Manager will provide an overview of the City's current approach to community engagement and opportunities to strengthen these efforts. Staff will discuss opportunities to establish a more consistent, intentional, and effective approach. Near-term improvements will focus on developing shared guidelines, decision-making criteria, processes, and resources using existing staff capacity and tools.<br><br>The presentation will also explore how these foundational improvements can support a more comprehensive approach to community engagement over time. Given current resource and staffing limitations, the City will need to prioritize sustainable improvements while identifying opportunities for future growth as capacity allows.",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Community Engagement Framework Presentation_2026.11.10",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5842)",
+                "type": "application/pdf",
+                "size": 5224428
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "C.",
+            "name": "Upcoming Agenda Items & Identification of New Ones — November 11, 2026 ​through February 28, 2027<br><div style=\"margin-left: 20px;\" id=\"isPasted\"><span style=\"font-size: 12px;\">Discussion / Direction provides Council with the opportunity to learn about an item, ask questions, and provide feedback to staff. There will be one round of public comment. There will be no final decisions made on this item, and it may return at a later date for action by Council.</span></div>",
+            "desc": "Staff requests the City Council review the upcoming Council agenda items for the upcoming months, provide feedback, and suggest any additional topics for consideration.",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2026 Agenda Forecast",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5859)",
+                "type": "application/pdf",
+                "size": 122269
+              },
+              {
+                "name": "2027 Agenda Forecast",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5860)",
+                "type": "application/pdf",
+                "size": 109535
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "4.",
+        "name": "Adjourn",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      }
+    ]
+  },
+  {
     "id": "cc_1431",
     "source": "louisville",
     "title": "Youth Advisory Board",
