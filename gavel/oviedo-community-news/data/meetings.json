@@ -1,5 +1,161 @@
 [
   {
+    "id": "pg_2746",
+    "source": "oviedo",
+    "title": "Community Redevelopment Agency",
+    "date": "November 16, 2026",
+    "shortDate": "NOV 16",
+    "committee": "Community Redevelopment Agency Governing Board",
+    "duration": null,
+    "url": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8917",
+    "docUrl": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8917",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Oviedo Community Redevelopment Agency Governing Board was scheduled to meet on November 16, 2026, to review and act on administrative matters including approval of prior meeting minutes, a Memorandum of Understanding regarding Solary Park Pond Revisions, and purchase order carryforwards for the fiscal year.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of Minutes for the October 19, 2026, Regular Session"
+      },
+      {
+        "time": "N/A",
+        "item": "Citizen Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 181-26, Memorandum of Understanding Between the Oviedo Community Redevelopment Agency and City of Oviedo for the Solary Park Pond Revisions"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 182-26, FY 2025-26 Purchase Order Carryforwards to FY 2026-27"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Resolution No. 181-26, Memorandum of Understanding Between the Oviedo Community Redevelopment Agency and City of Oviedo for the Solary Park Pond Revisions",
+        "body": "The board was scheduled to consider a Memorandum of Understanding between the Community Redevelopment Agency and the City of Oviedo pertaining to revisions to Solary Park Pond. This item was set for action via consent agenda approval."
+      },
+      {
+        "item": "Resolution No. 182-26, FY 2025-26 Purchase Order Carryforwards to FY 2026-27",
+        "body": "The board was scheduled to consider carryforward purchase orders from fiscal year 2025-26 into fiscal year 2026-27. This item was set for consent agenda approval."
+      }
+    ],
+    "publicComment": "Public comment was scheduled on the agenda, with a three-minute limit per speaker.",
+    "actionItems": [
+      "Scheduled to approve minutes from the October 19, 2026, regular session",
+      "Scheduled to vote on Resolution No. 181-26 regarding the Memorandum of Understanding for Solary Park Pond Revisions",
+      "Scheduled to vote on Resolution No. 182-26 regarding FY 2025-26 Purchase Order Carryforwards to FY 2026-27"
+    ],
+    "topics": [
+      "Parks",
+      "Budget",
+      "Solary Park",
+      "Administrative Actions"
+    ],
+    "votes": []
+  },
+  {
+    "id": "pg_2729",
+    "source": "oviedo",
+    "title": "City Council Regular Meeting",
+    "date": "November 16, 2026",
+    "shortDate": "NOV 16",
+    "committee": "City Council",
+    "duration": null,
+    "url": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8920",
+    "docUrl": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8920",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Oviedo City Council was scheduled to hold a regular session on November 16, 2026, to address several budget amendments, approve a memorandum of understanding related to Solary Park pond revisions, and discuss the 2026-27 city special event operations.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of Minutes for September 28, 2026 Work Session, October 12, 2026 Special Session, and October 19, 2026 Regular Session"
+      },
+      {
+        "time": "N/A",
+        "item": "Citizen Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 4779-26, FY 2025-26 Year-End Budget Amendment"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 4780-26, Purchase Order and Unencumbered Balances Carry Forward Budget Amendment"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 4782-26, Memorandum of Understanding Between the Oviedo Community Redevelopment Agency and the City of Oviedo for the Solary Park Pond Revisions"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 4783-26, Central Square Credit Card Processing Sales Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 4784-26, Move the budget expenditures for Ring Central to the IT Internal Service Fund"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 4785-26, Award of Invitation to Bid, No. 27-10, for Nuisance Wildlife Removal"
+      },
+      {
+        "time": "N/A",
+        "item": "2026-27 City Special Event Operations"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "FY 2025-26 Year-End Budget Amendment",
+        "body": "The City Council was scheduled to consider Resolution No. 4779-26 regarding year-end budget adjustments for fiscal year 2025-26. This resolution was set for action on the consent agenda."
+      },
+      {
+        "item": "Purchase Order and Unencumbered Balances Carry Forward Budget Amendment",
+        "body": "The Council was expected to consider Resolution No. 4780-26 to address purchase order and unencumbered balance carry forward adjustments. This item was scheduled for action on the consent agenda."
+      },
+      {
+        "item": "Memorandum of Understanding for Solary Park Pond Revisions",
+        "body": "The City Council was set to review and potentially approve Resolution No. 4782-26, which establishes a memorandum of understanding between the Oviedo Community Redevelopment Agency and the City of Oviedo regarding revisions to Solary Park pond. This was scheduled for action on the consent agenda."
+      },
+      {
+        "item": "Central Square Credit Card Processing Sales Order",
+        "body": "The Council was scheduled to consider Resolution No. 4783-26 for a Central Square credit card processing sales order. This item was set for action on the consent agenda."
+      },
+      {
+        "item": "Ring Central Budget Expenditure Transfer",
+        "body": "The City Council was expected to consider Resolution No. 4784-26 to move budget expenditures for Ring Central to the IT Internal Service Fund. This item was scheduled for action on the consent agenda."
+      },
+      {
+        "item": "Award of Invitation to Bid for Nuisance Wildlife Removal",
+        "body": "The Council was set to consider Resolution No. 4785-26 to award Invitation to Bid No. 27-10 for nuisance wildlife removal services. This item was scheduled for action on the consent agenda."
+      },
+      {
+        "item": "2026-27 City Special Event Operations",
+        "body": "The City Council was scheduled to discuss special event operations for the 2026-27 fiscal year. This discussion item was set for consideration during the regular session."
+      }
+    ],
+    "publicComment": "Public comment was indicated on the agenda, with citizens invited to submit request to speak forms to the City Clerk prior to the meeting, limited to 3 minutes per speaker.",
+    "actionItems": [
+      "Scheduled to approve minutes from prior sessions",
+      "Expected to vote on Resolution No. 4779-26 for FY 2025-26 year-end budget amendment",
+      "Expected to vote on Resolution No. 4780-26 for purchase order and carry forward budget amendment",
+      "Expected to vote on Resolution No. 4782-26 for Solary Park pond revisions memorandum of understanding",
+      "Expected to vote on Resolution No. 4783-26 for Central Square credit card processing",
+      "Expected to vote on Resolution No. 4784-26 for Ring Central budget transfer",
+      "Expected to vote on Resolution No. 4785-26 to award nuisance wildlife removal bid",
+      "Scheduled to discuss 2026-27 city special event operations"
+    ],
+    "topics": [
+      "Budget",
+      "Parks",
+      "Solary Park",
+      "Special Events",
+      "Procurement"
+    ],
+    "votes": []
+  },
+  {
     "id": "pg_2728",
     "source": "oviedo",
     "title": "City Council Regular Meeting",
