@@ -1,5 +1,657 @@
 [
   {
+    "id": "cc_400",
+    "source": "portchester",
+    "title": "Board of Trustees Regular Meeting-3rd",
+    "date": "November 16, 2026",
+    "shortDate": "NOV 16",
+    "committee": "Board of Trustees",
+    "duration": null,
+    "url": "https://portchesterny.portal.civicclerk.com/event/400/files",
+    "docUrl": "https://portchesterny.portal.civicclerk.com/event/400/files",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Board of Trustees of Port Chester was scheduled to hold a regular meeting to consider zoning amendments for two development projects, establish new parking violation fines, review presentations on police headquarters planning, and address various add-on resolutions and correspondence items. The meeting was also set to include a proposed executive/closed session.",
+    "agenda": [
+      {
+        "time": "7:00 PM",
+        "item": "Call to Order and Pledge of Allegiance"
+      },
+      {
+        "time": "N/A",
+        "item": "Presentation by Village Attorney Calli Jones"
+      },
+      {
+        "time": "N/A",
+        "item": "Presentation by Ronnette Riley Architects on Port Chester Police Department Headquarters Masterplan Progress"
+      },
+      {
+        "time": "N/A",
+        "item": "Public hearing to consider local law amending Chapter 345 (Zoning) to provide 155-157 Irving Avenue project additional time to secure a building permit under Site Plan Approval"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution 0.5: Finding that 157 Irving Avenue action is a Qualified Action under SEQRA and exempt from review; adopting Local Law No. I-XX of 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Public hearing to consider local law amending Chapter 345 (Zoning) to provide 157 Westchester Avenue project additional time to secure a building permit under Site Plan Approval"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution 0.75: Finding that 157 Westchester Avenue action is a Qualified Action under SEQRA and exempt from review; adopting Local Law No. I-XXI of 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Public hearing to consider local law amending Chapter 319 (Vehicles and Traffic) to establish graduated fines for overnight parking and street cleaning violations and minimum fines for parking violations"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of October 5, 19, 28, and November 2, 2026 minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Report of the Village Manager"
+      },
+      {
+        "time": "N/A",
+        "item": "ADD-ON: License agreement with Capitol Theatre"
+      },
+      {
+        "time": "N/A",
+        "item": "ADD-ON: Setting a public hearing to consider local law repealing Chapter 157 (circuses, carnivals and parades); adding new Chapter 278 (special events, parades and public gatherings); and amending Chapters 175 (fees) and 236 (parks)"
+      },
+      {
+        "time": "N/A",
+        "item": "ADD-ON: Appointment to the Beautification Commission"
+      },
+      {
+        "time": "N/A",
+        "item": "ADD-ON: Acceptance and approval of Jack Butler as a member of Harry Howard Hook & Ladder Company No. 1"
+      },
+      {
+        "time": "N/A",
+        "item": "ADD-ON: Acceptance and approval of Mizel Faison as a member of Mellor Engine and Hose Company No. 3"
+      },
+      {
+        "time": "N/A",
+        "item": "ADD-ON Correspondence: From the Traffic Commission recommending a traffic study for a possible crosswalk on King Street at Davenport Avenue"
+      },
+      {
+        "time": "N/A",
+        "item": "ADD-ON Correspondence: From the Fire Patrol & Rescue Company on the expulsion of Ryan Morgan"
+      },
+      {
+        "time": "N/A",
+        "item": "ADD-ON Correspondence: Resignation of Virginia Corbia as a member of the Park Commission"
+      },
+      {
+        "time": "N/A",
+        "item": "ADD-ON Correspondence: From John Akano regarding Port Chester Recreation Commission opening"
+      },
+      {
+        "time": "N/A",
+        "item": "Proposed Executive/Closed Session"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Presentation by Village Attorney Calli Jones",
+        "body": "The Village Attorney was scheduled to deliver a presentation during the board meeting. The specific subject matter of this presentation was not indicated on the agenda."
+      },
+      {
+        "item": "Presentation by Ronnette Riley Architects on PCPD Headquarters Masterplan Progress",
+        "body": "The board was scheduled to receive a presentation on the progress of the Port Chester Police Department headquarters masterplan from architectural firm Ronnette Riley Architects. This presentation was expected to update the board on planning and design developments for the police headquarters project."
+      },
+      {
+        "item": "Public hearing on 155-157 Irving Avenue zoning amendment",
+        "body": "The board was set to hold a public hearing to consider a local law amending Chapter 345 (Zoning) to grant the 155-157 Irving Avenue project additional time to secure a building permit under its existing Site Plan Approval from November 27, 2023. Resolution 0.5 was scheduled for adoption, finding the action a Qualified Action under SEQRA exempt from environmental review."
+      },
+      {
+        "item": "Public hearing on 157 Westchester Avenue zoning amendment",
+        "body": "The board was set to hold a public hearing to consider a local law amending Chapter 345 (Zoning) to grant the 157 Westchester Avenue project additional time to secure a building permit under its existing Site Plan Approval from November 27, 2023. Resolution 0.75 was scheduled for adoption, finding the action a Qualified Action under SEQRA exempt from environmental review."
+      },
+      {
+        "item": "Public hearing on parking violation fine amendments",
+        "body": "The board was scheduled to hold a public hearing on a local law amending Chapter 319 (Vehicles and Traffic) to establish graduated fines for overnight parking and street cleaning violations and establish minimum fines for parking violations in Port Chester."
+      },
+      {
+        "item": "ADD-ON: License agreement with Capitol Theatre",
+        "body": "The board was expected to consider a license agreement with the Capitol Theatre as an add-on resolution. The specific terms and details of the agreement were not indicated on the agenda."
+      },
+      {
+        "item": "ADD-ON: Local law on special events, parades and public gatherings",
+        "body": "The board was scheduled to set a public hearing to consider a local law repealing Chapter 157 (circuses, carnivals and parades) and adding a new Chapter 278 (special events, parades and public gatherings), while amending Chapters 175 (fees) and 236 (parks). This consolidation was expected to modernize the village's regulations for public events."
+      },
+      {
+        "item": "ADD-ON: Traffic study for King Street crosswalk",
+        "body": "The board was set to consider correspondence from the Traffic Commission recommending a traffic study for a possible crosswalk on King Street at Davenport Avenue. This study was expected to evaluate pedestrian safety at this intersection."
+      }
+    ],
+    "publicComment": "Public comment was scheduled during the meeting under Section V (Public Comments) and Section IX (Public Comments and Board Comments).",
+    "actionItems": [
+      "Scheduled to vote on Resolution 0.5 for 157 Irving Avenue zoning amendment and Site Plan Approval extension",
+      "Scheduled to vote on Resolution 0.75 for 157 Westchester Avenue zoning amendment and Site Plan Approval extension",
+      "Scheduled to vote on local law establishing graduated parking violation fines",
+      "Expected to consider license agreement with Capitol Theatre",
+      "Scheduled to set public hearing on special events, parades and public gatherings local law",
+      "Expected to consider appointment to the Beautification Commission",
+      "Expected to consider acceptance of Jack Butler to Harry Howard Hook & Ladder Company No. 1",
+      "Expected to consider acceptance of Mizel Faison to Mellor Engine and Hose Company No. 3",
+      "Expected to review Traffic Commission recommendation for King Street crosswalk study",
+      "Expected to address expulsion of Ryan Morgan from Fire Patrol & Rescue Company",
+      "Expected to accept Virginia Corbia's resignation from Park Commission"
+    ],
+    "topics": [
+      "Zoning",
+      "Development",
+      "Parking Enforcement",
+      "Police Headquarters",
+      "Public Safety"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "I.",
+        "name": "CALL TO ORDER / PLEDGE OF ALLEGIANCE",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "II.",
+        "name": "PRESENTATION",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "1.",
+            "name": "Presentation by Village Attorney, Calli Jones",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "PRESENTATION 1.1 - VILLAGE ATTNY_11.16.26_BOT",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7619)",
+                "type": "application/pdf",
+                "size": 230138
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "2.",
+            "name": "Presentation by Ronnette Riley Architects on PCPD Headquarters Masterplan Progress",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "III.",
+        "name": "AFFIDAVIT OF PUBLICATION AND NOTICE OF PUBLICATION RE:",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "1.",
+            "name": "Public hearing to consider the advisability of adopting a local law amending the Code of the Village of Port Chester, Chapter 345, “Zoning,” adding a new subsection to 345-805G(7) providing the 155-157 Irving Avenue project additional time to secure a building permit under its Site Plan Approval.<br data-pasted=\"true\"><br>RESOLUTION 0.5: Finding that the action relating to 157 Irving Avenue is a “Qualified Action” under the New York State Environmental Quality Review Act (“SEQRA”) and is exempt from SEQRA review, and adopting Local Law No. I-XX of 2026, amending the code of the Village of Port Chester, Chapter 345, “Zoning” to provide additional time to the 157 Irving Avenue Project under the Site Plan Approval of November 27, 2023",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "PUBLIC HEARING 01.2 - LL No. I-20 of 2026 - Petition to Extend Site Plan and All Related Approvals - 155-157 Irving Ave",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7620)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 25122
+              },
+              {
+                "name": "PUBLIC HEARING 01.2 - LL No. I-20 of 2026 - Petition to Extend Site Plan and All Related Approvals - 155-157 Irving Ave",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7621)",
+                "type": "application/pdf",
+                "size": 177855
+              },
+              {
+                "name": "PUBLIC HEARING 01.3 - Petition to Extend Site Plan and All Related Approvals - 155-157 Irving Ave",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7622)",
+                "type": "application/pdf",
+                "size": 9806288
+              },
+              {
+                "name": "PUBLIC HEARING 01.4 - PCH-26-012  155-157 Irving Ave Extension - WCPB Review",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7623)",
+                "type": "application/pdf",
+                "size": 134422
+              },
+              {
+                "name": "PUBLIC HEARING 01.5 - 10.15.2026 Proof of Service - 157 Irving Ave",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7624)",
+                "type": "application/pdf",
+                "size": 27655129
+              },
+              {
+                "name": "PUBLIC HEARING 01.6 - PUBLIC NOTICE - (English & Spanish) - PUBLIC HEARING - Local Law No. I-20 of 2026 Lohud",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7625)",
+                "type": "application/pdf",
+                "size": 2935324
+              },
+              {
+                "name": "PUBLIC HEARING 01.7 - PCH-26-012 157 Irving Avenue Extension - Zoning Text Amendment",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7626)",
+                "type": "application/pdf",
+                "size": 134422
+              },
+              {
+                "name": "PUBLIC HEARING 01.8 - RESOLUTION  - ADOPT LOCAL LAW 157 Irving Ave",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7627)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 32489
+              },
+              {
+                "name": "PUBLIC HEARING 01.9 - 10.19.2026 Supplemental Proof of Service",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7628)",
+                "type": "application/pdf",
+                "size": 2984736
+              },
+              {
+                "name": "PUBLIC HEARING 01.10 - 11.02.2026 Supplemental Proof of Service - 157 Irving Avenue",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7629)",
+                "type": "application/pdf",
+                "size": 20020337
+              },
+              {
+                "name": "PUBLIC HEARING 01.11 - 157 Westchester Ave & 5-11 N Pearl St Supplemental Proof of Posting",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7630)",
+                "type": "application/pdf",
+                "size": 7548380
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "2.",
+            "name": "Public hearing to consider the advisability of adopting a local law amending the Code of the Village of Port Chester, Chapter 345, “Zoning,” adding a new subsection to 345-805G(7) providing the 157 Westchester Avenue project additional time to secure a building permit under its Site Plan Approval.<br data-pasted=\"true\"><br>RESOLUTION 0.75: Finding that the action relating to 157 Westchester Avenue is a “Qualified Action” under the New York State Environmental Quality Review Act (“Seqra”) and is exempt from SEQRA Review, and adopting Local Law No. I-XXI of 2026, amending the code of the Village of Port Chester, Chapter 345, “Zoning” to provide additional time to the 157 Westchester Avenue Project under the Site Plan Approval of November 27, 2023",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "PUBLIC HEARING 02.2 - LOCAL LAW No. I-21 of 2026 - Petition to Extend Site Plan & All Related Approvals - 157 Westchester Ave & Pearl St",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7631)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 25170
+              },
+              {
+                "name": "PUBLIC HEARING 02.3 - Petition to Extend Site Plan & All Related Approvals - 157 Westchester Ave & Pearl St",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7632)",
+                "type": "application/pdf",
+                "size": 8048438
+              },
+              {
+                "name": "PUBLIC HEARING 02.4 - PCH-26-011 157 Westchester Ave Extension - WCPB Review",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7633)",
+                "type": "application/pdf",
+                "size": 134479
+              },
+              {
+                "name": "PUBLIC HEARING 02.5 - 10.15.26 Proof of Service - North Pearl Holding LLC",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7634)",
+                "type": "application/pdf",
+                "size": 23419908
+              },
+              {
+                "name": "PUBLIC HEARING 02.6 - PUBLIC NOTICE - (English & Spanish) - PUBLIC HEARING - Local Law No. I-21 of 2026 Lohud",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7635)",
+                "type": "application/pdf",
+                "size": 3054044
+              },
+              {
+                "name": "PUBLIC HEARING 02.7 - PCH-26-011 157 Westchester Avenue Extension - Zoning Text Amendment",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7636)",
+                "type": "application/pdf",
+                "size": 134479
+              },
+              {
+                "name": "PUBLIC HEARING 02.8 - RESOLUTION  - ADOPT LOCAL LAW 157 Westchester Ave",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7637)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 32506
+              },
+              {
+                "name": "PUBLIC HEARING 02.9 - 11.02.2026 Supplemental Proof of Service - 157 Westchester Avenue",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7638)",
+                "type": "application/pdf",
+                "size": 14321581
+              },
+              {
+                "name": "PUBLIC HEARING 02.10 - 157 Irving Ave. Supplemental Proof of Posting",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7639)",
+                "type": "application/pdf",
+                "size": 18636521
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "3.",
+            "name": "Public Hearing to consider the advisability of adopting a Local Law Amending § 319-91, “Schedule XXX: Fines,” of Chapter 319, “Vehicles and Traffic,” of The Code of The Village of Port Chester to establish graduated fines for Overnight Parking and Street Cleaning Violations and minimum fines for Parking Violations",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "PUBLIC HEARING 03.2 -  No. I-24 of 2066  - AMENDING 319-91 SCHEDULE XXX FINES",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7640)",
+                "type": "application/pdf",
+                "size": 232882
+              },
+              {
+                "name": "PUBLIC HEARING 03.3 -  Memo_Parking Advisory Committee Recommendations For Parking Fine Adjustments October 2026",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7641)",
+                "type": "application/pdf",
+                "size": 239275
+              },
+              {
+                "name": "PUBLIC HEARING 03.4 - PUBLIC NOTICE - Local Law No. I-24 of 2026 - Amend § 319-91, “Schedule XXX Fines",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7642)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 13666
+              },
+              {
+                "name": "PUBLIC HEARING 03.5 - PUBLIC NOTICE - Local Law No. I-24 of 2026 - Amend § 319-91, “Schedule XXX Fines",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7643)",
+                "type": "application/pdf",
+                "size": 127164
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "IV.",
+        "name": "MINUTES",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "1.",
+            "name": "Approval of October 5, 19, 28, and November 2, 2026 minutes",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2026-10-05 - Minutes",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7657)",
+                "type": "application/pdf",
+                "size": 1297788
+              },
+              {
+                "name": "2026-10-19 - Minutes",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7658)",
+                "type": "application/pdf",
+                "size": 1483194
+              },
+              {
+                "name": "2026-10-28 - Minutes - AGENDA WORK SESSION",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7659)",
+                "type": "application/pdf",
+                "size": 280944
+              },
+              {
+                "name": "2026-11-02 - Minutes",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7660)",
+                "type": "application/pdf",
+                "size": 7380623
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "V.",
+        "name": "PUBLIC COMMENTS",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "VI.",
+        "name": "REPORT OF THE VILLAGE MANAGER",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "VII.",
+        "name": "REQUESTS FOR ADD-ON RESOLUTIONS",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "1.",
+            "name": "ADD-ON - License agreement with Capitol Theatre",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "RESOLUTION 01.1 - Capitol Theatre License Agreement",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7644)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 33505
+              },
+              {
+                "name": "RESOLUTION 01.2 - Capitol Theatre",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7645)",
+                "type": "application/pdf",
+                "size": 162321
+              },
+              {
+                "name": "RESOLUTION 01.3 - CAPITOL AGREEMENT_CCJ_11.3.26",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7646)",
+                "type": "application/pdf",
+                "size": 5397204
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "2.",
+            "name": "ADD-ON - Setting a public hearing to consider the advisability of adopting a local law repealing chapter 157, “circuses, carnivals and parades”; adding a new chapter 278, “special events, parades and public gatherings”; and amending chapter 175, “fees,” and chapter 236, “parks,” of the code of the Village of Port Chester",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "RESOLUTION 02.1 - SETTING PUBLIC HEARING - LOCAL LAW",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7647)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 31457
+              },
+              {
+                "name": "RESOLUTION 02.2 - LL_ SPECIAL EVENTS_11.6.26_CCJ",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7648)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 72218
+              },
+              {
+                "name": "RESOLUTION 02.3 - LL_ SPECIAL EVENTS_11.6.26_CCJ_CLEAN",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7649)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 71736
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "3.",
+            "name": "ADD-ON - Appointment to the Beautification Commission",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "RESOLUTION 03.1 - APPOINTMENT OF MIA KRAUSE - BEAUTIFICATION",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7650)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 31058
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "4.",
+            "name": "ADD-ON - Acceptance and Approval of Jack Butler as a member of the Harry Howard Hook & Ladder Company No. 1",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "RESOLUTION 04.1 - Acceptance and Approval of Jack Butler as a member to the Harry Howard Hook & Ladder Company No. 1",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7651)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 29983
+              },
+              {
+                "name": "RESOLUTION 04.2 - JACK BUTLER",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7652)",
+                "type": "application/pdf",
+                "size": 293060
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "5.",
+            "name": "ADD-ON - Acceptance and Approval of Mizel Faison as a member of the Mellor Engine and Hose Company No. 3",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "RESOLUTION 05.1 - Acceptance and Approval of Mizel Faison as a member to the Mellor Engine and Hose Company No. 3",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7653)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 30008
+              },
+              {
+                "name": "RESOLUTION 05.2 - MIZEL FAISON_Redacted",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7654)",
+                "type": "application/pdf",
+                "size": 1178125
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "VIII.",
+        "name": "CORRESPONDENCE - ADD-ON",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "1.",
+            "name": "ADD-ON - From the Traffic Commission recommending a Traffic Study for a possible cross walk on King Street at Davenport Avenue",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "CORRESPONDENCE 01.1 - Ltr to BOT re - Traffic Study Davenport & King",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7655)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 61181
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "2.",
+            "name": "ADD-ON - From the Fire Patrol & Rescue Company on the expulsion of Ryan Morgan",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "CORRESPONDENCE 02.1 - Explusion of Ryan Morgan",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7616)",
+                "type": "application/pdf",
+                "size": 306830
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "3.",
+            "name": "ADD-ON - From Virigina Corbia resigning as a member of the Park Commission",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "CORRESPONDENCE 03.1 - Corbia Resignation",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7617)",
+                "type": "application/pdf",
+                "size": 114815
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "4.",
+            "name": "​ADD-ON - From John Akano Regarding PC Recreation Commission Opening-Redacted",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "CORRESPONDENCE 04.1 - FROM JOHN AKANO Regarding PC Recreation Commission Opening-Redacted",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7663)",
+                "type": "application/pdf",
+                "size": 136762
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "5.",
+            "name": "ADD-ON - From Rev. Franco Pinto requesting to host a procession on Friday, December 11, 2026 at 5PM ",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "CORRESPONDENCE 05.1 - 2026 Permission Letter Guadalupe",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7664)",
+                "type": "application/pdf",
+                "size": 397803
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "IX.",
+        "name": "PUBLIC COMMENTS AND BOARD COMMENTS",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "X.",
+        "name": "PROPOSED EXECUTIVE/CLOSED SESSION",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      }
+    ]
+  },
+  {
     "id": "cc_457",
     "source": "portchester",
     "title": "2026-11-09 - BOT Special Meeting",
