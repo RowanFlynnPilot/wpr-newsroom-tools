@@ -1,5 +1,74 @@
 [
   {
+    "id": "pg_5159",
+    "source": "santaana",
+    "title": "Personnel Board - Special Meeting",
+    "date": "November 16, 2026",
+    "shortDate": "NOV 16",
+    "committee": "Personnel Board",
+    "duration": null,
+    "url": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56306",
+    "docUrl": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56306",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Santa Ana Personnel Board was scheduled to hold a special meeting to conduct a closed session hearing conference regarding a public employee discipline matter (Case No. 2022-02) under California Government Code section 54957. The meeting was set for November 16, 2026, with one board member participating via teleconference from Spain.",
+    "agenda": [
+      {
+        "time": "6:00 PM",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Attendance and Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Pledge of Allegiance"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Excused Absences"
+      },
+      {
+        "time": "N/A",
+        "item": "Closed Session – Public Employee Discipline Hearing Conference (Case No. 2022-02)"
+      },
+      {
+        "time": "N/A",
+        "item": "Board Member Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Staff Member Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Closed Session – Public Employee Discipline Hearing Conference (Case No. 2022-02)",
+        "body": "The Board was scheduled to convene in closed session pursuant to California Government Code section 54957(b)(1) to conduct a hearing conference in a public employee discipline matter designated as Case No. 2022-02. The specific details of the disciplinary matter were not disclosed in the public agenda."
+      }
+    ],
+    "publicComment": "Public comment was scheduled on the agenda. Members of the public were invited to address the Board on agenda items within its subject matter jurisdiction via in-person attendance, Zoom, or phone, with a three-minute time limit per speaker.",
+    "actionItems": [
+      "Scheduled to conduct closed session hearing conference on employee discipline case",
+      "Expected to consider excused absences"
+    ],
+    "topics": [
+      "Personnel Board",
+      "Employee Discipline",
+      "Staffing"
+    ],
+    "votes": []
+  },
+  {
     "id": "pg_5165",
     "source": "santaana",
     "title": "Police Oversight Commission",
@@ -10,7 +79,7 @@
     "url": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56269",
     "docUrl": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56269",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Santa Ana Police Oversight Commission was scheduled to hold a regular meeting to review citizen complaints, examine police department litigation costs and settlements from 2020-2026, and assess the department's response to a 911 call involving Immigration and Customs Enforcement agents. The meeting was set to address accountability and oversight of police operations.",
     "agenda": [
       {
