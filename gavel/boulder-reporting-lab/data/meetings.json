@@ -1,5 +1,337 @@
 [
   {
+    "id": "cc_1440",
+    "source": "louisville",
+    "title": "Economic Vitality Retreat",
+    "date": "November 16, 2026",
+    "shortDate": "NOV 16",
+    "committee": "Economic Vitality Retreat",
+    "duration": null,
+    "url": "https://louisvilleco.portal.civicclerk.com/event/1440/files",
+    "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1440/files",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Economic Vitality Retreat was scheduled to bring together business and organizational leaders in Louisville to discuss economic statistics, city initiatives for 2027, business feedback on attraction and retention, real estate market conditions, and collaborative opportunities to support continued economic vitality in the community.",
+    "agenda": [
+      {
+        "time": "8:30 AM",
+        "item": "Introductions and Retreat Overview"
+      },
+      {
+        "time": "N/A",
+        "item": "Fun with Numbers - Overview of economic and business statistics for the City of Louisville"
+      },
+      {
+        "time": "N/A",
+        "item": "Coming Soon to a City Near You - Discussion of City objectives and initiatives for 2027, City Budget overview, programs and Sundance"
+      },
+      {
+        "time": "N/A",
+        "item": "In It to Win It - Feedback from business attraction, retention and expansion visits; housing, site selection and current economy feedback; Colorado's Competitiveness landscape overview"
+      },
+      {
+        "time": "N/A",
+        "item": "Real Estate Panel - Market update and expectations for 2027 from real estate and commercial lending professionals"
+      },
+      {
+        "time": "N/A",
+        "item": "U.S. 36 Collaborative Panel - Discussion of partnership collaboration and economic vitality goals"
+      },
+      {
+        "time": "N/A",
+        "item": "Come Hang Out with Us - Brainstorming session on collaboration, messaging, and engagement strategies"
+      },
+      {
+        "time": "N/A",
+        "item": "You Get a Car, You Get a Car - Highlight 2026 wins and identify business needs for 2027"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Fun with Numbers",
+        "body": "The retreat was scheduled to present an overview of economic and business statistics for the City of Louisville, providing participants with current data on the local economic landscape."
+      },
+      {
+        "item": "Coming Soon to a City Near You",
+        "body": "City officials were set to discuss objectives and initiatives planned for 2027 and their potential impact on local businesses and organizations. The session was expected to include an overview of the City Budget, various programs, and Sundance activities."
+      },
+      {
+        "item": "In It to Win It",
+        "body": "This session was scheduled to present feedback gathered from businesses during attraction, retention and expansion visits, along with input on housing, site selection and current economic conditions. The discussion was set to include an overview of Colorado's competitiveness landscape and strategic gameplan."
+      },
+      {
+        "item": "Real Estate Panel",
+        "body": "Real estate and commercial lending professionals were scheduled to provide a market update and share perspectives on economic expectations for 2027."
+      },
+      {
+        "item": "U.S. 36 Collaborative Panel",
+        "body": "Members of the U.S. 36 Collaborative were set to discuss how partner organizations work together, their current initiatives, and how ongoing collaboration supports Louisville's economic vitality goals."
+      },
+      {
+        "item": "Come Hang Out with Us",
+        "body": "Participants were scheduled to brainstorm collaborative approaches to address engagement challenges, streamline messaging, and identify effective ways to communicate with the business community amid competing priorities and activities."
+      },
+      {
+        "item": "You Get a Car, You Get a Car",
+        "body": "Business leaders were expected to highlight achievements from 2026 and identify business needs and resource requirements for 2027 as the economic landscape continues to evolve."
+      }
+    ],
+    "publicComment": "Not indicated on agenda.",
+    "actionItems": [
+      "Expected to gather feedback on business needs for 2027",
+      "Scheduled to brainstorm collaboration and engagement strategies",
+      "Set to discuss 2027 city initiatives and budget priorities",
+      "Expected to identify business attraction, retention and expansion feedback"
+    ],
+    "topics": [
+      "Economic Development",
+      "Business Retention and Attraction",
+      "Real Estate Market",
+      "City Budget",
+      "Regional Collaboration"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "1.",
+        "name": "Introductions and Retreat Overview",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.",
+        "name": "Fun with Numbers",
+        "desc": "Overview of economic and business statistics for the City of Louisville.",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.",
+        "name": "Coming Soon to a City Near You",
+        "desc": "Discussion of City objectives and initiatives for 2027 and how that might impact your business/org/operation. Overview of other activities to include City Budget overview, programs and Sundance. ",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "4.",
+        "name": "In It to Win It",
+        "desc": "Session on what feedback we receive from businesses during attraction, retention and expansion visits. As well as feedback surrounding housing, site selection and current economy. Will overview Colorado’s Competitiveness landscape and gameplan. (Business feedback, competitiveness and needs)",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "5.",
+        "name": "Real Estate Panel",
+        "desc": "Real Estate and commercial lending professionals will provide a market update and share thoughts on what to expect in 2027. ",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "6.",
+        "name": "U.S. 36 Collaborative Panel",
+        "desc": "Members of the U.S 36 Collaborative will join the day to discuss how the partners work together, what we are working on and how collaboration continues to support economic vitality goals. ",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "7.",
+        "name": "Come Hang Out with Us",
+        "desc": "Businesses are receiving many inputs, in addition to operating their businesses. Many organizations have witnessed stagnant or declining engagement due to the multitude of needs, inputs and activities. Brainstorm ways to collaborate, new ways to share messages, streamline messaging, etc. What is the best way to engage? ",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "8.",
+        "name": "You Get a Car, You Get a Car",
+        "desc": "Come prepared to highlight wins from 2026 and well as highlight what needs are expected for 2027. As the business landscape and economy evolve, what do you need to remain successful into 2027?",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "9.",
+        "name": "Adjourn",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "cc_1284",
+    "source": "louisville",
+    "title": "Historic Preservation Commission",
+    "date": "November 16, 2026",
+    "shortDate": "NOV 16",
+    "committee": "Historic Preservation Commission",
+    "duration": null,
+    "url": "https://louisvilleco.portal.civicclerk.com/event/1284/files",
+    "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1284/files",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Historic Preservation Commission was scheduled to meet to review two staff reports concerning a probable cause request for 832 McKinley Avenue and a demolition application for 181 Roosevelt Avenue. The meeting was set to address property preservation matters and consider actions related to these two properties.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "832 McKinley Avenue Probable Cause Request"
+      },
+      {
+        "time": "N/A",
+        "item": "181 Roosevelt Avenue Demolition Application"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "832 McKinley Avenue Probable Cause Request",
+        "body": "The Commission was scheduled to review a staff report regarding a probable cause request for the property at 832 McKinley Avenue. The nature and outcome of this request were set to be determined during the staff report presentation."
+      },
+      {
+        "item": "181 Roosevelt Avenue Demolition Application",
+        "body": "The Commission was set to consider a demolition application for the property at 181 Roosevelt Avenue as part of the staff report. The Commission was expected to review the application and take appropriate action during the regular business portion of the meeting."
+      }
+    ],
+    "publicComment": "Public comment was scheduled during the meeting, with comments limited to 3 minutes per speaker. Residents could also email comments prior to the meeting.",
+    "actionItems": [
+      "Scheduled to approve August and October 2026 minutes",
+      "Expected to consider 832 McKinley Avenue probable cause request",
+      "Expected to consider 181 Roosevelt Avenue demolition application"
+    ],
+    "topics": [
+      "Historic Preservation",
+      "Demolition Review",
+      "Property Review"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "1.",
+        "name": "Call to Order & Roll Call",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.",
+        "name": "Approval of Agenda",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.",
+        "name": "Public Comments on Items Not on the Agenda and Items on the Consent Agenda",
+        "desc": "Public comments are limited to 3 minutes per speaker. When several people wish to speak on the same position on a given item, a spokesperson may be used to state that position.",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "4.",
+        "name": "Board Consent Agenda",
+        "desc": "The following items on the Consent Agenda are considered routine, and shall be approved, adopted, accepted, etc. by a motion of the Board unless a board member specifically requests an item be considered under \"Regular Business\". In such an event, the item shall be removed from the \"Consent Agenda\" and action taken separately on said item in the order appearing on the agenda. Those items so approved under the heading \"Consent Agenda\" will appear in the Board Minutes in their proper order.",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Approval of August and October 2026 Minutes",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2026 08 17 Historic Preservation Commission Action Minutes Draft",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5909)",
+                "type": "application/pdf",
+                "size": 232081
+              },
+              {
+                "name": "2026 10 19 Historic Preservation Commission Minutes",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5910)",
+                "type": "application/pdf",
+                "size": 193265
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "5.",
+        "name": "Board Informational Comments",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "6.",
+        "name": "Staff Report",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "<span style=\"font-size: 16px;\">832 McKinley Avenue Probable Cause Request</span>",
+            "desc": "<span style=\"font-size: 16px;\">A request to find probable cause to allow for funding of a Historic Structure Assessment (HSA) at 832 McKinley Avenue.</span><br><br data-pasted=\"true\"><p style='margin:0in;font-size:16px;font-family:\"CG Times\",serif;margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:2.5in;text-indent:-2.5in;'><strong><u><span style='font-family:\"Arial\",sans-serif;'>VICINITY MAP:</span></u></strong></p><p style='margin:0in;font-size:16px;font-family:\"CG Times\",serif;'><img src=\"https://civicclerk.blob.core.windows.net/images/LOUISVILLECO/9a95f62f-14b3-4e23-8fae-813b964966f7.jpeg\" style=\"width: 399px;\" class=\"fr-fic fr-dii\"><br></p><p style='margin:0in;font-size:16px;font-family:\"CG Times\",serif;'><strong> </strong></p><p style='margin:0in;font-size:16px;font-family:\"CG Times\",serif;'><strong><span style='font-family:\"Arial\",sans-serif;'>SUMMARY:</span></strong></p><p style='margin:0in;font-size:16px;font-family:\"CG Times\",serif;'><span style='font-family:\"Arial\",sans-serif;'>The applicant requests finding probable cause for landmark designation to allow for funding of a Historic Structure Assessment (HSA) for 832 McKinley Street. </span></p><br><span style='font-family:\"Arial\",sans-serif;'><span style='margin:0in;font-size:16px;font-family:\"CG Times\",serif;' data-pasted=\"true\"><span style=\"font-family: Arial, sans-serif;\">Prior to any structure being declared a landmark pursuant to </span></span><span style='margin:0in;font-size:16px;font-family:\"CG Times\",serif;'><span style=\"font-family: Arial, sans-serif;\"><a href=\"https://library.municode.com/co/louisville/codes/code_of_ordinances?nodeId=TIT15BUCO_CH15.36HIPR\" target=\"_blank\" rel=\"noopener noreferrer\">Chapter 15.36</a></span><span style=\"font-family: Arial, sans-serif;\"> of the Louisville Municipal Code or the establishment of a related conservation easement, or approval of grants for preserving, restoring, rehabilitating, or protecting a landmark property, the property will undergo a Historic Structure Assessment (HSA). </span></span><span style=\"font-family: Arial, sans-serif; font-size: 16px;\">Under <a href=\"https://media-002-us.cdn.govstack.com/louisvilleco-us/media/khvapilp/new-resolution-2025102.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"font-size: 16px;\">Resolution No. 102, 2025</a>, a property may be eligible for reimbursement for a historic structure assessment (HSA) from the Historic Preservation Fund (HPF) if the Historic Preservation Commission finds there is probable cause to believe the building may be eligible for landmarking under the criteria in <a href=\"https://library.municode.com/co/louisville/codes/code_of_ordinances?nodeId=TIT15BUCO_CH15.36HIPR_S15.36.050CRDE\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"font-size: 16px;\">Section 15.36.050</a> of the Louisville Municipal Code. The purpose of the</span><span style=\"font-size: 16px;\"> Historic Structure Assessment (HSA) is to develop a preservation plan to establish priorities for the maintenance of the property p</span><span style=\"font-family: Arial, sans-serif; font-size: 16px;\" data-pasted=\"true\">rior to any structure being declared a landmark.</span><span style='font-family:\"Arial\",sans-serif;' data-pasted=\"true\"> </span></span><p style='margin:0in;font-size:16px;font-family:\"CG Times\",serif;'><br></p><br>",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Social History Report 832 McKinley Avenue",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5903)",
+                "type": "application/pdf",
+                "size": 978870
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "B.",
+            "name": "<span style=\"font-size: 16px;\">181 Roosevelt Avenue Demolition Application </span>",
+            "desc": "<span style=\"font-size: 16px; font-family: Arial; color: rgb(0, 0, 0);\"><strong>VICINITY MAP: </strong></span><span style=\"color: rgb(0, 0, 0);\"><br></span><img src=\"https://civicclerk.blob.core.windows.net/images/LOUISVILLECO/42782d14-1df4-4c21-837d-dbac263da54c.jpeg\" style=\"width: 504px;\" class=\"fr-fic fr-dii\"><span style=\"color: rgb(0, 0, 0);\"><br><br></span><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"><strong>SUMMARY</strong></span><span style=\"color: rgb(0, 0, 0);\"><br></span><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">The applicant is requesting approval to demolish the existing single family home, garage, and detached guesthouse at 181 Roosevelt Avenue. As the structure was constructed prior to 1955, the demolition review must be reviewed by the Historic Preservation Commission as per <span style='margin: 0in; font-size: 16px; font-family: \"CG Times\", serif;' data-pasted=\"true\"><span style=\"font-family: Arial, sans-serif; color: rgb(0, 0, 0);\">Louisville Municipal Code (LMC)</span></span></span><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"><span style='margin: 0in; font-size: 16px; font-family: \"CG Times\", serif;' data-pasted=\"true\"><span style=\"font-family: Arial, sans-serif; color: rgb(0, 0, 0);\"><a href=\"https://library.municode.com/co/louisville/codes/code_of_ordinances?nodeId=TIT15BUCO_CH15.36HIPR_S15.36.020DE\" target=\"_blank\" rel=\"noopener noreferrer\"> </a></span><span style=\"color: rgb(0, 0, 0);\"><span style='font-family:\"Arial\",sans-serif;'><a href=\"https://library.municode.com/co/louisville/codes/code_of_ordinances?nodeId=TIT15BUCO_CH15.36HIPR_S15.36.020DE\" target=\"_blank\" rel=\"noopener noreferrer\">Section 15.36.020</a></span></span></span></span><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">. The applicant intends to rebuild the home on the property without preserving or rehabilitating any potentially historic aspects of the existing home. </span><span style=\"color: rgb(0, 0, 0);\"><br><br></span><span style='margin: 0in; font-size: 16px; font-family: \"CG Times\", serif;'><span style=\"font-family: Arial, sans-serif; color: rgb(0, 0, 0);\">Louisville Municipal Code (LMC) </span></span><span style='margin: 0in; font-size: 16px; font-family: \"CG Times\", serif;'><span style=\"font-family: Arial, sans-serif; color: rgb(0, 0, 0);\"><a href=\"https://library.municode.com/co/louisville/codes/code_of_ordinances?nodeId=TIT15BUCO_CH15.36HIPR_S15.36.020DE\" target=\"_blank\" rel=\"noopener noreferrer\"></a></span><span style=\"color: rgb(0, 0, 0);\"><span style='font-family:\"Arial\",sans-serif;'><a href=\"https://library.municode.com/co/louisville/codes/code_of_ordinances?nodeId=TIT15BUCO_CH15.36HIPR_S15.36.020DE\" target=\"_blank\" rel=\"noopener noreferrer\">Section 15.36.020</a></span></span></span><span style='margin: 0in; font-size: 16px; font-family: \"CG Times\", serif;'><span style=\"font-family: Arial, sans-serif; color: rgb(0, 0, 0);\"> defines demolition as an act that removes fifty percent or more of the roof area as measured from directly above, fifty percent or more of the exterior walls of a building as measured contiguously around the building, or alteration on any exterior wall facing a street. </span></span><span style='margin:0in;font-size:16px;font-family:\"CG Times\",serif;'><span style=\"font-family: Arial, sans-serif; font-size: 16px; color: rgb(0, 0, 0);\">The purpose of demolition reviews, according to Section</span></span><span style='margin:0in;font-size:16px;font-family:\"CG Times\",serif;'><span style=\"font-family: Arial, sans-serif; font-size: 16px; color: rgb(0, 0, 0);\"><a href=\"https://library.municode.com/co/louisville/codes/code_of_ordinances?nodeId=TIT15BUCO_CH15.36HIPR_S15.36.200CRDERENNDBU\" target=\"_blank\" rel=\"noopener noreferrer\"> 15.36.200</a></span></span><span style='margin:0in;font-size:16px;font-family:\"CG Times\",serif;'><span style=\"font-family: Arial, sans-serif; font-size: 16px; color: rgb(0, 0, 0);\">, is as follows: </span></span><span style=\"color: rgb(0, 0, 0);\"><br></span><p style='margin:0in;font-size:16px;font-family:\"CG Times\",serif;'><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"><br></span></p><p style='margin:0in;font-size:16px;font-family:\"CG Times\",serif;margin-top:0in;margin-right:.5in;margin-bottom:.0001pt;margin-left:.5in;'><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"><em><span style=\"font-family: Arial, sans-serif; background: white;\">The purpose of the review of permit applications for demolition, moving, and removal of buildings constructed in or before 1955 is to prevent the loss of buildings that may have historical or architectural significance. The purpose of this chapter is also to provide the time necessary to initiate designation as an individual landmark or to consider alternatives for the building.</span></em></span></p><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"><br></span><p style='margin:0in;font-size:16px;font-family:\"CG Times\",serif;'><span style=\"font-family: Arial, sans-serif; font-size: 16px; color: rgb(0, 0, 0);\">Under</span><span style=\"font-family: Arial, sans-serif; font-size: 16px; color: rgb(0, 0, 0);\"><a href=\"https://library.municode.com/co/louisville/codes/code_of_ordinances?nodeId=TIT15BUCO_CH15.36HIPR_S15.36.200CRDERENNDBU\" target=\"_blank\" rel=\"noopener noreferrer\"> </a></span><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"><span style='font-family:\"Arial\",sans-serif;'><a href=\"https://library.municode.com/co/louisville/codes/code_of_ordinances?nodeId=TIT15BUCO_CH15.36HIPR_S15.36.200CRDERENNDBU\" target=\"_blank\" rel=\"noopener noreferrer\">Section 15.36.200</a></span></span><span style=\"font-family: Arial, sans-serif; font-size: 16px; color: rgb(0, 0, 0);\"> of the LMC, if the commission finds that the building may have historical significance under the criteria, the commission may place a stay on the demolition and, “<em>no permit for demolition, moving or removal shall be issued for a period not to exceed 180 days from the date the permit application was accepted.” </em>In addition, </span><span style=\"font-family: Arial, sans-serif; font-size: 16px; color: rgb(0, 0, 0);\"><a href=\"https://library.municode.com/co/louisville/codes/code_of_ordinances?nodeId=TIT15BUCO_CH15.36HIPR_S15.36.200CRDERENNDBU\" target=\"_blank\" rel=\"noopener noreferrer\">Section 15.36.200</a></span><span style=\"font-family: Arial, sans-serif; font-size: 16px; color: rgb(0, 0, 0);\"> states, <em>“The commission will make all reasonable efforts to expedite resolution of the application or request.” </em></span></p><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"><br></span><span style='margin: 0in; font-size: 16px; font-family: \"CG Times\", serif; color: rgb(0, 0, 0);'><strong><span style='font-family:\"Arial\",sans-serif;'>HISTORICAL BACKGROUND:</span></strong></span><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"><br></span><p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:0in;text-indent:0in;font-size:16px;font-family:\"CG Times\",serif;'><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"><em><span style='font-family:\"Arial\",sans-serif;'>Information from Gigi Yang, Louisville Historical Museum</span></em></span></p><span style=\"color: rgb(0, 0, 0);\"><br></span><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">The history of 181 Roosevelt is notable for its unique evolution as a property on the rural edge of Louisville city limits and proximity to several early mines. Central to its history is the unresolved date of construction and the fire that destroyed what is considered to be the original home. Peter and Leah Blankette sued the Public Service Co. for damages and their case set precedents for future Colorado lawsuits. The property also contributes to the immigration story of English, Italian, and French families in Louisville and illustrates the lifestyle of coal-mining families into the mid-20th century.<br><strong><br>Early Ownership</strong><br>Johnson’s 1st Addition was platted in 1890 by Mahlon V. Johnson. It was the second residential subdivision to be platted, after the Jefferson Place Addition was platted in 1880. The earliest known deed for Lot 15, Block 1, is to Lawrence W. Spangler who purchased the land from the Ajax Coal Mining Co. in 1893 for $65. Not much is known about Lawrence Spangler other than that he was in the Louisville area between 1893 and 1906. The Ajax Mine operated for a short time from 1889-1892, and it is unclear whether the house on this property was originally part of the Ajax Mine or was built or moved in later. In 1897, Lawrence Spangler sold the property to Joseph H. Fearn and it is assumed that Fearn lived here, making the likeliest date of construction for the house to be between 1892-1897. John Blake purchased the property from Joseph Stengel in 1905 and owned it for almost twenty years, however very little is known about him. <br><strong><br>The Fire and Peter and Leah Blankette (Blanketti) 1923-1952</strong><br>Peter and Leah Blankette (Blanketti)<strong> </strong>owned the property between 1923-1952. In March of 1928, the Blankette house caught on fire during a windstorm and burned down. The report of the fire in the Rocky Mountain Daily describes a “six-room house…at the edge of Louisville.” This description implies that there was an original, larger house on the property and that the current house was not identified as 181 Roosevelt until after 1928. The Drumm’s Wall Maps from 1909 and 1925 both show two structures on this lot and it is not known which structure was the principal family home that burned down. No additional records, photos, or floorplans were discovered that show what the original buildings may have looked like. In December of 1928, Peter and Leah Blankette filed a lawsuit against the Public Service Company of Colorado claiming that the destruction of their home was due to faulty wiring that caused the fire. During these years, the Blankettes no longer had a house and the 1930 census shows them living at either the Monarch Coal Camp #2 or Coalton Camp. Peter continued working at the local mines and likely moved into company housing. <br><br>Boulder County’s current online records give 1892 as the house’s date of construction. However, the date offered by the County could not be verified by other documents, including the 1948 County Assessor card which does not list any date of construction but does show the house on the property with the address of 341 Roosevelt. As was sometimes done, the date of construction may have been copied from other houses in the neighborhood which were constructed roughly between 1892-1915. The style of the house is in keeping with other miner’s homes in Louisville during this time period. It is worth considering whether the current house at 181 Roosevelt was moved from one of the mine camps since the design of the current building is a traditional style for miner’s housing and it may have been more economical for the Blankettes to purchase and move an older house than to rebuild or build a new house. However, both the 1909 and 1925 Drumm’s map show two buildings on the property and it is also possible that the current house was the second building that was already on the lot, potentially left from the Ajax mine era. A building from the Ajax Mine, being one of the earliest mines, could explain the assigned 1892 date of construction for a building left on the property.<br><br><strong>Recent Ownership</strong><br>Several other families lived at the home after the Blankette's with limited social significance. From 1977 to 1983, the house was used as a rental property or left vacant. In 1980, Louisville City Council annexed the parcel to the City of Louisville and changed the house number from 341 Roosevelt to 181 Roosevelt to align with other properties on the same block. Joslin sold 181 Roosevelt to William and Elizabeth Keane in 1983. The Keanes lived at this address until 1988 when they sold it to George Campbell who lived there until 2010. </span><span style=\"color: rgb(0, 0, 0);\"><br><br></span><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">In 2010, David & Jeanette Bangs became the current owners of 181 Roosevelt.</span><span style=\"color: rgb(0, 0, 0);\"><br><br></span><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">Please see the attached Social History Report (Attachment No. 1) for more information. </span><span style=\"color: rgb(0, 0, 0);\"><br><br><br></span><img src=\"https://civicclerk.blob.core.windows.net/images/LOUISVILLECO/239d179c-71e0-4f2e-93fb-0c2d1646fd3e.png\" style=\"width: 601px;\" class=\"fr-fic fr-dii\"><span style=\"color: rgb(0, 0, 0);\"><br></span><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">1948 Boulder County Assessor photo<br></span><span style=\"color: rgb(0, 0, 0);\"><br></span><img src=\"https://civicclerk.blob.core.windows.net/images/LOUISVILLECO/6b4a3eb8-c632-42b2-a990-619d2693c8eb.png\" style=\"width: 598px;\" class=\"fr-fic fr-dii\"><span style=\"color: rgb(0, 0, 0);\"><br></span><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">Photo from Ancestry.com.</span><span style=\"color: rgb(0, 0, 0);\"><br><br></span><img src=\"https://civicclerk.blob.core.windows.net/images/LOUISVILLECO/ef52c365-1f5f-4ecd-b8fc-090dce264c86.png\" style=\"width: 596px;\" class=\"fr-fic fr-dii\"><span style=\"color: rgb(0, 0, 0);\"><br></span><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">Current Boulder County Assessor photo of 181 Roosevelt Avenue.</span><span style=\"color: rgb(0, 0, 0);\"><br><br></span><img src=\"https://civicclerk.blob.core.windows.net/images/LOUISVILLECO/51c1ed24-24a7-447a-889c-4198bc1a5ce6.jpeg\" style=\"width: 598px;\" class=\"fr-fic fr-dii\"><span style=\"color: rgb(0, 0, 0);\"><br></span><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">Recent Photo of 181 Roosevelt Avenue, July 2026.</span><span style=\"color: rgb(0, 0, 0);\"><br></span><br>",
+            "votes": [],
+            "docs": [
+              {
+                "name": "181 Roosevelt Avenue Social History Report",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5906)",
+                "type": "application/pdf",
+                "size": 714235
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "7.",
+        "name": "Regular Business",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "8.",
+        "name": "Adjourn",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      }
+    ]
+  },
+  {
     "id": "cc_1226",
     "source": "louisville",
     "title": "City Council Economic Vitality Committee",
@@ -10,7 +342,7 @@
     "url": "https://louisvilleco.portal.civicclerk.com/event/1226/files",
     "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1226/files",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the City Council Economic Vitality Committee was scheduled to meet to review and consider the 2027 Draft Economic Vitality Committee Work Plan, receive staff updates on business happenings, and conduct routine committee business. This meeting was set to guide the committee's priorities and activities for the upcoming year.",
     "agenda": [
       {
@@ -198,7 +530,7 @@
     "url": "https://louisvilleco.portal.civicclerk.com/event/1313/files",
     "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1313/files",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Open Space Advisory Board was scheduled to meet to discuss open space acquisition strategies, wildlife management plans, social trails management, and potential joint projects between Louisville and Lafayette open space programs. The meeting was set to feature presentations from open space superintendents and board members on restoration efforts, ranger programs, and board governance.",
     "agenda": [
       {
@@ -476,7 +808,7 @@
     "url": "https://louisvilleco.portal.civicclerk.com/event/1302/files",
     "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1302/files",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Library Board of Trustees was scheduled to convene to address routine consent items, review staff reports including a strategic plan update, and discuss meeting scheduling and board handbook updates. The meeting was set to consider communications from City Council and provide governance direction for the Louisville Public Library.",
     "agenda": [
       {
@@ -699,7 +1031,7 @@
     "url": "https://louisvilleco.portal.civicclerk.com/event/1413/files",
     "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1413/files",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Louisville Planning Commission was scheduled to meet on November 12, 2026, to consider two subdivision plats and review the Development Impact Fee Review Committee. The meeting was set to address land use and development matters affecting Louisville properties.",
     "agenda": [
       {
