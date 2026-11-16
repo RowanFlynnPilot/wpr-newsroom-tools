@@ -1,5 +1,948 @@
 [
   {
+    "id": "cc_1226",
+    "source": "louisville",
+    "title": "City Council Economic Vitality Committee",
+    "date": "November 12, 2026",
+    "shortDate": "NOV 12",
+    "committee": "City Council Economic Vitality Committee",
+    "duration": null,
+    "url": "https://louisvilleco.portal.civicclerk.com/event/1226/files",
+    "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1226/files",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the City Council Economic Vitality Committee was scheduled to meet to review and consider the 2027 Draft Economic Vitality Committee Work Plan, receive staff updates on business happenings, and conduct routine committee business. This meeting was set to guide the committee's priorities and activities for the upcoming year.",
+    "agenda": [
+      {
+        "time": "4:00 PM",
+        "item": "2027 Draft Economic Vitality Committee Work Plan"
+      },
+      {
+        "time": "N/A",
+        "item": "Staff Updates"
+      },
+      {
+        "time": "N/A",
+        "item": "Business Happenings"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of Minutes"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "2027 Draft Economic Vitality Committee Work Plan",
+        "body": "The committee was scheduled to consider and review the draft work plan for 2027. This item was set to establish the committee's priorities, goals, and planned activities for the upcoming year to guide economic vitality efforts in Louisville."
+      },
+      {
+        "item": "Staff Updates",
+        "body": "Staff was scheduled to provide updates to the committee on current initiatives and activities. These updates were expected to inform committee members on ongoing work related to economic vitality in the city."
+      },
+      {
+        "item": "Business Happenings",
+        "body": "The committee was set to receive information on business-related happenings and developments in Louisville. This item was expected to highlight recent business activity, developments, or initiatives affecting the local economy."
+      }
+    ],
+    "publicComment": "Public comment was indicated on the agenda, with speakers limited to 3 minutes each and remote participation options provided.",
+    "actionItems": [
+      "Scheduled to consider and approve the 2027 Draft Economic Vitality Committee Work Plan",
+      "Expected to receive and discuss staff updates on economic vitality initiatives",
+      "Scheduled to review and approve minutes from previous meetings"
+    ],
+    "topics": [
+      "Economic Vitality",
+      "Work Plan",
+      "Business Development",
+      "Strategic Planning"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "1.",
+        "name": "Call to Order & Roll Call",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.",
+        "name": "Approval of Agenda",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.",
+        "name": "Public Comments on Items Not on the Agenda and Items on the Consent Agenda",
+        "desc": "Public comments are limited to 3 minutes per speaker. When several people wish to speak on the same position on a given item, a spokesperson may be used to state that position.",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "4.",
+        "name": "Consent Agenda",
+        "desc": "The following items on the City Council Agenda are considered routine by the City Manager and shall be approved, adopted, accepted, etc., by motion of the City Council and voice vote unless the Mayor or a City Council person specifically requests an item be considered under “Regular Business.” In such an event the item shall be removed from the “Consent Agenda” and Council action taken separately on said item in the order appearing on the Agenda. Those items so approved under the heading “Consent Agenda” will appear in the Council Minutes in their proper order.",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Approval of Minutes",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2026 08 13 EVC Meeting Minutes",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5857)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 233959
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "5.",
+        "name": "Regular Business",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "2027 Draft Economic Vitality Committee Work Plan",
+            "desc": "The Economic Vitality Committee has adopted a work plan to help guide meetings and recommendations throughout the year. This draft EVC Work Plans aligns with the 2027 City Council Work Plan, to help EVC make recommendations and proposed policy and program changes to the full City Council. <br><br>This is the first conversation regarding the 2027 EVC Work Plan. It is expected that the EVC provide feedback for adoption of a 2027 EVC Work Plan at a future date.",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Draft 2027 EVC Work Plan",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5856)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 152590
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "6.",
+        "name": "Staff Report",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Staff Updates",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "November 2026 Staff Updates (1)",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5882)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 273241
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "B.",
+            "name": "Business Happenings",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "November 2026 Business Happenings",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5883)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 275947
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "7.",
+        "name": "Committee Member Comments",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "8.",
+        "name": "Adjourn",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "cc_1313",
+    "source": "louisville",
+    "title": "Open Space Advisory Board",
+    "date": "November 12, 2026",
+    "shortDate": "NOV 12",
+    "committee": "Open Space Advisory Board",
+    "duration": null,
+    "url": "https://louisvilleco.portal.civicclerk.com/event/1313/files",
+    "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1313/files",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Open Space Advisory Board was scheduled to meet to discuss open space acquisition strategies, wildlife management plans, social trails management, and potential joint projects between Louisville and Lafayette open space programs. The meeting was set to feature presentations from open space superintendents and board members on restoration efforts, ranger programs, and board governance.",
+    "agenda": [
+      {
+        "time": "6:00 PM",
+        "item": "Introductions"
+      },
+      {
+        "time": "6:15 PM",
+        "item": "Coal Creek Working Group Updates"
+      },
+      {
+        "time": "6:25 PM",
+        "item": "Open Space Candidate Identification Acquisition Ranking Process"
+      },
+      {
+        "time": "6:45 PM",
+        "item": "Wildlife Management Plan & Open Space Restoration: Strategies, Successes, Lessons Learned"
+      },
+      {
+        "time": "7:00 PM",
+        "item": "Board Relationship with City Council and Staff"
+      },
+      {
+        "time": "7:15 PM",
+        "item": "Social Trails Management"
+      },
+      {
+        "time": "7:55 PM",
+        "item": "Louisville Ranger Program Overview"
+      },
+      {
+        "time": "7:55 PM",
+        "item": "Brainstorm on Possible Joint Board Projects"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Coal Creek Working Group Updates",
+        "body": "The board was scheduled to receive updates from Coal Creek Working Group members Mark Poletti and Casey Lyons on ongoing efforts related to the Coal Creek area. The presentation was set to be brief, allowing the group to share current progress and initiatives."
+      },
+      {
+        "item": "Open Space Candidate Identification Acquisition Ranking Process",
+        "body": "OSAB Chair Susan McEachern was scheduled to present the board's process for identifying, evaluating, and ranking candidate properties for open space acquisition. This discussion was expected to cover the methodology and criteria used in the acquisition decision-making process."
+      },
+      {
+        "item": "Wildlife Management Plan & Open Space Restoration: Strategies, Successes, Lessons Learned",
+        "body": "Lafayette Open Space Superintendent Lexie Sierra-Martinez was set to present on wildlife management and restoration strategies, including successful initiatives and lessons learned from implementation. The presentation was expected to reference Lafayette's Wildlife Management Plan and offer insights applicable to Louisville's open space management."
+      },
+      {
+        "item": "Board Relationship with City Council and Staff",
+        "body": "The board was scheduled to discuss its working relationship and communication channels with Louisville City Council and city staff. This item was set to address governance and collaboration structures between the advisory board and municipal leadership."
+      },
+      {
+        "item": "Social Trails Management",
+        "body": "Lafayette Open Space Superintendent Lexie Sierra-Martinez and Louisville Open Space Superintendent Ember Brignull were scheduled to present strategies for managing social trails on open space properties. The discussion was expected to address both challenges and best practices in social trail management across both municipalities."
+      },
+      {
+        "item": "Louisville Ranger Program Overview",
+        "body": "Louisville Open Space Superintendent Ember Brignull was set to provide an overview of the Louisville Ranger Program, including its operations, responsibilities, and current initiatives. This presentation was expected to inform the board about ranger program activities and effectiveness."
+      },
+      {
+        "item": "Brainstorm on Possible Joint Board Projects",
+        "body": "The board was scheduled to brainstorm potential collaborative projects between Louisville and Lafayette open space programs. This session was set to explore opportunities for joint initiatives that could benefit both communities' open space management and conservation goals."
+      }
+    ],
+    "publicComment": "Public comments were scheduled to be accommodated during the meeting, with speakers limited to 3 minutes each. Comments could also be submitted via email prior to the meeting.",
+    "actionItems": [
+      "scheduled to approve October 14, 2026 meeting minutes",
+      "scheduled to receive Coal Creek Working Group updates",
+      "scheduled to review open space candidate identification and acquisition ranking process",
+      "scheduled to hear wildlife management and restoration strategies presentation",
+      "scheduled to discuss board relationship with City Council and staff",
+      "scheduled to review social trails management presentation",
+      "scheduled to receive Louisville Ranger Program overview",
+      "scheduled to brainstorm joint board projects"
+    ],
+    "topics": [
+      "Open Space",
+      "Coal Creek",
+      "Wildlife Management",
+      "Social Trails",
+      "Ranger Program"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "1.",
+        "name": "Call to Order & Roll Call",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.",
+        "name": "Approval of Agenda",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.",
+        "name": "Public Comments on Items Not on the Agenda and Items on the Consent Agenda",
+        "desc": "Public comments are limited to 3 minutes per speaker. When several people wish to speak on the same position on a given item, a spokesperson may be used to state that position.",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "4.",
+        "name": "Board Consent Agenda",
+        "desc": "The following items on the Consent Agenda are considered routine, and shall be approved, adopted, accepted, etc. by a motion of the Board unless a board member specifically requests an item be considered under \"Regular Business\". In such an event, the item shall be removed from the \"Consent Agenda\" and action taken separately on said item in the order appearing on the agenda. Those items so approved under the heading \"Consent Agenda\" will appear in the Board Minutes in their proper order.",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Open Space Advisory Board Meeting Minutes-October 14, 2026",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2-OSAB Minutes October 14, 2026",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5886)",
+                "type": "application/msword",
+                "size": 156672
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "5.",
+        "name": "Board Informational Comments",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "6.",
+        "name": "Staff Report",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "7.",
+        "name": "Regular Business",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "6:00 pm Introductions (15 Minutes)",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          },
+          {
+            "number": "B.",
+            "name": "6:15 pm Coal Creek Working Group Updates.  Presented by Working Group Members: Mark Poletti and Casey Lyons (10 Minutes)",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          },
+          {
+            "number": "C.",
+            "name": "6:25 pm Open Space Candidate Identification Acquisition Ranking Process.  Presented by Susan McEachern OSAB Chair (20 Minutes)",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "3- Acquisition",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5897)",
+                "type": "application/pdf",
+                "size": 875651
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "D.",
+            "name": "6:45 pm Wildlife Management Plan & Open Space Restoration: Strategies, Successes, Lessons Learned.  Presented by Lexie Sierra-Martinez, Lafayette Open Space Superintendent (15 Minutes) <a href=\"https://www.lafayetteco.gov/DocumentCenter/View/41003/Lafayette-Wildlife-Plan-Final\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.lafayetteco.gov/DocumentCenter/View/41003/Lafayette-Wildlife-Plan-Final</a>",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Wildlife Plan Overview and Implementation",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5907)",
+                "type": "application/pdf",
+                "size": 3126816
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "E.",
+            "name": "7:00 pm Board Relationship with City Council and Staff (15 Minutes)",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          },
+          {
+            "number": "F.",
+            "name": "7:15 pm Social Trails Management.  Presented by Lexie Sierra-Martinez, Lafayette Open Space Superintendent and Ember Brignull, Louisville Open Space Superintendent (30 Minutes)",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "5a 5b 5c",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5899)",
+                "type": "application/pdf",
+                "size": 217692
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "G.",
+            "name": "7:45 pm Louisville Ranger Program Overview.  Presented by Ember Brignull, Louisville Open Space Superintendent (10 Minutes)",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "6a-OSAB- Ranger Roles_ BWP EB Edits",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5904)",
+                "type": "application/pdf",
+                "size": 2692873
+              },
+              {
+                "name": "6b-COSA Creating a Ranger Program_0912_FINAL",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5905)",
+                "type": "application/pdf",
+                "size": 3712792
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "H.",
+            "name": "7:55 pm Brainstorm on Possible Joint Board Projects (15 Minutes)",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "8.",
+        "name": "Adjourn",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "cc_1302",
+    "source": "louisville",
+    "title": "Library Board of Trustees",
+    "date": "November 12, 2026",
+    "shortDate": "NOV 12",
+    "committee": "Library Board of Trustees",
+    "duration": null,
+    "url": "https://louisvilleco.portal.civicclerk.com/event/1302/files",
+    "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1302/files",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Library Board of Trustees was scheduled to convene to address routine consent items, review staff reports including a strategic plan update, and discuss meeting scheduling and board handbook updates. The meeting was set to consider communications from City Council and provide governance direction for the Louisville Public Library.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comments on Items Not on the Agenda and Items on the Consent Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Board Consent Agenda - September 10, 2026 Joint Meeting - Library Board of Trustees and Louisville Public Library Foundation"
+      },
+      {
+        "time": "N/A",
+        "item": "Board Informational Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Staff Report - Director's Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Staff Report - Strategic Plan Update"
+      },
+      {
+        "time": "N/A",
+        "item": "Council Communications"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion/Direction: Meeting Schedule"
+      },
+      {
+        "time": "N/A",
+        "item": "City of Louisville Board & Commission Handbook Update"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Strategic Plan Update",
+        "body": "The Board was scheduled to receive a staff report on the library's strategic plan. This item was set for informational purposes to update trustees on strategic initiatives and planning efforts."
+      },
+      {
+        "item": "Meeting Schedule",
+        "body": "The Board was expected to discuss and provide direction regarding the library board's meeting schedule. This discussion was set to address scheduling matters for future board sessions."
+      },
+      {
+        "item": "City of Louisville Board & Commission Handbook Update",
+        "body": "The Board was scheduled to consider updates to the City of Louisville Board & Commission Handbook. This item was set for review to ensure board policies and procedures align with city guidelines."
+      }
+    ],
+    "publicComment": "Public comment was scheduled during the meeting, with speakers limited to 3 minutes per person. The agenda also indicated that residents could email comments prior to the meeting, and remote participation via phone or video conference was available.",
+    "actionItems": [
+      "Scheduled to approve the agenda",
+      "Expected to act on consent agenda items regarding the September 10, 2026 Joint Meeting",
+      "Scheduled to provide direction on meeting schedule",
+      "Expected to consider updates to the City of Louisville Board & Commission Handbook"
+    ],
+    "topics": [
+      "Library Governance",
+      "Strategic Planning",
+      "Board Operations"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "1.",
+        "name": "Call to Order & Roll Call",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.",
+        "name": "Approval of Agenda",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.",
+        "name": "Public Comments on Items Not on the Agenda and Items on the Consent Agenda",
+        "desc": "Public comments are limited to 3 minutes per speaker. When several people wish to speak on the same position on a given item, a spokesperson may be used to state that position.",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "4.",
+        "name": "Board Consent Agenda",
+        "desc": "The following items on the Consent Agenda are considered routine, and shall be approved, adopted, accepted, etc. by a motion of the Board unless a board member specifically requests an item be considered under \"Regular Business\". In such an event, the item shall be removed from the \"Consent Agenda\" and action taken separately on said item in the order appearing on the agenda. Those items so approved under the heading \"Consent Agenda\" will appear in the Board Minutes in their proper order.",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "September 10, 2026 Joint Meeting - Library Board of Trustees and Louisville Public Library Foundation",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2026-09-10 LBOT LPLF Joint Meeting Minutes",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5876)",
+                "type": "application/pdf",
+                "size": 58932
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "5.",
+        "name": "Board Informational Comments",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "6.",
+        "name": "Staff Report",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Director's Report",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Jan-Oct 2026 Library Stats",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5877)",
+                "type": "application/pdf",
+                "size": 207357
+              },
+              {
+                "name": "July-October 2026",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5878)",
+                "type": "application/pdf",
+                "size": 446702
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "B.",
+            "name": "Strategic Plan Update ",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Library Brief Community Survey Findings",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5879)",
+                "type": "application/pdf",
+                "size": 81334
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "7.",
+        "name": "Regular Business",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Council Communications",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          },
+          {
+            "number": "B.",
+            "name": "Discussion/Direction: Meeting Schedule",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          },
+          {
+            "number": "C.",
+            "name": "City of Louisville Board & Commission Handbook Update",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "8.",
+        "name": "Adjourn",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "cc_1413",
+    "source": "louisville",
+    "title": "Planning Commission",
+    "date": "November 12, 2026",
+    "shortDate": "NOV 12",
+    "committee": "Planning Commission",
+    "duration": null,
+    "url": "https://louisvilleco.portal.civicclerk.com/event/1413/files",
+    "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1413/files",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Louisville Planning Commission was scheduled to meet on November 12, 2026, to consider two subdivision plats and review the Development Impact Fee Review Committee. The meeting was set to address land use and development matters affecting Louisville properties.",
+    "agenda": [
+      {
+        "time": "6:30 PM",
+        "item": "Call to Order & Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comment on Items Not on the Board Agenda and Items on the Consent Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Board Consent Agenda - Approval of June and October Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 11, Series 2026 - Coal Creek Junction Final Plat to Subdivide 1155 Pine Street"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 12, Series 2026 - Warembourg Subdivision, Replat A to Subdivide 101 W. Cherry Street"
+      },
+      {
+        "time": "N/A",
+        "item": "Development Impact Fee Review Committee"
+      },
+      {
+        "time": "N/A",
+        "item": "Commission Member Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Staff Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Resolution No. 11, Series 2026 - Coal Creek Junction Final Plat",
+        "body": "The Commission was scheduled to consider a resolution recommending approval of the Coal Creek Junction Final Plat to subdivide property at 1155 Pine Street. This item was set for action under Regular Business and was expected to address the subdivision of this Louisville parcel."
+      },
+      {
+        "item": "Resolution No. 12, Series 2026 - Warembourg Subdivision, Replat A",
+        "body": "The Commission was scheduled to consider a resolution recommending approval of the Warembourg Subdivision, Replat A to subdivide property at 101 W. Cherry Street. This item was expected to address the replat and subdivision of this downtown Louisville property."
+      },
+      {
+        "item": "Development Impact Fee Review Committee",
+        "body": "The Commission was set to address matters related to the Development Impact Fee Review Committee. This item was scheduled for discussion under Regular Business but the agenda provided no additional details about the specific issues to be considered."
+      }
+    ],
+    "publicComment": "Public comment was indicated on the agenda, limited to 3 minutes per speaker for items not on the agenda and consent agenda items, with remote and in-person participation options available.",
+    "actionItems": [
+      "scheduled to vote on recommending approval of Resolution No. 11, Series 2026 for the Coal Creek Junction Final Plat",
+      "scheduled to vote on recommending approval of Resolution No. 12, Series 2026 for the Warembourg Subdivision, Replat A",
+      "expected to consider Development Impact Fee Review Committee matters"
+    ],
+    "topics": [
+      "Zoning",
+      "Development",
+      "Subdivisions",
+      "Coal Creek Junction",
+      "Warembourg Subdivision"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "1.",
+        "name": "Call to Order & Roll Call",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.",
+        "name": "Approval of Agenda",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.",
+        "name": "Public Comment on Items Not on the Board Agenda and Items on the Consent Agenda",
+        "desc": "Public comments are limited to 3 minutes per speaker. When several people wish to speak to the same position on a given item, the board requests they select a spokesperson to state that position. ",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "4.",
+        "name": "Board Consent Agenda",
+        "desc": "The following items on the Consent Agenda are considered routine, and shall be approved, adopted, accepted, etc. by a motion of the Board unless a board member specifically requests an item be considered under \"Regular Business\". In such an event, the item shall be removed from the \"Consent Agenda\" and action taken separately on said item in the order appearing on the agenda. Those items so approved under the heading \"Consent Agenda\" will appear in the Board Minutes in their proper order.",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Approval of June, October Minutes",
+            "desc": "Attached for Planning Commission approval are the June 11, 2026 and October 8, 2026 minutes.",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2026 06 11 Planning Commission Minutes",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5849)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 80274
+              },
+              {
+                "name": "2026 10 08 Planning Commission Minutes",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5892)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 79261
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "5.",
+        "name": "Regular Business",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Resolution No. 11, Series 2026 - Recommending Approval of the Coal Creek Junction Final Plat to Subdivide 1155 Pine Street",
+            "desc": "The applicant, the City of Louisville, is requesting approval of a Final Plat to subdivide 1155 Pine Street into one lot and one tract. Lot 1 will encompass the existing residential structure and be retained by the current owner, while Tract A will be purchased by the City. The area where Tract A is proposed encompasses two train cars that have been re-located by the current property owner. The City has entered into a purchase and sale contract with the owner of 1155 Pine Street, which requires that the City initiate the subdivision application for the purpose of the City acquiring the train cars and the tract where they will be located.",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Resolution 11, Series 2026 ",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5870)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 25202
+              },
+              {
+                "name": "Coal Creek Junction Plat ",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5854)",
+                "type": "application/pdf",
+                "size": 309550
+              },
+              {
+                "name": "1155 Pine ISP",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5855)",
+                "type": "application/pdf",
+                "size": 552669
+              },
+              {
+                "name": " Lease and Purchase Contract 1155 Pine St-Ordinance 2026-1914",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5871)",
+                "type": "application/pdf",
+                "size": 15024441
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "B.",
+            "name": "Resolution No. 12, Series 2026 - Recommending Approval of the Warembourg Subdivision, Replat A to Subdivide 101 W. Cherry Street",
+            "desc": "The applicant, the City of Louisville, is requesting approval of a Minor Plat to subdivide a 5-acre parcel into two lots at 101 W. Cherry St. as described in the proposed Warembourg Subdivision Replat A subdivision plat. The property is currently developed with a single-family home, a barn and several outbuildings. The City exercised a right of first refusal to purchase the property on November 3, 2025. Lot 1A (3-acre) will be sold to a private entity while the City will retain Lot 1B (2-acre).",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Resolution 12, Series 2026",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5890)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 26102
+              },
+              {
+                "name": "Final Plat 101 Cherry",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5873)",
+                "type": "application/pdf",
+                "size": 765329
+              },
+              {
+                "name": "ALTA 101 Cherry",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5874)",
+                "type": "application/pdf",
+                "size": 1010846
+              },
+              {
+                "name": "Sale Contract 101 W Cherry",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5875)",
+                "type": "application/pdf",
+                "size": 1389588
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "C.",
+            "name": "Development Impact Fee Review Committee",
+            "desc": "<span style=\"font-size: 16px;\">The City is in the process of updating its Development Impact Fees and Public Land Dedication requirements, which apply to new or expanded residential and commercial development. As part of the Development Fee Impact process, the City is establishing a Liaison Committee to work with the consultant and staff on development of the fee update.  Staff is seeking one volunteer from the Planning Commission to participate in the Liaison Committee.</span>",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Impact Fee Update Consultant Contract and Scope",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5880)",
+                "type": "application/pdf",
+                "size": 926252
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "6.",
+        "name": "Commission Member Comments",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "7.",
+        "name": "Staff Report",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "8.",
+        "name": "Adjourn",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      }
+    ]
+  },
+  {
     "id": "cc_47",
     "source": "louisville",
     "title": "City Council Meeting",
@@ -10,7 +953,7 @@
     "url": "https://louisvilleco.portal.civicclerk.com/event/47/files",
     "docUrl": "https://louisvilleco.portal.civicclerk.com/event/47/files",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, this special City Council meeting was scheduled to address an update from the Municipal Judge and Prosecuting Attorney, discuss community engagement strategy, and identify upcoming agenda items through February 2027. The meeting was set to include public comment opportunities on multiple discussion items.",
     "agenda": [
       {

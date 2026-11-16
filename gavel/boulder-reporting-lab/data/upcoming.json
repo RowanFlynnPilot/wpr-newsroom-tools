@@ -1,38 +1,10 @@
 {
   "louisville": [
     {
-      "date": "2026-11-10",
-      "time": "6:00 PM",
-      "name": "City Council Meeting",
-      "url": "https://louisvilleco.portal.civicclerk.com/event/47/overview",
-      "source": "louisville"
-    },
-    {
-      "date": "2026-11-12",
-      "time": "4:00 PM",
-      "name": "City Council Economic Vitality Committee",
-      "url": "https://louisvilleco.portal.civicclerk.com/event/1226/overview",
-      "source": "louisville"
-    },
-    {
-      "date": "2026-11-12",
-      "time": "6:00 PM",
-      "name": "Library Board of Trustees",
-      "url": "https://louisvilleco.portal.civicclerk.com/event/1302/overview",
-      "source": "louisville"
-    },
-    {
-      "date": "2026-11-12",
-      "time": "6:00 PM",
-      "name": "Open Space Advisory Board",
-      "url": "https://louisvilleco.portal.civicclerk.com/event/1313/overview",
-      "source": "louisville"
-    },
-    {
-      "date": "2026-11-12",
-      "time": "6:30 PM",
-      "name": "Planning Commission",
-      "url": "https://louisvilleco.portal.civicclerk.com/event/1413/overview",
+      "date": "2026-11-16",
+      "time": "8:30 AM",
+      "name": "Economic Vitality Retreat",
+      "url": "https://louisvilleco.portal.civicclerk.com/event/1440/overview",
       "source": "louisville"
     },
     {
@@ -54,13 +26,6 @@
       "time": "8:00 AM",
       "name": "Revitalization Commission",
       "url": "https://louisvilleco.portal.civicclerk.com/event/1215/overview",
-      "source": "louisville"
-    },
-    {
-      "date": "2026-11-18",
-      "time": "6:30 PM",
-      "name": "Board of Adjustment",
-      "url": "https://louisvilleco.portal.civicclerk.com/event/1239/overview",
       "source": "louisville"
     },
     {
@@ -96,6 +61,41 @@
       "time": "6:30 PM",
       "name": "Local Licensing Authority",
       "url": "https://louisvilleco.portal.civicclerk.com/event/127/overview",
+      "source": "louisville"
+    },
+    {
+      "date": "2026-11-30",
+      "time": "6:30 PM",
+      "name": "Recreation Advisory Board",
+      "url": "https://louisvilleco.portal.civicclerk.com/event/1343/overview",
+      "source": "louisville"
+    },
+    {
+      "date": "2026-12-01",
+      "time": "6:00 PM",
+      "name": "City Council Meeting",
+      "url": "https://louisvilleco.portal.civicclerk.com/event/50/overview",
+      "source": "louisville"
+    },
+    {
+      "date": "2026-12-02",
+      "time": "5:30 PM",
+      "name": "Bee City Subcommittee",
+      "url": "https://louisvilleco.portal.civicclerk.com/event/1394/overview",
+      "source": "louisville"
+    },
+    {
+      "date": "2026-12-02",
+      "time": "6:30 PM",
+      "name": "Parks & Public Landscaping Advisory Board",
+      "url": "https://louisvilleco.portal.civicclerk.com/event/1329/overview",
+      "source": "louisville"
+    },
+    {
+      "date": "2026-12-03",
+      "time": "6:00 PM",
+      "name": "Youth Advisory Board",
+      "url": "https://louisvilleco.portal.civicclerk.com/event/1432/overview",
       "source": "louisville"
     }
   ]
