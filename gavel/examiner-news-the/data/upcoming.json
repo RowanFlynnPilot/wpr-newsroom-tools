@@ -1,17 +1,24 @@
 {
   "portchester": [
     {
-      "date": "2026-11-11",
-      "time": "6:45 PM",
+      "date": "2026-11-16",
+      "time": "7:00 PM",
+      "name": "Board of Trustees Regular Meeting-3rd",
+      "url": "https://portchesterny.portal.civicclerk.com/event/400/overview",
+      "source": "portchester"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "6:30 PM",
       "name": "Industrial Development Agency (IDA) Regular Meeting",
       "url": "https://portchesterny.portal.civicclerk.com/event/415/overview",
       "source": "portchester"
     },
     {
-      "date": "2026-11-16",
-      "time": "7:00 PM",
-      "name": "Board of Trustees Regular Meeting-3rd",
-      "url": "https://portchesterny.portal.civicclerk.com/event/400/overview",
+      "date": "2026-11-17",
+      "time": "7:30 PM",
+      "name": "Local Development Corporation (LDC)",
+      "url": "https://portchesterny.portal.civicclerk.com/event/470/overview",
       "source": "portchester"
     },
     {
@@ -44,6 +51,13 @@
     },
     {
       "date": "2026-12-09",
+      "time": "6:30 PM",
+      "name": "Industrial Development Agency (IDA)",
+      "url": "https://portchesterny.portal.civicclerk.com/event/458/overview",
+      "source": "portchester"
+    },
+    {
+      "date": "2026-12-09",
       "time": "6:45 PM",
       "name": "Industrial Development Agency (IDA) Regular Meeting",
       "url": "https://portchesterny.portal.civicclerk.com/event/416/overview",
@@ -61,6 +75,20 @@
       "time": "7:00 PM",
       "name": "Board of Trustees Regular Meeting-3rd",
       "url": "https://portchesterny.portal.civicclerk.com/event/401/overview",
+      "source": "portchester"
+    },
+    {
+      "date": "2026-12-28",
+      "time": "7:00 PM",
+      "name": "Planning Commission Meeting",
+      "url": "https://portchesterny.portal.civicclerk.com/event/352/overview",
+      "source": "portchester"
+    },
+    {
+      "date": "2026-12-30",
+      "time": "6:30 PM",
+      "name": "Board of Trustees Agenda Workshop",
+      "url": "https://portchesterny.portal.civicclerk.com/event/377/overview",
       "source": "portchester"
     }
   ]
