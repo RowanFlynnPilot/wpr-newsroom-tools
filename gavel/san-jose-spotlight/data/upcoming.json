@@ -1,52 +1,10 @@
 {
   "sanjose": [
     {
-      "date": "2026-11-10",
+      "date": "2026-11-16",
       "time": "1:30 PM",
       "name": "City Council",
-      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8123&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
-      "source": "sanjose"
-    },
-    {
-      "date": "2026-11-10",
-      "time": "9:30 AM",
-      "name": "City Council Closed Session",
-      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8142&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
-      "source": "sanjose"
-    },
-    {
-      "date": "2026-11-12",
-      "time": "6:30 PM",
-      "name": "Appeals Hearing Board",
-      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8293&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
-      "source": "sanjose"
-    },
-    {
-      "date": "2026-11-12",
-      "time": "3:00 PM",
-      "name": "Senior Citizens Commission",
-      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8300&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
-      "source": "sanjose"
-    },
-    {
-      "date": "2026-11-12",
-      "time": "4:00 PM",
-      "name": "Treatment Plant Advisory Committee",
-      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8301&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
-      "source": "sanjose"
-    },
-    {
-      "date": "2026-11-12",
-      "time": "5:45 PM",
-      "name": "Housing and Community Development Commission",
-      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8302&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
-      "source": "sanjose"
-    },
-    {
-      "date": "2026-11-12",
-      "time": "3:00 PM",
-      "name": "Miscellaneous Agendas",
-      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8303&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
+      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8084&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
       "source": "sanjose"
     },
     {
@@ -64,10 +22,10 @@
       "source": "sanjose"
     },
     {
-      "date": "2026-11-17",
-      "time": "9:30 AM",
-      "name": "City Council Closed Session",
-      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8143&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
+      "date": "2026-11-18",
+      "time": "2:00 PM",
+      "name": "Joint Meeting for the Rules and Open Government Committee and Committee of the Whole",
+      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8152&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
       "source": "sanjose"
     },
     {
@@ -75,6 +33,48 @@
       "time": "6:30 PM",
       "name": "Historic Landmarks Commission",
       "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8307&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
+      "source": "sanjose"
+    },
+    {
+      "date": "2026-11-18",
+      "time": "6:30 PM",
+      "name": "Planning Commission",
+      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8309&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
+      "source": "sanjose"
+    },
+    {
+      "date": "2026-11-18",
+      "time": "9:00 AM",
+      "name": "Planning Director's Hearing",
+      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8310&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
+      "source": "sanjose"
+    },
+    {
+      "date": "2026-11-18",
+      "time": "9:00 AM",
+      "name": "Miscellaneous Agendas",
+      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8311&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
+      "source": "sanjose"
+    },
+    {
+      "date": "2026-11-18",
+      "time": "7:00 PM",
+      "name": "Library and Education Commission",
+      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8312&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
+      "source": "sanjose"
+    },
+    {
+      "date": "2026-11-19",
+      "time": "8:30 AM",
+      "name": "Miscellaneous Agendas",
+      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8313&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
+      "source": "sanjose"
+    },
+    {
+      "date": "2026-11-19",
+      "time": "6:00 PM",
+      "name": "Climate Advisory Commission",
+      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8314&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
       "source": "sanjose"
     },
     {
