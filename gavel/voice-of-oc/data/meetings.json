@@ -1,5 +1,99 @@
 [
   {
+    "id": "pg_5165",
+    "source": "santaana",
+    "title": "Police Oversight Commission",
+    "date": "November 12, 2026",
+    "shortDate": "NOV 12",
+    "committee": "Police Oversight Commission",
+    "duration": null,
+    "url": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56269",
+    "docUrl": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56269",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Santa Ana Police Oversight Commission was scheduled to hold a regular meeting to review citizen complaints, examine police department litigation costs and settlements from 2020-2026, and assess the department's response to a 911 call involving Immigration and Customs Enforcement agents. The meeting was set to address accountability and oversight of police operations.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Attendance and Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Pledge of Allegiance"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comments on All Agenda and Non-Agenda Items"
+      },
+      {
+        "time": "N/A",
+        "item": "Excused Absences"
+      },
+      {
+        "time": "N/A",
+        "item": "Minutes from the Regular Meeting of October 8, 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Closed Session – Public Employee Complaints (Complaint No. 2026-46)"
+      },
+      {
+        "time": "N/A",
+        "item": "Receive and File Comprehensive Report on Santa Ana Police Department Lawsuit Settlements, Litigation Costs, and Legal Expenditures (2020–2026)"
+      },
+      {
+        "time": "N/A",
+        "item": "Review of Santa Ana Police Department Response to Immigration and Customs Enforcement (ICE) Agents 911 Call Resulting in Arrest of Two Individuals for Stalking, Interference with Law Enforcement and Conspiracy which Orange County District Attorney Declined to Prosecute"
+      },
+      {
+        "time": "N/A",
+        "item": "Staff Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Commission Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Closed Session – Public Employee Complaints (Complaint No. 2026-46)",
+        "body": "The Commission was scheduled to convene in closed session consistent with California Government Code Section 54957 to review citizen complaints submitted to the Police Oversight Commission. This proceeding was set to address complaint number 2026-46 involving public employee conduct matters."
+      },
+      {
+        "item": "Receive and File Comprehensive Report on Santa Ana Police Department Lawsuit Settlements, Litigation Costs, and Legal Expenditures (2020–2026)",
+        "body": "The Commission was set to receive and review a comprehensive report on the Santa Ana Police Department's lawsuit settlements, litigation costs, and legal expenditures spanning 2020 through 2026. This commissioner-requested item was scheduled to provide the oversight body with detailed financial and legal information regarding police department disputes and legal matters."
+      },
+      {
+        "item": "Review of Santa Ana Police Department Response to Immigration and Customs Enforcement (ICE) Agents 911 Call Resulting in Arrest of Two Individuals for Stalking, Interference with Law Enforcement and Conspiracy which Orange County District Attorney Declined to Prosecute",
+        "body": "The Commission was expected to review and comment on the Santa Ana Police Department's response to a 911 call made by Immigration and Customs Enforcement agents that resulted in the arrest of two individuals for stalking, interference with law enforcement, and conspiracy charges. The Orange County District Attorney subsequently declined to prosecute the case, and the Commission was scheduled to evaluate the department's actions and response protocols in this incident."
+      }
+    ],
+    "publicComment": "Public comments were scheduled at the beginning of the meeting for all agenda and non-agenda items, with comments limited to three (3) minutes per speaker unless otherwise announced. Public comments could be submitted in-person at the podium or via email/mail to the Office of the City Clerk.",
+    "actionItems": [
+      "Scheduled to excuse absent members",
+      "Scheduled to approve minutes from the October 8, 2026 regular meeting",
+      "Scheduled to review citizen complaint number 2026-46 in closed session",
+      "Scheduled to receive and file the comprehensive report on police department lawsuit settlements and litigation costs for 2020-2026",
+      "Scheduled to review and comment on the police department report regarding its response to the ICE agents 911 call"
+    ],
+    "topics": [
+      "Public Safety",
+      "Police Oversight",
+      "Litigation and Legal Expenditures",
+      "Citizen Complaints",
+      "Immigration Enforcement"
+    ],
+    "votes": []
+  },
+  {
     "id": "pg_5148",
     "source": "santaana",
     "title": "Planning Commission - Regular Meeting",
