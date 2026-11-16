@@ -1,6 +1,20 @@
 {
   "oviedo": [
     {
+      "date": "2026-11-16",
+      "time": "6:00 PM",
+      "name": "Community Redevelopment Agency",
+      "url": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8917",
+      "source": "oviedo"
+    },
+    {
+      "date": "2026-11-16",
+      "time": "6:30 PM",
+      "name": "City Council Regular Meeting",
+      "url": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8920",
+      "source": "oviedo"
+    },
+    {
       "date": "2026-11-17",
       "time": "6:30 PM",
       "name": "LPA Regular Meeting",
