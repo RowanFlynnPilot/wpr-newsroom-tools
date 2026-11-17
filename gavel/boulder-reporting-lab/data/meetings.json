@@ -1,5 +1,467 @@
 [
   {
+    "id": "cc_48",
+    "source": "louisville",
+    "title": "City Council Meeting",
+    "date": "November 17, 2026",
+    "shortDate": "NOV 17",
+    "committee": "City Council",
+    "duration": null,
+    "url": "https://louisvilleco.portal.civicclerk.com/event/48/files",
+    "docUrl": "https://louisvilleco.portal.civicclerk.com/event/48/files",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Louisville City Council was scheduled to meet on November 17, 2026, to address routine administrative matters including animal impound services and EV charger installation agreements, while also considering discussion items on cellular service and a resident artist pilot program. The meeting was also set to take first readings on two ordinances affecting municipal code provisions for hearing officers and boards and commissions.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Public Comments on Items Not on the Agenda and Items on the Consent Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda - Approval of Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 117, Series 2026 - Agreement with Humane Society of Boulder Valley for Animal Impound Services"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 118, Series 2026 - Amendment to Intergovernmental Agreement for Collective SWAT Team"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 119, Series 2026 - Annual Budget for Louisville Revitalization Commission for Fiscal Year 2027"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 94, Series 2026 - Accepting Grants from Colorado Energy Office for EV Charger Installation"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 121, Series 2026 - Agreement with Winn-Marion Companies for EV Charger Station Project"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion / Direction: Cellular Service in Louisville"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion / Direction / Action: Resident Artist Pilot Program"
+      },
+      {
+        "time": "N/A",
+        "item": "Resolution No. 120, Series 2026 - License, Improvement and Assistance Agreement with Downtown Business Association for 2027-2028 Street Faire Season"
+      },
+      {
+        "time": "N/A",
+        "item": "Ordinance No. 1939, Series 2026 - First Reading: Amending Louisville Municipal Code to Authorize Appointment of Hearing Officer for Licensing Determinations"
+      },
+      {
+        "time": "N/A",
+        "item": "Ordinance No. 1940, Series 2026 - First Reading: Amending Louisville Municipal Code Regarding Boards and Commissions"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Cellular Service in Louisville",
+        "body": "Council was scheduled to receive information and provide direction to staff regarding cellular service availability in Louisville. The session was set to include one round of public comment, with no final decisions expected at this meeting and the potential for the item to return at a later date for action."
+      },
+      {
+        "item": "Resident Artist Pilot Program",
+        "body": "Council was scheduled to discuss and consider direction regarding a resident artist pilot program. The session was set to include staff presentation, council questions, and one round of public comment, with no final action expected and the possibility of the item returning for future action."
+      },
+      {
+        "item": "Resolution No. 120, Series 2026 - Downtown Business Association Street Faire Agreement",
+        "body": "Council was scheduled to consider approval of a license, improvement and assistance agreement with the Downtown Business Association for the 2027-2028 street faire season, with financial support of up to $92,000 per season. Final action was expected to be taken on this item following staff presentation and one round of public comment."
+      },
+      {
+        "item": "Ordinance No. 1939, Series 2026 - Hearing Officer Appointment Authority",
+        "body": "Council was scheduled to hold the first reading of an ordinance amending the Louisville Municipal Code to authorize appointment of a hearing officer for licensing determinations. The first reading was set to include staff presentation and council questions, with no public comment opportunity and a public hearing scheduled for a later date with two rounds of public comment."
+      },
+      {
+        "item": "Ordinance No. 1940, Series 2026 - Boards and Commissions Amendment",
+        "body": "Council was scheduled to hold the first reading of an ordinance amending the Louisville Municipal Code regarding boards and commissions. The first reading was set to include staff presentation and council questions, with no public comment opportunity and a public hearing scheduled for a later date with two rounds of public comment."
+      },
+      {
+        "item": "Resolution No. 117, Series 2026 - Animal Impound Services Agreement",
+        "body": "Council was scheduled to consider approval of an agreement with the Humane Society of Boulder Valley for animal impound services at amounts of $14,200 for 2027 and $14,700 for 2028. This item was set for the consent agenda unless a council member requested separate consideration."
+      },
+      {
+        "item": "Resolution No. 118, Series 2026 - Collective SWAT Team Agreement Amendment",
+        "body": "Council was scheduled to approve an amendment to the intergovernmental agreement establishing a collective special weapons and tactics team and authorize an annual payment of $1,500 per assigned officer. This item was set for the consent agenda unless a council member requested separate consideration."
+      },
+      {
+        "item": "Resolution No. 119, Series 2026 - Louisville Revitalization Commission Budget",
+        "body": "Council was scheduled to approve the annual budget for the Louisville Revitalization Commission for fiscal year 2027. This item was set for the consent agenda unless a council member requested separate consideration."
+      },
+      {
+        "item": "Electric Vehicle Charger Grant Award Acceptance",
+        "body": "Council was scheduled to accept grants from the Colorado Energy Office for EV charger installation and approve an agreement with Winn-Marion Companies for the EV charger station project. These items were set for the consent agenda unless a council member requested separate consideration."
+      }
+    ],
+    "publicComment": "Public comment was scheduled on items not on the agenda and items on the consent agenda (limited to 3 minutes per speaker), and one round of public comment was set for the cellular service discussion, resident artist pilot program discussion, and the Downtown Business Association street faire resolution. Public hearings with two rounds of comment were scheduled for later dates on the two ordinances.",
+    "actionItems": [
+      "Scheduled to approve consent agenda items including animal impound services agreement, SWAT team amendment, revitalization commission budget, and EV charger grant and contract",
+      "Expected to provide direction on cellular service in Louisville",
+      "Expected to provide direction on resident artist pilot program",
+      "Scheduled to vote on Resolution No. 120 approving Downtown Business Association street faire agreement with up to $92,000 per season funding",
+      "Scheduled to hold first reading of Ordinance No. 1939 for hearing officer appointment authority",
+      "Scheduled to hold first reading of Ordinance No. 1940 amending boards and commissions code"
+    ],
+    "topics": [
+      "Public Safety",
+      "Utilities",
+      "Development",
+      "Downtown Business Association",
+      "Arts and Culture"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "1.",
+        "name": "Call to Order & Roll Call",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.",
+        "name": "Pledge of Allegiance",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.",
+        "name": "Approval of Agenda",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "4.",
+        "name": "Public Comments on Items Not on the Agenda and Items on the Consent Agenda",
+        "desc": "Public comments are limited to 3 minutes per speaker. When several people wish to speak on the same position on a given item, a spokesperson may be used to state that position.",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "5.",
+        "name": "Consent Agenda",
+        "desc": "The following items on the City Council Agenda are considered routine by the City Manager and shall be approved, adopted, accepted, etc., by motion of the City Council and voice vote unless the Mayor or a City Council person specifically requests an item be considered under “Regular Business.” In such an event the item shall be removed from the “Consent Agenda” and Council action taken separately on said item in the order appearing on the Agenda. Those items so approved under the heading “Consent Agenda” will appear in the Council Minutes in their proper order.",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Approval of Minutes",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2026 09 08 City Council Meeting Minutes_DRAFT",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5869)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 56499
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "B.",
+            "name": "Resolution No. 117, Series 2026 - A Resolution Approving an Agreement with the Humane Society of Boulder Valley for Animal Impound Services in the Amounts of $14,200 for 2027 and $14,700 for 2028",
+            "desc": "The Humane Society of Boulder Valley and the City of Louisville Police Department seek to renew their agreement for animal impoundment and sheltering services. The new two-year agreement would become effective January 1, 2027, and continue through December 31, 2028. The City of Louisville and the Humane Society of Boulder Valley have entered into previous service agreements, with the current agreement expiring December 31, 2026.<br><br>The Humane Society of Boulder Valley maintains an animal shelter facility within Boulder County, CO and acts as the receiving agent for animal impoundments, to provide shelter and care for animals brought to their facility by authorized City of Louisville personnel, such as police officers or code enforcement. As per the agreement, the Humane Society is responsible for sheltering and caring for the animals brought to their facility while reasonable efforts are made to locate owners of impounded animal(s) so the animals may be reclaimed. The Humane Society shall hold all impounded animals for a 5-day holding period while working to have impounded animals reclaimed. After the expiration of the 5-day holding period, the Humane Society may evaluate the disposition of any animal not reclaimed by its owner. <br><br>The Humane Society provides 24 hours per day, seven days per week access to its facilities for authorized personnel for the purpose of receiving impounded animals. Exceptions to this access, with reasonable notice to the City, are outlined in the agreement and include emergency situations, legal or regulatory requirements, and unforeseen operational constraints.<br><br>This Agreement may be terminated by either Party, with or without cause, provided that termination shall not be effective until 90 days after the terminating Party provides written notice of termination to the other Party.",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Resolution No. 117, Series 2026",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5801)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 19443
+              },
+              {
+                "name": "2026-11-17 Animal Impound Agreement Renewal with Humane Society of Boulder Valley ",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5802)",
+                "type": "application/pdf",
+                "size": 600874
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "C.",
+            "name": "Resolution No. 118, Series 2026 — A Resolution Approving an Amendment to the Intergovernmental Agreement to Establish a Collective Special Weapons and Tactics Team (SWAT) and Authorizing an Annual Payment of $1,500 per Assigned Officer",
+            "desc": "The Louisville Police Department and Boulder County Sheriff's Office entered into an Intergovernmental Agreement in 2006 to establish a regional special weapons and tactics team (SWAT) to consolidate resources and create the capability to respond to the most critical public safety emergency events within the City of Louisville and Boulder County. Combining resources and capabilities is a cost-effective means for smaller police agencies to create capacity to safely and adequately address incidents requiring SWAT intervention and support. The Louisville Police Department maintains its partnership with the Boulder County SWAT team and currently provides one SWAT operator and two Crisis Negotiators to the team. Officers participate on the SWAT team as a collateral duty assignment and all assigned officers have a primary assignment at the Louisville Police Department. Basic police equipment, salary, and overtime costs for these participants are included in the City's budget processes and remain an expense covered by the City of Louisville. <br><br>In early 2026, the Boulder County Sheriff's Office notified the participating agencies that the County would be seeking an amendment to the original agreement asking agencies to help cover administrative fees. They provided a cost breakdown and determined an annual administrative cost of $1,500 would be charged to the home agency for each of their assigned officer(s). This fee would apply to the Tactical Operations team and not to officers assigned to the Crisis Negotiations group. The fees will be paid to the Boulder County Sheriff's office to help cover administrative costs for equipping, training, and managing the team. <br><br>Approval of this amendment would set current costs for the Louisville Police Department at $1,500 per year per tactical operator beginning in 2027. In future years, the department may add one or two additional officers to the Tactical Operations team, but would not likely increase the number of assigned personnel significantly beyond that.",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Resolution No. 118, Series 2026",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5847)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 19642
+              },
+              {
+                "name": "2026-11-17 SWAT MOU Amendment revised wilber (clean)",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5901)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 30976
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "D.",
+            "name": "Resolution No. 119, Series 2026 — A Resolution Approving the Annual Budget for the Louisville Revitalization Commission for the Fiscal Year 2027",
+            "desc": "The Louisville Revitalization Commission (LRC) is the City of Louisville’s urban renewal authority and must adopt an urban renewal budget each year for the following year. <br><br><span style=\"margin-left:0in;\">The LRC preliminarily approved their 2027 budget at the October 21, 2026 LRC meeting. Per the Fourth Amended and Restated Cooperation Agreement between the City of Louisville and the LRC, the City Council must approve the LRC budget each year prior to final adoption by the LRC. If approved by Council at this meeting, the LRC final approval of the budget will take place at their November 18, 2026 meeting.</span>",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Resolution No. 119, Series 2026",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5891)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 81034
+              },
+              {
+                "name": "Proposed LRC 2027 Budget",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5858)",
+                "type": "application/pdf",
+                "size": 126771
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "E.",
+            "name": "Electric Vehicle Charger Grant Award Acceptance and Consultant Contract Award",
+            "desc": "Staff recommends that Council authorize the City to accept and use $244,000 in Colorado Energy Office (CEO) grants ($202,000 Charge Ahead Colorado and $42,000 Fleet-ZERO) and approve an agreement with Winn-Marion Companies, not to exceed $618,227.34, to design and install 16 Electric Vehicle (EV) charging ports at four City facilities: the Recreation and Senior Center, Police and Municipal Building, Louisville Public Library, and Sid Copeland Water Treatment Plant. Approval is critical to maximize funding as the Xcel Energy Rebates (Resolution No. 103-2026), which also fund this project, require work to be complete by September 29, 2027 to receive funding. The combination of all grants and rebates results in a City contribution of approximately $55,000.",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Resolution 94, Series 2026 - CEO Grant Award Acceptance",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5863)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 27460
+              },
+              {
+                "name": "Resolution 121, Series 2026 - EV Charger Consultant Award",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5862)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 26406
+              },
+              {
+                "name": "EV Charger Timeline",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5865)",
+                "type": "application/pdf",
+                "size": 2145545
+              },
+              {
+                "name": "EV Charger Map",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5884)",
+                "type": "application/pdf",
+                "size": 3238919
+              },
+              {
+                "name": "City Charger Budget Detail",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5866)",
+                "type": "application/pdf",
+                "size": 2161489
+              },
+              {
+                "name": "BOCO CFI Charger Budget Detail",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5867)",
+                "type": "application/pdf",
+                "size": 1053432
+              },
+              {
+                "name": "Charge Ahead Grant Agreement",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5692)",
+                "type": "application/pdf",
+                "size": 506365
+              },
+              {
+                "name": "EV Charger Consultant Contract and SOW",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5864)",
+                "type": "application/pdf",
+                "size": 943497
+              },
+              {
+                "name": "Resolution 18-2024_Climate Action Goals",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5694)",
+                "type": "application/pdf",
+                "size": 138333
+              },
+              {
+                "name": "Resolution 48-2023_Internal Decarbonization Plan",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5695)",
+                "type": "application/pdf",
+                "size": 16880419
+              }
+            ],
+            "children": [
+              {
+                "number": "i.",
+                "name": "Resolution No. 94, Series 2026 — A Resolution Accepting Grants from the Colorado Energy Office for EV Charger Installation",
+                "desc": "",
+                "votes": [],
+                "docs": [],
+                "children": []
+              },
+              {
+                "number": "ii.",
+                "name": "Resolution No. 121, Series 2026 — A Resolution Approving an Agreement with Winn-Marion Companies for the EV Charger Station Project",
+                "desc": "",
+                "votes": [],
+                "docs": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "6.",
+        "name": "Council Informational Comments and Committee Reports",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "7.",
+        "name": "City Manager’s Report",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "8.",
+        "name": "Regular Business",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Discussion / Direction: Cellular Service in Louisville<br><div style=\"margin-left: 20px;\" id=\"isPasted\"><span style=\"font-size: 12px;\">Discussion / Direction provides Council with the opportunity to learn about an item, ask questions, and provide feedback to staff. There will be one round of public comment. There will be no final decisions made on this item, and it may return at a later date for action by Council.</span></div>",
+            "desc": "The City receives numerous complaints regarding the lack of or poor cellular service in Louisville. The City Council identified lack of consistent and reliable cellular service as a safety item in the 2026 and 2027 Council Work Plans. Staff is using a three-phased approach to address the issue:<ul><li>Phase 1 - Understand and Educate</li><li>Phase 2 - Research and Advocate</li><li>Phase 3 - Tactical Options</li></ul><br>Phase 1 has begun with a survey conducted via Engage Louisville in which the public was asked to mark on a map where cell coverage is poor. This report summarizes the results of the survey.",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Cell Coverage Presentation 2026.11.17",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5933)",
+                "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "size": 19302864
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "B.",
+            "name": "Discussion / Direction / Action: Resident Artist Pilot Program<div style=\"margin-left: 20px;\" id=\"isPasted\"><span style=\"font-size: 12px;\">Discussion / Direction provides Council with the opportunity to learn about an item, ask questions, and provide feedback to staff. There will be one round of public comment. There will be no final decisions made on this item, and it may return at a later date for action by Council.</span></div>",
+            "desc": "Staff is asking Council to endorse a formal Resident Artist Program at the Louisville Center for the Arts (LCA) that replaces three informal space-use contracts with a defined, application-based program.<br><br data-pasted=\"true\">The program creates three tiers of grant-awarded participation: Resident Arts Groups, Resident Artists and Emerging Artists. Together the tiers dedicate over 60% of the available time at the LCA to program participants, so the building is used for art and artists in practice as well as in name. The program also adds in-kind support, discounted hourly booking and a way to measure the return on the City's investment.",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Resident Arts Program Proposal Council",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5921)",
+                "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "size": 258218
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "C.",
+            "name": "Resolution No. 120, Series 2026 — A Resolution Approving a License, Improvement and Assistance Agreement with the Downtown Business Association (DBA) for the 2027-2028 Street Faire Season, Including Financial Support of Up to $92,000 per Season<div data-empty=\"true\" style=\"margin-left: 20px;\"><span style=\"font-size: 12px;\">This will be the only reading of this item and final action may be taken. There will be one round of public comment.</span></div>",
+            "desc": "The Downtown Business Association (DBA) has produced the Louisville Street Faire for more than 20 years, and the City has supported it through license agreements since at least 2003. Until 2016, the event was largely volunteer-run. In November 2015, Council began providing financial assistance, which has since included police services, funding for the support of a contracted General Manager, and dedicated funds for band support, in addition to numerous in-kind support offerings. <br data-pasted=\"true\"><br>The proposed agreement covers the 2027 and 2028 seasons and is designed to flex around Front & Center construction, which may make the Steinbaugh site unavailable in 2028. It provides $65,000 per year for the General Manager, $25,000 per year for musical performers, up to $2,000 for 2027 tent installation, police support, fee waivers, and promotion. It eliminates the profit and loss sharing structure. The DBA may instead request supplemental funding from Council if needed, similar to the process the Ice Rink used this year.",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Resolution No. 120, Series 2026",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5846)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 18841
+              },
+              {
+                "name": "2027-2028 Street Faire Agreement (Oct 2026)",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5852)",
+                "type": "application/pdf",
+                "size": 507658
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "D.",
+            "name": "Ordinance No. 1939, Series 2026 — An Ordinance Amending the Louisville Municipal Code to Authorize Appointment of a Hearing Officer for Licensing Determinations<div data-empty=\"true\" style=\"margin-left: 20px;\"><span style=\"font-size: 12px;\">1st Reading includes the Staff Presentation and questions from Council. There is no opportunity for public comment. The Public Hearing (2nd Reading) will be set on this item for a later date. The Public Hearing will allow 2 rounds of public comment.</span></div>",
+            "desc": "As part of the larger review of the Board & Commission Handbook, staff evaluated several aspects of the board and commission structures for potential improvements. One proposal presented to Council was to transition the duties of the Local Licensing Authority to a Hearing Officer and allow certain duties to be performed administratively by the City Clerk's Office. City Council directed staff to pursue this change at the <a href=\"https://louisvilleco.portal.civicclerk.com/event/42/overview\" target=\"_blank\" rel=\"noopener noreferrer\">October 6, 2026 meeting</a>. The attached ordinance makes the requested changes to the Municipal Code.",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Ordinance No. 1939, Series 2026",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5902)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 29587
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "E.",
+            "name": "Ordinance No. 1940, Series 2026 — An Ordinance Amending the Louisville Municipal Code Regarding Boards and Commissions<div data-empty=\"true\" style=\"margin-left: 20px;\"><span style=\"font-size: 12px;\">1st Reading includes the Staff Presentation and questions from Council. There is no opportunity for public comment. The Public Hearing (2nd Reading) will be set on this item for a later date. The Public Hearing will allow 2 rounds of public comment.</span></div>",
+            "desc": "Boards and Commissions (B/Cs) are a vital part of Louisville's governance structure, and an area where additional clarity would be appreciated by all parties. The purpose of this project is to provide that clarity through combining documents into one centralized resource. <br data-pasted=\"true\"><br>The Board and Commission Handbook (the \"handbook\") will cover advisory and quasi-judicial boards including the Board of Adjustment, Building Code Board of Appeals, Cultural Advisory Board, Historic Preservation Commission, Historical Museum Advisory Board, Library Board of Trustees, Local Licensing Authority, Open Space Advisory Board, Parks & Public Landscaping Advisory Board, Planning Commission, Recreation Advisory Board, Sustainability Advisory Board, and Youth Advisory Board. The Louisville Revitalization Commission is the City's Urban Renewal Authority and will continue to operate separately.<br><br>Complimentary to the handbook is the need to update the City's Municipal Code to implement the various changes discussed and supported by Council at the April 14, 2026, October 6, 2026, and October 20, 2026 Council meetings.",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Ordinance No. 1940, Series 2026",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5911)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 34145
+              },
+              {
+                "name": "RAB City Council Memo - RAB Meeting Time & Location Memo",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5915)",
+                "type": "application/pdf",
+                "size": 108277
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "9.",
+        "name": "City Attorney’s Report",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "10.",
+        "name": "Upcoming Agenda Items and Identification of Future Agenda Items",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "11.",
+        "name": "Adjourn",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      }
+    ]
+  },
+  {
     "id": "cc_1440",
     "source": "louisville",
     "title": "Economic Vitality Retreat",
@@ -10,7 +472,7 @@
     "url": "https://louisvilleco.portal.civicclerk.com/event/1440/files",
     "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1440/files",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Economic Vitality Retreat was scheduled to bring together business and organizational leaders in Louisville to discuss economic statistics, city initiatives for 2027, business feedback on attraction and retention, real estate market conditions, and collaborative opportunities to support continued economic vitality in the community.",
     "agenda": [
       {
@@ -177,7 +639,7 @@
     "url": "https://louisvilleco.portal.civicclerk.com/event/1284/files",
     "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1284/files",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Historic Preservation Commission was scheduled to meet to review two staff reports concerning a probable cause request for 832 McKinley Avenue and a demolition application for 181 Roosevelt Avenue. The meeting was set to address property preservation matters and consider actions related to these two properties.",
     "agenda": [
       {

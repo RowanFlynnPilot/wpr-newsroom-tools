@@ -1,20 +1,6 @@
 {
   "louisville": [
     {
-      "date": "2026-11-16",
-      "time": "8:30 AM",
-      "name": "Economic Vitality Retreat",
-      "url": "https://louisvilleco.portal.civicclerk.com/event/1440/overview",
-      "source": "louisville"
-    },
-    {
-      "date": "2026-11-16",
-      "time": "6:30 PM",
-      "name": "Historic Preservation Commission",
-      "url": "https://louisvilleco.portal.civicclerk.com/event/1284/overview",
-      "source": "louisville"
-    },
-    {
       "date": "2026-11-17",
       "time": "6:00 PM",
       "name": "City Council Meeting",
@@ -96,6 +82,20 @@
       "time": "6:00 PM",
       "name": "Youth Advisory Board",
       "url": "https://louisvilleco.portal.civicclerk.com/event/1432/overview",
+      "source": "louisville"
+    },
+    {
+      "date": "2026-12-08",
+      "time": "6:00 PM",
+      "name": "City Council Meeting",
+      "url": "https://louisvilleco.portal.civicclerk.com/event/51/overview",
+      "source": "louisville"
+    },
+    {
+      "date": "2026-12-09",
+      "time": "8:00 AM",
+      "name": "Revitalization Commission",
+      "url": "https://louisvilleco.portal.civicclerk.com/event/1358/overview",
       "source": "louisville"
     }
   ]
