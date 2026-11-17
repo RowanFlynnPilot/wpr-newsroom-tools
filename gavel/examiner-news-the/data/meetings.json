@@ -1,5 +1,469 @@
 [
   {
+    "id": "cc_415",
+    "source": "portchester",
+    "title": "Industrial Development Agency (IDA) Regular Meeting",
+    "date": "November 17, 2026",
+    "shortDate": "NOV 17",
+    "committee": "Industrial Development Agency (IDA)",
+    "duration": null,
+    "url": "https://portchesterny.portal.civicclerk.com/event/415/files",
+    "docUrl": "https://portchesterny.portal.civicclerk.com/event/415/files",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Port Chester Industrial Development Agency was scheduled to hold a regular meeting to review minutes, consider a mixed-use development presentation from Lincoln Property Company and Hudson Realty Capital for properties on Westchester and Irving Avenues, and receive reports from various agency departments. The meeting was also set to address a job shortfall at Port & Main and discuss an IDA audit regarding posting of sensitive information.",
+    "agenda": [
+      {
+        "time": "6:30pm",
+        "item": "Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of Minutes from October 14, 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Presentation - Lincoln Property Company with Hudson Realty Capital on a mixed use project at 223-227 Westchester Ave and 204-220 Irving Ave"
+      },
+      {
+        "time": "N/A",
+        "item": "AD Report including job shortfall at Port & Main"
+      },
+      {
+        "time": "N/A",
+        "item": "Chairman's Remarks - Notes from Jersey City and update on G&S Investors Port Chester properties"
+      },
+      {
+        "time": "N/A",
+        "item": "Planning Director Report including MTA underpass, Liberty Square and Summerfield Park RFP update and timeline"
+      },
+      {
+        "time": "N/A",
+        "item": "IT Director Report including Wayne County NYS Comptroller IDA Audit regarding posting of sensitive info"
+      },
+      {
+        "time": "N/A",
+        "item": "Treasurer's Report - Approval of Invoices and Agency Financial Snapshot"
+      },
+      {
+        "time": "N/A",
+        "item": "Executive Session to discuss proposed acquisition, sale or lease of real property or securities"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Lincoln Property Company Mixed-Use Development Presentation",
+        "body": "The IDA was scheduled to receive a presentation from Lincoln Property Company and Hudson Realty Capital regarding a mixed-use project assembled at 223-227 Westchester Avenue and 204-220 Irving Avenue. The presentation was expected to outline details of this development initiative."
+      },
+      {
+        "item": "Port & Main Job Shortfall",
+        "body": "The AD Report was set to address a job shortfall at Port & Main. The report was expected to provide information regarding employment targets or requirements at this location."
+      },
+      {
+        "item": "G&S Investors Port Chester Properties",
+        "body": "The Chairman was scheduled to provide remarks including notes from Jersey City and an update on G&S Investors Port Chester properties. This item was expected to offer insight into ongoing or prospective development activities."
+      },
+      {
+        "item": "MTA Underpass, Liberty Square and Summerfield Park Projects",
+        "body": "The Planning Director was scheduled to provide an update on the MTA underpass, Liberty Square, and Summerfield Park RFP, including timeline information. This report was expected to detail progress and next steps for these community infrastructure initiatives."
+      },
+      {
+        "item": "Wayne County NYS Comptroller IDA Audit",
+        "body": "The IT Director was scheduled to report on a Wayne County NYS Comptroller IDA Audit regarding the posting of sensitive information. This item was set to address audit findings and any related compliance matters."
+      },
+      {
+        "item": "Approval of Invoices and Financial Snapshot",
+        "body": "The Treasurer was scheduled to present invoices for approval and provide an agency financial snapshot. This report was expected to give the board current information on the agency's financial status and pending expenditures."
+      }
+    ],
+    "publicComment": "Not indicated on agenda.",
+    "actionItems": [
+      "scheduled to approve minutes from October 14, 2026",
+      "expected to consider presentation from Lincoln Property Company and Hudson Realty Capital on mixed-use development",
+      "scheduled to review and approve invoices",
+      "set to hear reports from AD, Planning Director, and IT Director",
+      "expected to hold executive session regarding real property or securities matters"
+    ],
+    "topics": [
+      "Development",
+      "Mixed-Use Projects",
+      "Port & Main",
+      "Financial Report",
+      "Infrastructure Projects",
+      "Audit Compliance"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "1.",
+        "name": "IDA Roll Call",
+        "desc": "IDA Roll Call",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.",
+        "name": "Approval of Minutes",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "a.",
+            "name": "October 14, 2026",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "PCIDA Minutes 26 10 14",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7680)",
+                "type": "application/pdf",
+                "size": 816594
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "3.",
+        "name": "Presentation - Lincoln Property Company with Hudson Realty Capital on a mixed use project assembledge at 223-227 Westchester Ave and 204-220 Irving Ave",
+        "desc": "Presentation - Lincoln Property Company with Hudson Realty Capital on a mixed use project assembledge at 223-227 Westchester Ave and 204-220 Irving Ave",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "a.",
+            "name": "<a href=\"https://lpc.com/\" target=\"_blank\" rel=\"noopener noreferrer\"><u>Lincoln Property Company</u></a> and <a href=\"https://hudsoncap.com/\" target=\"_blank\" rel=\"noopener noreferrer\"><u>Hudson Realty Company</u></a> Presentation",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "227 Westchester - IDA Presentation - 11.13.26",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7665)",
+                "type": "application/pdf",
+                "size": 4365609
+              },
+              {
+                "name": "227 Westchester - IDA Sponsor Overview - 11.13.26",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7666)",
+                "type": "application/pdf",
+                "size": 2607123
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "4.",
+        "name": "AD Report",
+        "desc": "AD Report",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "a.",
+            "name": "AD Report",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "PCIDA Summary AD Report_ October 2026",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7667)",
+                "type": "application/pdf",
+                "size": 5908687
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "b.",
+            "name": "Job shortfall at Port & Main",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "5.",
+        "name": "Chairman's Remarks",
+        "desc": "Chairman's Remarks",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "a.",
+            "name": "Notes from Jersey City and an update on G&S Investors Port Chester properties",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "6.",
+        "name": "Planning Director Report",
+        "desc": "Planning Director Report",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "a.",
+            "name": "Planning Director Report",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "October 2026 Planning Director Report",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7668)",
+                "type": "application/pdf",
+                "size": 1659728
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "b.",
+            "name": "MTA underpass, Liberty Square and Summerfield Park RFP update and timeline",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "7.",
+        "name": "IT Director Report",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "a.",
+            "name": "IT Director Report",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "IDACiminoSummary1126",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7669)",
+                "type": "application/pdf",
+                "size": 421829
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "b.",
+            "name": "Wayne County NYS Comptroller IDA Audit regarding posting of sensitive info",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "8.",
+        "name": "Treasurer's Report",
+        "desc": "Treasurer's Report",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "a.",
+            "name": "Approval of Invoices",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "TREASURER'S REPORT - APPROVAL OF INVOICES 11-17-2026 IDA MTG",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7670)",
+                "type": "application/pdf",
+                "size": 1047092
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "b.",
+            "name": "​Agency Financial Snapshot",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "PCIDA FINANCIAL SNAPSHOT FY2026-27 AS OF 10-31-2026",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7671)",
+                "type": "application/pdf",
+                "size": 121697
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "9.",
+        "name": "Executive Session - To discuss the proposed acquisition, sale or lease of real property or the proposed acquisition of securities, or sale or exchange of securities held by such public body, but only when publicity would substantially affect the value thereof.",
+        "desc": "Executive Session — To discuss the proposed acquisition, sale or lease of real property or the proposed acquisition of securities, or sale or exchange of securities held by such public body, but only when publicity would substantially affect the value thereof.",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "10.",
+        "name": "Adjournment",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "a.",
+            "name": "Next Regularly scheduled meeting December 9, 2026",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cc_470",
+    "source": "portchester",
+    "title": "Local Development Corporation (LDC)",
+    "date": "November 17, 2026",
+    "shortDate": "NOV 17",
+    "committee": "Local Development Corporation (PCLDC)",
+    "duration": null,
+    "url": "https://portchesterny.portal.civicclerk.com/event/470/files",
+    "docUrl": "https://portchesterny.portal.civicclerk.com/event/470/files",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Port Chester Local Development Corporation was scheduled to hold a regular meeting on November 17, 2026, to address routine administrative matters including approval of previous meeting minutes and consideration of staff contract renewals.",
+    "agenda": [
+      {
+        "time": "7:30 PM",
+        "item": "LDC Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of Minutes from October 14, 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Staff Contract Renewals"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of Minutes",
+        "body": "The LDC was scheduled to review and approve the minutes from its October 14, 2026 meeting. This is a routine procedural item for board record-keeping."
+      },
+      {
+        "item": "Staff Contract Renewals",
+        "body": "The LDC was set to consider renewal of staff contracts. The specific details of which positions or contract terms were subject to renewal were not detailed in the published agenda."
+      }
+    ],
+    "publicComment": "Not indicated on agenda.",
+    "actionItems": [
+      "Expected to approve minutes from October 14, 2026",
+      "Scheduled to consider staff contract renewals"
+    ],
+    "topics": [
+      "Administrative Operations",
+      "Staffing",
+      "Port Chester LDC"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "1.",
+        "name": "LDC Roll Call",
+        "desc": "LDC Roll Call",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.",
+        "name": "Approval of Minutes",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "a.",
+            "name": "Minutes of October 14, 2026",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "PCLDC October Minutes DRAFT (003)",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7672)",
+                "type": "application/pdf",
+                "size": 97836
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "3.",
+        "name": "Staff Contract Renewals",
+        "desc": "Staff Contract Renewals",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "a.",
+            "name": "Staff Contact Renewals",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "PCLDC Consultant Agreements -November 17 2026 FINAL (002)_Redacted",
+                "url": "https://portchesterny.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=7673)",
+                "type": "application/pdf",
+                "size": 213132
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "4.",
+        "name": "Adjournment",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "a.",
+            "name": "Next regularly scheduled meeting will be December 9, 2026",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "cc_400",
     "source": "portchester",
     "title": "Board of Trustees Regular Meeting-3rd",
@@ -10,7 +474,7 @@
     "url": "https://portchesterny.portal.civicclerk.com/event/400/files",
     "docUrl": "https://portchesterny.portal.civicclerk.com/event/400/files",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Board of Trustees of Port Chester was scheduled to hold a regular meeting to consider zoning amendments for two development projects, establish new parking violation fines, review presentations on police headquarters planning, and address various add-on resolutions and correspondence items. The meeting was also set to include a proposed executive/closed session.",
     "agenda": [
       {
