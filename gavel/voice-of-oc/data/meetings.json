@@ -1,5 +1,175 @@
 [
   {
+    "id": "pg_5147",
+    "source": "santaana",
+    "title": "Regular City Council Meeting and Public Financing Authority",
+    "date": "November 17, 2026",
+    "shortDate": "NOV 17",
+    "committee": "City Council",
+    "duration": null,
+    "url": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56364",
+    "docUrl": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56364",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Santa Ana City Council and Public Financing Authority were scheduled to hold a regular meeting on November 17, 2026, with a closed session beginning at 4:30 p.m. and open session at 5:30 p.m. The agenda included closed session discussions on existing litigation, ceremonial presentations, consent calendar items, and other regular city business.",
+    "agenda": [
+      {
+        "time": "4:30 PM",
+        "item": "Closed Session Meeting"
+      },
+      {
+        "time": "5:30 PM",
+        "item": "Regular Open Meeting"
+      },
+      {
+        "time": "N/A",
+        "item": "Conference with Legal Counsel – Existing Litigation: Beatrice Hightower, et al. v. City of Santa Ana, et al."
+      },
+      {
+        "time": "N/A",
+        "item": "Conference with Legal Counsel – Existing Litigation: Santa Ana Police Officers Association v. City of Santa Ana"
+      },
+      {
+        "time": "N/A",
+        "item": "Conference with Legal Counsel – Existing Litigation: In re Aqueous Film-Forming Foam Products Liability Litigation"
+      },
+      {
+        "time": "N/A",
+        "item": "Certificates of Recognition presented by Mayor Amezcua to Commissioners for Outstanding Contributions to the Community"
+      },
+      {
+        "time": "N/A",
+        "item": "Certificates of Recognition presented by Councilmember Bacerra to Ward 4 Neighborhood Leaders and Commissioners for Outstanding Contributions to the Community"
+      },
+      {
+        "time": "N/A",
+        "item": "Certificates of Recognition presented by Councilmember Hernandez to mural artist Jose Ortiz and volunteers for their Exceptional Contributions to the Santa Anita Mural"
+      },
+      {
+        "time": "N/A",
+        "item": "Certificates of Recognition presented by Councilwoman Lopez to Ward 3 Commissioners for Outstanding Contributions to the Community"
+      },
+      {
+        "time": "N/A",
+        "item": "Certificate of Recognition presented by Councilmember Vazquez recognizing Rosie Peña for her Outstanding Contributions to the Community"
+      },
+      {
+        "time": "N/A",
+        "item": "Excused Absences"
+      },
+      {
+        "time": "N/A",
+        "item": "Minutes from the Regular Meeting of October 20, 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Appoint Joese Hernandez Nominated by Councilmember Vazquez as the Ward 2 Representative to the Community Development Commission for a Partial Term Expiring December 8, 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Report of Settlements up to $50,000 for General Liability Claims and up to $150,000 for Worker's Compensation Claims"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Conference with Legal Counsel – Existing Litigation",
+        "body": "The City Council was scheduled to discuss in closed session three existing litigation matters including Beatrice Hightower, et al. v. City of Santa Ana, et al. (federal court case), Santa Ana Police Officers Association v. City of Santa Ana (PERB case), and In re Aqueous Film-Forming Foam Products Liability Litigation (federal MDL). Discussion was set to occur outside the public view pursuant to the Brown Act due to potential prejudice to the City's litigation position."
+      },
+      {
+        "item": "Appoint Joese Hernandez to Community Development Commission",
+        "body": "The City Council was scheduled to consider appointing Joese Hernandez, nominated by Councilmember Vazquez, as the Ward 2 Representative to the Community Development Commission for a partial term expiring December 8, 2026. The appointment was expected to include administering the Oath of Office to the appointee."
+      },
+      {
+        "item": "Report of Settlements for General Liability and Worker's Compensation Claims",
+        "body": "The City Council was scheduled to receive a report on settlements authorized by the City Manager, City Attorney, and Human Resources Director for general liability claims up to $50,000 and worker's compensation claims up to $150,000. This report was set to be submitted pursuant to City Council Resolution 2018-045."
+      }
+    ],
+    "publicComment": "Public comment was scheduled on the agenda. The public was set to comment in multiple designated periods including live comments on closed session items (by 4:30 p.m.), live comments on regular agenda items and non-agenda items (by 5:45 p.m.), live comments on public hearing items (by 5:45 p.m.), and live comments on Public Financing Authority items (by 5:45 p.m.). Comments could be provided in person, via email, or through Zoom or conference call.",
+    "actionItems": [
+      "Scheduled to approve staff recommendations on Consent Calendar Items 6 through 34",
+      "Scheduled to excuse absent council members",
+      "Scheduled to approve minutes from the Regular Meeting of October 20, 2026",
+      "Scheduled to appoint Joese Hernandez as Ward 2 Representative to the Community Development Commission and administer Oath of Office",
+      "Scheduled to receive report of settlements for general liability and worker's compensation claims"
+    ],
+    "topics": [
+      "Litigation",
+      "Community Boards and Commissions",
+      "Claims and Settlements",
+      "Administrative Matters"
+    ],
+    "votes": []
+  },
+  {
+    "id": "pg_5168",
+    "source": "santaana",
+    "title": "Personnel Board - Special Meeting",
+    "date": "November 17, 2026",
+    "shortDate": "NOV 17",
+    "committee": "Personnel Board",
+    "duration": null,
+    "url": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56303",
+    "docUrl": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56303",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, this Personnel Board special meeting was scheduled to convene on November 17, 2026, to conduct a closed session hearing conference regarding a public employee discipline matter. The meeting was set to address Case No. 2022-02 under authority of California Government Code section 54957.",
+    "agenda": [
+      {
+        "time": "6:00 PM",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Pledge of Allegiance"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Excused Absences"
+      },
+      {
+        "time": "N/A",
+        "item": "Closed Session – Public Employee Discipline (Hearing Conference in the matter of Case No. 2022-02)"
+      },
+      {
+        "time": "N/A",
+        "item": "Board Member Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Staff Member Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Closed Session – Public Employee Discipline (Hearing Conference in the matter of Case No. 2022-02)",
+        "body": "The Personnel Board was scheduled to convene in closed session to conduct a hearing conference regarding a public employee discipline matter under California Government Code section 54957(b)(1). The nature of the specific allegations or disciplinary action was not disclosed in the public agenda."
+      }
+    ],
+    "publicComment": "Public comment was scheduled on the agenda. Members of the public were invited to address the Personnel Board on any agenda items within the Board's subject matter jurisdiction via in-person attendance, email submission, or Zoom teleconference.",
+    "actionItems": [
+      "Scheduled to convene in closed session for a hearing conference on employee discipline Case No. 2022-02",
+      "Expected to consider excused absences"
+    ],
+    "topics": [
+      "Personnel Matters",
+      "Employee Discipline",
+      "Closed Session"
+    ],
+    "votes": []
+  },
+  {
     "id": "pg_5159",
     "source": "santaana",
     "title": "Personnel Board - Special Meeting",
@@ -10,7 +180,7 @@
     "url": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56306",
     "docUrl": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56306",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Santa Ana Personnel Board was scheduled to hold a special meeting to conduct a closed session hearing conference regarding a public employee discipline matter (Case No. 2022-02) under California Government Code section 54957. The meeting was set for November 16, 2026, with one board member participating via teleconference from Spain.",
     "agenda": [
       {
