@@ -1,20 +1,6 @@
 {
   "sanjose": [
     {
-      "date": "2026-11-16",
-      "time": "1:30 PM",
-      "name": "City Council",
-      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8084&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
-      "source": "sanjose"
-    },
-    {
-      "date": "2026-11-16",
-      "time": "5:30 PM",
-      "name": "Arts Commission",
-      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8304&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
-      "source": "sanjose"
-    },
-    {
       "date": "2026-11-17",
       "time": "1:30 PM",
       "name": "City Council",
@@ -75,6 +61,13 @@
       "time": "6:00 PM",
       "name": "Climate Advisory Commission",
       "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8314&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
+      "source": "sanjose"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "6:30 PM",
+      "name": "Youth Commission",
+      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8315&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
       "source": "sanjose"
     },
     {

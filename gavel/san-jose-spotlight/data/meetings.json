@@ -1,5 +1,1292 @@
 [
   {
+    "id": "lg_8124",
+    "source": "sanjose",
+    "title": "City Council",
+    "date": "November 17, 2026",
+    "shortDate": "NOV 17",
+    "committee": "City Council",
+    "duration": null,
+    "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8124&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
+    "docUrl": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8124&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the San Jose City Council was scheduled to hold a regular session on November 17, 2026, to address routine consent calendar items, ceremonial recognitions, and various administrative and infrastructure matters. The meeting was set to include presentations honoring the Regional Wastewater Facility's 70 years of operation, Ruby Bridges Walk to School Day, and the La Raza Historical Society's 10th anniversary.",
+    "agenda": [
+      {
+        "time": "1:30 p.m.",
+        "item": "Regular Session, Council Chambers, City Hall"
+      },
+      {
+        "time": "N/A",
+        "item": "Presentation of a commendation recognizing the San José - Santa Clara Regional Wastewater Facility and its 70 years of continuous operation"
+      },
+      {
+        "time": "N/A",
+        "item": "Presentation of a proclamation declaring November 14, 2026, as Ruby Bridges Walk to School Day in the City of San José"
+      },
+      {
+        "time": "N/A",
+        "item": "Presentation of a commendation to the La Raza Historical Society of Santa Clara Valley for its 10th anniversary"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Calendar items including approval of City Council minutes, final adoption of ordinances, approval of council committee minutes, mayor and council excused absence requests, city council travel reports, and report from the council liaison to the retirement boards"
+      },
+      {
+        "time": "N/A",
+        "item": "Report of the City Manager, Jennifer Maguire (Verbal Report)"
+      },
+      {
+        "time": "N/A",
+        "item": "Labor Negotiations Update"
+      },
+      {
+        "time": "N/A",
+        "item": "Retroactive Approval of Free Use of the City Hall East and West Plazas and the Janet Gray Hayes Rotunda for the Tunnel of Terror Event"
+      },
+      {
+        "time": "N/A",
+        "item": "First Amendment to the Master Consultant Agreement with Cornerstone Earth Group, Inc. for Environmental Consulting Services"
+      },
+      {
+        "time": "N/A",
+        "item": "First Amendment to the Agreement with N. Harris Computer Corporation for a Customer Information System Infinity Utility Billing System Upgrade"
+      },
+      {
+        "time": "N/A",
+        "item": "Actions Related to the Purchase Order with Bear Electrical Solutions, LLC for Fiber Optic Cable Services"
+      },
+      {
+        "time": "N/A",
+        "item": "Actions Related to the Purchase Order with Owen Equipment Sales for As Required Sewage Cleaning Machine Rental Services"
+      },
+      {
+        "time": "N/A",
+        "item": "Actions Related to the Purchase Order with SNF Polydyne Inc. for Polymers for Co-thickening and Centrifuge Dewatering"
+      },
+      {
+        "time": "N/A",
+        "item": "Actions Related to the Purchase Order with Technology Engineering & Construction, Inc. for Fuel Storage Tank and Dispensing Equipment Maintenance, Repair, Inspection, and Testing Services"
+      },
+      {
+        "time": "N/A",
+        "item": "Actions Related to the Purchase Order with Tom Lopes Distributing, Inc. for Fuel and Petroleum Products"
+      },
+      {
+        "time": "N/A",
+        "item": "Third Amendment to the Standard Consultant Agreement with CSG Advisors Incorporated for Consulting Services"
+      },
+      {
+        "time": "N/A",
+        "item": "Actions Related to the Master Agreement Amendment with Mosaic Public Partners LLC for Recruitment Projects"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of Free Use of City Hall Facilities for the Youth Empowerment Summit"
+      },
+      {
+        "time": "N/A",
+        "item": "Actions Related to the 10501 - Regional Wastewater Facility HVAC Improvements Phase 1 Re-Bid Project"
+      },
+      {
+        "time": "N/A",
+        "item": "Master Consultant Agreement with Black & Veatch for Engineering Services as Owner's Advisor for the 10668 - Pump Stations Improvements Phase 1 Project"
+      },
+      {
+        "time": "N/A",
+        "item": "Actions Related to the Issuance of Non-Exclusive Franchise Agreements for the Collection, Transport, and Delivery of Residential Clean-out Material and Construction and Demolition Debris"
+      },
+      {
+        "time": "N/A",
+        "item": "Amendment to Title 13 (Streets, Sidewalks, and Public Places) and Title 20 (Zoning Code) of the San José Municipal Code for Compliance with State Law, City Council Directed Changes, and Code Maintenance Updates"
+      },
+      {
+        "time": "N/A",
+        "item": "Settlement of Lopez et al v. City of San José, et al."
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of the World AIDS Day Flag Raising, Quilt Display, and Tower and Rotunda Lighting Sponsored by Council Districts 9 and 3 as a City Council Sponsored Special Event"
+      },
+      {
+        "time": "N/A",
+        "item": "Appointment to the Fire Retiree Seat on the Board of Administration for the Police and Fire Retirement Plan"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Report of the City Manager, Jennifer Maguire",
+        "body": "The City Manager was scheduled to provide a verbal report to the City Council. The specific topics to be covered were not detailed in the agenda document."
+      },
+      {
+        "item": "Labor Negotiations Update",
+        "body": "The City Council was set to receive an update on labor negotiations. The specific details and scope of negotiations were not indicated in the agenda."
+      },
+      {
+        "item": "Actions Related to the 10501 - Regional Wastewater Facility HVAC Improvements Phase 1 Re-Bid Project",
+        "body": "The City Council was expected to consider actions related to the rebidding of HVAC improvements at the Regional Wastewater Facility Phase 1 project. The specific actions to be taken were not detailed in the agenda."
+      },
+      {
+        "item": "Master Consultant Agreement with Black & Veatch for Engineering Services",
+        "body": "The City Council was scheduled to consider a master consultant agreement with Black & Veatch to provide engineering services as owner's advisor for the Pump Stations Improvements Phase 1 Project. The specific terms and scope of services were not detailed in the agenda."
+      },
+      {
+        "item": "Non-Exclusive Franchise Agreements for Residential Clean-out Material and Construction and Demolition Debris",
+        "body": "The City Council was set to take actions related to the issuance of non-exclusive franchise agreements for the collection, transport, and delivery of residential clean-out material and construction and demolition debris. The specific terms and number of franchises were not indicated in the agenda."
+      },
+      {
+        "item": "Amendment to Title 13 and Title 20 of the San José Municipal Code",
+        "body": "The City Council was expected to consider amendments to the Streets, Sidewalks, and Public Places ordinances (Title 13) and the Zoning Code (Title 20) for compliance with state law, city council directed changes, and code maintenance updates. The specific changes were not detailed in the agenda."
+      }
+    ],
+    "publicComment": "Public comment was scheduled to be accepted during the meeting via phone, online, or in-person. Members of the public were invited to speak on any item on the agenda and during Open Forum on items not on the agenda.",
+    "actionItems": [
+      "Expected to adopt consent calendar items including approval of minutes, ordinances, and council committee minutes",
+      "Scheduled to approve retroactive use of City Hall plazas and rotunda for Tunnel of Terror Event",
+      "Scheduled to consider and act on first amendment to Master Consultant Agreement with Cornerstone Earth Group, Inc.",
+      "Scheduled to consider and act on first amendment to agreement with N. Harris Computer Corporation for utility billing system upgrade",
+      "Scheduled to consider and approve purchase orders for fiber optic cable services, sewage cleaning machine rental, polymers, fuel storage and dispensing equipment maintenance, and fuel and petroleum products",
+      "Scheduled to consider and act on third amendment to Standard Consultant Agreement with CSG Advisors Incorporated",
+      "Scheduled to consider and act on Master Agreement Amendment with Mosaic Public Partners LLC for recruitment projects",
+      "Scheduled to approve free use of City Hall facilities for Youth Empowerment Summit",
+      "Scheduled to consider actions related to Regional Wastewater Facility HVAC Improvements Phase 1 Re-Bid Project",
+      "Scheduled to consider Master Consultant Agreement with Black & Veatch for Pump Stations Improvements Phase 1 Project",
+      "Scheduled to consider issuance of non-exclusive franchise agreements for clean-out material and construction debris collection",
+      "Scheduled to consider amendments to Title 13 and Title 20 of the San José Municipal Code",
+      "Scheduled to consider settlement of Lopez et al v. City of San José, et al.",
+      "Scheduled to approve World AIDS Day special event and related city fund expenditure",
+      "Scheduled to appoint Fire Retiree to Board of Administration for Police and Fire Retirement Plan"
+    ],
+    "topics": [
+      "Infrastructure",
+      "Utilities",
+      "Procurement",
+      "Wastewater Facility",
+      "Municipal Code"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "",
+        "name": "Please scroll to the end for information about the City Council Agenda and for the Rules of Conduct of the meeting.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "For live translations in over 50 languages, please go to https://attend.wordly.ai/join/FAYU-7105 Also visit our language access page at: https://www.sanjoseca.gov/your-government/appointees/city-clerk/language-access-for-city-council-and-council-committee-meetings",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Language Access Instructions / Instrucciones de interpretación / Hướng dẫn diễn giải",
+        "desc": "26-602 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Language Access Page",
+            "url": "https://www.sanjoseca.gov/your-government/appointees/city-clerk/language-access-for-city-council-and-council-committee-meetings",
+            "type": "",
+            "size": 0
+          },
+          {
+            "name": "How to Use Wordly illustration",
+            "url": "https://www.sanjoseca.gov/your-government/appointees/city-clerk/your-city-your-voice/language-access-wordly-instructions",
+            "type": "",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "American Disability Act",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "To request an alternative format agenda under the Americans with Disabilities Act for City-sponsored meetings, events or printer materials, please call (408) 535-1260 as soon as possible, but at least three business days before the meeting.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Accommodations",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Any member of the public who needs accommodations should email the ADA Coordinator at ADA@sanjoseca.gov or by calling (408) 535-8430. The ADA Coordinator will use their best efforts to provide reasonable accommodations to provide as much accessibility as possible while also maintaining public safety in accordance with the City procedure for resolving reasonable accommodation requests. • Adaptaciones para discapacitados serán proporcionadas a pedido. Mande correo electrónico ADA@sanjoseca.gov; Llame (408) 535-8430. • Bất kỳ ai trong công-đồng cần sự hỗ-trợ xin gửi điện-thư cho Điều-phối-viên ADA theo địa-chỉ ADA@sanjoseca.gov hoặc gọi đến số (408) 535-8430.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "THE LEVINE ACT",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "The Levine Act requires a Party in a Proceeding before the City of San José that involves any action related to their contract, license, permit, or use entitlement to disclose any campaign contributions to City elected or appointed officials totaling more than $500 within the 12 months prior to the City decision. A Participant to a Proceeding may voluntarily report a campaign contribution. For more information: https://www.sanjoseca.gov/your-government/appointees/city-clerk/levine-act",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "How to observe the Meeting",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "1) Cable Channel 24 2) https://sanjoseca.gov/news-stories/watch-a-meeting 3) https://youtube.com/CityofSanJoseCalifornia",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "How to provide spoken Public Comment:",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "1) By Phone: (888) 475 4499. Webinar ID is 982 2147 4336. Alternative phone numbers are: US: +1 (213) 338 8477 or +1 (408) 638 0968 or (877) 853 5257 (Toll Free) a. When prompted to enter your Participant ID, please dial the pound symbol (#); If you would like to raise or lower your hand at any time, please dial * 9. You may dial * 6 to mute/unmute. 2) Online at: https://sanjoseca.zoom.us/j/98221474336 a. Use a current, up to date browser: Chrome 30+, Firefox 27+, Microsoft Edge 12+, Safari 7+. Certain functionality may be disabled in older browsers including Internet Explorer. Mute all other audio before speaking. Using multiple devices can cause audio feedback. b. Enter an email address and name. The name will be visible online and will be used to notify you that it is your turn to speak. c. When the Mayor calls for the item on which you wish to speak, click on “raise hand.” When we reach your name, the City Clerk will give you permission to speak and a pop up will appear on your screen letting you know it is your turn. d. When called, please limit your remarks to the time limit allotted. 3) In Person:",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Fill out a Speaker’s Card and submit it to boxes at the bottom of the Chambers. Do this before the meeting or before the item is heard. This will ensure that the name on the card is called for the item(s) that you wish to address, and it will help ensure the meeting runs smoothly for all participants by calling speakers in an orderly manner. You may remain anonymous, but please fill out a card so we may call you. You can put “anonymous speaker” or “no name” on the card. When the Council reaches your item on the agenda, the Mayor will open the public hearing and call your name. Please address the Council from the podium, which is located to the left of the City Clerk’s table. To assist you in tracking your speaking time, there is a display on the podium and on the screen above you. On the podium, the green light turns on when you begin speaking; the yellow light turns on when you have 30 seconds left; and the red light turns on when your speaking time is up.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "How to submit written Public Comment before the City Council Meeting",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Members of the public are encouraged to submit written comments to the City Council via eComment on the legistar calendar page (the eComment is the column on the far right). Click \"eComment,\" and it will take you to the eComment page to leave comments via an easy webform. Alternatively, you may still email at city.clerk@sanjoseca.gov. Those emails will be attached to the Council Item under “Letters from the Public.” Please identify the Agenda Item Number in the subject line of your email. eComments post immediately to the website. For emailed comments, submit them no earlier than 10 days before the meeting and no later than 5:00 p.m. on the day before the meeting. Comments received after 5:00 p.m. on the day before the meeting may still be posted before the meeting, depending on the volume of submissions received. You may speak to the City Council about any discussion item that is on the agenda and under Open Forum for City Business that is not on the agenda.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "•",
+        "name": "Call to Order and Roll Call",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "9:30 a.m. -",
+        "name": "Closed Session, Call to Order in Council Chambers - Cancelled",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "1:30 p.m. -",
+        "name": "Regular Session, Council Chambers, City Hall",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "6:00 p.m. -",
+        "name": "Evening Session, Council Chambers, City Hall – Cancelled *The previously scheduled Evening Session has been cancelled.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "•",
+        "name": "Pledge of Allegiance",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "•",
+        "name": "Invocation (District 10)",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Reverend Steve Pinkston",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "•",
+        "name": "Orders of the Day",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Items recommended to be added, dropped, or deferred are usually approved under Orders of the Day unless the Council directs otherwise.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "•",
+        "name": "Adjournment Recognition",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "•",
+        "name": "Closed Session Report",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "1",
+        "name": "CEREMONIAL ITEMS",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2",
+        "name": "CONSENT CALENDAR",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Notice to the public: There will be no separate discussion of Consent Calendar items as they are considered to be routine by the City Council and will be adopted by one motion. If a member of the City Council requests discussion on a particular item, that item may be removed from the Consent Calendar and considered separately.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.1",
+        "name": "Approval of City Council Minutes.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.2",
+        "name": "Final Adoption of Ordinances.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.3",
+        "name": "Approval of Council Committee Minutes.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.4",
+        "name": "Mayor and Council Excused Absence Requests.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.5",
+        "name": "City Council Travel Reports.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.6",
+        "name": "Report from the Council Liaison to the Retirement Boards.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3",
+        "name": "STRATEGIC SUPPORT",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.1",
+        "name": "Report of the City Manager, Jennifer Maguire (Verbal Report).",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.2",
+        "name": "Labor Negotiations Update.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "4",
+        "name": "PUBLIC SAFETY SERVICES",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "5",
+        "name": "TRANSPORTATION & AVIATION SERVICES",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "6",
+        "name": "ENVIRONMENTAL & UTILITY SERVICES",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "7",
+        "name": "NEIGHBORHOOD SERVICES",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "8",
+        "name": "COMMUNITY & ECONOMIC DEVELOPMENT",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "9",
+        "name": "REDEVELOPMENT – SUCCESSOR AGENCY",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "10",
+        "name": "LAND USE",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Notice to the public: There will be no separate discussion of Land Use Consent Calendar (Item 10.1) as they are considered to be routine by the City Council and will be adopted by one motion. If a member of the City Council requests discussion on a particular item, that item will be removed from the Land Use Consent Calendar (Item 10.1) and considered separately.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "10.1",
+        "name": "Land Use on Consent Calendar - TO BE HEARD IMMEDIATELY AFTER CONSENT",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "END OF CONSENT CALENDAR",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "10",
+        "name": "Land Use - Regular Agenda",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "•",
+        "name": "Open Forum",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Members of the Public are invited to speak on any item that does not appear on today’s Agenda and that is within the subject matter jurisdiction of the City Council. Members of the public may only speak at Open Forum once.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "•",
+        "name": "Adjournment",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "All public records relating to an open session item on this agenda, which are not exempt from disclosure pursuant to the California Public Records Act, that are distributed to a majority of the legislative body will be available for public inspection online at https://sanjose.legistar.com/Calendar.aspx or at the Office of the City Clerk at San José City Hall, 200 E. Santa Clara Street, Tower 14th Floor, San José, CA 95113 at the same time that the public records are distributed or made available to the legislative body. Any draft contracts, ordinances and resolutions posted on the Internet site or distributed in advance of the Council meeting may not be the final documents approved by the City Council. Please go to the Clerk’s Records Database https://records.sanjoseca.gov/Pages/Search.aspx for the final document, or you many also contact the Office of the City Clerk at (408) 535-1260 or city.clerk@sanjoseca.gov.",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "PAGE BREAK",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "1.1",
+        "name": "Presentation of a commendation recognizing the San José - Santa Clara Regional Wastewater Facility and its 70 years of continuous operation. (Mahan & Cohen)",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "1.2",
+        "name": "Presentation of a ​proclamation declaring November 14, 2026, as Ruby Bridges Walk to School Day in the City of San José, which encourages the community to come together in a shared commitment to creating safe, welcoming, and inclusive schools and neighborhoods. (Campos)",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "1.3",
+        "name": "Presentation of a commendation to the La Raza Historical Society of Santa Clara Valley in recognition of its 10th anniversary and dedication to preserving, documenting, and sharing the rich history, cultural heritage, and contributions of Latino communities in San José and throughout the Santa Clara Valley. (Ortiz)",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Closed Session Agenda",
+        "desc": "26-1181 (Closed Session Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Notice of Cancellation",
+            "url": "https://legistar.granicus.com/sanjose/attachments/9bf0e670-cd99-42b9-b42d-86f9c73c16cb.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "2.8",
+        "name": "Retroactive Approval of “Free Use” of the City Hall East and West Plazas and the Janet Gray Hayes Rotunda for the Tunnel of Terror Event.",
+        "desc": "26-1183 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Resolution",
+            "url": "https://legistar.granicus.com/sanjose/attachments/0f3943db-29f8-466c-ac33-81a9c33bb28d.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/079740bb-3538-4b74-b2e2-ad1a00036cd1.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "2.9",
+        "name": "First Amendment to the Master Consultant Agreement with Cornerstone Earth Group, Inc. for Environmental Consulting Services.",
+        "desc": "26-1184 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/93eb2ea0-05ba-4a46-aab3-395d8046f394.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letter from TPAC, 11/12/26",
+            "url": "https://legistar.granicus.com/sanjose/attachments/ca20c01f-e5bd-45d1-a962-2a4640e69d83.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "2.10",
+        "name": "First Amendment to the Agreement with N. Harris Computer Corporation for a Customer Information System Infinity Utility Billing System Upgrade.",
+        "desc": "26-1186 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/b567a89a-9127-4998-983b-251ee27b1b77.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "2.11",
+        "name": "Actions Related to the Purchase Order with Bear Electrical Solutions, LLC for Fiber Optic Cable Services.",
+        "desc": "26-1187 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/d28da6fa-4263-47e9-9515-1336057ff44c.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "2.12",
+        "name": "Actions Related to the Purchase Order with Owen Equipment Sales for As Required Sewage Cleaning Machine Rental Services.",
+        "desc": "26-1188 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/6e1ea3ad-8626-4904-a56e-eea2b637201f.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "2.13",
+        "name": "Actions Related to the Purchase Order with SNF Polydyne Inc. for Polymers for Co-thickening and Centrifuge Dewatering.",
+        "desc": "26-1189 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/49c49924-dc05-4a89-ba47-1520706a962d.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letter from TPAC, 11/12/26",
+            "url": "https://legistar.granicus.com/sanjose/attachments/02bf17b5-d73c-46f3-b18b-49100732f470.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "2.14",
+        "name": "Actions Related to the Purchase Order with Technology Engineering & Construction, Inc. for Fuel Storage Tank and Dispensing Equipment Maintenance, Repair, Inspection, and Testing Services.",
+        "desc": "26-1190 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/13bd7102-fd7e-4c16-8c75-c6cd4cd35855.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "2.15",
+        "name": "Actions Related to the Purchase Order with Tom Lopes Distributing, Inc. for Fuel and Petroleum Products.",
+        "desc": "26-1191 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/ae2d1e50-f9d2-4b74-b630-9998ffb5cf80.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "2.16",
+        "name": "Third Amendment to the Standard Consultant Agreement with CSG Advisors Incorporated for Consulting Services.",
+        "desc": "26-1192 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/76763e2f-e016-4442-be15-14afe40e59cc.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "2.17",
+        "name": "Actions Related to the Master Agreement Amendment with Mosaic Public Partners LLC for Recruitment Projects.",
+        "desc": "26-1193 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/ec3ff50f-7a5c-4fd1-b559-a09ff2c9b740.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "2.18",
+        "name": "Approval of “Free Use” of City Hall Facilities for the Youth Empowerment Summit.",
+        "desc": "26-1194 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Resolution",
+            "url": "https://legistar.granicus.com/sanjose/attachments/c0638870-959d-49d5-b0bc-03a76b0736af.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/1eb2b052-6b0d-4e86-b2a9-57e1c8acb787.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "6.1",
+        "name": "Actions Related to the 10501 - Regional Wastewater Facility HVAC Improvements Phase 1 Re-Bid Project.",
+        "desc": "26-1195 (Environmental & Utility Services)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/5d0c4f99-3de4-4886-b417-aef93334c8f9.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Resolution",
+            "url": "https://legistar.granicus.com/sanjose/attachments/ce2661a3-25b3-413c-a8f1-e5b28738133f.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letter from TPAC, 11/12/26",
+            "url": "https://legistar.granicus.com/sanjose/attachments/8d34909f-620b-44ed-942f-67596ded3434.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "6.2",
+        "name": "Master Consultant Agreement with Black & Veatch for Engineering Services as Owner’s Advisor for the 10668 - Pump Stations Improvements Phase 1 Project.",
+        "desc": "26-1196 (Environmental & Utility Services)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/2f73d643-fdb8-4cbe-9b58-038f7164f23d.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Agreement",
+            "url": "https://legistar.granicus.com/sanjose/attachments/3daaefc6-64f6-4b2c-bb12-7e7b349eb23a.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Letter from TPAC, 11/12/26",
+            "url": "https://legistar.granicus.com/sanjose/attachments/4115608d-8635-4ad6-a18f-48a85a742260.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "6.3",
+        "name": "Actions Related to the Issuance of Non-Exclusive Franchise Agreements for the Collection, Transport, and Delivery of Residential Clean-out Material and Construction and Demolition Debris.",
+        "desc": "26-1197 (Environmental & Utility Services)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Ordinance (19) Nextdoor Dumpster LLC",
+            "url": "https://legistar.granicus.com/sanjose/attachments/4cd4d62d-3c23-4c88-8c31-0a672b7381ba.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (20) Pacific Coast Recycling, Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/7f24745f-9f72-4f8f-9d54-d440df736f35.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (21) Peninsula Debris Box Service, LLC",
+            "url": "https://legistar.granicus.com/sanjose/attachments/d8a5feaa-9c5e-4566-897e-9cd6e3178b02.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (22) Phi Ta",
+            "url": "https://legistar.granicus.com/sanjose/attachments/148d868c-f871-41e0-89ea-006b602e7096.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (25) R & D Mendes Enterprises, Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/d90fbf43-63b4-4924-b1f6-83c9868de038.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (23) Recology South Bay",
+            "url": "https://legistar.granicus.com/sanjose/attachments/06d5e1ae-7f59-47fb-88b9-d6e5a43a741d.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (24) Redwood Debris Box Service Trucking, Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/2f6e78f1-0907-4ff9-80d6-55e1c277a572.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (26) Superior Demolition Services, Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/8f303fb2-96db-44c6-87e9-0d8bea7f6488.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (27) TDB Incorporated",
+            "url": "https://legistar.granicus.com/sanjose/attachments/eb5390fb-e6d9-48c6-aa20-0aa3425ff13f.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (28) Toca Debris Box LLC",
+            "url": "https://legistar.granicus.com/sanjose/attachments/b14f4686-f152-4b72-947a-122ea7b84ef4.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (29) United Recycle Services, LLC",
+            "url": "https://legistar.granicus.com/sanjose/attachments/311a1275-883b-47b3-b797-06cdff0d3e19.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (30) Uriel Del Toro",
+            "url": "https://legistar.granicus.com/sanjose/attachments/c66af9ab-c5b2-472e-b3f2-cbb05cdf5d94.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (31) Waste Connections of California, Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/ed33c70b-f8b5-436d-9dd5-4f44bf1c1162.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (32) Zebra Dumpsters LLC",
+            "url": "https://legistar.granicus.com/sanjose/attachments/1216058d-7247-495d-bb38-bc714c34bd5d.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Agreement",
+            "url": "https://legistar.granicus.com/sanjose/attachments/7c3cc379-b901-4543-b9d3-8e51eff98885.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (1) All Points Roll Off, Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/73ee70e3-e92a-47e4-b222-80b1837e1820.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (2) Allied Waste Services of North America, LLC",
+            "url": "https://legistar.granicus.com/sanjose/attachments/02f4af85-22d6-4457-920f-e6a141bcc524.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (3) American Debris Box Service, Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/67f3cf3f-5441-42d4-b7bf-57dc9618a802.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (4) Bayview Industrial Services, Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/c30ecd9b-8242-48fc-a42c-8e2d3fc9beea.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (5) Bernardini Enterprises, Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/f688f3b9-b44d-470a-b9b9-73c6c3906379.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (6) Capo Electric, Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/99dbb743-0429-4ea9-9331-c45c9657f4b0.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (7) City-wide Fibers, Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/8a2acbff-a95d-4fc7-af71-092cfd63c9a2.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (8) Compactor Management Company, LLC",
+            "url": "https://legistar.granicus.com/sanjose/attachments/e4bcc0c9-4ef8-4306-9d56-396dc4c63eea.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (9) David Jaimes",
+            "url": "https://legistar.granicus.com/sanjose/attachments/9e9ed9a5-d1fd-4eda-9f30-3ca0ff1b89fc.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (10) Eco Box Recycling, Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/50239fb3-f548-4866-b2ac-9265d74ac897.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (11) Environmental Resource Recovery, Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/1314c005-c001-4628-ba87-a59e4667e0ea.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (12) Evergreen Waste Services",
+            "url": "https://legistar.granicus.com/sanjose/attachments/71b054c8-6607-42a6-8e70-2152370e744f.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (13) Ferma Greenbox, Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/6f6182b2-3327-4a87-8b02-e83adf0f8466.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (14) G W Debris Services, LLC",
+            "url": "https://legistar.granicus.com/sanjose/attachments/f6278eef-28d0-43da-bfda-a0a6b9a25269.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (15) Garden of Eden Landscapes, Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/93793c15-6238-4735-92bb-b01eb1ccf2d6.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (16) Guadalupe Rubbish Disposal Co., Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/b176a3f0-2529-4656-a2d5-190782d787d4.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (17) Jonna Corporation, Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/5044c819-d09a-4b6b-9353-22dda7d89a87.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Ordinance (18) Lam Hauling, Inc.",
+            "url": "https://legistar.granicus.com/sanjose/attachments/bb70423e-b9ac-4db9-9ebb-5412025df162.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/709aaeed-34ad-467c-a318-e438c64da09b.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "(a)",
+        "name": "PP26-003 - Amendment to Title 13 (Streets, Sidewalks, and Public Places) and Title 20 (Zoning Code) of the San José Municipal Code for Compliance with State Law, City Council Directed Changes, and Code Maintenance Updates.",
+        "desc": "26-1198 (Land Use Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Ordinance",
+            "url": "https://legistar.granicus.com/sanjose/attachments/57300641-fe77-4ea8-88d2-4cdd452bfb87.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/c70209a9-adb5-46d4-9ea2-8151cbf8d618.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "2.7",
+        "name": "Settlement of Lopez et al v. City of San José, et al.",
+        "desc": "26-1205 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/2657cd2f-7c7f-4d6a-ac14-100be03cc838.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Agreement - Lopez",
+            "url": "https://legistar.granicus.com/sanjose/attachments/4362cd41-3236-4554-a86f-671b37c35c50.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Agreement - Ramirez",
+            "url": "https://legistar.granicus.com/sanjose/attachments/449b81e2-0b2f-45ee-94c7-618f0e8509be.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "2.19",
+        "name": "Approval of the World AIDS Day Flag Raising, Quilt Display, and Tower and Rotunda Lighting Sponsored by Council Districts 9 and 3 as a City Council Sponsored Special Event to Expend City Funds and Accept Donations of Materials and Services for the Event.",
+        "desc": "26-1201 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/25fe15cf-1332-47c9-a293-05a89d5eab29.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Approval of Council Committee Minutes.",
+        "desc": "26-1208 (Approval of Council Committee Minutes)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "(a) 10/26/2026 CED Minutes",
+            "url": "https://legistar.granicus.com/sanjose/attachments/13b94c89-55c6-4a8a-a002-66b919f53478.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "(b) 11/04/2026 ROGC Minutes",
+            "url": "https://legistar.granicus.com/sanjose/attachments/7682e00a-f54c-41c3-927c-caaba7df1037.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "2.20",
+        "name": "Appointment to the Fire Retiree Seat on the Board of Administration for the Police and Fire Retirement Plan.",
+        "desc": "26-1209 (Consent Agenda)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/46c0fef9-10c6-4793-abb3-5cdfb7f333c0.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Application",
+            "url": "https://legistar.granicus.com/sanjose/attachments/da263cf8-970b-42dd-b9e2-98383b198aac.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "SEE NEW ITEM 2.20, “Appointment to the Fire Retiree Seat on the Board of Administration for the Police and Fire Retirement Plan” and NEW ITEM 8.1 “Pause on Data Center and Large Energy Use Project Approvals and Develop Urgency Ordinances” TO BE ADDED UNDER ORDERS OF THE DAY. REQUIRES A DETERMINATION BY A TWO THIRDS (2/3) VOTE OF THE MEMBERS OF THE COUNCIL PRESENT AT THE MEETING, OR, IF LESS THAN TWO THIRDS (2/3) OF THE MEMBERS OF THE COUNCIL ARE PRESENT AT THE MEETING, A UNANIMOUS VOTE OF THOSE MEMBERS PRESENT THAT THERE IS A NEED TO TAKE IMMEDIATE ACTION. Consolidated Open Government and Ethics Resolution No. RES2024 99, Section 2.3.2.1.E.3; Council’s Rules of Conduct, Resolution No. RES2023 22, Rule 3(d).",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Approval of City Council Minutes.",
+        "desc": "26-1213 (Approval of Council Minutes)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "(b) 11/03/2026 CC Minutes",
+            "url": "https://legistar.granicus.com/sanjose/attachments/fc3e34f0-308b-40de-9587-d01e0e1fc817.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "(c) 11/05/2026 Joint Special CC/TPAC Minutes",
+            "url": "https://legistar.granicus.com/sanjose/attachments/8bd74c5a-3b82-43bf-b515-a55e7c10f76e.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "(a) 10/20/2026 CC Minutes",
+            "url": "https://legistar.granicus.com/sanjose/attachments/a5312ba4-2208-4615-9830-e2bcaf704e35.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      },
+      {
+        "number": "",
+        "name": "Final Adoption of Ordinances.",
+        "desc": "26-1210 (Final Adoption of Ordinance)",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "8.1",
+        "name": "Pause on Data Center and Large Energy Use Project Approvals and Develop Urgency Ordinances.",
+        "desc": "26-1220 (Community & Economic Development)",
+        "votes": [],
+        "docs": [
+          {
+            "name": "Letters from the Public",
+            "url": "https://legistar.granicus.com/sanjose/attachments/c6652902-768f-415e-9eb0-0e2cb72e0ebc.pdf",
+            "type": "pdf",
+            "size": 0
+          },
+          {
+            "name": "Memorandum",
+            "url": "https://legistar.granicus.com/sanjose/attachments/606a2feb-7963-48e4-af7d-ded74f42e041.pdf",
+            "type": "pdf",
+            "size": 0
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
     "id": "lg_8084",
     "source": "sanjose",
     "title": "City Council",
@@ -10,7 +1297,7 @@
     "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8084&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
     "docUrl": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8084&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, this study session was scheduled to examine affordability challenges facing San José residents, review the city's current involvement in addressing cost-of-living issues, and identify leading practices from San José and other jurisdictions to improve affordability and help residents increase their incomes.",
     "agenda": [
       {
