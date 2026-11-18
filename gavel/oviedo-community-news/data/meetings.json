@@ -1,5 +1,51 @@
 [
   {
+    "id": "pg_2742",
+    "source": "oviedo",
+    "title": "LPA Regular Meeting",
+    "date": "November 17, 2026",
+    "shortDate": "NOV 17",
+    "committee": "Local Planning Agency",
+    "duration": null,
+    "url": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8905",
+    "docUrl": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8905",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Oviedo Local Planning Agency held a regular meeting scheduled to address the approval of previous meeting minutes and consider a public hearing on an ordinance amending the Planned Unit Development agreement for the Oviedo Marketplace.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of the minutes of Tuesday, September 15, 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Citizen Comment"
+      },
+      {
+        "time": "N/A",
+        "item": "Ordinance No. 1779, Amendment to the Amended and Restated Planned Unit Development Development Agreement and Conceptual Development Plan for the Oviedo Marketplace"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Ordinance No. 1779 - Oviedo Marketplace PUD Amendment",
+        "body": "The Local Planning Agency was scheduled to hold a public hearing on Ordinance No. 1779, which was set to consider amendments to the Amended and Restated Planned Unit Development Development Agreement and Conceptual Development Plan for the Oviedo Marketplace. This ordinance was expected to be reviewed and acted upon during the public hearing portion of the meeting."
+      }
+    ],
+    "publicComment": "Public comment was scheduled on the agenda, with citizens invited to submit request to speak forms and provide comments limited to 3 minutes or less on any subject related to City business not listed under Public Hearings.",
+    "actionItems": [
+      "scheduled to approve minutes from September 15, 2026 meeting",
+      "scheduled to hold public hearing on Ordinance No. 1779 regarding Oviedo Marketplace PUD amendment"
+    ],
+    "topics": [
+      "Zoning",
+      "Development",
+      "Oviedo Marketplace",
+      "Planned Unit Development"
+    ],
+    "votes": []
+  },
+  {
     "id": "pg_2746",
     "source": "oviedo",
     "title": "Community Redevelopment Agency",
