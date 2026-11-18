@@ -1,18 +1,44 @@
 {
   "sanjose": [
     {
-      "date": "2026-11-17",
-      "time": "1:30 PM",
-      "name": "City Council",
-      "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8124&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
-      "source": "sanjose"
-    },
-    {
       "date": "2026-11-18",
       "time": "2:00 PM",
       "name": "Joint Meeting for the Rules and Open Government Committee and Committee of the Whole",
       "url": "https://sanjose.legistar.com/MeetingDetail.aspx?LEGID=8152&GID=317&G=920296E4-80BE-4CA2-A78F-32C5EFCF78AF",
-      "source": "sanjose"
+      "source": "sanjose",
+      "preview": {
+        "overview": "This joint committee meeting is scheduled to review draft agendas for upcoming City Council meetings and approve several council-sponsored special events. Residents can comment on any items not on the agenda during the Open Forum period.",
+        "items": [
+          {
+            "item": "Establishment of the La Avenida Cultural District",
+            "why": "The committee will discuss and vote on creating a new cultural district in San Jose.",
+            "action": "vote"
+          },
+          {
+            "item": "Review December 1, 2026 draft City Council agenda",
+            "why": "The committee will review the draft agenda for the next City Council meeting and consider adding items or setting time limits.",
+            "action": "discussion"
+          },
+          {
+            "item": "Retroactive approval of multiple council district special events",
+            "why": "The committee will vote on approving several community events sponsored by council districts, including a senior symposium, Vietnam memorial wall bus visit, and holiday book drive, and authorize city spending and donations for them.",
+            "action": "vote"
+          },
+          {
+            "item": "Mayor's request to travel",
+            "why": "The committee will vote on approving travel for the Mayor.",
+            "action": "vote"
+          },
+          {
+            "item": "Review public records from October 29 to November 12, 2026",
+            "why": "The committee will review the public record for the specified period.",
+            "action": "report"
+          }
+        ],
+        "publicComment": true,
+        "closedSession": false,
+        "generated": "2026-11-18T15:21:18+00:00"
+      }
     },
     {
       "date": "2026-11-18",
