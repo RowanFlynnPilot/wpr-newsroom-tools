@@ -1,5 +1,1014 @@
 [
   {
+    "id": "cc_1215",
+    "source": "louisville",
+    "title": "Revitalization Commission",
+    "date": "November 18, 2026",
+    "shortDate": "NOV 18",
+    "committee": "Revitalization Commission",
+    "duration": null,
+    "url": "https://louisvilleco.portal.civicclerk.com/event/1215/files",
+    "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1215/files",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Louisville Revitalization Commission was scheduled to meet on November 18, 2026, to address several community development matters including a development impact fee review, the 2027 budget approval, and applications for two local business improvement programs. The meeting was set to include staff updates and public comment opportunities.",
+    "agenda": [
+      {
+        "time": "8:00 AM",
+        "item": "Call to Order & Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comments on Items Not on the Agenda and Items on the Consent Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "October 2026 Meeting Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Development Impact Fee Review Committee"
+      },
+      {
+        "time": "N/A",
+        "item": "2027 Budget Approval"
+      },
+      {
+        "time": "N/A",
+        "item": "Sweet Cow Improvement Program Application and Approval"
+      },
+      {
+        "time": "N/A",
+        "item": "Empire Public House Improvement Program Application and Approval"
+      },
+      {
+        "time": "N/A",
+        "item": "Staff Updates"
+      },
+      {
+        "time": "N/A",
+        "item": "Business Happenings"
+      },
+      {
+        "time": "N/A",
+        "item": "Commission Member Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Development Impact Fee Review Committee",
+        "body": "The Commission was scheduled to consider matters related to the Development Impact Fee Review Committee. This item was set for discussion as part of the regular business agenda."
+      },
+      {
+        "item": "2027 Budget Approval",
+        "body": "The Commission was expected to review and consider approval of the 2027 budget. This represented a significant financial planning item for the city."
+      },
+      {
+        "item": "Sweet Cow Improvement Program Application and Approval",
+        "body": "The Commission was scheduled to review an improvement program application from Sweet Cow and consider whether to approve the application. This item was set for action as part of regular business."
+      },
+      {
+        "item": "Empire Public House Improvement Program Application and Approval",
+        "body": "The Commission was scheduled to review an improvement program application from Empire Public House and consider whether to approve the application. This item was set for action as part of regular business."
+      },
+      {
+        "item": "Staff Updates",
+        "body": "Staff was expected to provide updates to the Commission. This informational item was scheduled as part of the staff report portion of the meeting."
+      }
+    ],
+    "publicComment": "Public comment was indicated on the agenda, with residents able to comment remotely or in person during the designated public comments section. Comments were limited to 3 minutes per speaker.",
+    "actionItems": [
+      "Expected to review and approve October 2026 meeting minutes via consent agenda",
+      "Scheduled to consider the Development Impact Fee Review Committee report",
+      "Expected to review and vote on 2027 Budget Approval",
+      "Scheduled to review and vote on Sweet Cow Improvement Program Application",
+      "Scheduled to review and vote on Empire Public House Improvement Program Application"
+    ],
+    "topics": [
+      "Budget",
+      "Development",
+      "Business Improvement Programs",
+      "Impact Fees"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "1.",
+        "name": "Call to Order & Roll Call",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.",
+        "name": "Approval of Agenda",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.",
+        "name": "Public Comments on Items Not on the Agenda and Items on the Consent Agenda",
+        "desc": "Public comments are limited to 3 minutes per speaker. When several people wish to speak on the same position on a given item, a spokesperson may be used to state that position.",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "4.",
+        "name": "Board Consent Agenda",
+        "desc": "The following items on the Consent Agenda are considered routine, and shall be approved, adopted, accepted, etc. by a motion of the Board unless a board member specifically requests an item be considered under \"Regular Business\". In such an event, the item shall be removed from the \"Consent Agenda\" and action taken separately on said item in the order appearing on the agenda. Those items so approved under the heading \"Consent Agenda\" will appear in the Board Minutes in their proper order.",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "October 2026 Meeting Minutes",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2026 10 21 LRC Meeting Minutes",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5912)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 229605
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "5.",
+        "name": "Regular Business",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Development Impact Fee Review Committee",
+            "desc": "<span style=\"font-size: 16px;\" data-pasted=\"true\">The City is in the process of updating its Development Impact Fees and Public Land Dedication requirements, which apply to new or expanded residential and commercial development. As part of the Development Fee Impact process, the City is establishing a Liaison Committee to work with the consultant and staff on development of the fee update.  Staff is seeking one volunteer from the Louisville Revitalization Commission (LRC) to participate in the Liaison Committee.</span>",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Consultant Contract and Scope of Work",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5881)",
+                "type": "application/pdf",
+                "size": 926252
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "B.",
+            "name": "2027 Budget Approval",
+            "desc": "The Louisville Revitalization Commission (LRC) is the City of Louisville’s urban renewal authority and must adopt an urban renewal budget each year for the following year. <br data-pasted=\"true\"><br><span style=\"margin-left:0in;\">The LRC preliminarily approved their 2027 budget at the October 21, 2026 LRC meeting. Per the Fourth Amended and Restated Cooperation Agreement between the City of Louisville and the LRC, the City Council must approve the LRC budget each year prior to final adoption by the LRC. The 202 budget is set for Council approval on November 17, 2026 with LRC final approval of the budget will take place at their November 18, 2026 meeting.</span>",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2026 11 18 2027 Budget Resolution",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5927)",
+                "type": "application/pdf",
+                "size": 97479
+              },
+              {
+                "name": "2027 URD Budget- November 2026",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5919)",
+                "type": "application/pdf",
+                "size": 126771
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "C.",
+            "name": "Sweet Cow Improvement Program Application and Approval",
+            "desc": "Sweet Cow, a local business located at 673 Front Street Suite A, has submitted a Property Improvement Program application to create interior improvements to the building that would support their continued operation. <br><br>The building is located within the Highway 42 Urban Renewal area and is eligible for program participation. The building was built after 1955 and would not require a Historic Preservation review. An urban renewal grant award is not approval for the project, the project must submit and receive all necessary planning, zoning and building permits and approvals before reimbursement is provided. <br><br>The owner, Moolicious LLC, submitted an application to ask the LRC for assistance with interior improvements to their building, with an estimated cost of $68,500. Staff is proposing approval of the application, with a not-to-exceed amount of $37,675. This not-to-exceed amount would allow for a 50% reimbursement on eligible costs, with a 10% project contingency.",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Sweet Cow Property Improvement Program Application",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5931)",
+                "type": "application/pdf",
+                "size": 801011
+              },
+              {
+                "name": "Sweet Cow Louisville PIP Application Supporting Details",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5928)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 34616
+              },
+              {
+                "name": "Sweet Cow Property Improvement Program BID - JHR Contracting",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5929)",
+                "type": "application/pdf",
+                "size": 72983
+              },
+              {
+                "name": "Landlord Approval - Sweet Cow PIP Application",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5930)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 2307894
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "D.",
+            "name": "Empire Public House Improvement Program Application and Approval",
+            "desc": "The applicant, Empire Public House, has submitted grant applications for the Façade Improvement Program and Property Improvement Program related to tenant improvements for the property located at 816 Main Street. <br><br>The property owner has submitted a letter of approval for the stated improvements. Empire Public House will be opening a new bar and restaurant, with a scratch kitchen and other local fares. <br><br>The project has submitted $897,015 in project costs/BIDs to be reviewed for both programs. Staff has identified $188,215 in “Yes” Eligible costs and $183,025 in potentially eligible improvement program costs for a total eligible project cost of $371,240.<br><br>Staff is recommending the a total award amount $185,620<br><ul><li>$58,935 in Façade Improvement Programming, (at a 50% rebate of $117,870 in eligible project costs)</li><li>$126,685 in Property Improvement Programming, (at a 50% rebate of $253,370 in eligible project costs)</li></ul><br>Staff will continue to work with the applicant to ensure that all “maybe” eligible costs, turn into “yes” eligibility before any reimbursements are made for the project. ",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Empire Staff Report",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=6949)",
+                "type": "application/pdf",
+                "size": 155407
+              },
+              {
+                "name": "EPH Facade Improvement Program Application",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5937)",
+                "type": "application/pdf",
+                "size": 132014
+              },
+              {
+                "name": "EPH Property Improvement Application",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5939)",
+                "type": "application/pdf",
+                "size": 142706
+              },
+              {
+                "name": "EPH Landlord Approval",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5938)",
+                "type": "application/pdf",
+                "size": 18241540
+              },
+              {
+                "name": "EMP Full BIDs",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5941)",
+                "type": "application/pdf",
+                "size": 9339916
+              },
+              {
+                "name": "EmpirePublicHouse_RemodelQuotes_Staff Comments and Review",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5940)",
+                "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "size": 22118
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "6.",
+        "name": "Staff Report",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Staff Updates",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2026 11 18 LRC Staff Updates",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5913)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 151275
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "B.",
+            "name": "Business Happenings",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2026 11 18 LRC Business Happenings",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5914)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 153151
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "7.",
+        "name": "Commission Member Comments",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "8.",
+        "name": "Adjourn",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "cc_1369",
+    "source": "louisville",
+    "title": "Sustainability Advisory Board",
+    "date": "November 18, 2026",
+    "shortDate": "NOV 18",
+    "committee": "Sustainability Advisory Board",
+    "duration": null,
+    "url": "https://louisvilleco.portal.civicclerk.com/event/1369/files",
+    "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1369/files",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Sustainability Advisory Board was scheduled to meet on November 18, 2026, to conduct routine business including approval of September minutes and consideration of a memo to City Council regarding a joint meeting. The meeting was set to take place at Louisville Public Library with options for remote participation.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comments on Items Not on the Agenda and Items on the Consent Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Board Consent Agenda - September Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Board Informational Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Staff Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Discussion/Direction: LSAB Memo to Council re: Joint Meeting"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "September Minutes",
+        "body": "The Board was scheduled to consider approval of minutes from the September meeting as part of the Consent Agenda. This item was set to be approved by motion unless a board member requested separate consideration."
+      },
+      {
+        "item": "LSAB Memo to Council re: Joint Meeting",
+        "body": "The Board was scheduled to discuss and provide direction on a memo to City Council regarding a joint meeting. This item was set for regular business discussion and consideration of appropriate next steps."
+      }
+    ],
+    "publicComment": "Public comment was indicated on the agenda, with a 3-minute limit per speaker and accommodation for remote participation via raise hand feature.",
+    "actionItems": [
+      "Scheduled to approve September minutes via consent agenda motion",
+      "Expected to discuss and provide direction on LSAB memo to Council regarding joint meeting"
+    ],
+    "topics": [
+      "Sustainability",
+      "Governance",
+      "Board Operations",
+      "Intergovernmental Coordination"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "1.",
+        "name": "Call to Order & Roll Call",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.",
+        "name": "Approval of Agenda",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.",
+        "name": "Public Comments on Items Not on the Agenda and Items on the Consent Agenda",
+        "desc": "Public comments are limited to 3 minutes per speaker. When several people wish to speak on the same position on a given item, a spokesperson may be used to state that position.",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "4.",
+        "name": "Board Consent Agenda",
+        "desc": "The following items on the Consent Agenda are considered routine, and shall be approved, adopted, accepted, etc. by a motion of the Board unless a board member specifically requests an item be considered under \"Regular Business\". In such an event, the item shall be removed from the \"Consent Agenda\" and action taken separately on said item in the order appearing on the agenda. Those items so approved under the heading \"Consent Agenda\" will appear in the Board Minutes in their proper order.",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "September Minutes",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "9_16_26 LSAB Minutes",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5922)",
+                "type": "application/pdf",
+                "size": 158734
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "5.",
+        "name": "Board Informational Comments",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "No December Meeting",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          },
+          {
+            "number": "B.",
+            "name": "Alex Bentz is Note Taker",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "6.",
+        "name": "Staff Report",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "7.",
+        "name": "Regular Business",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Discussion/Direction: LSAB Memo to Council re:Joint Meeting",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "LSAB Memo_Joint Meeting_November 2026",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5920)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 9219
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "8.",
+        "name": "Adjourn",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "cc_1295",
+    "source": "louisville",
+    "title": "Historical Museum Advisory Board",
+    "date": "November 18, 2026",
+    "shortDate": "NOV 18",
+    "committee": "Historical Museum Advisory Board",
+    "duration": null,
+    "url": "https://louisvilleco.portal.civicclerk.com/event/1295/files",
+    "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1295/files",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Historical Museum Advisory Board was scheduled to meet to review routine administrative items including approval of prior meeting minutes, receive reports from museum staff and leadership, and discuss the board's work plan for the coming period.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Approval of minutes from September 16, 2026 meeting"
+      },
+      {
+        "time": "N/A",
+        "item": "Report from HPC Liaison"
+      },
+      {
+        "time": "N/A",
+        "item": "Report from HMAB Chair"
+      },
+      {
+        "time": "N/A",
+        "item": "Cultural Services Directors Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Museum Supervisor's Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of Deeds of Gifts"
+      },
+      {
+        "time": "N/A",
+        "item": "Foundation Update"
+      },
+      {
+        "time": "N/A",
+        "item": "HMAB Work Plan"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Approval of minutes from September 16, 2026 meeting",
+        "body": "The board was scheduled to consider approval of the minutes from its prior meeting on September 16, 2026, as a routine consent agenda item."
+      },
+      {
+        "item": "Report from HPC Liaison",
+        "body": "The board was set to receive an informational report from its Historical Preservation Commission liaison regarding liaison activities and updates."
+      },
+      {
+        "item": "Report from HMAB Chair",
+        "body": "The board was scheduled to receive an informational report from the board chair regarding chair activities and board matters."
+      },
+      {
+        "item": "Cultural Services Directors Report",
+        "body": "The board was set to receive a staff report from the Cultural Services Director covering departmental activities and updates relevant to the museum."
+      },
+      {
+        "item": "Museum Supervisor's Report",
+        "body": "The board was scheduled to hear a staff report from the Museum Supervisor detailing museum operations and activities."
+      },
+      {
+        "item": "Approval of Deeds of Gifts",
+        "body": "The board was expected to consider and approve deeds of gifts for items or donations to the museum."
+      },
+      {
+        "item": "Foundation Update",
+        "body": "The board was set to receive an update regarding the museum foundation and its activities."
+      },
+      {
+        "item": "HMAB Work Plan",
+        "body": "The board was scheduled to discuss and consider the Historical Museum Advisory Board's work plan for the upcoming period."
+      }
+    ],
+    "publicComment": "Public comment was scheduled during the meeting, with comments limited to 3 minutes per speaker. Remote participation was available via phone or webinar, and residents could also email comments prior to the meeting.",
+    "actionItems": [
+      "Expected to approve minutes from September 16, 2026 meeting",
+      "Scheduled to approve Deeds of Gifts",
+      "Set to discuss and consider HMAB Work Plan"
+    ],
+    "topics": [
+      "Museum Operations",
+      "Board Governance",
+      "Cultural Services",
+      "Foundation Activities"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "1.",
+        "name": "Call to Order & Roll Call",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.",
+        "name": "Approval of Agenda",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.",
+        "name": "Public Comments on Items Not on the Agenda and Items on the Consent Agenda",
+        "desc": "Public comments are limited to 3 minutes per speaker. When several people wish to speak on the same position on a given item, a spokesperson may be used to state that position.",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "4.",
+        "name": "Board Consent Agenda",
+        "desc": "The following items on the Consent Agenda are considered routine, and shall be approved, adopted, accepted, etc. by a motion of the Board unless a board member specifically requests an item be considered under \"Regular Business\". In such an event, the item shall be removed from the \"Consent Agenda\" and action taken separately on said item in the order appearing on the agenda. Those items so approved under the heading \"Consent Agenda\" will appear in the Board Minutes in their proper order.",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Approval of minutes from September 16, 2026 meeting",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "HMAB Minutes 9.16.26",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5926)",
+                "type": "application/pdf",
+                "size": 58441
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "5.",
+        "name": "Board Informational Comments",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Report from HPC Liaison",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          },
+          {
+            "number": "B.",
+            "name": "Report from HMAB Chair",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "6.",
+        "name": "Staff Report",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Cultural Services Directors Report",
+            "desc": "HP Tax Update<br>Cultural Services Strategic Plan update",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Historical Museum Brief Community Survey Findings",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5925)",
+                "type": "application/pdf",
+                "size": 93184
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "B.",
+            "name": "Museum Supervisor's Report",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Museum Supervisor's Report 11-2026",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5924)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 48073
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "C.",
+            "name": "Approval of Deeds of Gifts",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          },
+          {
+            "number": "D.",
+            "name": "Foundation Update",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "7.",
+        "name": "Regular Business",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "HMAB Work Plan",
+            "desc": "New Meeting Time - 4th Wednesday at 6 pm, ​Council Chambers<br>HMAB vacancies<br>Pioneer Award nominations<br>Review of engagement and upcoming opportunities<br>New work plan template<br>Next HMAB meeting - January 27, 2027<br><br>",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "8.",
+        "name": "Adjourn",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "cc_1269",
+    "source": "louisville",
+    "title": "Cultural Advisory Board",
+    "date": "November 18, 2026",
+    "shortDate": "NOV 18",
+    "committee": "Cultural Advisory Board",
+    "duration": null,
+    "url": "https://louisvilleco.portal.civicclerk.com/event/1269/files",
+    "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1269/files",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Cultural Advisory Board was scheduled to meet to review upcoming cultural events, discuss updates on music and concert programming, and consider the 2027 Louisville Arts Grants. The meeting was set to address regular business matters related to the board's role in promoting cultural activities and arts funding in the community.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Public Comments on Items Not on the Agenda and Items on the Consent Agenda - Chris Ringwood regarding Soundwalk Louisville"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of October CAB Meeting Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Staff Report on Upcoming Events: Transgender Day of Remembrance (11/20), Winter Fest (12/6), Motus Theater - Art Grantee (12/11), Home & Heart (12/17)"
+      },
+      {
+        "time": "N/A",
+        "item": "Boards & Commissions Roles Update"
+      },
+      {
+        "time": "N/A",
+        "item": "World Music Series Update"
+      },
+      {
+        "time": "N/A",
+        "item": "Summer Concert Series Update"
+      },
+      {
+        "time": "N/A",
+        "item": "2027 Louisville Arts Grants Discussion"
+      },
+      {
+        "time": "N/A",
+        "item": "December Meeting"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Boards & Commissions Roles Update",
+        "body": "The board was scheduled to discuss updates regarding the roles and responsibilities of boards and commissions. This item was set to clarify organizational structure and board oversight functions."
+      },
+      {
+        "item": "World Music Series Update",
+        "body": "The board was scheduled to receive an update on the World Music Series programming. This item was expected to cover details about upcoming performances and series planning."
+      },
+      {
+        "item": "Summer Concert Series Update",
+        "body": "The board was set to discuss updates on the Summer Concert Series. This item was expected to address scheduling, planning, and logistics for the series."
+      },
+      {
+        "item": "2027 Louisville Arts Grants Discussion",
+        "body": "The board was scheduled to discuss the 2027 Louisville Arts Grants program. This item was set to address grant criteria, funding levels, and the application process for the upcoming year."
+      },
+      {
+        "item": "December Meeting",
+        "body": "The board was scheduled to address planning or logistics related to the December meeting. This item was expected to cover scheduling and agenda items for the next month's gathering."
+      }
+    ],
+    "publicComment": "Public comment was indicated on the agenda, with a specific commenter (Chris Ringwood regarding Soundwalk Louisville) listed, and general provisions for public comments limited to 3 minutes per speaker. Comments could also be submitted via email prior to the meeting.",
+    "actionItems": [
+      "Expected to approve October CAB Meeting Minutes",
+      "Scheduled to receive staff report on upcoming cultural events including Transgender Day of Remembrance, Winter Fest, Motus Theater performance, and Home & Heart",
+      "Set to discuss Boards & Commissions Roles Update",
+      "Scheduled to receive World Music Series Update",
+      "Set to discuss Summer Concert Series Update",
+      "Expected to consider 2027 Louisville Arts Grants Discussion",
+      "Scheduled to address December Meeting planning"
+    ],
+    "topics": [
+      "Arts Grants",
+      "Cultural Events",
+      "Music Programming",
+      "Public Engagement"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "1.",
+        "name": "Call to Order & Roll Call",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.",
+        "name": "Approval of Agenda",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.",
+        "name": "Public Comments on Items Not on the Agenda and Items on the Consent Agenda",
+        "desc": "Public comments are limited to 3 minutes per speaker. When several people wish to speak on the same position on a given item, a spokesperson may be used to state that position.",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Chris Ringwood - Soundwalk Louisville",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "4.",
+        "name": "Board Consent Agenda",
+        "desc": "The following items on the Consent Agenda are considered routine, and shall be approved, adopted, accepted, etc. by a motion of the Board unless a board member specifically requests an item be considered under \"Regular Business\". In such an event, the item shall be removed from the \"Consent Agenda\" and action taken separately on said item in the order appearing on the agenda. Those items so approved under the heading \"Consent Agenda\" will appear in the Board Minutes in their proper order.",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "October CAB Meeting Minutes",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2026 October CAB Meeting Minutes",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5942)",
+                "type": "application/pdf",
+                "size": 69917
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "5.",
+        "name": "Board Informational Comments",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "6.",
+        "name": "Staff Report",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Upcoming Events<ul><li>Transgender Day of Remembrance 11/20</li><li>Winter Fest 12/6</li><li>Motus Theater - Art Grantee 12/11</li><li>Home & Heart 12/17</li></ul>",
+            "desc": "December 6 at the Arts Center -- still need two volunteers",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "7.",
+        "name": "Regular Business",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Boards & Commissions Roles Update",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          },
+          {
+            "number": "B.",
+            "name": "World Music Series Update",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          },
+          {
+            "number": "C.",
+            "name": "Summer Concert Series Update",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          },
+          {
+            "number": "D.",
+            "name": "2027 Louisville Arts Grants Discussion",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2025 Art Grant Application Sample",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5943)",
+                "type": "application/pdf",
+                "size": 7389225
+              },
+              {
+                "name": "2025 Art Grant Form Page",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5944)",
+                "type": "application/pdf",
+                "size": 668334
+              },
+              {
+                "name": "2025 Art Grant Info Page",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5945)",
+                "type": "application/pdf",
+                "size": 1536761
+              },
+              {
+                "name": "Arts Grants Scoring Criteria",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5946)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 21340
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "E.",
+            "name": "December Meeting ​",
+            "desc": "",
+            "votes": [],
+            "docs": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "8.",
+        "name": "Adjourn",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      }
+    ]
+  },
+  {
     "id": "cc_48",
     "source": "louisville",
     "title": "City Council Meeting",
@@ -9,25 +1018,21 @@
     "duration": null,
     "url": "https://louisvilleco.portal.civicclerk.com/event/48/files",
     "docUrl": "https://louisvilleco.portal.civicclerk.com/event/48/files",
-    "isAgendaOnly": true,
+    "isAgendaOnly": false,
     "badge": "new",
-    "overview": "Based on the published agenda, the Louisville City Council was scheduled to meet on November 17, 2026, to address routine administrative matters including animal impound services and EV charger installation agreements, while also considering discussion items on cellular service and a resident artist pilot program. The meeting was also set to take first readings on two ordinances affecting municipal code provisions for hearing officers and boards and commissions.",
+    "overview": "Louisville City Council approved its consent agenda and two ordinances on first reading during the November 17, 2026 meeting. Key approvals included agreements for animal impound services, SWAT team participation, the Revitalization Commission budget, and electric vehicle charger grants. The council also advanced two ordinances amending municipal code regarding hearing officers for licensing and boards and commissions structure, both scheduled for second reading and public hearing on December 1.",
     "agenda": [
       {
         "time": "N/A",
-        "item": "Public Comments on Items Not on the Agenda and Items on the Consent Agenda"
+        "item": "Approval of Minutes"
       },
       {
         "time": "N/A",
-        "item": "Consent Agenda - Approval of Minutes"
+        "item": "Resolution No. 117, Series 2026 - Agreement with Humane Society of Boulder Valley for Animal Impound Services ($14,200 for 2027, $14,700 for 2028)"
       },
       {
         "time": "N/A",
-        "item": "Resolution No. 117, Series 2026 - Agreement with Humane Society of Boulder Valley for Animal Impound Services"
-      },
-      {
-        "time": "N/A",
-        "item": "Resolution No. 118, Series 2026 - Amendment to Intergovernmental Agreement for Collective SWAT Team"
+        "item": "Resolution No. 118, Series 2026 - Amendment to Intergovernmental Agreement for Collective SWAT Team with $1,500 Annual Payment per Assigned Officer"
       },
       {
         "time": "N/A",
@@ -35,7 +1040,7 @@
       },
       {
         "time": "N/A",
-        "item": "Resolution No. 94, Series 2026 - Accepting Grants from Colorado Energy Office for EV Charger Installation"
+        "item": "Resolution No. 94, Series 2026 - Acceptance of Grants from Colorado Energy Office for EV Charger Installation"
       },
       {
         "time": "N/A",
@@ -43,78 +1048,88 @@
       },
       {
         "time": "N/A",
-        "item": "Discussion / Direction: Cellular Service in Louisville"
+        "item": "Discussion/Direction: Cellular Service in Louisville"
       },
       {
         "time": "N/A",
-        "item": "Discussion / Direction / Action: Resident Artist Pilot Program"
+        "item": "Discussion/Direction/Action: Resident Artist Pilot Program"
       },
       {
         "time": "N/A",
-        "item": "Resolution No. 120, Series 2026 - License, Improvement and Assistance Agreement with Downtown Business Association for 2027-2028 Street Faire Season"
+        "item": "Resolution No. 120, Series 2026 - License, Improvement and Assistance Agreement with Downtown Business Association for 2027-2028 Street Faire Season with Up to $92,000 per Season Financial Support"
       },
       {
         "time": "N/A",
-        "item": "Ordinance No. 1939, Series 2026 - First Reading: Amending Louisville Municipal Code to Authorize Appointment of Hearing Officer for Licensing Determinations"
+        "item": "Ordinance No. 1939, Series 2026 - Ordinance Amending Louisville Municipal Code to Authorize Appointment of Hearing Officer for Licensing Determinations (1st Reading)"
       },
       {
         "time": "N/A",
-        "item": "Ordinance No. 1940, Series 2026 - First Reading: Amending Louisville Municipal Code Regarding Boards and Commissions"
+        "item": "Ordinance No. 1940, Series 2026 - Ordinance Amending Louisville Municipal Code Regarding Boards and Commissions (1st Reading)"
       }
     ],
     "discussions": [
       {
-        "item": "Cellular Service in Louisville",
-        "body": "Council was scheduled to receive information and provide direction to staff regarding cellular service availability in Louisville. The session was set to include one round of public comment, with no final decisions expected at this meeting and the potential for the item to return at a later date for action."
+        "item": "Approval of Agenda",
+        "body": "The agenda was approved 5-0. Moved by Deb Fahey and seconded by Barbara Hamlington. All council members voted in favor: Christopher Leh, Barbara Hamlington, Deb Fahey, Dietrich Hoefner, and Josh Cooperman."
       },
       {
-        "item": "Resident Artist Pilot Program",
-        "body": "Council was scheduled to discuss and consider direction regarding a resident artist pilot program. The session was set to include staff presentation, council questions, and one round of public comment, with no final action expected and the possibility of the item returning for future action."
+        "item": "Approval of Minutes",
+        "body": "Minutes were approved as part of the consent agenda. Vote passed."
       },
       {
-        "item": "Resolution No. 120, Series 2026 - Downtown Business Association Street Faire Agreement",
-        "body": "Council was scheduled to consider approval of a license, improvement and assistance agreement with the Downtown Business Association for the 2027-2028 street faire season, with financial support of up to $92,000 per season. Final action was expected to be taken on this item following staff presentation and one round of public comment."
+        "item": "Resolution No. 117, Series 2026 - Agreement with Humane Society of Boulder Valley for Animal Impound Services",
+        "body": "Resolution approving the animal impound services agreement with the Humane Society of Boulder Valley at $14,200 for 2027 and $14,700 for 2028 was approved as part of the consent agenda. Vote passed."
       },
       {
-        "item": "Ordinance No. 1939, Series 2026 - Hearing Officer Appointment Authority",
-        "body": "Council was scheduled to hold the first reading of an ordinance amending the Louisville Municipal Code to authorize appointment of a hearing officer for licensing determinations. The first reading was set to include staff presentation and council questions, with no public comment opportunity and a public hearing scheduled for a later date with two rounds of public comment."
+        "item": "Resolution No. 118, Series 2026 - Amendment to Intergovernmental Agreement for Collective SWAT Team",
+        "body": "Resolution authorizing the city's participation in a collective SWAT team with an annual payment of $1,500 per assigned officer was approved as part of the consent agenda. Vote passed."
       },
       {
-        "item": "Ordinance No. 1940, Series 2026 - Boards and Commissions Amendment",
-        "body": "Council was scheduled to hold the first reading of an ordinance amending the Louisville Municipal Code regarding boards and commissions. The first reading was set to include staff presentation and council questions, with no public comment opportunity and a public hearing scheduled for a later date with two rounds of public comment."
+        "item": "Resolution No. 119, Series 2026 - Louisville Revitalization Commission Budget for Fiscal Year 2027",
+        "body": "The annual budget for the Louisville Revitalization Commission for fiscal year 2027 was approved as part of the consent agenda. Vote passed."
       },
       {
-        "item": "Resolution No. 117, Series 2026 - Animal Impound Services Agreement",
-        "body": "Council was scheduled to consider approval of an agreement with the Humane Society of Boulder Valley for animal impound services at amounts of $14,200 for 2027 and $14,700 for 2028. This item was set for the consent agenda unless a council member requested separate consideration."
+        "item": "Electric Vehicle Charger Grant Award Acceptance and Consultant Contract Award",
+        "body": "Both Resolution No. 94 (grant acceptance from Colorado Energy Office) and Resolution No. 121 (contract with Winn-Marion Companies for EV charger installation) were approved as part of the consent agenda. Votes passed."
       },
       {
-        "item": "Resolution No. 118, Series 2026 - Collective SWAT Team Agreement Amendment",
-        "body": "Council was scheduled to approve an amendment to the intergovernmental agreement establishing a collective special weapons and tactics team and authorize an annual payment of $1,500 per assigned officer. This item was set for the consent agenda unless a council member requested separate consideration."
+        "item": "Discussion/Direction: Cellular Service in Louisville",
+        "body": "Council discussed cellular service issues in Louisville. This was a discussion and direction item with no final decision made; the matter may return for action at a later date."
       },
       {
-        "item": "Resolution No. 119, Series 2026 - Louisville Revitalization Commission Budget",
-        "body": "Council was scheduled to approve the annual budget for the Louisville Revitalization Commission for fiscal year 2027. This item was set for the consent agenda unless a council member requested separate consideration."
+        "item": "Discussion/Direction/Action: Resident Artist Pilot Program",
+        "body": "Council discussed the resident artist pilot program. This was a discussion and direction item with no final decision made; the matter may return for action at a later date."
       },
       {
-        "item": "Electric Vehicle Charger Grant Award Acceptance",
-        "body": "Council was scheduled to accept grants from the Colorado Energy Office for EV charger installation and approve an agreement with Winn-Marion Companies for the EV charger station project. These items were set for the consent agenda unless a council member requested separate consideration."
+        "item": "Resolution No. 120, Series 2026 - Downtown Business Association Agreement for Street Faire",
+        "body": "Resolution approving a license, improvement and assistance agreement with the Downtown Business Association for the 2027-2028 street faire season with financial support up to $92,000 per season. Vote outcome not specified in vote records."
+      },
+      {
+        "item": "Ordinance No. 1939, Series 2026 - Hearing Officer for Licensing Determinations (1st Reading)",
+        "body": "Ordinance amending the Louisville Municipal Code to authorize appointment of a hearing officer for licensing determinations passed on first reading. Second reading and public hearing scheduled for December 1, 2026."
+      },
+      {
+        "item": "Ordinance No. 1940, Series 2026 - Boards and Commissions Amendments (1st Reading)",
+        "body": "Ordinance amending the Louisville Municipal Code regarding boards and commissions passed on first reading. Second reading and public hearing scheduled for December 1, 2026."
       }
     ],
-    "publicComment": "Public comment was scheduled on items not on the agenda and items on the consent agenda (limited to 3 minutes per speaker), and one round of public comment was set for the cellular service discussion, resident artist pilot program discussion, and the Downtown Business Association street faire resolution. Public hearings with two rounds of comment were scheduled for later dates on the two ordinances.",
+    "publicComment": "Public comment was on the agenda for items not on the agenda and items on the consent agenda (item 4), and for specific regular business items as noted.",
     "actionItems": [
-      "Scheduled to approve consent agenda items including animal impound services agreement, SWAT team amendment, revitalization commission budget, and EV charger grant and contract",
-      "Expected to provide direction on cellular service in Louisville",
-      "Expected to provide direction on resident artist pilot program",
-      "Scheduled to vote on Resolution No. 120 approving Downtown Business Association street faire agreement with up to $92,000 per season funding",
-      "Scheduled to hold first reading of Ordinance No. 1939 for hearing officer appointment authority",
-      "Scheduled to hold first reading of Ordinance No. 1940 amending boards and commissions code"
+      "Approved consent agenda items including animal impound services agreement with Humane Society of Boulder Valley",
+      "Approved SWAT team intergovernmental agreement with $1,500 annual payment per assigned officer",
+      "Approved Louisville Revitalization Commission budget for fiscal year 2027",
+      "Accepted EV charger grants from Colorado Energy Office and approved contract with Winn-Marion Companies for installation",
+      "Received discussion on cellular service in Louisville with no final action taken; item may return at later date",
+      "Received discussion on resident artist pilot program with no final action taken; item may return at later date",
+      "Advanced Ordinance No. 1939 (hearing officer for licensing) on first reading; second reading and public hearing scheduled for December 1, 2026",
+      "Advanced Ordinance No. 1940 (boards and commissions amendments) on first reading; second reading and public hearing scheduled for December 1, 2026"
     ],
     "topics": [
       "Public Safety",
-      "Utilities",
-      "Development",
-      "Downtown Business Association",
-      "Arts and Culture"
+      "Animal Services",
+      "Sustainability",
+      "Downtown Business Development",
+      "Municipal Governance"
     ],
     "votes": [],
     "civicItems": [
@@ -138,7 +1153,23 @@
         "number": "3.",
         "name": "Approval of Agenda",
         "desc": "",
-        "votes": [],
+        "votes": [
+          {
+            "motion": "Approve",
+            "passed": true,
+            "initiator": "Deb Fahey",
+            "seconder": "Barbara Hamlington",
+            "yes": [
+              "Christopher Leh",
+              "Barbara Hamlington",
+              "Deb Fahey",
+              "Dietrich Hoefner",
+              "Josh Cooperman"
+            ],
+            "no": [],
+            "abstain": []
+          }
+        ],
         "docs": [],
         "children": []
       },
@@ -161,7 +1192,23 @@
             "number": "A.",
             "name": "Approval of Minutes",
             "desc": "",
-            "votes": [],
+            "votes": [
+              {
+                "motion": "Approve",
+                "passed": true,
+                "initiator": "Barbara Hamlington",
+                "seconder": "Deb Fahey",
+                "yes": [
+                  "Christopher Leh",
+                  "Barbara Hamlington",
+                  "Deb Fahey",
+                  "Dietrich Hoefner",
+                  "Josh Cooperman"
+                ],
+                "no": [],
+                "abstain": []
+              }
+            ],
             "docs": [
               {
                 "name": "2026 09 08 City Council Meeting Minutes_DRAFT",
@@ -176,7 +1223,23 @@
             "number": "B.",
             "name": "Resolution No. 117, Series 2026 - A Resolution Approving an Agreement with the Humane Society of Boulder Valley for Animal Impound Services in the Amounts of $14,200 for 2027 and $14,700 for 2028",
             "desc": "The Humane Society of Boulder Valley and the City of Louisville Police Department seek to renew their agreement for animal impoundment and sheltering services. The new two-year agreement would become effective January 1, 2027, and continue through December 31, 2028. The City of Louisville and the Humane Society of Boulder Valley have entered into previous service agreements, with the current agreement expiring December 31, 2026.<br><br>The Humane Society of Boulder Valley maintains an animal shelter facility within Boulder County, CO and acts as the receiving agent for animal impoundments, to provide shelter and care for animals brought to their facility by authorized City of Louisville personnel, such as police officers or code enforcement. As per the agreement, the Humane Society is responsible for sheltering and caring for the animals brought to their facility while reasonable efforts are made to locate owners of impounded animal(s) so the animals may be reclaimed. The Humane Society shall hold all impounded animals for a 5-day holding period while working to have impounded animals reclaimed. After the expiration of the 5-day holding period, the Humane Society may evaluate the disposition of any animal not reclaimed by its owner. <br><br>The Humane Society provides 24 hours per day, seven days per week access to its facilities for authorized personnel for the purpose of receiving impounded animals. Exceptions to this access, with reasonable notice to the City, are outlined in the agreement and include emergency situations, legal or regulatory requirements, and unforeseen operational constraints.<br><br>This Agreement may be terminated by either Party, with or without cause, provided that termination shall not be effective until 90 days after the terminating Party provides written notice of termination to the other Party.",
-            "votes": [],
+            "votes": [
+              {
+                "motion": "Approve",
+                "passed": true,
+                "initiator": "Barbara Hamlington",
+                "seconder": "Deb Fahey",
+                "yes": [
+                  "Christopher Leh",
+                  "Barbara Hamlington",
+                  "Deb Fahey",
+                  "Dietrich Hoefner",
+                  "Josh Cooperman"
+                ],
+                "no": [],
+                "abstain": []
+              }
+            ],
             "docs": [
               {
                 "name": "Resolution No. 117, Series 2026",
@@ -197,7 +1260,23 @@
             "number": "C.",
             "name": "Resolution No. 118, Series 2026 — A Resolution Approving an Amendment to the Intergovernmental Agreement to Establish a Collective Special Weapons and Tactics Team (SWAT) and Authorizing an Annual Payment of $1,500 per Assigned Officer",
             "desc": "The Louisville Police Department and Boulder County Sheriff's Office entered into an Intergovernmental Agreement in 2006 to establish a regional special weapons and tactics team (SWAT) to consolidate resources and create the capability to respond to the most critical public safety emergency events within the City of Louisville and Boulder County. Combining resources and capabilities is a cost-effective means for smaller police agencies to create capacity to safely and adequately address incidents requiring SWAT intervention and support. The Louisville Police Department maintains its partnership with the Boulder County SWAT team and currently provides one SWAT operator and two Crisis Negotiators to the team. Officers participate on the SWAT team as a collateral duty assignment and all assigned officers have a primary assignment at the Louisville Police Department. Basic police equipment, salary, and overtime costs for these participants are included in the City's budget processes and remain an expense covered by the City of Louisville. <br><br>In early 2026, the Boulder County Sheriff's Office notified the participating agencies that the County would be seeking an amendment to the original agreement asking agencies to help cover administrative fees. They provided a cost breakdown and determined an annual administrative cost of $1,500 would be charged to the home agency for each of their assigned officer(s). This fee would apply to the Tactical Operations team and not to officers assigned to the Crisis Negotiations group. The fees will be paid to the Boulder County Sheriff's office to help cover administrative costs for equipping, training, and managing the team. <br><br>Approval of this amendment would set current costs for the Louisville Police Department at $1,500 per year per tactical operator beginning in 2027. In future years, the department may add one or two additional officers to the Tactical Operations team, but would not likely increase the number of assigned personnel significantly beyond that.",
-            "votes": [],
+            "votes": [
+              {
+                "motion": "Approve",
+                "passed": true,
+                "initiator": "Barbara Hamlington",
+                "seconder": "Deb Fahey",
+                "yes": [
+                  "Christopher Leh",
+                  "Barbara Hamlington",
+                  "Deb Fahey",
+                  "Dietrich Hoefner",
+                  "Josh Cooperman"
+                ],
+                "no": [],
+                "abstain": []
+              }
+            ],
             "docs": [
               {
                 "name": "Resolution No. 118, Series 2026",
@@ -218,7 +1297,23 @@
             "number": "D.",
             "name": "Resolution No. 119, Series 2026 — A Resolution Approving the Annual Budget for the Louisville Revitalization Commission for the Fiscal Year 2027",
             "desc": "The Louisville Revitalization Commission (LRC) is the City of Louisville’s urban renewal authority and must adopt an urban renewal budget each year for the following year. <br><br><span style=\"margin-left:0in;\">The LRC preliminarily approved their 2027 budget at the October 21, 2026 LRC meeting. Per the Fourth Amended and Restated Cooperation Agreement between the City of Louisville and the LRC, the City Council must approve the LRC budget each year prior to final adoption by the LRC. If approved by Council at this meeting, the LRC final approval of the budget will take place at their November 18, 2026 meeting.</span>",
-            "votes": [],
+            "votes": [
+              {
+                "motion": "Approve",
+                "passed": true,
+                "initiator": "Barbara Hamlington",
+                "seconder": "Deb Fahey",
+                "yes": [
+                  "Christopher Leh",
+                  "Barbara Hamlington",
+                  "Deb Fahey",
+                  "Dietrich Hoefner",
+                  "Josh Cooperman"
+                ],
+                "no": [],
+                "abstain": []
+              }
+            ],
             "docs": [
               {
                 "name": "Resolution No. 119, Series 2026",
@@ -307,7 +1402,23 @@
                 "number": "i.",
                 "name": "Resolution No. 94, Series 2026 — A Resolution Accepting Grants from the Colorado Energy Office for EV Charger Installation",
                 "desc": "",
-                "votes": [],
+                "votes": [
+                  {
+                    "motion": "Approve",
+                    "passed": true,
+                    "initiator": "Barbara Hamlington",
+                    "seconder": "Deb Fahey",
+                    "yes": [
+                      "Christopher Leh",
+                      "Barbara Hamlington",
+                      "Deb Fahey",
+                      "Dietrich Hoefner",
+                      "Josh Cooperman"
+                    ],
+                    "no": [],
+                    "abstain": []
+                  }
+                ],
                 "docs": [],
                 "children": []
               },
@@ -315,7 +1426,23 @@
                 "number": "ii.",
                 "name": "Resolution No. 121, Series 2026 — A Resolution Approving an Agreement with Winn-Marion Companies for the EV Charger Station Project",
                 "desc": "",
-                "votes": [],
+                "votes": [
+                  {
+                    "motion": "Approve",
+                    "passed": true,
+                    "initiator": "Barbara Hamlington",
+                    "seconder": "Deb Fahey",
+                    "yes": [
+                      "Christopher Leh",
+                      "Barbara Hamlington",
+                      "Deb Fahey",
+                      "Dietrich Hoefner",
+                      "Josh Cooperman"
+                    ],
+                    "no": [],
+                    "abstain": []
+                  }
+                ],
                 "docs": [],
                 "children": []
               }
@@ -401,7 +1528,25 @@
             "number": "D.",
             "name": "Ordinance No. 1939, Series 2026 — An Ordinance Amending the Louisville Municipal Code to Authorize Appointment of a Hearing Officer for Licensing Determinations<div data-empty=\"true\" style=\"margin-left: 20px;\"><span style=\"font-size: 12px;\">1st Reading includes the Staff Presentation and questions from Council. There is no opportunity for public comment. The Public Hearing (2nd Reading) will be set on this item for a later date. The Public Hearing will allow 2 rounds of public comment.</span></div>",
             "desc": "As part of the larger review of the Board & Commission Handbook, staff evaluated several aspects of the board and commission structures for potential improvements. One proposal presented to Council was to transition the duties of the Local Licensing Authority to a Hearing Officer and allow certain duties to be performed administratively by the City Clerk's Office. City Council directed staff to pursue this change at the <a href=\"https://louisvilleco.portal.civicclerk.com/event/42/overview\" target=\"_blank\" rel=\"noopener noreferrer\">October 6, 2026 meeting</a>. The attached ordinance makes the requested changes to the Municipal Code.",
-            "votes": [],
+            "votes": [
+              {
+                "motion": "Approve",
+                "passed": true,
+                "initiator": "Judi Kern",
+                "seconder": "Dietrich Hoefner",
+                "yes": [
+                  "Christopher Leh",
+                  "Barbara Hamlington",
+                  "Caleb Dickinson",
+                  "Deb Fahey",
+                  "Dietrich Hoefner",
+                  "Josh Cooperman",
+                  "Judi Kern"
+                ],
+                "no": [],
+                "abstain": []
+              }
+            ],
             "docs": [
               {
                 "name": "Ordinance No. 1939, Series 2026",
@@ -416,7 +1561,25 @@
             "number": "E.",
             "name": "Ordinance No. 1940, Series 2026 — An Ordinance Amending the Louisville Municipal Code Regarding Boards and Commissions<div data-empty=\"true\" style=\"margin-left: 20px;\"><span style=\"font-size: 12px;\">1st Reading includes the Staff Presentation and questions from Council. There is no opportunity for public comment. The Public Hearing (2nd Reading) will be set on this item for a later date. The Public Hearing will allow 2 rounds of public comment.</span></div>",
             "desc": "Boards and Commissions (B/Cs) are a vital part of Louisville's governance structure, and an area where additional clarity would be appreciated by all parties. The purpose of this project is to provide that clarity through combining documents into one centralized resource. <br data-pasted=\"true\"><br>The Board and Commission Handbook (the \"handbook\") will cover advisory and quasi-judicial boards including the Board of Adjustment, Building Code Board of Appeals, Cultural Advisory Board, Historic Preservation Commission, Historical Museum Advisory Board, Library Board of Trustees, Local Licensing Authority, Open Space Advisory Board, Parks & Public Landscaping Advisory Board, Planning Commission, Recreation Advisory Board, Sustainability Advisory Board, and Youth Advisory Board. The Louisville Revitalization Commission is the City's Urban Renewal Authority and will continue to operate separately.<br><br>Complimentary to the handbook is the need to update the City's Municipal Code to implement the various changes discussed and supported by Council at the April 14, 2026, October 6, 2026, and October 20, 2026 Council meetings.",
-            "votes": [],
+            "votes": [
+              {
+                "motion": "Approve",
+                "passed": true,
+                "initiator": "Deb Fahey",
+                "seconder": "Caleb Dickinson",
+                "yes": [
+                  "Christopher Leh",
+                  "Barbara Hamlington",
+                  "Caleb Dickinson",
+                  "Deb Fahey",
+                  "Dietrich Hoefner",
+                  "Josh Cooperman",
+                  "Judi Kern"
+                ],
+                "no": [],
+                "abstain": []
+              }
+            ],
             "docs": [
               {
                 "name": "Ordinance No. 1940, Series 2026",
