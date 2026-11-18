@@ -1,5 +1,83 @@
 [
   {
+    "id": "pg_5151",
+    "source": "santaana",
+    "title": "Rental Housing Board - Regular Meeting",
+    "date": "November 18, 2026",
+    "shortDate": "NOV 18",
+    "committee": "Rental Housing Board",
+    "duration": null,
+    "url": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56355",
+    "docUrl": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56355",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Rental Housing Board was scheduled to hold a regular meeting to address routine administrative matters and consider two appeals of fair return petitions. The meeting was set to review and approve the board's 2027 meeting calendar and hear appeals related to rental properties in Santa Ana.",
+    "agenda": [
+      {
+        "time": "N/A",
+        "item": "Excuse Board Member(s) absence(s)"
+      },
+      {
+        "time": "N/A",
+        "item": "Regular meeting minutes of September 16, 2026"
+      },
+      {
+        "time": "N/A",
+        "item": "Rent Stabilization Division Pending Petitions"
+      },
+      {
+        "time": "N/A",
+        "item": "Review and Approve the Annual Calendar of Rental Housing Board Meetings for 2027"
+      },
+      {
+        "time": "N/A",
+        "item": "Appeal Fair Return Petition - 5407 W. Melric Drive"
+      },
+      {
+        "time": "N/A",
+        "item": "Appeal Fair Return Petition - 2230 Ponderosa St."
+      },
+      {
+        "time": "N/A",
+        "item": "Staff member comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Board Member comments"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Review and Approve the Annual Calendar of Rental Housing Board Meetings for 2027",
+        "body": "The board was scheduled to review and approve the meeting calendar for 2027. This item was set for consideration on the business calendar and would establish the meeting dates for the upcoming year."
+      },
+      {
+        "item": "Appeal Fair Return Petition - 5407 W. Melric Drive",
+        "body": "The board was scheduled to hear and consider an appeal of a fair return petition related to the property at 5407 W. Melric Drive. This item was set for discussion as part of the business calendar agenda."
+      },
+      {
+        "item": "Appeal Fair Return Petition - 2230 Ponderosa St.",
+        "body": "The board was scheduled to hear and consider an appeal of a fair return petition related to the property at 2230 Ponderosa St. This item was set for discussion as part of the business calendar agenda."
+      }
+    ],
+    "publicComment": "Public comments were scheduled to be held at the beginning of the meeting for all comments on agenda items, with submissions required via email no later than 2:00 P.M. on the date of the meeting.",
+    "actionItems": [
+      "Scheduled to excuse absent board member(s)",
+      "Expected to approve minutes from September 16, 2026 meeting",
+      "Scheduled to receive and file Rent Stabilization Division Pending Petitions report",
+      "Scheduled to review and approve 2027 meeting calendar",
+      "Scheduled to hear and rule on appeal of fair return petition for 5407 W. Melric Drive",
+      "Scheduled to hear and rule on appeal of fair return petition for 2230 Ponderosa St."
+    ],
+    "topics": [
+      "Rental Housing",
+      "Fair Return Appeals",
+      "Rent Stabilization",
+      "Board Governance"
+    ],
+    "votes": []
+  },
+  {
     "id": "pg_5147",
     "source": "santaana",
     "title": "Regular City Council Meeting and Public Financing Authority",
@@ -10,7 +88,7 @@
     "url": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56364",
     "docUrl": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56364",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Santa Ana City Council and Public Financing Authority were scheduled to hold a regular meeting on November 17, 2026, with a closed session beginning at 4:30 p.m. and open session at 5:30 p.m. The agenda included closed session discussions on existing litigation, ceremonial presentations, consent calendar items, and other regular city business.",
     "agenda": [
       {
@@ -111,7 +189,7 @@
     "url": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56303",
     "docUrl": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56303",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, this Personnel Board special meeting was scheduled to convene on November 17, 2026, to conduct a closed session hearing conference regarding a public employee discipline matter. The meeting was set to address Case No. 2022-02 under authority of California Government Code section 54957.",
     "agenda": [
       {
