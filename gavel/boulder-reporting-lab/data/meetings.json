@@ -1,5 +1,288 @@
 [
   {
+    "id": "cc_138",
+    "source": "louisville",
+    "title": "City Council Finance Committee",
+    "date": "November 19, 2026",
+    "shortDate": "NOV 19",
+    "committee": "City Council Finance Committee",
+    "duration": null,
+    "url": "https://louisvilleco.portal.civicclerk.com/event/138/files",
+    "docUrl": "https://louisvilleco.portal.civicclerk.com/event/138/files",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the City Council Finance Committee was scheduled to meet electronically on November 19, 2026, to review financial matters including the Q3 financial report, preliminary 2027 work plan, budget amendments, revenue reports, and utility rate presentations. This meeting was set to address key fiscal planning and budget decisions for the city.",
+    "agenda": [
+      {
+        "time": "4:00 PM",
+        "item": "Call to Order & Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Approval of Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comments on Items Not on the Agenda and Items on the Consent Agenda"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda - Approval of Minutes"
+      },
+      {
+        "time": "N/A",
+        "item": "Consent Agenda - Q3 Financial Report"
+      },
+      {
+        "time": "N/A",
+        "item": "Preliminary 2027 Finance Committee Work Plan Discussion"
+      },
+      {
+        "time": "N/A",
+        "item": "Final Citywide and LRC Budget Amendment Review"
+      },
+      {
+        "time": "N/A",
+        "item": "Q3 Revenue, Sales and Bag Tax Reports"
+      },
+      {
+        "time": "N/A",
+        "item": "Revised 2027 Utility Rate Presentation and Discussion"
+      },
+      {
+        "time": "N/A",
+        "item": "Finance Director Report"
+      },
+      {
+        "time": "N/A",
+        "item": "2026 Work Plan"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjourn"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Q3 Financial Report",
+        "body": "The committee was scheduled to review the Q3 financial report as part of the consent agenda. This routine item was set for approval by voice vote unless a council member requested separate consideration."
+      },
+      {
+        "item": "Preliminary 2027 Finance Committee Work Plan Discussion",
+        "body": "The committee was set to discuss a preliminary work plan for 2027 as part of regular business. This item was expected to outline the committee's planned activities and focus areas for the upcoming year."
+      },
+      {
+        "item": "Final Citywide and LRC Budget Amendment Review",
+        "body": "The committee was scheduled to conduct a final review of budget amendments for both the citywide budget and Louisville Recreation Center. This item was set to address any proposed changes to the current budget allocations."
+      },
+      {
+        "item": "Q3 Revenue, Sales and Bag Tax Reports",
+        "body": "The committee was expected to review quarterly revenue reports including sales tax and bag tax collections. This item was set to provide financial performance data for the third quarter of the fiscal year."
+      },
+      {
+        "item": "Revised 2027 Utility Rate Presentation and Discussion",
+        "body": "The committee was scheduled to review and discuss revised utility rates for 2027. This item was set to present updated rate proposals and allow for committee discussion on utility pricing."
+      }
+    ],
+    "publicComment": "Public comments were scheduled on the agenda, limited to 3 minutes per speaker. Members of the public were welcome to attend remotely via phone or webinar, and comments could also be submitted via email prior to the meeting.",
+    "actionItems": [
+      "Scheduled to approve minutes under consent agenda",
+      "Scheduled to approve Q3 Financial Report under consent agenda",
+      "Expected to discuss and provide feedback on preliminary 2027 Finance Committee Work Plan",
+      "Scheduled to conduct final review of Citywide and LRC Budget Amendments",
+      "Expected to review Q3 Revenue, Sales and Bag Tax Reports",
+      "Scheduled to review and discuss Revised 2027 Utility Rate Presentation"
+    ],
+    "topics": [
+      "Budget",
+      "Utilities",
+      "Finances",
+      "2027 Planning",
+      "Tax Revenue"
+    ],
+    "votes": [],
+    "civicItems": [
+      {
+        "number": "1.",
+        "name": "Call to Order & Roll Call",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "2.",
+        "name": "Approval of Agenda",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "3.",
+        "name": "Public Comments on Items Not on the Agenda and Items on the Consent Agenda",
+        "desc": "Public comments are limited to 3 minutes per speaker. When several people wish to speak on the same position on a given item, Council requests they select a spokesperson to state that position.",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "4.",
+        "name": "Consent Agenda",
+        "desc": "The following items on the City Council Agenda are considered routine by the City Manager and shall be approved, adopted, accepted, etc., by motion of the City Council and voice vote unless the Mayor or a City Council person specifically requests an item be considered under “Regular Business.” In such an event the item shall be removed from the “Consent Agenda” and Council action taken separately on said item in the order appearing on the Agenda. Those items so approved under the heading “Consent Agenda” will appear in the Council Minutes in their proper order.",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Approval of Minutes",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2026 OCT 15 FinComm Meeting Minutes",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5741)",
+                "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "size": 67978
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "B.",
+            "name": "Q3 Financial Report",
+            "desc": "Attached are Statements of Revenues and Expenditures for the Quarter ending September 30, 2026.  These statements have been prepared for various City operating and capital funds, including the following:<br data-pasted=\"true\"> <br><ul><li>General Fund;</li><li>Conservation Trust – Lottery Fund;</li><li>Cemetery Fund:</li><li>Historic Preservation Fund;</li><li>Recreation Fund;</li><li>Open Space Fund;</li><li>Parks Fund;</li><li>Capital Projects Fund;</li><li>Water Utility Fund;</li><li>Wastewater Utility Fund;</li><li>Stormwater Utility Fund;</li><li>Solid Waste & Recycling Fund; and </li><li>Golf Course Fund.</li></ul>The statements contain two years of history (2024 and 2025).  For the calendar year (2026), the statements contain:<br><ul><li>The original adopted budget; and</li><li>The current/revised budget, as (if) amended; and</li><li>The actual amounts through September 30, on a Cash Basis; and</li><li>Variance percentage of actual to adjusted budget.</li></ul>",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2026 Q3 Financial Report",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5755)",
+                "type": "application/pdf",
+                "size": 218092
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "5.",
+        "name": "Regular Business",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Preliminary 2027 Finance Committee Work Plan Discussion",
+            "desc": "This agenda item is to initiate a preliminary discussion on the 2027 City Council Finance Committee’s work plan. <br>Staff will return to the Finance Committee at a future meeting with a final work plan for consideration.<br>Included as an attachment is the Preliminary / Initial Draft 2027 Finance Committee work plan.",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2027 Draft FiCom Workplan",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5742)",
+                "type": "application/pdf",
+                "size": 441259
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "B.",
+            "name": "Final Citywide and LRC Budget Amendment Review",
+            "desc": "Staff is seeking the Committees [Council’s] approval of the Second and Final Amendment to the 2026 City and Louisville Revitalization Commission (LRC) Budgets necessary to complete Capital projects and Department Operational functions and goals.",
+            "votes": [],
+            "docs": [
+              {
+                "name": "PowerPoint Presentation - Final Budget Amendment",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5894)",
+                "type": "application/pdf",
+                "size": 3176074
+              },
+              {
+                "name": "Appendices A C D 11.6",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5893)",
+                "type": "application/pdf",
+                "size": 506419
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "C.",
+            "name": "Q3 Revenue, Sales and Bag Tax Reports",
+            "desc": "<span style=\"margin-left:0in;\">Sales and Use Tax Collection Report – <u>September</u><u> 2026</u></span><br><p style=\"margin-left:0in;\"><br></p><p style=\"margin-left:0in;\"><strong>Audit Revenue: </strong>Audit tax collections in September 2026 totaled <strong>$192,262. </strong>This revenue figure includes $69,164.06 in penalties and interest assessed on delinquent sales tax payments. YTD Audit revenue total for 2026 of <strong>$2,598,037.</strong></p><p style=\"margin-left:0in;\"><strong>Sales Tax</strong>: Increased MoM (September 2026 vs September 2025) by 24.2<strong>%</strong> for a total amount collected of $2,593,167. In-city businesses generated $1,149,684 an increase of $377,966 or 49%. Outside city businesses generated $1,443,483, an increase of $126,936 or 9.6%. </p><p style=\"margin-left:0in;\"><strong>Cumulative Performance:</strong> YTD 2026 sales tax revenues exceed our budget by $1,818,853 or <strong>10.4%</strong>. Compared to last year, sales tax revenue increased by $2,290,029 or <strong>13.4%</strong>. All tax revenues combined YTD 2026, including sales tax, use, building, auto, lodging, bag taxes, and audit total $26,369,982. Removing audit, it is $23,771,945. </p><p style=\"margin-left:0in;\"><strong>Consumer Use Tax</strong>: Consumer use tax collections for September 2026 amounted to $124,443 reflecting purchases brought into the city without the corresponding sales tax. Use tax remains an unstable revenue base due to its inherent unpredictability.</p><p style=\"margin-left:0in;\"><strong>BAP Refund: </strong>Due to a significant BAP refund, three new lines have been added to the Revenue History Report for tracking purposes.</p>",
+            "votes": [],
+            "docs": [
+              {
+                "name": "Louisville Revenue Reports 9-26",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5861)",
+                "type": "application/pdf",
+                "size": 844785
+              }
+            ],
+            "children": []
+          },
+          {
+            "number": "D.",
+            "name": "Revised 2027 Utility Rate Presentation and Discussion",
+            "desc": "This item is on the agenda to discuss preliminary 2027 utility rate adjustments. <br><br>Prior Finance Committee discussion held on July 16th - <a href=\"https://louisvilleco.portal.civicclerk.com/event/134/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Link</a>",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2027 Prelim Utility Rate Presentation",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5908)",
+                "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "size": 3796913
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "6.",
+        "name": "Finance Director Report",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      },
+      {
+        "number": "7.",
+        "name": "2026 Work Plan",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": [
+          {
+            "number": "A.",
+            "name": "Work Plan",
+            "desc": "",
+            "votes": [],
+            "docs": [
+              {
+                "name": "2026 Final FiCom Workplan - Revised Oct 9th",
+                "url": "https://louisvilleco.api.civicclerk.com/v1/Meetings/GetAttachmentFile(fileId=5895)",
+                "type": "application/pdf",
+                "size": 446026
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "number": "8.",
+        "name": "Adjourn",
+        "desc": "",
+        "votes": [],
+        "docs": [],
+        "children": []
+      }
+    ]
+  },
+  {
     "id": "cc_1215",
     "source": "louisville",
     "title": "Revitalization Commission",
@@ -10,7 +293,7 @@
     "url": "https://louisvilleco.portal.civicclerk.com/event/1215/files",
     "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1215/files",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Louisville Revitalization Commission was scheduled to meet on November 18, 2026, to address several community development matters including a development impact fee review, the 2027 budget approval, and applications for two local business improvement programs. The meeting was set to include staff updates and public comment opportunities.",
     "agenda": [
       {
@@ -339,7 +622,7 @@
     "url": "https://louisvilleco.portal.civicclerk.com/event/1369/files",
     "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1369/files",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Sustainability Advisory Board was scheduled to meet on November 18, 2026, to conduct routine business including approval of September minutes and consideration of a memo to City Council regarding a joint meeting. The meeting was set to take place at Louisville Public Library with options for remote participation.",
     "agenda": [
       {
@@ -516,7 +799,7 @@
     "url": "https://louisvilleco.portal.civicclerk.com/event/1295/files",
     "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1295/files",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Historical Museum Advisory Board was scheduled to meet to review routine administrative items including approval of prior meeting minutes, receive reports from museum staff and leadership, and discuss the board's work plan for the coming period.",
     "agenda": [
       {
@@ -766,7 +1049,7 @@
     "url": "https://louisvilleco.portal.civicclerk.com/event/1269/files",
     "docUrl": "https://louisvilleco.portal.civicclerk.com/event/1269/files",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Cultural Advisory Board was scheduled to meet to review upcoming cultural events, discuss updates on music and concert programming, and consider the 2027 Louisville Arts Grants. The meeting was set to address regular business matters related to the board's role in promoting cultural activities and arts funding in the community.",
     "agenda": [
       {
@@ -1019,7 +1302,7 @@
     "url": "https://louisvilleco.portal.civicclerk.com/event/48/files",
     "docUrl": "https://louisvilleco.portal.civicclerk.com/event/48/files",
     "isAgendaOnly": false,
-    "badge": "new",
+    "badge": null,
     "overview": "Louisville City Council approved its consent agenda and two ordinances on first reading during the November 17, 2026 meeting. Key approvals included agreements for animal impound services, SWAT team participation, the Revitalization Commission budget, and electric vehicle charger grants. The council also advanced two ordinances amending municipal code regarding hearing officers for licensing and boards and commissions structure, both scheduled for second reading and public hearing on December 1.",
     "agenda": [
       {
