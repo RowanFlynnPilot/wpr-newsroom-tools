@@ -1,5 +1,76 @@
 [
   {
+    "id": "pg_5169",
+    "source": "santaana",
+    "title": "Personnel Board - Special Meeting",
+    "date": "November 19, 2026",
+    "shortDate": "NOV 19",
+    "committee": "Personnel Board",
+    "duration": null,
+    "url": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56309",
+    "docUrl": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56309",
+    "isAgendaOnly": true,
+    "badge": "new",
+    "overview": "Based on the published agenda, the Santa Ana Personnel Board was scheduled to hold a special meeting to conduct a closed session hearing conference regarding a public employee discipline matter (Case No. 2022-02) under California Government Code section 54957. The meeting was set for November 19, 2026, with one board member participating via teleconference from Spain.",
+    "agenda": [
+      {
+        "time": "6:00 PM",
+        "item": "Call to Order"
+      },
+      {
+        "time": "N/A",
+        "item": "Attendance and Roll Call"
+      },
+      {
+        "time": "N/A",
+        "item": "Pledge of Allegiance"
+      },
+      {
+        "time": "N/A",
+        "item": "Public Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Excused Absences"
+      },
+      {
+        "time": "N/A",
+        "item": "Closed Session - Public Employee Discipline Hearing Conference (Case No. 2022-02)"
+      },
+      {
+        "time": "N/A",
+        "item": "Board Member Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Staff Member Comments"
+      },
+      {
+        "time": "N/A",
+        "item": "Adjournment"
+      }
+    ],
+    "discussions": [
+      {
+        "item": "Closed Session - Public Employee Discipline Hearing Conference (Case No. 2022-02)",
+        "body": "The Personnel Board was scheduled to convene in closed session to conduct a hearing conference regarding a public employee discipline matter under California Government Code section 54957(b)(1). The specifics of the case were not disclosed in the public agenda. This closed session was set to address personnel matters that by law are confidential."
+      }
+    ],
+    "publicComment": "Public comment was scheduled on the agenda prior to the closed session, with provisions for in-person and remote participation via Zoom.",
+    "actionItems": [
+      "Expected to conduct closed session hearing conference for Case No. 2022-02",
+      "Scheduled to consider excused absences",
+      "Set to receive board member and staff comments"
+    ],
+    "topics": [
+      "Personnel Board",
+      "Public Employee Discipline",
+      "Closed Session",
+      "Staffing"
+    ],
+    "votes": []
+  },
+  {
     "id": "pg_5151",
     "source": "santaana",
     "title": "Rental Housing Board - Regular Meeting",
@@ -10,7 +81,7 @@
     "url": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56355",
     "docUrl": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56355",
     "isAgendaOnly": true,
-    "badge": "new",
+    "badge": null,
     "overview": "Based on the published agenda, the Rental Housing Board was scheduled to hold a regular meeting to address routine administrative matters and consider two appeals of fair return petitions. The meeting was set to review and approve the board's 2027 meeting calendar and hear appeals related to rental properties in Santa Ana.",
     "agenda": [
       {

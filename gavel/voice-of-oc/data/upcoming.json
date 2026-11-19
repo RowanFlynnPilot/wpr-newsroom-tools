@@ -1,53 +1,23 @@
 {
   "santaana": [
     {
-      "date": "2026-11-18",
-      "time": "4:30 PM",
-      "name": "Rental Housing Board - Regular Meeting",
-      "url": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56355",
-      "source": "santaana",
-      "preview": {
-        "overview": "The Rental Housing Board is scheduled to hear two appeals of fair return petitions for rental properties, which could affect rent increase decisions for those buildings. The board will also approve its 2027 meeting calendar.",
-        "items": [
-          {
-            "item": "Appeal Fair Return Petition - 5407 W. Melric Drive",
-            "why": "The board will hear an appeal of a fair return petition, which involves a landlord's request for a rent increase above the city's normal limits based on claimed financial hardship.",
-            "action": "discussion"
-          },
-          {
-            "item": "Appeal Fair Return Petition - 2230 Ponderosa St.",
-            "why": "The board will hear an appeal of a fair return petition for this property, involving a landlord's request for a rent increase above standard limits.",
-            "action": "discussion"
-          },
-          {
-            "item": "Approve 2027 Rental Housing Board meeting calendar",
-            "why": "The board will vote on the schedule of regular meetings for the coming year.",
-            "action": "vote"
-          }
-        ],
-        "publicComment": true,
-        "closedSession": false,
-        "generated": "2026-11-18T15:22:02+00:00"
-      }
-    },
-    {
       "date": "2026-11-19",
       "time": "6:00 PM",
       "name": "Personnel Board - Special Meeting",
       "url": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56309",
       "source": "santaana",
       "preview": {
-        "overview": "The Personnel Board is scheduled to hold a special meeting primarily to conduct a closed session hearing on a personnel discipline case. Residents can submit public comments on any board matters before the closed session begins.",
+        "closedSession": true,
+        "generated": "2026-11-18T15:22:02+00:00",
         "items": [
           {
+            "action": "hearing",
             "item": "Closed session hearing on employee discipline case 2022-02",
-            "why": "The board will meet in closed session to hear a personnel discipline matter under state law, though details are not publicly disclosed in advance.",
-            "action": "hearing"
+            "why": "The board will meet in closed session to hear a personnel discipline matter under state law, though details are not publicly disclosed in advance."
           }
         ],
-        "publicComment": true,
-        "closedSession": true,
-        "generated": "2026-11-18T15:22:02+00:00"
+        "overview": "The Personnel Board is scheduled to hold a special meeting primarily to conduct a closed session hearing on a personnel discipline case. Residents can submit public comments on any board matters before the closed session begins.",
+        "publicComment": true
       }
     }
   ]
