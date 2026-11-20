@@ -1,41 +1,6 @@
 {
   "louisville": [
     {
-      "date": "2026-11-19",
-      "time": "4:00 PM",
-      "name": "City Council Finance Committee",
-      "url": "https://louisvilleco.portal.civicclerk.com/event/138/overview",
-      "source": "louisville",
-      "preview": {
-        "closedSession": false,
-        "generated": "2026-11-18T15:19:48+00:00",
-        "items": [
-          {
-            "action": "discussion",
-            "item": "Revised 2027 utility rate presentation and discussion",
-            "why": "The committee will review and discuss proposed changes to city utility rates for 2027."
-          },
-          {
-            "action": "discussion",
-            "item": "Preliminary 2027 Finance Committee work plan discussion",
-            "why": "The committee will discuss its planned priorities and activities for 2027."
-          },
-          {
-            "action": "discussion",
-            "item": "Final citywide and Louisville Recreation Center budget amendment review",
-            "why": "The committee will review final budget amendments for the city and recreation center."
-          },
-          {
-            "action": "report",
-            "item": "Q3 revenue, sales and bag tax reports",
-            "why": "The committee will receive reports on city revenue, sales tax, and bag tax collections for the third quarter."
-          }
-        ],
-        "overview": "The Finance Committee is scheduled to review Louisville's 2027 budget priorities and utility rates, and discuss the committee's work plan for the coming year.",
-        "publicComment": true
-      }
-    },
-    {
       "date": "2026-11-30",
       "time": "6:30 PM",
       "name": "Local Licensing Authority",
@@ -131,6 +96,13 @@
       "time": "6:30 PM",
       "name": "Board of Adjustment",
       "url": "https://louisvilleco.portal.civicclerk.com/event/1240/overview",
+      "source": "louisville"
+    },
+    {
+      "date": "2026-12-16",
+      "time": "6:30 PM",
+      "name": "Cultural Advisory Board",
+      "url": "https://louisvilleco.portal.civicclerk.com/event/1270/overview",
       "source": "louisville"
     }
   ]
