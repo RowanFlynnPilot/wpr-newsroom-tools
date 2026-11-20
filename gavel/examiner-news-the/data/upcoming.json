@@ -1,13 +1,6 @@
 {
   "portchester": [
     {
-      "date": "2026-11-19",
-      "time": "7:00 PM",
-      "name": "Zoning Board of Appeals Meeting",
-      "url": "https://portchesterny.portal.civicclerk.com/event/338/overview",
-      "source": "portchester"
-    },
-    {
       "date": "2026-11-30",
       "time": "7:00 PM",
       "name": "Planning Commission Meeting",
@@ -68,6 +61,13 @@
       "time": "6:30 PM",
       "name": "Board of Trustees Agenda Workshop",
       "url": "https://portchesterny.portal.civicclerk.com/event/377/overview",
+      "source": "portchester"
+    },
+    {
+      "date": "2027-01-04",
+      "time": "7:00 PM",
+      "name": "Board of Trustees Regular Meeting-1st",
+      "url": "https://portchesterny.portal.civicclerk.com/event/390/overview",
       "source": "portchester"
     }
   ]
