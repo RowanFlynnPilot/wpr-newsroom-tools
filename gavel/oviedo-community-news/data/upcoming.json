@@ -1,3 +1,11 @@
 {
-  "oviedo": []
+  "oviedo": [
+    {
+      "date": "2026-12-01",
+      "time": "6:30 PM",
+      "name": "LPA Public Hearing Meeting",
+      "url": "https://cityofoviedo.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=8952",
+      "source": "oviedo"
+    }
+  ]
 }
