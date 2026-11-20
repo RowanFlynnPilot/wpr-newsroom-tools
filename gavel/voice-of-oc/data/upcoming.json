@@ -1,24 +1,3 @@
 {
-  "santaana": [
-    {
-      "date": "2026-11-19",
-      "time": "6:00 PM",
-      "name": "Personnel Board - Special Meeting",
-      "url": "https://santa-ana.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=56309",
-      "source": "santaana",
-      "preview": {
-        "closedSession": true,
-        "generated": "2026-11-18T15:22:02+00:00",
-        "items": [
-          {
-            "action": "hearing",
-            "item": "Closed session hearing on employee discipline case 2022-02",
-            "why": "The board will meet in closed session to hear a personnel discipline matter under state law, though details are not publicly disclosed in advance."
-          }
-        ],
-        "overview": "The Personnel Board is scheduled to hold a special meeting primarily to conduct a closed session hearing on a personnel discipline case. Residents can submit public comments on any board matters before the closed session begins.",
-        "publicComment": true
-      }
-    }
-  ]
+  "santaana": []
 }
